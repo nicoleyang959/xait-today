@@ -1,0 +1,31 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editors and local tooling
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Private, generated, or intermediate collection data
+work/
+outputs/wechat-daily*.json
+*.db
+*.sqlite
+*.sqlite3
+.translation_cache.json
+*-raw.json
+*.tmp
+*.log
