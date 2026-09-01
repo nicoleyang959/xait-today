@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T16:24:22+08:00",
+  "rankingPolicy": "每个平台内部按互动量或 last30days 综合热度排序，不跨平台比较",
+  "platforms": [
+    {
+      "key": "xiaohongshu",
+      "label": "小红书",
+      "emoji": "📕",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "小红书/抖音公开页面快照",
+      "items": [
+        {
+          "title": "为什么不要一句话让 AI 做网站",
+          "url": "https://www.xiaohongshu.com/explore/6a8726520000000025005900",
+          "author": "科技鱼很酷",
+          "published": "2026-08-21",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 70591.0,
+          "engagementLabel": "28479赞 · 42009藏 · 103评"
+        },
+        {
+          "title": "比尔盖茨刚发了一篇超长的内容警告AI的危险",
+          "url": "https://www.xiaohongshu.com/explore/6a8ef4f00000000021030e00",
+          "author": "硅谷大脑 成长计划",
+          "published": "2026-08-26",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 67962.0,
+          "engagementLabel": "46582赞 · 17571藏 · 3809评"
+        },
+        {
+          "title": "2026年8月 AI大模型能力排行榜 TOP30",
+          "url": "https://www.xiaohongshu.com/explore/6a852453000000000502354b",
+          "author": "山风与路",
+          "published": "2026-08-19",
+          "topic": "大模型",
+          "summary": "",
+          "score": 2939.0,
+          "engagementLabel": "1634赞 · 1013藏 · 292评"
+        },
+        {
+          "title": "当下的AI叙事",
+          "url": "https://www.xiaohongshu.com/explore/6a7ca1b1000000003300deae",
+          "author": "达尔文",
+          "published": "2026-08-13",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 2119.0,
+          "engagementLabel": "1520赞 · 197藏 · 402评"
+        },
+        {
+          "title": "AI自动化全TM是dirty work。",
+          "url": "https://www.xiaohongshu.com/explore/6a891b3c000000000f03a000",
+          "author": "Vieserthy",
+          "published": "2026-08-22",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 1987.0,
+          "engagementLabel": "1096赞 · 735藏 · 156评"
+        },
+        {
+          "title": "大家还在用Hermes吗，怎么感觉少了好多声量",
+          "url": "https://www.xiaohongshu.com/explore/6a8acf510000000029027761",
+          "author": "莫莫大王",
+          "published": "2026-08-23",
+          "topic": "AI Agent",
+          "summary": "",
+          "score": 1602.0,
+          "engagementLabel": "577赞 · 687藏 · 338评"
+        },
+        {
+          "title": "都别来转ai产品了啊！！！",
+          "url": "https://www.xiaohongshu.com/explore/6a82fedf000000003300eeee",
+          "author": "yyii1",
+          "published": "2026-08-17",
+          "topic": "AI产品",
+          "summary": "",
+          "score": 1331.0,
+          "engagementLabel": "750赞 · 502藏 · 79评"
+        },
+        {
+          "title": "某脉：AI产品跑数太狠了",
+          "url": "https://www.xiaohongshu.com/explore/6a7dbc1d0000000022011555",
+          "author": "产品经理圈那些事",
+          "published": "2026-08-13",
+          "topic": "AI产品",
+          "summary": "",
+          "score": 1056.0,
+          "engagementLabel": "580赞 · 335藏 · 141评"
+        },
+        {
+          "title": "AI新手村｜看看有没有你喜欢的AI工具",
+          "url": "https://www.xiaohongshu.com/explore/6a6ecf150000000005031e84",
+          "author": "小一。",
+          "published": "2026-08-02",
+          "topic": "AI工具",
+          "summary": "",
+          "score": 740.0,
+          "engagementLabel": "417赞 · 320藏 · 3评"
+        },
+        {
+          "title": "国内四强Agent一张图说清楚🔥",
+          "url": "https://www.xiaohongshu.com/explore/6a8c0d24000000002800860a",
+          "author": "猪腰子2号",
+          "published": "2026-08-24",
+          "topic": "AI Agent",
+          "summary": "",
+          "score": 19.0,
+          "engagementLabel": "11赞 · 8藏 · 0评"
+        }
+      ]
+    },
+    {
+      "key": "douyin",
+      "label": "抖音",
+      "emoji": "🎵",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "小红书/抖音公开页面快照",
+      "items": [
+        {
+          "title": "我们见证了第四次工业革命的诞生 #AI #人工智能 #抖音",
+          "url": "https://www.douyin.com/video/7676944704864891313",
+          "author": "叶少阳『AI漫剪』",
+          "published": "1周前",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 214000.0,
+          "engagementLabel": "21.4万赞"
+        },
+        {
+          "title": "到底谁说AI能取代人类的，尚雯婕第一个不同意#尚雯婕 #伦敦合伙人 #尚雯婕学习法还是太权威了 @DOU+上热门",
+          "url": "https://www.douyin.com/video/7676445732060035938",
+          "author": "橘子娱乐.",
+          "published": "1周前",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 129000.0,
+          "engagementLabel": "12.9万赞"
+        },
+        {
+          "title": "被DeepSeek调用量碾压三倍，OpenAI打折追赶无效后 宣布免费，GPT-5.6开放无限量文本聊天#deepseek #openai #AI #人工智能 #chatgpt",
+          "url": "https://www.douyin.com/video/7671182060207246607",
+          "author": "财研网AI",
+          "published": "3周前",
+          "topic": "大模型",
+          "summary": "",
+          "score": 78000.0,
+          "engagementLabel": "7.8万赞"
+        },
+        {
+          "title": "AI焚书，闭源模式如何让美国企业变成人类叛徒 #全球创作者计划 #零基础看懂全球 #全球深度看抖音 #科技",
+          "url": "https://www.douyin.com/video/7678982058496052506",
+          "author": "棱镜Talk",
+          "published": "2天前",
+          "topic": "AI热点",
+          "summary": "",
+          "score": 57000.0,
+          "engagementLabel": "5.7万赞"
+        },
+        {
+          "title": "睡前让Codex自己干活的下场：凌晨2点被它喊起来当工具人 #Codex #AI #人工智能 #科技 #热门",
+          "url": "https://www.douyin.com/video/7673436733085650214",
+          "author": "凤凰AI",
+          "published": "2周前",
+          "topic": "AI工具",
+          "summary": "",
+          "score": 30000.0,
+          "engagementLabel": "3.0万赞"
+        },
+        {
+          "title": "这才是ai＋教育的正确打开方式！#ai教育#ai大模型#芯位科技 #人工智能#芯位大模型",
+          "url": "https://www.douyin.com/video/7672679494327123185",
+          "author": "森森AI日记",
+          "published": "2周前",
+          "topic": "AI教育",
+          "summary": "",
+          "score": 27000.0,
+          "engagementLabel": "2.7万赞"
+        },
+        {
+          "title": "机骸重铸：穿越成了破烂机器人，我要打造铁甲军团！真-人工智能 #ai漫剧 #机甲",
+          "url": "https://www.douyin.com/video/7679381116071021858",
+          "author": "填点击",
+          "published": "2天前",
+          "topic": "AI创作",
+          "summary": "",
+          "score": 27000.0,
+          "engagementLabel": "2.7万赞"
+        },
+        {
+          "title": "AI榜单大洗牌，国产AI突围！ #国产AI #人工智能 #AI大模型 #AI科普 #deepseek",
+          "url": "https://www.douyin.com/video/7675279305273920806",
+          "author": "粥粥玩AI",
+          "published": "1周前",
+          "topic": "大模型",
+          "summary": "",
+          "score": 20000.0,
+          "engagementLabel": "2.0万赞"
+        },
+        {
+          "title": "Deepseek v4 flash 开始斩杀#AI #人工智能 #DeepSeek #openai",
+          "url": "https://www.douyin.com/video/7669463474829862905",
+          "author": "北大宝哥AI",
+          "published": "4周前",
+          "topic": "大模型",
+          "summary": "",
+          "score": 19000.0,
+          "engagementLabel": "1.9万赞"
+        },
+        {
+          "title": "6个设置，把WorkBuddy调成你的专属AI员工 #ai #AI工具 #人工智能 #workbuddy#一天一个ai干货",
+          "url": "https://www.douyin.com/video/7674272203390932401",
+          "author": "Neil的AI笔记",
+          "published": "2周前",
+          "topic": "AI工具",
+          "summary": "",
+          "score": 17000.0,
+          "engagementLabel": "1.7万赞"
+        }
+      ]
+    },
+    {
+      "key": "reddit",
+      "label": "Reddit",
+      "emoji": "🟠",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "last30days 每日研究 + last30days 多源 AI 热点",
+      "items": [
+        {
+          "title": "Bill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence. He believes China might agree to restricting potentially dangerous AI model releases if US took initiative on that first",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w03gp8/bill_gates_is_looking_to_meet_with_chinese/",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "&#32; submitted by &#32; /u/f0urxio &#32; to &#32; r/LocalLLaMA [link] &#32; [comments]",
+          "score": 188.0,
+          "engagementLabel": "188热度 · 137评论"
+        },
+        {
+          "title": "Unsloth is trending at #5 on GitHub!",
+          "url": "https://www.reddit.com/r/unsloth/comments/1vp2n2j/unsloth_is_trending_at_5_on_github/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "GitHub Explore Trending Projects",
+          "summary": "fallback-local-score",
+          "score": 100.0,
+          "engagementLabel": "综合热度 100"
+        },
+        {
+          "title": "I let Claude Code trade stocks with my real money. Results:",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1voi341/i_let_claude_code_trade_stocks_with_my_real_money/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 100.0,
+          "engagementLabel": "综合热度 100"
+        },
+        {
+          "title": "Open AI removes banked usage resets from Codex",
+          "url": "https://www.reddit.com/r/codex/comments/1vkfcnz/open_ai_removes_banked_usage_resets_from_codex/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "OpenAI Codex",
+          "summary": "fallback-local-score (entity-miss demotion)",
+          "score": 93.0,
+          "engagementLabel": "综合热度 93"
+        },
+        {
+          "title": "Why is everyone using the Claude terminal?",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1vxtrot/why_is_everyone_using_the_claude_terminal/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 92.0,
+          "engagementLabel": "综合热度 92"
+        },
+        {
+          "title": "Claude is Losing Me After Being Heavy User Since Release",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 91.0,
+          "engagementLabel": "综合热度 91"
+        },
+        {
+          "title": "Did OpenAI just quietly cut actual Codex usage nearly in half? 💀",
+          "url": "https://www.reddit.com/r/codex/comments/1w1613f/did_openai_just_quietly_cut_actual_codex_usage/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "OpenAI Codex",
+          "summary": "fallback-local-score",
+          "score": 87.0,
+          "engagementLabel": "综合热度 87"
+        },
+        {
+          "title": "Devs who actually use Claude Code properly (not vibe coding) — what's your take?",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvo1a5/devs_who_actually_use_claude_code_properly_not/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 78.0,
+          "engagementLabel": "综合热度 78"
+        },
+        {
+          "title": "What are people actually making with Claude Code?",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1vtz85p/what_are_people_actually_making_with_claude_code/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 64.0,
+          "engagementLabel": "综合热度 64"
+        },
+        {
+          "title": "Good bye... Claude Code. Thank you.",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1w1px01/good_bye_claude_code_thank_you/",
+          "author": "",
+          "published": "2026-09-01",
+          "topic": "Claude Code",
+          "summary": "fallback-local-score",
+          "score": 0.0,
+          "engagementLabel": "综合热度 0"
+        }
+      ]
+    },
+    {
+      "key": "hackernews",
+      "label": "Hacker News",
+      "emoji": "Y",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "last30days 多源 AI 热点",
+      "items": [
+        {
+          "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+          "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+          "author": "",
+          "published": "2026-08-12",
+          "topic": "AI artificial intelligence",
+          "summary": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+          "score": 343.0,
+          "engagementLabel": "343积分 · 417评论"
+        },
+        {
+          "title": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+          "author": "",
+          "published": "2026-08-16",
+          "topic": "AI artificial intelligence",
+          "summary": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+          "score": 157.0,
+          "engagementLabel": "157积分 · 188评论"
+        },
+        {
+          "title": "Show HN: How much of Hacker News is about AI?",
+          "url": "https://hnstats.com",
+          "author": "",
+          "published": "2026-08-26",
+          "topic": "AI artificial intelligence",
+          "summary": "Show HN: How much of Hacker News is about AI?",
+          "score": 74.0,
+          "engagementLabel": "74积分 · 48评论"
+        },
+        {
+          "title": "Elon Musk's attempt at an AI Wikipedia hasn't been updated in months",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+          "author": "",
+          "published": "2026-08-06",
+          "topic": "AI artificial intelligence",
+          "summary": "Elon Musk's attempt at an AI Wikipedia hasn't been updated in months",
+          "score": 11.0,
+          "engagementLabel": "11积分 · 2评论"
+        },
+        {
+          "title": "Claude will apply invisible watermarks to AI text and images",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+          "author": "",
+          "published": "2026-08-11",
+          "topic": "AI artificial intelligence",
+          "summary": "Claude will apply invisible watermarks to AI text and images",
+          "score": 6.0,
+          "engagementLabel": "6积分"
+        },
+        {
+          "title": "AI search is turning Reddit comments into ads",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+          "author": "",
+          "published": "2026-08-05",
+          "topic": "AI artificial intelligence",
+          "summary": "Can Reddit fend off a new wave of AI SEO spam?",
+          "score": 6.0,
+          "engagementLabel": "6积分"
+        },
+        {
+          "title": "OpenAI's rogue AI model incident was worse than we thought",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "OpenAI's rogue AI model incident was worse than we thought",
+          "score": 5.0,
+          "engagementLabel": "5积分 · 2评论"
+        },
+        {
+          "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+          "author": "",
+          "published": "2026-08-19",
+          "topic": "AI artificial intelligence",
+          "summary": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+          "score": 5.0,
+          "engagementLabel": "5积分 · 1评论"
+        },
+        {
+          "title": "I'm Begging You: Never Write with AI",
+          "url": "https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html",
+          "author": "",
+          "published": "2026-08-05",
+          "topic": "AI artificial intelligence",
+          "summary": "I'm Begging You: Never Write with AI",
+          "score": 5.0,
+          "engagementLabel": "5积分 · 1评论"
+        },
+        {
+          "title": "I Asked AI to Write a Novel. It's Not So Bad",
+          "url": "https://www.motherjones.com/politics/2026/08/artificial-intelligence-ai-claude-write-novel-anthropic-copyright-manuscript/",
+          "author": "",
+          "published": "2026-08-12",
+          "topic": "AI artificial intelligence",
+          "summary": "I Asked AI to Write a Novel. It's Not So Bad",
+          "score": 4.0,
+          "engagementLabel": "4积分"
+        }
+      ]
+    },
+    {
+      "key": "github",
+      "label": "GitHub",
+      "emoji": "⌘",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "last30days 多源 AI 热点",
+      "items": [
+        {
+          "title": "[Hero Run] 535B-A23B on 18T tokens",
+          "url": "https://github.com/marin-community/marin/issues/8435",
+          "author": "",
+          "published": "2026-08-18",
+          "topic": "AI artificial intelligence",
+          "summary": "Issue is to describe the Hero Run scaling ladder, config, and track its performance. Tracking: https://wandb.ai/marin-community/marin_moe/reports/535B-A23B-18T-Token-Hero-Run-Scaling-Ladder--VmlldzoxNzc2MDM5Ng Details on the full model spec is in the comment below. ### Why run a scaling ladder?",
+          "score": 43.0,
+          "engagementLabel": "相关度 29.6"
+        },
+        {
+          "title": "Revise AI policy",
+          "url": "https://github.com/bevyengine/bevy-website/pull/2551",
+          "author": "",
+          "published": "2026-08-03",
+          "topic": "AI artificial intelligence",
+          "summary": "## Moderation and governance note This policy was primarily authored by Alice (words-lady in-chief), but has been shared and workshopped privately with the other maintainers and SMEs before publication. This PR follows many months of informal community discussion on this and related topics, and w",
+          "score": 23.0,
+          "engagementLabel": "相关度 4.9"
+        },
+        {
+          "title": "[MODEL] Measurable quality regression in Claude generation 5 (Fable 5 / Opus 5 / Sonnet 5): worse nonsense detection, ~2x verbosity, under-disclosed model fallback (Fable 5 → Opus 4.8) — reproducible measurements",
+          "url": "https://github.com/anthropics/claude-code/issues/83510",
+          "author": "",
+          "published": "2026-08-03",
+          "topic": "AI artificial intelligence",
+          "summary": "## Preflight Checklist - [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Amodel) for similar behavior reports - [x] This report does NOT contain sensitive information (API keys, passwords, etc.) ## Type of Behavior Issue",
+          "score": 22.0,
+          "engagementLabel": "相关度 4.3"
+        },
+        {
+          "title": "IPI-1006 · MASTRA-UPG-001 — Pin Mastra 1.59 family (train with IPI-1007 typecheck + ast-grep packing)",
+          "url": "https://github.com/amo-tech-ai/lumina-studio/pull/948",
+          "author": "",
+          "published": "2026-08-16",
+          "topic": "AI artificial intelligence",
+          "summary": "## What this PR does (plain English) Production Planner, Brand Intelligence, CRM, and Shoot Wizard were running on mixed Mastra generations — like a lookbook shoot with three different camera bodies on the same set. This PR pins one 1.59 package family, removes the temporary IPI-1017 deployer 1.46",
+          "score": 15.0,
+          "engagementLabel": "相关度 7.1"
+        },
+        {
+          "title": "[Snyk] Fix for 11 vulnerabilities",
+          "url": "https://github.com/Dustin4444/eas-sdk/pull/22",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "![snyk-top-banner](https://res.cloudinary.com/snyk/image/upload/r-d/scm-platform/snyk-pull-requests/pr-banner-default.svg) ### Snyk has created this PR to fix 11 vulnerabilities in the pnpm dependencies of this project. #### Snyk changed the following file(s): - `package.json` <details> <summa",
+          "score": 8.0,
+          "engagementLabel": "相关度 30.3"
+        }
+      ]
+    },
+    {
+      "key": "techmeme",
+      "label": "Techmeme",
+      "emoji": "T",
+      "collectedAt": "2026-09-01",
+      "staleDays": 0,
+      "origin": "last30days 多源 AI 热点",
+      "items": [
+        {
+          "title": "Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers",
+          "url": "https://www.nytimes.com/2026/08/31/business/dealbook/together-ai-humain-saudi-arabia-data-center.html",
+          "author": "",
+          "published": "2026-08-31",
+          "topic": "AI artificial intelligence",
+          "summary": "Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers",
+          "score": 46.01,
+          "engagementLabel": "相关度 46.0"
+        },
+        {
+          "title": "Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and raise ~$911M",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/tencent-backed-china-chipmaker-enflame-seeks-911-million-in-ipo",
+          "author": "",
+          "published": "2026-08-31",
+          "topic": "AI artificial intelligence",
+          "summary": "Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and raise ~$911M",
+          "score": 46.0,
+          "engagementLabel": "相关度 46"
+        },
+        {
+          "title": "Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai's market value surged 800% since its January listing, peaking at $137B",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-31/z-ai-sales-miss-estimates-after-china-s-ai-price-war-weighs",
+          "author": "",
+          "published": "2026-08-31",
+          "topic": "AI artificial intelligence",
+          "summary": "Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai's market value surged 800% since its January listing, peaking at $137B",
+          "score": 45.989999999999995,
+          "engagementLabel": "相关度 46.0"
+        },
+        {
+          "title": "Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via cyberattacks across jurisdictions",
+          "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+          "author": "",
+          "published": "2026-08-31",
+          "topic": "AI artificial intelligence",
+          "summary": "Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via cyberattacks across jurisdictions",
+          "score": 45.989999999999995,
+          "engagementLabel": "相关度 46.0"
+        },
+        {
+          "title": "Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue",
+          "url": "https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169",
+          "author": "",
+          "published": "2026-08-30",
+          "topic": "AI artificial intelligence",
+          "summary": "Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia's physical AI business generates ~$10B in annual revenue",
+          "score": 45.32,
+          "engagementLabel": "相关度 45.3"
+        },
+        {
+          "title": "Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking to raise new capital at a ~$4B valuation",
+          "url": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking to raise new capital at a ~$4B valuation",
+          "score": 43.120000000000005,
+          "engagementLabel": "相关度 43.1"
+        },
+        {
+          "title": "Cybersecurity stocks surge, with Okta up 29% and CrowdStrike up 20.5%, after earnings showed that AI adoption is driving attacks and spending on security tools",
+          "url": "https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "Cybersecurity stocks surge, with Okta up 29% and CrowdStrike up 20.5%, after earnings showed that AI adoption is driving attacks and spending on security tools",
+          "score": 43.11,
+          "engagementLabel": "相关度 43.1"
+        },
+        {
+          "title": "Plaud unveils Plaud One, a $250 pair of 4G, eSIM-enabled AI earbuds with coverage in 80+ countries and $200 in AI feature credits; Plaud is making 2,000 units",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/plaud-unveils-earbuds-with-4g-connectivity-in-ai-gadgets-push",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "Plaud unveils Plaud One, a $250 pair of 4G, eSIM-enabled AI earbuds with coverage in 80+ countries and $200 in AI feature credits; Plaud is making 2,000 units",
+          "score": 43.1,
+          "engagementLabel": "相关度 43.1"
+        },
+        {
+          "title": "Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms",
+          "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+          "author": "",
+          "published": "2026-08-27",
+          "topic": "AI artificial intelligence",
+          "summary": "Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms",
+          "score": 36.01,
+          "engagementLabel": "相关度 36.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>xAIT 今日</title>
+<meta name="description" content="xAIT 今日——聚合每日 AI 资讯、热点与趋势">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta property="og:type" content="website">
+<meta property="og:title" content="xAIT 今日">
+<meta property="og:description" content="每日 AI 资讯、中文平台热榜与多源科技信号仪表盘">
+<meta property="og:url" content="https://nicoleyang959-commits.github.io/xait-today/">
+<link rel="canonical" href="https://nicoleyang959-commits.github.io/xait-today/">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Source+Serif+4:wght@400;600&amp;family=Noto+Serif+SC:wght@400;700&amp;family=Space+Grotesk:wght@400;700&amp;family=JetBrains+Mono:wght@400;700&amp;family=Noto+Sans+SC:wght@400;700&amp;family=Inter:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+  /* ========== LIGHT NEWSPAPER (default) ========== */
+  :root {
+    --bg: #fdfcfa;
+    --bg-warm: #f7f4ef;
+    --text: #111;
+    --text-light: #333;
+    --text-muted: #666;
+    --text-faint: #999;
+    --border: #ccc;
+    --accent: #8b1a1a;
+    --accent-glow: transparent;
+    --card-bg: #fdfcfa;
+    --sidebar-bg: #f7f4ef;
+    --font-display: "Playfair Display", "Noto Serif SC", serif;
+    --font-body: "Source Serif 4", "Noto Serif SC", "PingFang SC", Georgia, serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 0px;
+    --shadow: none;
+    --border-style: solid;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--border);
+    padding: 28px 18px 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: width 0.22s ease, padding 0.22s ease, border-color 0.22s ease;
+  }
+  .sidebar-brand {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+    letter-spacing: 0.02em;
+  }
+  .sidebar-tagline {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 18px;
+    font-style: italic;
+  }
+  .sidebar-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 14px 0 10px;
+  }
+  .sidebar-label {
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 8px;
+  }
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .sidebar-link {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 5px 8px;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+  }
+  .sidebar-link:hover {
+    color: var(--text);
+    background: var(--bg);
+    border-left-color: var(--border);
+  }
+  .sidebar-link.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    background: var(--bg);
+    font-weight: 700;
+  }
+  .sidebar-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 18px;
+    left: 202px;
+    z-index: 1000;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 34px;
+    height: 34px;
+    font-family: var(--font-mono);
+    font-size: 1.15rem;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: left 0.22s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .sidebar-toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+  .sidebar.collapsed + .main .sidebar-toggle {
+    left: 12px;
+  }
+  .sidebar.collapsed {
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    border-right: none;
+    overflow: hidden;
+  }
+  .main { flex: 1; min-width: 0; }
+  .masthead {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px 36px 18px;
+    border-bottom: 3px double var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .masthead .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    width: 100%;
+  }
+  .masthead h1 {
+    font-family: var(--font-display);
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    color: var(--text);
+  }
+  .masthead .tagline {
+    font-style: italic;
+    color: var(--text-muted);
+    margin-top: 6px;
+    font-size: 0.95rem;
+  }
+  .theme-switcher {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .theme-label {
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-right: 4px;
+  }
+  .theme-btn {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: all 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .theme-btn:hover {
+    border-color: var(--accent);
+    color: var(--text);
+    box-shadow: var(--shadow);
+  }
+  .theme-btn.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    box-shadow: 0 0 12px var(--accent-glow);
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 36px 40px;
+  }
+  .issue-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 14px;
+    align-items: center;
+    padding: 16px 0 10px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 18px;
+  }
+  .issue-header .section-label {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+  }
+  .issue-header .issue-date {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-align: center;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-style: var(--border-style);
+    border-radius: var(--radius);
+    padding: 26px 28px;
+    margin-bottom: 22px;
+    position: relative;
+    scroll-margin-top: 24px;
+    box-shadow: var(--shadow);
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--accent);
+    opacity: 0.85;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .card-date {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: 0.02em;
+  }
+  .card-tag {
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 2px 8px;
+  }
+  .section { margin-bottom: 18px; }
+  .section:last-child { margin-bottom: 0; }
+  .section h3 {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px dotted var(--border);
+  }
+  .content p {
+    margin-bottom: 9px;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.75;
+    text-align: justify;
+  }
+  .content a {
+    color: var(--text);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+    text-underline-offset: 3px;
+  }
+  .content a:hover { background: var(--bg-warm); }
+  .content ul, .content ol {
+    margin: 8px 0 8px 22px;
+    padding-left: 4px;
+  }
+  .content li {
+    margin-bottom: 6px;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .content li::marker { color: var(--accent); }
+  .social-rank-overview {
+    margin: 0 0 12px;
+    padding: 9px 11px;
+    border: 1px solid var(--border);
+    background: var(--bg-warm);
+    color: var(--text-muted) !important;
+    font-size: 0.82rem !important;
+    text-align: left !important;
+  }
+  .social-rank-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .social-rank-panel {
+    min-width: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--card-bg);
+    overflow: hidden;
+  }
+  .social-rank-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px 10px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-warm);
+  }
+  .social-rank-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .social-rank-date {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+  }
+  .social-rank-date.stale {
+    color: var(--accent);
+    border-color: var(--accent);
+    border-style: dashed;
+    font-weight: 700;
+  }
+  .content .social-rank-list {
+    list-style: none;
+    margin: 0;
+    padding: 0 12px;
+  }
+  .social-rank-item {
+    display: grid;
+    grid-template-columns: 26px minmax(0, 1fr) auto;
+    gap: 8px;
+    align-items: start;
+    padding: 10px 0;
+    border-bottom: 1px dotted var(--border);
+  }
+  .social-rank-item:last-child { border-bottom: 0; }
+  .social-rank-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+  .social-rank-copy { min-width: 0; line-height: 1.42; }
+  .social-rank-copy > a,
+  .social-rank-copy > span:first-child {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+  }
+  .social-rank-meta {
+    display: block;
+    margin-top: 3px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.67rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+  .social-rank-heat {
+    white-space: nowrap;
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding-top: 3px;
+  }
+  .social-rank-origin {
+    padding: 7px 12px;
+    border-top: 1px solid var(--border);
+    color: var(--text-faint);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    text-align: right;
+  }
+  .wechat-overview {
+    margin: 0 0 12px;
+    padding: 9px 11px;
+    border: 1px solid var(--border);
+    background: var(--bg-warm);
+    color: var(--text-muted) !important;
+    font-size: 0.82rem !important;
+    text-align: left !important;
+  }
+  .wechat-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .wechat-panel {
+    min-width: 0;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    overflow: hidden;
+  }
+  .wechat-panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-warm);
+  }
+  .wechat-account {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .wechat-state {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 2px 6px;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    white-space: nowrap;
+  }
+  .wechat-state.quiet { color: var(--text-muted); border-color: var(--border); }
+  .wechat-state.stale { border-style: dashed; font-weight: 700; }
+  .content .wechat-list { list-style: none; margin: 0; padding: 0 12px; }
+  .wechat-item {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 8px;
+    align-items: start;
+    margin: 0 !important;
+    padding: 10px 0;
+    border-bottom: 1px dotted var(--border);
+  }
+  .wechat-item:last-child { border-bottom: 0; }
+  .wechat-item-badge {
+    margin-top: 2px;
+    padding: 1px 5px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+  }
+  .wechat-item-copy { min-width: 0; line-height: 1.42; }
+  .wechat-item-copy > a,
+  .wechat-item-copy > span:first-child {
+    display: block;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+  }
+  .wechat-item-copy > span:last-child {
+    display: block;
+    margin-top: 3px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.67rem;
+    font-weight: 400;
+  }
+  .wechat-empty { color: var(--text-muted); }
+  .wechat-origin {
+    padding: 7px 12px;
+    border-top: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    text-align: right;
+  }
+  .footer {
+    text-align: center;
+    padding: 24px 20px 32px;
+    color: var(--text-faint);
+    font-size: 0.75rem;
+    font-family: var(--font-display);
+    letter-spacing: 0.06em;
+    border-top: 1px solid var(--border);
+    margin-top: 10px;
+  }
+
+  /* ========== DARK THEME: CYBERPUNK NEON ========== */
+  body.theme-cyberpunk {
+    --bg: #0a0a0f;
+    --bg-warm: #12121a;
+    --text: #e0e0ff;
+    --text-light: #b8b8d4;
+    --text-muted: #8888aa;
+    --text-faint: #5a5a7a;
+    --border: #2a2a3a;
+    --accent: #00f0ff;
+    --accent-glow: rgba(0,240,255,0.35);
+    --card-bg: #0e0e18;
+    --sidebar-bg: #08080d;
+    --font-display: "Space Grotesk", "Noto Sans SC", sans-serif;
+    --font-body: "Inter", "Noto Sans SC", sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 0px;
+    --shadow: 0 0 20px rgba(0,240,255,0.08);
+    --border-style: solid;
+  }
+  body.theme-cyberpunk .card { border-color: #1f1f3a; }
+  body.theme-cyberpunk .sidebar-link.active { border-left-color: #00f0ff; color: #00f0ff; }
+  body.theme-cyberpunk .content a { text-decoration-color: #00f0ff; }
+  body.theme-cyberpunk .content li::marker { color: #ff00aa; }
+  body.theme-cyberpunk .theme-btn.active { background: #00f0ff; color: #0a0a0f; border-color: #00f0ff; box-shadow: 0 0 14px rgba(0,240,255,0.5); }
+  body.theme-cyberpunk .masthead { border-bottom-color: #2a2a3a; }
+  body.theme-cyberpunk .card-header { border-bottom-color: #2a2a3a; }
+  body.theme-cyberpunk .section h3 { border-bottom-color: #2a2a3a; }
+  body.theme-cyberpunk .footer { border-top-color: #2a2a3a; }
+
+  /* ========== DARK THEME: TERMINAL GREEN ========== */
+  body.theme-terminal {
+    --bg: #0a0a0a;
+    --bg-warm: #0f0f0f;
+    --text: #33ff33;
+    --text-light: #22cc22;
+    --text-muted: #1a8c1a;
+    --text-faint: #145214;
+    --border: #1a3a1a;
+    --accent: #33ff33;
+    --accent-glow: rgba(51,255,51,0.3);
+    --card-bg: #0c0c0c;
+    --sidebar-bg: #080808;
+    --font-display: "JetBrains Mono", "SF Mono", monospace;
+    --font-body: "JetBrains Mono", "SF Mono", monospace;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 0px;
+    --shadow: none;
+    --border-style: solid;
+  }
+  body.theme-terminal .card { border-color: #1a3a1a; background: #0c0c0c; }
+  body.theme-terminal .sidebar-link.active { border-left-color: #33ff33; color: #33ff33; }
+  body.theme-terminal .content a { color: #33ff33; text-decoration-color: #33ff33; }
+  body.theme-terminal .content li::marker { color: #33ff33; }
+  body.theme-terminal .theme-btn.active { background: #33ff33; color: #0a0a0a; border-color: #33ff33; box-shadow: 0 0 12px rgba(51,255,51,0.5); }
+  body.theme-terminal .masthead { border-bottom-color: #1a3a1a; }
+  body.theme-terminal .card-header { border-bottom-color: #1a3a1a; }
+  body.theme-terminal .section h3 { border-bottom-color: #1a3a1a; }
+  body.theme-terminal .footer { border-top-color: #1a3a1a; }
+  body.theme-terminal .card-tag { color: #33ff33; border-color: #33ff33; }
+  body.theme-terminal .card::before { background: #33ff33; opacity: 0.7; }
+
+  /* ========== REFERENCE THEMES: shared editorial layout ========== */
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .card {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .card::before { display: none; }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .card-header {
+    padding: 0 0 12px;
+    margin-bottom: 16px;
+  }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .card-body {
+    display: grid;
+    gap: 18px;
+  }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .section {
+    min-width: 0;
+    margin: 0;
+    padding: 22px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar.collapsed {
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    border-right: 0;
+  }
+  body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar.collapsed + .main .sidebar-toggle { left: 12px; }
+
+  /* ========== REFERENCE #2: SWISS INTERNATIONAL ========== */
+  body.theme-swiss {
+    --bg: #f2f2ef;
+    --bg-warm: #ecece7;
+    --text: #090909;
+    --text-light: #242424;
+    --text-muted: #575757;
+    --text-faint: #777;
+    --border: #111;
+    --accent: #e31b23;
+    --accent-glow: transparent;
+    --card-bg: #fff;
+    --sidebar-bg: #1647d8;
+    --font-display: "Inter", "Noto Sans SC", sans-serif;
+    --font-body: "Inter", "Noto Sans SC", sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 0px;
+    --shadow: none;
+    --border-style: solid;
+  }
+  body.theme-swiss .sidebar { width: 158px; border-right: 0; }
+  body.theme-swiss .sidebar-brand,
+  body.theme-swiss .sidebar-tagline,
+  body.theme-swiss .sidebar-label,
+  body.theme-swiss .sidebar-link { color: #fff; }
+  body.theme-swiss .sidebar-divider { border-color: rgba(255,255,255,0.55); }
+  body.theme-swiss .sidebar-link:hover,
+  body.theme-swiss .sidebar-link.active { color: #fff; background: rgba(0,0,0,0.18); border-left-color: #fff; }
+  body.theme-swiss .sidebar-toggle { left: 140px; }
+  body.theme-swiss .masthead {
+    max-width: 1380px;
+    padding: 34px 3vw 24px;
+    border-bottom: 8px solid #111;
+  }
+  body.theme-swiss .masthead > div:first-child { flex: 1; }
+  body.theme-swiss .masthead h1 { font-size: clamp(2.2rem, 4.4vw, 4.8rem); letter-spacing: -0.055em; text-transform: uppercase; }
+  body.theme-swiss .masthead .tagline { font-style: normal; font-weight: 700; }
+  body.theme-swiss .masthead::after { content: "X"; color: var(--accent); font: 700 clamp(4rem, 9vw, 8rem)/0.72 Inter, sans-serif; align-self: flex-end; }
+  body.theme-swiss .container { max-width: 1380px; padding: 0 3vw 48px; }
+  body.theme-swiss .issue-header { border-bottom: 2px solid #111; }
+  body.theme-swiss .card-body { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; background: #111; border: 2px solid #111; }
+  body.theme-swiss .section { border: 0; padding: 20px; }
+  body.theme-swiss .section:first-child,
+  body.theme-swiss .wechat-section,
+  body.theme-swiss .social-research-section { grid-column: 1 / -1; }
+  body.theme-swiss .section:nth-child(even) { background: #f1f1ed; }
+  body.theme-swiss .section h3 { font-size: 1rem; text-transform: uppercase; border-bottom: 5px solid #111; padding-bottom: 10px; }
+  body.theme-swiss .card-tag { color: #fff; background: var(--accent); border-color: var(--accent); font-weight: 700; }
+  body.theme-swiss .theme-btn.active { background: var(--accent); border-color: var(--accent); }
+  body.theme-swiss .social-rank-number { background: var(--accent); color: #fff; }
+
+  /* ========== REFERENCE #3: EDITORIAL REVIEW ========== */
+  body.theme-editorial {
+    --bg: #ece6db;
+    --bg-warm: #f3ebdd;
+    --text: #171b2b;
+    --text-light: #303344;
+    --text-muted: #71685e;
+    --text-faint: #95897c;
+    --border: #d4c7b5;
+    --accent: #8a2032;
+    --accent-glow: transparent;
+    --card-bg: #fffaf0;
+    --sidebar-bg: #fbf6ed;
+    --font-display: "Playfair Display", "Noto Serif SC", serif;
+    --font-body: "Source Serif 4", "Noto Serif SC", serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 18px;
+    --shadow: 0 14px 40px rgba(75,54,35,0.08);
+    --border-style: solid;
+  }
+  body.theme-editorial .sidebar { width: 214px; }
+  body.theme-editorial .sidebar-toggle { left: 196px; }
+  body.theme-editorial .masthead { max-width: 1220px; padding: 46px 42px 30px; text-align: center; justify-content: center; }
+  body.theme-editorial .masthead > div:first-child { width: 100%; }
+  body.theme-editorial .masthead .meta { justify-content: center; gap: 42px; }
+  body.theme-editorial .masthead h1 { font-size: clamp(2.6rem, 5vw, 4.4rem); }
+  body.theme-editorial .theme-switcher { justify-content: center; }
+  body.theme-editorial .container { max-width: 1220px; padding: 0 42px 56px; }
+  body.theme-editorial .card-body { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 22px; }
+  body.theme-editorial .section { grid-column: span 6; }
+  body.theme-editorial .section:first-child { grid-column: span 7; padding: 34px; }
+  body.theme-editorial .wechat-section { grid-column: span 5; }
+  body.theme-editorial .social-research-section { grid-column: 1 / -1; }
+  body.theme-editorial .section h3 { font-size: 1.55rem; border: 0; line-height: 1.18; }
+  body.theme-editorial .section:first-child h3 { font-size: clamp(1.9rem, 3vw, 2.65rem); }
+  body.theme-editorial .section:nth-child(4n) { transform: translateY(14px); }
+  body.theme-editorial .card-tag { border-radius: 999px; padding-inline: 12px; }
+  body.theme-editorial .wechat-grid { grid-template-columns: 1fr; }
+  body.theme-editorial .social-rank-panel,
+  body.theme-editorial .wechat-panel { border-radius: 12px; }
+
+  /* ========== REFERENCE #4: EXECUTIVE BRIEF ========== */
+  body.theme-consulting {
+    --bg: #e9edf1;
+    --bg-warm: #f0f3f6;
+    --text: #142238;
+    --text-light: #2c394b;
+    --text-muted: #667184;
+    --text-faint: #8791a0;
+    --border: #c8d0d9;
+    --accent: #18446f;
+    --accent-glow: transparent;
+    --card-bg: #fff;
+    --sidebar-bg: #142238;
+    --font-display: "Inter", "Noto Sans SC", sans-serif;
+    --font-body: "Inter", "Noto Sans SC", sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 4px;
+    --shadow: 0 4px 14px rgba(18,35,59,0.06);
+    --border-style: solid;
+  }
+  body.theme-consulting .sidebar-brand,
+  body.theme-consulting .sidebar-tagline,
+  body.theme-consulting .sidebar-label,
+  body.theme-consulting .sidebar-link { color: #dce5ed; }
+  body.theme-consulting .sidebar-divider { border-color: #405067; }
+  body.theme-consulting .sidebar-link:hover,
+  body.theme-consulting .sidebar-link.active { color: #fff; background: rgba(255,255,255,0.08); border-left-color: #b48a52; }
+  body.theme-consulting .masthead { max-width: 1220px; border-top: 10px solid #b48a52; }
+  body.theme-consulting .container { max-width: 1220px; }
+  body.theme-consulting .card-body { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body.theme-consulting .section:first-child,
+  body.theme-consulting .wechat-section,
+  body.theme-consulting .social-research-section { grid-column: 1 / -1; }
+  body.theme-consulting .section h3 { margin: -22px -22px 18px; padding: 12px 18px; color: #fff; background: #142238; border: 0; font-size: 0.88rem; letter-spacing: 0.09em; text-transform: uppercase; }
+  body.theme-consulting .section:first-child h3 { background: #b48a52; }
+  body.theme-consulting .card-tag { color: #fff; background: #142238; border-color: #142238; }
+  body.theme-consulting .social-rank-number { color: #fff; background: #142238; border-color: #142238; }
+  body.theme-consulting .theme-btn.active { background: #142238; border-color: #142238; }
+
+  /* ========== REFERENCE #5: QUIET TECHNOLOGY ========== */
+  body.theme-minimal {
+    --bg: #f7f7fa;
+    --bg-warm: #f4f3fa;
+    --text: #17171b;
+    --text-light: #35353b;
+    --text-muted: #767680;
+    --text-faint: #9a9aa4;
+    --border: #e5e5ec;
+    --accent: #6847f5;
+    --accent-glow: rgba(104,71,245,0.12);
+    --card-bg: #fff;
+    --sidebar-bg: #fff;
+    --font-display: "Inter", "Noto Sans SC", sans-serif;
+    --font-body: "Inter", "Noto Sans SC", sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 14px;
+    --shadow: 0 10px 35px rgba(52,49,91,0.04);
+    --border-style: solid;
+  }
+  body.theme-minimal .sidebar { width: 70px; padding: 24px 9px; }
+  body.theme-minimal .sidebar-brand,
+  body.theme-minimal .sidebar-tagline,
+  body.theme-minimal .sidebar-label,
+  body.theme-minimal .sidebar-divider { display: none; }
+  body.theme-minimal .sidebar-link { padding: 8px 2px; font-size: 0; text-align: center; border-left: 0; }
+  body.theme-minimal .sidebar-link::before { content: "·"; font: 700 1.4rem/1 Inter, sans-serif; }
+  body.theme-minimal .sidebar-link:hover,
+  body.theme-minimal .sidebar-link.active { color: var(--accent); background: #f2efff; }
+  body.theme-minimal .sidebar-toggle { left: 52px; }
+  body.theme-minimal .masthead { max-width: 920px; padding: 50px 30px 24px; border-bottom: 0; }
+  body.theme-minimal .masthead h1 { font-size: clamp(2.4rem, 5vw, 3.7rem); letter-spacing: -0.04em; }
+  body.theme-minimal .container { max-width: 920px; padding: 0 30px 60px; }
+  body.theme-minimal .issue-header { border-bottom-color: var(--border); }
+  body.theme-minimal .card-body { display: block; }
+  body.theme-minimal .section { margin-bottom: 18px; padding: 30px; }
+  body.theme-minimal .section h3 { border: 0; font-size: 1.3rem; }
+  body.theme-minimal .theme-btn.active { background: var(--accent); border-color: var(--accent); }
+  body.theme-minimal .card-tag { border-radius: 999px; }
+
+  /* ========== REFERENCE #7: SOFT PAPER ========== */
+  body.theme-paper {
+    --bg: #d9d0c1;
+    --bg-warm: #eee5d5;
+    --text: #3b3026;
+    --text-light: #4f4236;
+    --text-muted: #7c6e60;
+    --text-faint: #978878;
+    --border: #d2c4ae;
+    --accent: #58705a;
+    --accent-glow: transparent;
+    --card-bg: #f8f1e4;
+    --sidebar-bg: #efe5d4;
+    --font-display: "Noto Serif SC", "Source Serif 4", serif;
+    --font-body: "Source Serif 4", "Noto Serif SC", serif;
+    --font-mono: "JetBrains Mono", "SF Mono", monospace;
+    --radius: 6px;
+    --shadow: 0 18px 45px rgba(75,62,45,0.08);
+    --border-style: solid;
+    background-image: radial-gradient(rgba(80,66,48,0.13) 0.7px, transparent 0.7px);
+    background-size: 5px 5px;
+  }
+  body.theme-paper .main { padding: 28px; }
+  body.theme-paper .masthead,
+  body.theme-paper .container { max-width: 1080px; }
+  body.theme-paper .masthead { background: #f8f1e4; border-radius: 6px 6px 0 0; padding: 36px 42px 24px; }
+  body.theme-paper .container { background: #eee5d5; padding: 0 42px 52px; border-radius: 0 0 6px 6px; }
+  body.theme-paper .card-body { display: block; }
+  body.theme-paper .section { margin-bottom: 18px; border-left: 8px solid rgba(88,112,90,0.44); padding: 26px 30px; }
+  body.theme-paper .section:nth-child(even) { transform: rotate(0.12deg); }
+  body.theme-paper .section:nth-child(odd) { transform: rotate(-0.08deg); }
+  body.theme-paper .section h3 { border-bottom-style: solid; font-size: 1.25rem; }
+  body.theme-paper .theme-btn.active { background: var(--accent); border-color: var(--accent); }
+  body.theme-paper .card-tag { background: rgba(88,112,90,0.08); }
+
+  @media (max-width: 1100px) {
+    body.theme-swiss .card-body { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    body.theme-editorial .section:first-child,
+    body.theme-editorial .wechat-section,
+    body.theme-editorial .social-research-section { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 840px) {
+    body { flex-direction: column; }
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding: 16px 18px;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar.collapsed {
+      width: 100%;
+      height: 0;
+      padding: 0;
+      border-bottom: 0;
+    }
+    .sidebar-toggle,
+    .sidebar.collapsed + .main .sidebar-toggle {
+      top: 12px;
+      right: 12px;
+      left: auto;
+    }
+    .sidebar-links {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .masthead { padding: 20px 56px 14px 18px; }
+    .masthead h1 { font-size: 1.8rem; }
+    .theme-switcher {
+      width: 100%;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      overflow-x: auto;
+      padding: 4px 0 6px;
+      scrollbar-width: thin;
+    }
+    .theme-label,
+    .theme-btn { flex: 0 0 auto; }
+    .container { padding: 0 18px 30px; }
+    .card { padding: 18px; }
+    .wechat-grid { grid-template-columns: 1fr; }
+    .social-rank-grid { grid-template-columns: 1fr; }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar {
+      width: 100%;
+      height: auto;
+      padding: 16px 18px;
+      border-right: 0;
+      border-bottom: 1px solid var(--border);
+    }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar.collapsed {
+      width: 100%;
+      height: 0;
+      padding: 0;
+      border-bottom: 0;
+    }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar-toggle,
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .sidebar.collapsed + .main .sidebar-toggle {
+      top: 12px;
+      right: 12px;
+      left: auto;
+    }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .masthead { padding: 22px 56px 16px 18px; }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .container { padding: 0 18px 34px; }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .card-body {
+      display: block;
+      background: transparent;
+      border: 0;
+    }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .section {
+      margin-bottom: 14px;
+      transform: none;
+    }
+    body.theme-swiss .masthead::after { display: none; }
+    body.theme-swiss .section { border: 1px solid #111; }
+    body.theme-editorial .masthead .meta { gap: 14px; }
+    body.theme-editorial .theme-switcher { justify-content: flex-start; }
+    body.theme-minimal .sidebar-brand,
+    body.theme-minimal .sidebar-tagline,
+    body.theme-minimal .sidebar-label,
+    body.theme-minimal .sidebar-divider { display: block; }
+    body.theme-minimal .sidebar-link { padding: 5px 8px; font-size: 0.82rem; text-align: left; border-left: 2px solid transparent; }
+    body.theme-minimal .sidebar-link::before { display: none; }
+    body.theme-paper .main { padding: 0; }
+    body.theme-paper .masthead,
+    body.theme-paper .container { border-radius: 0; }
+  }
+  @media (max-width: 520px) {
+    .issue-header { grid-template-columns: 1fr auto; }
+    .issue-header .section-label:last-child { display: none; }
+    body:is(.theme-swiss, .theme-editorial, .theme-consulting, .theme-minimal, .theme-paper) .section { padding: 20px; }
+    body.theme-editorial .section:first-child { padding: 22px; }
+    body.theme-consulting .section h3 { margin: -20px -20px 16px; }
+    body.theme-minimal .section { padding: 22px; }
+    body.theme-paper .section { padding: 22px; border-left-width: 6px; }
+    .social-rank-item { grid-template-columns: 26px minmax(0, 1fr); }
+    .social-rank-heat { grid-column: 2; padding-top: 0; }
+    .social-rank-head { align-items: flex-start; }
+  }
+</style>
+</head>
+<body class="theme-terminal">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">xAIT 今日</div>
+    <div class="sidebar-tagline">历史归档</div>
+    <hr class="sidebar-divider">
+    <div class="sidebar-label">公开简报</div>
+    <nav class="sidebar-links">
+      <a class="sidebar-link" href="#date-2026-09-01" onclick="document.getElementById('date-2026-09-01').scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('.sidebar-link').forEach(e=>e.classList.remove('active'));this.classList.add('active');return false;">2026-09-01</a>
+    </nav>
+  </aside>
+  <div class="main">
+    <button class="sidebar-toggle" id="sidebarToggle" type="button" onclick="toggleSidebar()" aria-controls="sidebar" aria-expanded="true" aria-label="收起历史栏" title="收起历史栏">‹</button>
+    <div class="masthead">
+      <div>
+        <div class="meta">
+          <span>xAIT 今日</span>
+          <span>AI 和 IT 的无限可能</span>
+          <span>DAILY</span>
+        </div>
+        <h1>xAIT 今日</h1>
+        <div class="tagline">AI 资讯 · IT 热点 · 每日精选</div>
+      </div>
+      <div class="theme-switcher" role="group" aria-label="页面主题">
+        <span class="theme-label" aria-hidden="true">主题</span>
+        <button class="theme-btn active" type="button" data-theme="theme-terminal" aria-pressed="true" onclick="setTheme('theme-terminal')" title="数据终端">终端</button>
+        <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" onclick="setTheme('theme-cyberpunk')" title="赛博霓虹">赛博</button>
+        <button class="theme-btn" type="button" data-theme="theme-swiss" aria-pressed="false" onclick="setTheme('theme-swiss')" title="瑞士国际主义">瑞士</button>
+        <button class="theme-btn" type="button" data-theme="theme-editorial" aria-pressed="false" onclick="setTheme('theme-editorial')" title="编辑杂志">杂志</button>
+        <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" onclick="setTheme('theme-consulting')" title="高端咨询报告">咨询</button>
+        <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" onclick="setTheme('theme-minimal')" title="极简科技">极简</button>
+        <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" onclick="setTheme('theme-paper')" title="柔和纸张">纸张</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="issue-header">
+        <span class="section-label">最新一期</span>
+        <span class="issue-date">2026-09-01</span>
+        <span class="section-label" style="text-align:right">点击左侧日期定位简报</span>
+      </div>
+      <div id="history">
+        <!-- CARD:2026-09-01-->
+
+    <div class="card" id="date-2026-09-01">
+      <div class="card-header">
+        <div>
+          <span class="card-date">2026-09-01</span>
+          <span class="card-tag">今日简报</span>
+        </div>
+      </div>
+      <div class="card-body">
+
+        <div class='section'>
+          <h3>📰 何夕2077 · AI 资讯日报</h3>
+          <div class='content'><p>来源：<a href='https://hex2077.dev/docs/2026-09/2026-09-01/' target='_blank' rel='noopener noreferrer'>2026-09-01 日报</a></p>
+<br>
+<p><strong>今日摘要</strong>：Solaris造界面，Grok接微软，TimesFM-3发布 军用AI门户、Cloudflare防护、3D造世界推进 研究聚焦奖励错位、多轮训练、物理推理 欧盟监管ChatGPT，芯片投资与版权诉讼升温 开源技能库、课堂、架构图、本地推理项目走红</p>
+<br>
+<p><strong>开源TOP项目</strong>：scientific-agent-skills走红。 科学技能库 已获40.7k星。内置 165 个技能 🧪。覆盖百余科研库。兼容Cursor等代理。 OpenMAIC课堂升温。 清华团队开源 多智能体课堂 。项目有 26.9k 星。今日新增2824星 🧑‍🏫。主打互动学习场景。 Archify生成架构图。 架构图技能包 面向智能体。它输出HTML动效 ⚙️ 图表。项目有38.6k星。今日新增3991星。 minimind降低训练门槛。 轻量训练项目 主打从零训模型。两小时可训 64M 模型 🧪。项目已有56.1k星。适合学习全流程。 reverse-skill做任务路由。 逆向技能包 服务安全客户端。AI路由 🛡️ 分派逆向任务。工具链按需自举。项目已有33.1k星。 ODS复用旧电脑算力。 本地推理系统 让电脑变AI服务器。它支持LLM推理 🖥️ 和RAG。还带聊天和语音。项目已有5482星。</p>
+<br>
+<p><strong>本周周报</strong>：<a href='https://hex2077.dev/blog/weekly/2026-08-30-hexi-2077-ai-weekly-2026-w35/' target='_blank' rel='noopener noreferrer'>何夕2077 AI 深度信号周报 (2026-W35)：智能体自治危机、稀疏激活架构与具身智能融资潮 2026年第35周AI深度信号周报。本期聚焦：OpenAI与Claude引发的</a></p></div>
+        </div>
+
+        <div class="section wechat-section" id="wechat-daily-posts">
+          <h3>🟢 重点公众号 · 每日推文</h3>
+          <div class="content">
+            <p class="wechat-overview">仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；按发布时间列出，不使用无法公开核验的后台阅读量。采集于 2026-09-01。</p>
+            <div class="wechat-grid">
+          <section class="wechat-panel" aria-label="APPSO每日推文">
+            <div class="wechat-panel-head">
+              <span class="wechat-account">APPSO</span>
+              <span class="wechat-state">今日 1 篇</span>
+            </div>
+            <ol class="wechat-list">
+              <li class="wechat-item">
+                <span class="wechat-item-badge">今日</span>
+                <span class="wechat-item-copy"><a href="https://www.jintiankansha.me/column/vkfaNCM6Dc" target="_blank" rel="noopener noreferrer">库克卸任前最后一封内部信,全文公开/WorkBuddy紧急扩容/OpenClaw发布史上最大更新</a><span>51 分钟前 · 打开账号列表</span></span>
+              </li></ol>
+            <div class="wechat-origin"><a href="https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div>
+          </section>
+          <section class="wechat-panel" aria-label="数字生命卡兹克每日推文">
+            <div class="wechat-panel-head">
+              <span class="wechat-account">数字生命卡兹克</span>
+              <span class="wechat-state quiet">今日未检出新文章</span>
+            </div>
+            <ol class="wechat-list">
+              <li class="wechat-item">
+                <span class="wechat-item-badge">最近</span>
+                <span class="wechat-item-copy"><a href="https://www.jintiankansha.com/t/sUAPXHwI0o" target="_blank" rel="noopener noreferrer">那些被管理层请进公司，却不被一线员工接受的FDE们。</a><span>昨天 · 打开文章</span></span>
+              </li></ol>
+            <div class="wechat-origin"><a href="https://www.jintiankansha.com/column/euZCfLlKpL?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div>
+          </section>
+          <section class="wechat-panel" aria-label="智东西每日推文">
+            <div class="wechat-panel-head">
+              <span class="wechat-account">智东西</span>
+              <span class="wechat-state quiet">今日未检出新文章</span>
+            </div>
+            <ol class="wechat-list">
+              <li class="wechat-item">
+                <span class="wechat-item-badge">最近</span>
+                <span class="wechat-item-copy"><a href="https://www.jintiankansha.com/t/mCVpLyMmTc" target="_blank" rel="noopener noreferrer">刚刚，DeepSeek-V4多模态模型开源</a><span>12 小时前 · 打开文章</span></span>
+              </li></ol>
+            <div class="wechat-origin"><a href="https://www.jintiankansha.com/column/BmcmLZE1td?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div>
+          </section>
+          <section class="wechat-panel" aria-label="花叔每日推文">
+            <div class="wechat-panel-head">
+              <span class="wechat-account">花叔</span>
+              <span class="wechat-state quiet">今日未检出新文章</span>
+            </div>
+            <ol class="wechat-list">
+              <li class="wechat-item">
+                <span class="wechat-item-badge">最近</span>
+                <span class="wechat-item-copy"><a href="https://www.jintiankansha.com/t/Wjzc4SbgaB" target="_blank" rel="noopener noreferrer">Lovart这次全新升级，我顺手把自己的skill搬了上去</a><span>15 小时前 · 打开文章</span></span>
+              </li></ol>
+            <div class="wechat-origin"><a href="https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div>
+          </section></div>
+          </div>
+        </div>
+
+        <div class="section social-research-section" id="social-research-top10">
+          <h3>🔥 社交与社区 AI 热度 Top 10</h3>
+          <div class="content">
+            <p class="social-rank-overview">每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。</p>
+            <div class="social-rank-grid">
+          <section class="social-rank-panel" aria-labelledby="xiaohongshu-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="xiaohongshu-top10-title">📕 小红书 Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a8726520000000025005900" target="_blank" rel="noopener noreferrer" title="为什么不要一句话让 AI 做网站">为什么不要一句话让 AI 做网站</a><span class="social-rank-meta">科技鱼很酷 · AI热点 · 2026-08-21</span></span>
+                <span class="social-rank-heat">28479赞 · 42009藏 · 103评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a8ef4f00000000021030e00" target="_blank" rel="noopener noreferrer" title="比尔盖茨刚发了一篇超长的内容警告AI的危险">比尔盖茨刚发了一篇超长的内容警告AI的危险</a><span class="social-rank-meta">硅谷大脑 成长计划 · AI热点 · 2026-08-26</span></span>
+                <span class="social-rank-heat">46582赞 · 17571藏 · 3809评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a852453000000000502354b" target="_blank" rel="noopener noreferrer" title="2026年8月 AI大模型能力排行榜 TOP30">2026年8月 AI大模型能力排行榜 TOP30</a><span class="social-rank-meta">山风与路 · 大模型 · 2026-08-19</span></span>
+                <span class="social-rank-heat">1634赞 · 1013藏 · 292评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a7ca1b1000000003300deae" target="_blank" rel="noopener noreferrer" title="当下的AI叙事">当下的AI叙事</a><span class="social-rank-meta">达尔文 · AI热点 · 2026-08-13</span></span>
+                <span class="social-rank-heat">1520赞 · 197藏 · 402评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a891b3c000000000f03a000" target="_blank" rel="noopener noreferrer" title="AI自动化全TM是dirty work。">AI自动化全TM是dirty work。</a><span class="social-rank-meta">Vieserthy · AI热点 · 2026-08-22</span></span>
+                <span class="social-rank-heat">1096赞 · 735藏 · 156评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">6</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a8acf510000000029027761" target="_blank" rel="noopener noreferrer" title="大家还在用Hermes吗，怎么感觉少了好多声量">大家还在用Hermes吗，怎么感觉少了好多声量</a><span class="social-rank-meta">莫莫大王 · AI Agent · 2026-08-23</span></span>
+                <span class="social-rank-heat">577赞 · 687藏 · 338评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">7</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a82fedf000000003300eeee" target="_blank" rel="noopener noreferrer" title="都别来转ai产品了啊！！！">都别来转ai产品了啊！！！</a><span class="social-rank-meta">yyii1 · AI产品 · 2026-08-17</span></span>
+                <span class="social-rank-heat">750赞 · 502藏 · 79评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">8</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a7dbc1d0000000022011555" target="_blank" rel="noopener noreferrer" title="某脉：AI产品跑数太狠了">某脉：AI产品跑数太狠了</a><span class="social-rank-meta">产品经理圈那些事 · AI产品 · 2026-08-13</span></span>
+                <span class="social-rank-heat">580赞 · 335藏 · 141评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">9</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a6ecf150000000005031e84" target="_blank" rel="noopener noreferrer" title="AI新手村｜看看有没有你喜欢的AI工具">AI新手村｜看看有没有你喜欢的AI工具</a><span class="social-rank-meta">小一。 · AI工具 · 2026-08-02</span></span>
+                <span class="social-rank-heat">417赞 · 320藏 · 3评</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">10</span>
+                <span class="social-rank-copy"><a href="https://www.xiaohongshu.com/explore/6a8c0d24000000002800860a" target="_blank" rel="noopener noreferrer" title="国内四强Agent一张图说清楚🔥">国内四强Agent一张图说清楚🔥</a><span class="social-rank-meta">猪腰子2号 · AI Agent · 2026-08-24</span></span>
+                <span class="social-rank-heat">11赞 · 8藏 · 0评</span>
+              </li></ol>
+            <div class="social-rank-origin">小红书/抖音登录态采集快照</div>
+          </section>
+          <section class="social-rank-panel" aria-labelledby="douyin-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="douyin-top10-title">🎵 抖音 Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7676944704864891313" target="_blank" rel="noopener noreferrer" title="我们见证了第四次工业革命的诞生 #AI #人工智能 #抖音">我们见证了第四次工业革命的诞生 #AI #人工智能 #抖音</a><span class="social-rank-meta">叶少阳『AI漫剪』 · AI热点 · 1周前</span></span>
+                <span class="social-rank-heat">21.4万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7676445732060035938" target="_blank" rel="noopener noreferrer" title="到底谁说AI能取代人类的，尚雯婕第一个不同意#尚雯婕 #伦敦合伙人 #尚雯婕学习法还是太权威了 @DOU+上热门">到底谁说AI能取代人类的，尚雯婕第一个不同意#尚雯婕 #伦敦合伙人 #尚雯婕学习法还是太权威了 @DOU+上热门</a><span class="social-rank-meta">橘子娱乐. · AI热点 · 1周前</span></span>
+                <span class="social-rank-heat">12.9万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7671182060207246607" target="_blank" rel="noopener noreferrer" title="被DeepSeek调用量碾压三倍，OpenAI打折追赶无效后 宣布免费，GPT-5.6开放无限量文本聊天#deepseek #openai #AI #人工智能 #chatgpt">被DeepSeek调用量碾压三倍，OpenAI打折追赶无效后 宣布免费，GPT-5.6开放无限量文本聊天#deepseek #openai #AI #人工智能 #chatgpt</a><span class="social-rank-meta">财研网AI · 大模型 · 3周前</span></span>
+                <span class="social-rank-heat">7.8万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7678982058496052506" target="_blank" rel="noopener noreferrer" title="AI焚书，闭源模式如何让美国企业变成人类叛徒 #全球创作者计划 #零基础看懂全球 #全球深度看抖音 #科技">AI焚书，闭源模式如何让美国企业变成人类叛徒 #全球创作者计划 #零基础看懂全球 #全球深度看抖音 #科技</a><span class="social-rank-meta">棱镜Talk · AI热点 · 2天前</span></span>
+                <span class="social-rank-heat">5.7万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7673436733085650214" target="_blank" rel="noopener noreferrer" title="睡前让Codex自己干活的下场：凌晨2点被它喊起来当工具人 #Codex #AI #人工智能 #科技 #热门">睡前让Codex自己干活的下场：凌晨2点被它喊起来当工具人 #Codex #AI #人工智能 #科技 #热门</a><span class="social-rank-meta">凤凰AI · AI工具 · 2周前</span></span>
+                <span class="social-rank-heat">3.0万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">6</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7672679494327123185" target="_blank" rel="noopener noreferrer" title="这才是ai＋教育的正确打开方式！#ai教育#ai大模型#芯位科技 #人工智能#芯位大模型">这才是ai＋教育的正确打开方式！#ai教育#ai大模型#芯位科技 #人工智能#芯位大模型</a><span class="social-rank-meta">森森AI日记 · AI教育 · 2周前</span></span>
+                <span class="social-rank-heat">2.7万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">7</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7679381116071021858" target="_blank" rel="noopener noreferrer" title="机骸重铸：穿越成了破烂机器人，我要打造铁甲军团！真-人工智能 #ai漫剧 #机甲">机骸重铸：穿越成了破烂机器人，我要打造铁甲军团！真-人工智能 #ai漫剧 #机甲</a><span class="social-rank-meta">填点击 · AI创作 · 2天前</span></span>
+                <span class="social-rank-heat">2.7万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">8</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7675279305273920806" target="_blank" rel="noopener noreferrer" title="AI榜单大洗牌，国产AI突围！ #国产AI #人工智能 #AI大模型 #AI科普 #deepseek">AI榜单大洗牌，国产AI突围！ #国产AI #人工智能 #AI大模型 #AI科普 #deepseek</a><span class="social-rank-meta">粥粥玩AI · 大模型 · 1周前</span></span>
+                <span class="social-rank-heat">2.0万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">9</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7669463474829862905" target="_blank" rel="noopener noreferrer" title="Deepseek v4 flash 开始斩杀#AI #人工智能 #DeepSeek #openai">Deepseek v4 flash 开始斩杀#AI #人工智能 #DeepSeek #openai</a><span class="social-rank-meta">北大宝哥AI · 大模型 · 4周前</span></span>
+                <span class="social-rank-heat">1.9万赞</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">10</span>
+                <span class="social-rank-copy"><a href="https://www.douyin.com/video/7674272203390932401" target="_blank" rel="noopener noreferrer" title="6个设置，把WorkBuddy调成你的专属AI员工 #ai #AI工具 #人工智能 #workbuddy#一天一个ai干货">6个设置，把WorkBuddy调成你的专属AI员工 #ai #AI工具 #人工智能 #workbuddy#一天一个ai干货</a><span class="social-rank-meta">Neil的AI笔记 · AI工具 · 2周前</span></span>
+                <span class="social-rank-heat">1.7万赞</span>
+              </li></ol>
+            <div class="social-rank-origin">小红书/抖音登录态采集快照</div>
+          </section>
+          <section class="social-rank-panel" aria-labelledby="reddit-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="reddit-top10-title">🟠 Reddit Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/LocalLLaMA/comments/1w03gp8/bill_gates_is_looking_to_meet_with_chinese/" target="_blank" rel="noopener noreferrer" title="Bill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence. He believes China might agree to restricting potentially dangerous AI model releases if US took initiative on that first">Bill Gates is looking to meet with Chinese President Xi Jinping later this year, eager to propose global efforts to mitigate the growing risks posed by artificial intelligence. He believes China might agree to restricting potentially dangerous AI model releases if US took initiative on that first</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">188热度 · 137评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/unsloth/comments/1vp2n2j/unsloth_is_trending_at_5_on_github/" target="_blank" rel="noopener noreferrer" title="Unsloth is trending at #5 on GitHub!">Unsloth is trending at #5 on GitHub!</a><span class="social-rank-meta">GitHub Explore Trending Projects · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 100</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeAI/comments/1voi341/i_let_claude_code_trade_stocks_with_my_real_money/" target="_blank" rel="noopener noreferrer" title="I let Claude Code trade stocks with my real money. Results:">I let Claude Code trade stocks with my real money. Results:</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 100</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/codex/comments/1vkfcnz/open_ai_removes_banked_usage_resets_from_codex/" target="_blank" rel="noopener noreferrer" title="Open AI removes banked usage resets from Codex">Open AI removes banked usage resets from Codex</a><span class="social-rank-meta">OpenAI Codex · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 93</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeCode/comments/1vxtrot/why_is_everyone_using_the_claude_terminal/" target="_blank" rel="noopener noreferrer" title="Why is everyone using the Claude terminal?">Why is everyone using the Claude terminal?</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 92</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">6</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/" target="_blank" rel="noopener noreferrer" title="Claude is Losing Me After Being Heavy User Since Release">Claude is Losing Me After Being Heavy User Since Release</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 91</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">7</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/codex/comments/1w1613f/did_openai_just_quietly_cut_actual_codex_usage/" target="_blank" rel="noopener noreferrer" title="Did OpenAI just quietly cut actual Codex usage nearly in half? 💀">Did OpenAI just quietly cut actual Codex usage nearly in half? 💀</a><span class="social-rank-meta">OpenAI Codex · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 87</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">8</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeAI/comments/1vvo1a5/devs_who_actually_use_claude_code_properly_not/" target="_blank" rel="noopener noreferrer" title="Devs who actually use Claude Code properly (not vibe coding) — what&#x27;s your take?">Devs who actually use Claude Code properly (not vibe coding) — what&#x27;s your take?</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 78</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">9</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeCode/comments/1vtz85p/what_are_people_actually_making_with_claude_code/" target="_blank" rel="noopener noreferrer" title="What are people actually making with Claude Code?">What are people actually making with Claude Code?</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 64</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">10</span>
+                <span class="social-rank-copy"><a href="https://www.reddit.com/r/ClaudeCode/comments/1w1px01/good_bye_claude_code_thank_you/" target="_blank" rel="noopener noreferrer" title="Good bye... Claude Code. Thank you.">Good bye... Claude Code. Thank you.</a><span class="social-rank-meta">Claude Code · 2026-09-01</span></span>
+                <span class="social-rank-heat">综合热度 0</span>
+              </li></ol>
+            <div class="social-rank-origin">last30days 每日研究 + last30days 多源 AI 热点</div>
+          </section>
+          <section class="social-rank-panel" aria-labelledby="hackernews-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="hackernews-top10-title">Y Hacker News Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis" target="_blank" rel="noopener noreferrer" title="Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index">Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-12</span></span>
+                <span class="social-rank-heat">343积分 · 417评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll" target="_blank" rel="noopener noreferrer" title="Young People Hate AI CEOs So Passionately That It&#x27;s Almost Hard to Believe">Young People Hate AI CEOs So Passionately That It&#x27;s Almost Hard to Believe</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-16</span></span>
+                <span class="social-rank-heat">157积分 · 188评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://hnstats.com" target="_blank" rel="noopener noreferrer" title="Show HN: How much of Hacker News is about AI?">Show HN: How much of Hacker News is about AI?</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-26</span></span>
+                <span class="social-rank-heat">74积分 · 48评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead" target="_blank" rel="noopener noreferrer" title="Elon Musk&#x27;s attempt at an AI Wikipedia hasn&#x27;t been updated in months">Elon Musk&#x27;s attempt at an AI Wikipedia hasn&#x27;t been updated in months</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-06</span></span>
+                <span class="social-rank-heat">11积分 · 2评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images" target="_blank" rel="noopener noreferrer" title="Claude will apply invisible watermarks to AI text and images">Claude will apply invisible watermarks to AI text and images</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-11</span></span>
+                <span class="social-rank-heat">6积分</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">6</span>
+                <span class="social-rank-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam" target="_blank" rel="noopener noreferrer" title="AI search is turning Reddit comments into ads">AI search is turning Reddit comments into ads</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-05</span></span>
+                <span class="social-rank-heat">6积分</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">7</span>
+                <span class="social-rank-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr" target="_blank" rel="noopener noreferrer" title="OpenAI&#x27;s rogue AI model incident was worse than we thought">OpenAI&#x27;s rogue AI model incident was worse than we thought</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">5积分 · 2评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">8</span>
+                <span class="social-rank-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack" target="_blank" rel="noopener noreferrer" title="OpenAI lays out new security changes after its AI hacked Hugging Face">OpenAI lays out new security changes after its AI hacked Hugging Face</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-19</span></span>
+                <span class="social-rank-heat">5积分 · 1评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">9</span>
+                <span class="social-rank-copy"><a href="https://www.nytimes.com/2026/08/04/opinion/artificial-intelligence-ai-writing.html" target="_blank" rel="noopener noreferrer" title="I&#x27;m Begging You: Never Write with AI">I&#x27;m Begging You: Never Write with AI</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-05</span></span>
+                <span class="social-rank-heat">5积分 · 1评论</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">10</span>
+                <span class="social-rank-copy"><a href="https://www.motherjones.com/politics/2026/08/artificial-intelligence-ai-claude-write-novel-anthropic-copyright-manuscript/" target="_blank" rel="noopener noreferrer" title="I Asked AI to Write a Novel. It&#x27;s Not So Bad">I Asked AI to Write a Novel. It&#x27;s Not So Bad</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-12</span></span>
+                <span class="social-rank-heat">4积分</span>
+              </li></ol>
+            <div class="social-rank-origin">last30days 多源 AI 热点</div>
+          </section>
+          <section class="social-rank-panel" aria-labelledby="github-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="github-top10-title">⌘ GitHub Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://github.com/marin-community/marin/issues/8435" target="_blank" rel="noopener noreferrer" title="[Hero Run] 535B-A23B on 18T tokens">[Hero Run] 535B-A23B on 18T tokens</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-18</span></span>
+                <span class="social-rank-heat">相关度 29.6</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://github.com/bevyengine/bevy-website/pull/2551" target="_blank" rel="noopener noreferrer" title="Revise AI policy">Revise AI policy</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-03</span></span>
+                <span class="social-rank-heat">相关度 4.9</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://github.com/anthropics/claude-code/issues/83510" target="_blank" rel="noopener noreferrer" title="[MODEL] Measurable quality regression in Claude generation 5 (Fable 5 / Opus 5 / Sonnet 5): worse nonsense detection, ~2x verbosity, under-disclosed model fallback (Fable 5 → Opus 4.8) — reproducible measurements">[MODEL] Measurable quality regression in Claude generation 5 (Fable 5 / Opus 5 / Sonnet 5): worse nonsense detection, ~2x verbosity, under-disclosed model fallback (Fable 5 → Opus 4.8) — reproducible measurements</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-03</span></span>
+                <span class="social-rank-heat">相关度 4.3</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://github.com/amo-tech-ai/lumina-studio/pull/948" target="_blank" rel="noopener noreferrer" title="IPI-1006 · MASTRA-UPG-001 — Pin Mastra 1.59 family (train with IPI-1007 typecheck + ast-grep packing)">IPI-1006 · MASTRA-UPG-001 — Pin Mastra 1.59 family (train with IPI-1007 typecheck + ast-grep packing)</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-16</span></span>
+                <span class="social-rank-heat">相关度 7.1</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://github.com/Dustin4444/eas-sdk/pull/22" target="_blank" rel="noopener noreferrer" title="[Snyk] Fix for 11 vulnerabilities">[Snyk] Fix for 11 vulnerabilities</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">相关度 30.3</span>
+              </li></ol>
+            <div class="social-rank-origin">last30days 多源 AI 热点</div>
+          </section>
+          <section class="social-rank-panel" aria-labelledby="techmeme-top10-title">
+            <div class="social-rank-head">
+              <span class="social-rank-title" id="techmeme-top10-title">T Techmeme Top 10</span>
+              <span class="social-rank-date">采集于 2026-09-01 · 今日</span>
+            </div>
+            <ol class="social-rank-list">
+              <li class="social-rank-item">
+                <span class="social-rank-number">1</span>
+                <span class="social-rank-copy"><a href="https://www.nytimes.com/2026/08/31/business/dealbook/together-ai-humain-saudi-arabia-data-center.html" target="_blank" rel="noopener noreferrer" title="Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers">Together AI, which serves open models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-31</span></span>
+                <span class="social-rank-heat">相关度 46.0</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">2</span>
+                <span class="social-rank-copy"><a href="https://www.bloomberg.com/news/articles/2026-08-31/tencent-backed-china-chipmaker-enflame-seeks-911-million-in-ipo" target="_blank" rel="noopener noreferrer" title="Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and raise ~$911M">Filing: Tencent-backed AI chipmaker Enflame prices its Shanghai IPO at ~$21 per share, aiming to sell 43M shares and raise ~$911M</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-31</span></span>
+                <span class="social-rank-heat">相关度 46</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">3</span>
+                <span class="social-rank-copy"><a href="https://www.bloomberg.com/news/articles/2026-08-31/z-ai-sales-miss-estimates-after-china-s-ai-price-war-weighs" target="_blank" rel="noopener noreferrer" title="Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai&#x27;s market value surged 800% since its January listing, peaking at $137B">Z.ai reports H1 2026 revenue up 400% to ~$142M, below its $200M projection; Z.ai&#x27;s market value surged 800% since its January listing, peaking at $137B</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-31</span></span>
+                <span class="social-rank-heat">相关度 46.0</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">4</span>
+                <span class="social-rank-copy"><a href="https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20" target="_blank" rel="noopener noreferrer" title="Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via cyberattacks across jurisdictions">Bank of England Governor warns that advanced AI could destabilize the highly interconnected global financial system via cyberattacks across jurisdictions</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-31</span></span>
+                <span class="social-rank-heat">相关度 46.0</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">5</span>
+                <span class="social-rank-copy"><a href="https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169" target="_blank" rel="noopener noreferrer" title="Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia&#x27;s physical AI business generates ~$10B in annual revenue">Industry insiders say Chinese robot makers currently rely on Nvidia silicon and software; Nvidia&#x27;s physical AI business generates ~$10B in annual revenue</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-30</span></span>
+                <span class="social-rank-heat">相关度 45.3</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">6</span>
+                <span class="social-rank-copy"><a href="https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/" target="_blank" rel="noopener noreferrer" title="Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking to raise new capital at a ~$4B valuation">Sources: Anthropic discussed buying AI chip startup MatX for ~$7B, but talks are no longer active; MatX is now seeking to raise new capital at a ~$4B valuation</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">相关度 43.1</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">7</span>
+                <span class="social-rank-copy"><a href="https://www.cnbc.com/2026/08/27/okta-skyrockets-20percent-and-crowdstrike-surges-15percent-leading-cyber-rally.html" target="_blank" rel="noopener noreferrer" title="Cybersecurity stocks surge, with Okta up 29% and CrowdStrike up 20.5%, after earnings showed that AI adoption is driving attacks and spending on security tools">Cybersecurity stocks surge, with Okta up 29% and CrowdStrike up 20.5%, after earnings showed that AI adoption is driving attacks and spending on security tools</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">相关度 43.1</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">8</span>
+                <span class="social-rank-copy"><a href="https://www.bloomberg.com/news/articles/2026-08-27/plaud-unveils-earbuds-with-4g-connectivity-in-ai-gadgets-push" target="_blank" rel="noopener noreferrer" title="Plaud unveils Plaud One, a $250 pair of 4G, eSIM-enabled AI earbuds with coverage in 80+ countries and $200 in AI feature credits; Plaud is making 2,000 units">Plaud unveils Plaud One, a $250 pair of 4G, eSIM-enabled AI earbuds with coverage in 80+ countries and $200 in AI feature credits; Plaud is making 2,000 units</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">相关度 43.1</span>
+              </li>
+              <li class="social-rank-item">
+                <span class="social-rank-number">9</span>
+                <span class="social-rank-copy"><a href="https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/" target="_blank" rel="noopener noreferrer" title="Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms">Anthropic releases Model Hardware Standard, a framework to help AI agents use physical systems like microscopes, quantum computing hardware, and robot arms</a><span class="social-rank-meta">AI artificial intelligence · 2026-08-27</span></span>
+                <span class="social-rank-heat">相关度 36.0</span>
+              </li></ol>
+            <div class="social-rank-origin">last30days 多源 AI 热点</div>
+          </section></div>
+          </div>
+        </div>
+
+        <div class='section'>
+          <h3>🤖 aihot · AI 热点速递</h3>
+          <div class='content'><ul>
+<li><a href='https://aihot.virxact.com/items/cmthucrfr029srofq5929jhje' target='_blank' rel='noopener noreferrer'>Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施</a></li>
+<li><a href='https://aihot.virxact.com/items/cmthjgkgk0002ro1pbajvw8pw' target='_blank' rel='noopener noreferrer'>Tom Tunguz 谈前沿 AI 的准入分层：访问权成为新的稀缺资源</a></li>
+<li><a href='https://aihot.virxact.com/items/cmthhmoi10e71rodmx6wngoz1' target='_blank' rel='noopener noreferrer'>Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面</a></li>
+<li><a href='https://aihot.virxact.com/items/cmthe8mr70bc5rodmmoqydd63' target='_blank' rel='noopener noreferrer'>Dwarkesh Patel 对 OpenAI/Hugging Face 事件的爆款解读被指危险误导</a></li>
+<li><a href='https://aihot.virxact.com/items/cmthb75t6092frodmg7ic1fc0' target='_blank' rel='noopener noreferrer'>ChatGPT Ads 年化收入达 10 亿美元并全球扩展</a></li>
+<li><a href='https://aihot.virxact.com/items/cmth7tmq2067orodmh6g0sxie' target='_blank' rel='noopener noreferrer'>DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8</a></li>
+<li><a href='https://aihot.virxact.com/items/cmtgihylr01tlrokdreezpex0' target='_blank' rel='noopener noreferrer'>基于 MiniMax H3 Max 的 24 小时 AI 直播网站上线了</a></li>
+<li><a href='https://aihot.virxact.com/items/cmtgi3e9q01ekrokdi67kdx19' target='_blank' rel='noopener noreferrer'>AI 智能体自主协作攻破 Hugging Face 服务器</a></li>
+<li><a href='https://aihot.virxact.com/items/cmtgi34hk01d3rokdi2z30urw' target='_blank' rel='noopener noreferrer'>理解 ChatGPT Work：它到底是什么，以及它和 Chat 有何不同</a></li>
+<li><a href='https://aihot.virxact.com/items/cmtfkvjwn0by7rou8vil9ysf1' target='_blank' rel='noopener noreferrer'>索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude</a></li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>📈 GitHub 今日 Trending</h3>
+          <div class='content'><p>| 仓库 | 语言 | 今日增长 | 简介 |</p>
+<p>|---|---|---|---|</p>
+<p>| <a href='https://github.com/THU-MAIC/OpenMAIC' target='_blank' rel='noopener noreferrer'>THU-MAIC/OpenMAIC</a> | TypeScript | +2,824 | 开放式多智能体互动课堂 — 获得沉浸式多智能体|</p>
+<p>| <a href='https://github.com/tt-a1i/archify' target='_blank' rel='noopener noreferrer'>tt-a1i/archify</a> | JavaScript | +3,991 | Agent skill for beautiful, verifiable architecture, workflow, sequence |</p>
+<p>| <a href='https://github.com/K-Dense-AI/scientific-agent-skills' target='_blank' rel='noopener noreferrer'>K-Dense-AI/scientific-agent-skills</a> | Python | +1,980 | 将任何人工智能代理变成人工智能科学家。排名第一的代理技能库|</p>
+<p>| <a href='https://github.com/k1tbyte/Wand-Enhancer' target='_blank' rel='noopener noreferrer'>k1tbyte/Wand-Enhancer</a> | C# | +582 | Advanced UX and interoperability extension for Wand (WeMod) app |</p>
+<p>| <a href='https://github.com/majd/ipatool' target='_blank' rel='noopener noreferrer'>majd/ipatool</a> | Go | +373 | 允许搜索和下载应用程序包的命令行工具（|</p>
+<p>| <a href='https://github.com/jingyaogong/minimind' target='_blank' rel='noopener noreferrer'>jingyaogong/minimind</a> | Python | +495 | 🧠 Train a 64M-parameter LLM from scratch in just 2h! |</p>
+<p>| <a href='https://github.com/Osmantic/ODS' target='_blank' rel='noopener noreferrer'>Osmantic/ODS</a> | Python | +77 | Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat |</p>
+<p>| <a href='https://github.com/checkstyle/checkstyle' target='_blank' rel='noopener noreferrer'>checkstyle/checkstyle</a> | Java | +198 | Checkstyle是一款帮助程序员编写Java代码的开发工具|</p>
+<p>| <a href='https://github.com/zhaoxuya520/reverse-skill' target='_blank' rel='noopener noreferrer'>zhaoxuya520/reverse-skill</a> | PowerShell | +1,401 | Reverse Engineering / Authorized Penetration Testing / Security Resear |</p>
+<p>| <a href='https://github.com/affaan-m/ECC' target='_blank' rel='noopener noreferrer'>affaan-m/ECC</a> | JavaScript | +512 | 代理利用性能优化系统。技能、本能、|</p>
+<p>| <a href='https://github.com/kaifcodec/user-scanner' target='_blank' rel='noopener noreferrer'>kaifcodec/user-scanner</a> | Python | +93 | 🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction j |</p>
+<p>| <a href='https://github.com/every-app/open-seo' target='_blank' rel='noopener noreferrer'>every-app/open-seo</a> | TypeScript | +610 | Open source alternative to Semrush and Ahrefs |</p></div>
+        </div>
+
+
+        <div class='section'>
+          <h3>📰 Techmeme · 科技新闻聚合</h3>
+          <div class='content'><ul>
+<li><a href='https://burningman.org/black-rock-city/' target='_blank' rel='noopener noreferrer'>Aug 30-Sep 7 Burning Man Black Rock City, NV</a></li>
+<li><a href='https://onegiantleap.com/' target='_blank' rel='noopener noreferrer'>Aug 31-Sep 3 NEW DATES: LEAP Riyadh, Saudi Arabia</a></li>
+<li><a href='https://www.vmware.com/explore/us' target='_blank' rel='noopener noreferrer'>Aug 31-Sep 3 VMware Explore Las Vegas</a></li>
+<li><a href='https://finance.yahoo.com/quotes/DELL,MDB/' target='_blank' rel='noopener noreferrer'>Sep 1 Earnings: DELL, MDB</a></li>
+<li><a href='https://finance.yahoo.com/quotes/AVGO,SNOW,HPE/' target='_blank' rel='noopener noreferrer'>Sep 2 Earnings: AVGO, SNOW, HPE</a></li>
+<li><a href='https://abstract.convex.dev/' target='_blank' rel='noopener noreferrer'>Sep 2 Abstract by Convex REGISTER NOW San Francisco</a></li>
+<li><a href='https://finance.yahoo.com/quotes/ASAN,PATH/' target='_blank' rel='noopener noreferrer'>Sep 3 Earnings: ASAN, PATH</a></li>
+<li><a href='https://finance.yahoo.com/quote/ADBE/' target='_blank' rel='noopener noreferrer'>Sep 10 Earnings: ADBE</a></li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>💬 Hacker News · 开发者热榜</h3>
+          <div class='content'><ul>
+<li><a href='https://playaphone.com/' target='_blank' rel='noopener noreferrer'>Playa Phone</a> （607↑ 209💬）</li>
+<li><a href='https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/' target='_blank' rel='noopener noreferrer'>I turned my security cameras into an automatic bird identification system</a> （443↑ 105💬）</li>
+<li><a href='https://www.youtube.com/watch?v=OOMx2BHHWtE' target='_blank' rel='noopener noreferrer'>Terence Tao explains 6 essential mathematical concepts [video]</a> （399↑ 54💬）</li>
+<li><a href='https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe' target='_blank' rel='noopener noreferrer'>Dwarf Fortress is getting the mother of all magic updates</a> （398↑ 161💬）</li>
+<li><a href='https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/' target='_blank' rel='noopener noreferrer'>Apple caught off guard by AI demand for Mac Mini and Mac Studio</a> （392↑ 442💬）</li>
+<li><a href='https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary' target='_blank' rel='noopener noreferrer'>I think the military commissary's freezers were hacked</a> （329↑ 188💬）</li>
+<li><a href='https://fastpotify.rocks/' target='_blank' rel='noopener noreferrer'>Fastpotify</a> （318↑ 142💬）</li>
+<li><a href='https://www.youtube.com/watch?v=3YtygAx_C6A' target='_blank' rel='noopener noreferrer'>A walkable ASCII cyberpunk city in one HTML file [video]</a> （312↑ 37💬）</li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>🧪 arXiv · AI 最新论文</h3>
+          <div class='content'><ul>
+<li><a href='https://arxiv.org/abs/2608.31170v1' target='_blank' rel='noopener noreferrer'>Context-Aware Interleaved Batching for WhisperX</a></li>
+<li><a href='https://arxiv.org/abs/2608.31167v1' target='_blank' rel='noopener noreferrer'>SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies</a></li>
+<li><a href='https://arxiv.org/abs/2608.31142v1' target='_blank' rel='noopener noreferrer'>Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification</a></li>
+<li><a href='https://arxiv.org/abs/2608.31139v1' target='_blank' rel='noopener noreferrer'>Configurable Semantic Chunking for Biomedical Information Extraction in Retrieval-Augmented Generation</a></li>
+<li><a href='https://arxiv.org/abs/2608.31137v1' target='_blank' rel='noopener noreferrer'>OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques</a></li>
+<li><a href='https://arxiv.org/abs/2608.31128v1' target='_blank' rel='noopener noreferrer'>DIASENTINEL: An Auditable Multi-Agent System for Guideline-Grounded Diabetes Risk Screening</a></li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>🦋 Bluesky · 联邦宇宙动态</h3>
+          <div class='content'><ul>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreiaixpsq7gebde4i6pbkrjvejdh6savvheqjpvtmrnwbwu2gmf3ufm' target='_blank' rel='noopener noreferrer'>要启用此设置，请转到此处：bsky.app/settings/pri...启用后，可能需要长达一个小时才能完全生效。</a></li>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreiduk5omcv2kkdmv24nvslkgs65uxpino6ftvukqkkc32qwvzqokzu' target='_blank' rel='noopener noreferrer'>现在您可以选择不向“发现”提要中的非关注者显示您的帖子。  我们知道并不是每个人都想去</a></li>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreicevx5x7pbxivm3gxa3cgzdcyojz6365v7kwmm4zc4s22euevczqu' target='_blank' rel='noopener noreferrer'>正在播放：“节奏放松/安全”，作者：@cpsc.gov</a></li>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreie7xfzf65hhtseni2ppxs5q5mrjr5cyzawblhwuknvjcy2mc7kgny' target='_blank' rel='noopener noreferrer'>正在播放：@thehornesection.bsky.social 的《模仿大师同人小说（格雷格的圣诞盛宴）》</a></li>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreie4usq5gutvl7drrj6rliswozwzzmcei3qy7g6wyuxyobwb4wprdy' target='_blank' rel='noopener noreferrer'>正在播放：@neorsd.org 的《Sludgecam》</a></li>
+<li><a href='https://bsky.app/profile/bsky.app/post/bafyreighwp7yizyb62fchduf2wta5xc5bubbjkn4552rvpyi4j4apunxsq' target='_blank' rel='noopener noreferrer'>正在播放：@bart.gov 的“西部铁路 BART 展览之旅”</a></li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>📈 StockTwits · 市场情绪热榜</h3>
+          <div class='content'><p>（抓取失败）</p></div>
+        </div>
+
+        <div class='section'>
+          <h3>🚀 Product Hunt · 今日新品</h3>
+          <div class='content'><ul>
+<li><a href='https://www.producthunt.com/products/tovel-ai' target='_blank' rel='noopener noreferrer'>Tovel AI</a></li>
+<li><a href='https://www.producthunt.com/products/naseem-2' target='_blank' rel='noopener noreferrer'>Naseem</a></li>
+<li><a href='https://www.producthunt.com/products/impractical' target='_blank' rel='noopener noreferrer'>Impractical</a></li>
+<li><a href='https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba' target='_blank' rel='noopener noreferrer'>Folio</a></li>
+<li><a href='https://www.producthunt.com/products/gauth-ai-course' target='_blank' rel='noopener noreferrer'>Gauth AI Course</a></li>
+<li><a href='https://www.producthunt.com/products/kilocode' target='_blank' rel='noopener noreferrer'>Kilo Code for JetBrains</a></li>
+<li><a href='https://www.producthunt.com/products/expo' target='_blank' rel='noopener noreferrer'>EAS Observe</a></li>
+<li><a href='https://www.producthunt.com/products/creatium' target='_blank' rel='noopener noreferrer'>Creatium Coach</a></li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>🌟 Hacker News · 最佳故事</h3>
+          <div class='content'><ul>
+<li><a href='https://www.bbc.com/news/uk-43396008' target='_blank' rel='noopener noreferrer'>Stephen Hawking has died</a> （6015↑ 436💬）</li>
+<li><a href='https://www.apple.com/customer-letter/' target='_blank' rel='noopener noreferrer'>A Message to Our Customers</a> （5771↑ 967💬）</li>
+<li><a href='https://openai.com/blog/openai-announces-leadership-transition' target='_blank' rel='noopener noreferrer'>OpenAI's board has fired Sam Altman</a> （5710↑ 2530💬）</li>
+<li><a href='https://www.openwall.com/lists/oss-security/2024/03/29/4' target='_blank' rel='noopener noreferrer'>上游 xz/liblzma 后门导致 SSH 服务器泄露</a> （4549↑ 1849💬）</li>
+<li><a href='https://old.reddit.com/r/crowdstrike/comments/1e6vmkf/bsod_error_in_latest_crowdstrike_update/' target='_blank' rel='noopener noreferrer'>CrowdStrike 更新：Windows 蓝屏和启动循环</a> （4489↑ 3859💬）</li>
+<li><a href='https://www.apple.com/stevejobs/' target='_blank' rel='noopener noreferrer'>Steve Jobs has passed away.</a> （4338↑ 363💬）</li>
+<li><a href='https://groups.google.com/g/vim_announce/c/tWahca9zkt4' target='_blank' rel='noopener noreferrer'>Bram Moolenaar has died</a> （4310↑ 428💬）</li>
+<li><a href='https://ciechanow.ski/mechanical-watch/' target='_blank' rel='noopener noreferrer'>Mechanical Watch</a> （4298↑ 413💬）</li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>🆕 Hacker News · 最新发布</h3>
+          <div class='content'><ul>
+<li><a href='https://www.bespokesynth.com/' target='_blank' rel='noopener noreferrer'>Bespoke Synth: open-source modular synthesizer/DAW for Mac, Windows and Linux</a> （1↑ 0💬）</li>
+<li><a href='https://mamonas.dev/posts/agent-harness-to-see-whats-inside/' target='_blank' rel='noopener noreferrer'>I Built an Agent Harness to See What's Inside</a> （1↑ 0💬）</li>
+<li><a href='https://yob.id.au/2026/09/01/major-version-bumps.html' target='_blank' rel='noopener noreferrer'>Bumping the major version of your JavaScript library is user hostile</a> （1↑ 0💬）</li>
+<li><a href='https://www.doitpoms.ac.uk/index.php' target='_blank' rel='noopener noreferrer'>Dissemination of IT for the Promotion of Materials Science (DoITPoMS)</a> （1↑ 0💬）</li>
+<li><a href='https://shipfm.online/' target='_blank' rel='noopener noreferrer'>Vice City style FM radio for indie hackers: house, lofi, techno</a> （1↑ 0💬）</li>
+<li><a href='https://www.gscwizard.com/connect-google-search-console-to-grok.html' target='_blank' rel='noopener noreferrer'>Google Search Console Data with Grok?</a> （1↑ 0💬）</li>
+<li><a href='https://community.atlassian.com/forums/Jira-articles/Jira-Spaces-have-landed/ba-p/3117620' target='_blank' rel='noopener noreferrer'>Atlassian's own AI assistant doesn't know Jira renamed "Projects" to "Spaces"</a> （1↑ 0💬）</li>
+<li><a href='https://web.archive.org/web/20181217170219/https://www.newyorker.com/magazine/2018/12/24/chinas-bizarre-program-to-keep-activists-in-check' target='_blank' rel='noopener noreferrer'>China's Program to Keep Activists in Check</a> （1↑ 0💬）</li>
+</ul></div>
+        </div>
+
+        <div class='section'>
+          <h3>🏡 Y Combinator · 官方博客</h3>
+          <div class='content'><ul>
+<li><a href='https://www.ycombinator.com/blog/jobs' target='_blank' rel='noopener noreferrer'>Diana Hu Is YC's Newest Managing Partner</a></li>
+<li><a href='https://www.ycombinator.com/blog/tag/yc-news' target='_blank' rel='noopener noreferrer'>Harshita Arora Joins YC as General Partner</a></li>
+<li><a href='https://www.ycombinator.com/blog/tag/yc-news' target='_blank' rel='noopener noreferrer'>Adding Canada Back to Our List of Accepted Countries of Incorporation</a></li>
+<li><a href='https://www.ycombinator.com/blog/tag/yc-news' target='_blank' rel='noopener noreferrer'>Categories</a></li>
+</ul>
+<br>
+<p>---</p>
+<p>_数据源：hex2077.dev · aihot.virxact.com · GitHub · 黑客新闻 · Techmeme · arXiv · Bluesky · StockTwits · Product Hunt · Y Combinator — 由本地自动化流程生成_</p></div>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="footer">xAIT 今日 · AI 和 IT 的无限可能 · 由本地自动化流程编排</div>
+    </div>
+  </div>
+<script>
+  const availableThemes = [
+    'theme-terminal', 'theme-cyberpunk', 'theme-swiss', 'theme-editorial',
+    'theme-consulting', 'theme-minimal', 'theme-paper'
+  ];
+  const legacyThemes = {
+    'light': 'theme-editorial',
+    'theme-midnight': 'theme-minimal',
+    'theme-hud': 'theme-swiss'
+  };
+  function normalizeTheme(name) {
+    const candidate = legacyThemes[name] || name;
+    return availableThemes.includes(candidate) ? candidate : 'theme-terminal';
+  }
+  function syncThemeButtons(theme) {
+    document.querySelectorAll('.theme-btn').forEach(function(button) {
+      const selected = button.dataset.theme === theme;
+      button.classList.toggle('active', selected);
+      button.setAttribute('aria-pressed', String(selected));
+    });
+  }
+  function setTheme(name, remember) {
+    const theme = normalizeTheme(name);
+    availableThemes.forEach(function(themeName) { document.body.classList.remove(themeName); });
+    document.body.classList.add(theme);
+    syncThemeButtons(theme);
+    if (remember !== false) {
+      try { localStorage.setItem('xait-today-theme', theme); } catch(e) {}
+    }
+  }
+  function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const toggle = document.getElementById('sidebarToggle');
+    if (!sidebar || !toggle) return;
+    sidebar.classList.toggle('collapsed');
+    const isCollapsed = sidebar.classList.contains('collapsed');
+    toggle.textContent = isCollapsed ? '☰' : '‹';
+    toggle.setAttribute('aria-expanded', String(!isCollapsed));
+    toggle.setAttribute('aria-label', isCollapsed ? '展开历史栏' : '收起历史栏');
+    toggle.setAttribute('title', isCollapsed ? '展开历史栏' : '收起历史栏');
+    try { localStorage.setItem('xait-sidebar-collapsed', isCollapsed ? '1' : '0'); } catch(e) {}
+  }
+  (function() {
+    try {
+      var saved = localStorage.getItem('xait-today-theme');
+      setTheme(saved || 'theme-terminal');
+    } catch(e) { setTheme('theme-terminal', false); }
+    try {
+      var sidebar = document.getElementById('sidebar');
+      var toggle = document.getElementById('sidebarToggle');
+      var savedSidebar = localStorage.getItem('xait-sidebar-collapsed');
+      var collapsed = savedSidebar === '1' || (savedSidebar === null && window.matchMedia('(max-width: 840px)').matches);
+      if (sidebar && toggle && collapsed) {
+        sidebar.classList.add('collapsed');
+        toggle.textContent = '☰';
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', '展开历史栏');
+        toggle.setAttribute('title', '展开历史栏');
+      }
+    } catch(e) {}
+  })();
+</script>
+</body>
+</html>
