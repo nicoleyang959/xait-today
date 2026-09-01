@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-08-31T16:10:00+08:00",
+  "scope": [
+    "xiaohongshu",
+    "douyin"
+  ],
+  "excludedSources": [
+    "wechat_official_accounts"
+  ],
+  "method": "logged_in_web_search_read_only",
+  "notes": [
+    "互动数为采集时页面显示值，会继续变化。",
+    "仅使用正常登录后的公开页面进行只读搜索；未导出或存储 Cookie。",
+    "候选限定近30天，按平台展示的互动量分别排序；小红书与抖音不做跨平台比较。"
+  ],
+  "items": [
+    {
+      "platform": "xiaohongshu",
+      "title": "一张图搞懂AI工具，你都用过哪些？",
+      "author": "财知道",
+      "published": "08-02",
+      "engagement": 6092,
+      "engagementLabel": "6092赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a6f0f950000000032032895",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "2026年8月 AI大模型能力排行榜 TOP30",
+      "author": "山风与路",
+      "published": "08-19",
+      "engagement": 1589,
+      "engagementLabel": "1589赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a852453000000000502354b",
+      "topic": "大模型",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "当下的AI叙事",
+      "author": "达尔文",
+      "published": "08-13",
+      "engagement": 1451,
+      "engagementLabel": "1451赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a7ca1b1000000003300deae",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "强烈建议所有人试一下这些提示词",
+      "author": "数字生命卡兹克",
+      "published": "08-21",
+      "engagement": 1212,
+      "engagementLabel": "1212赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8808c900000000330250c0",
+      "topic": "提示词",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "都别来转ai产品了啊！！！",
+      "author": "yyii1",
+      "published": "08-24",
+      "engagement": 736,
+      "engagementLabel": "736赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a82fedf000000003300eeee",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI新手村｜看看有没有你喜欢的AI工具",
+      "author": "小一。",
+      "published": "08-02",
+      "engagement": 390,
+      "engagementLabel": "390赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a6ecf150000000005031e84",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "8月AI大模型排行榜来了",
+      "author": "黑学长的未来实验室",
+      "published": "6天前",
+      "engagement": 329,
+      "engagementLabel": "329赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8c1be500000000080130b5",
+      "topic": "大模型",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI：钱到位再上班，少一分晚一秒罢工",
+      "author": "大厂慢读",
+      "published": "08-14",
+      "engagement": 322,
+      "engagementLabel": "322赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a7e9533000000003300b093",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "研究证明：AI大语言模型正在遭受抑郁症折磨❗",
+      "author": "大力馬 | AI科技资讯速递",
+      "published": "14小时前",
+      "engagement": 292,
+      "engagementLabel": "292赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a94628c0000000037034688",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "在搞笑这一点上，AI是终究无法取代人类的…",
+      "author": "AI实验室AILab",
+      "published": "08-16",
+      "engagement": 52,
+      "engagementLabel": "52赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a81c9830000000028003d7c",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI短片《反正也没时间活》 关注时间贫困，属于自己的时间，不应该成为一种奢侈。#即梦ai创作者成长计划 #抖音ai创作大赛 #开放赛道 #ai创作浪潮计划 #未来导演扶持计划 本片为原创虚构短片，探讨当代生活中“时间贫困”与个人时间支配感等现实议题。片中内容并非否定工作、奋斗与努力的意义，也无意鼓励消极生活或对任何职业、群体作价值判断。每个人都有不同的生活处境与选择，作品仅提供一种观察和思考的角度，请勿脱离剧情语境过度解读。原创创作不易，感谢大家理性交流，也感谢对作品本身的尊重与支持。",
+      "author": "站立起来的影子",
+      "published": "8月14日",
+      "engagement": 16126000,
+      "engagementLabel": "1612.6万赞",
+      "url": "https://www.douyin.com/video/7673851043746221352",
+      "topic": "AI创作",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "没想到第一次上手，就做了一条38W赞的AI短片，有丢激动 #vlog日常 #ai #创作阶梯计划",
+      "author": "江汤锅底",
+      "published": "8月14日",
+      "engagement": 456000,
+      "engagementLabel": "45.6万赞",
+      "url": "https://www.douyin.com/video/7673777832295812379",
+      "topic": "AI创作",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "对普通人来说，AI到底怎么赚钱? 你们知道吗？淘金时代都是卖铲子的把钱赚了#艾维奇#TRAE#TraeWork",
+      "author": "艾维奇Vic",
+      "published": "8月10日",
+      "engagement": 80000,
+      "engagementLabel": "8.0万赞",
+      "url": "https://www.douyin.com/video/7672257144439229759",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "0基础，带你做出你人生第一个AI视频！ 本作品在 TapNow 制作！#tapnow #tapnow创作者成长计划 #AI视频教程 #aigc #抖音创作者大会",
+      "author": "Ksr桑",
+      "published": "8月21日",
+      "engagement": 31000,
+      "engagementLabel": "3.1万赞",
+      "url": "https://www.douyin.com/video/7676216498687462706",
+      "topic": "AI创作",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI Agent 和普通 AI 有什么区别？#AIAgent#AI科普#AI干货#AI教程#AI进阶",
+      "author": "AI姜十一",
+      "published": "8月2日",
+      "engagement": 31000,
+      "engagementLabel": "3.1万赞",
+      "url": "https://www.douyin.com/video/7668700612137061638",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI智能体将迎来全面爆发#AI #燃起来了大国重器 #零距离看懂财经 #掘金计划2026 #真财实学计划",
+      "author": "大威哥",
+      "published": "8月19日",
+      "engagement": 24000,
+      "engagementLabel": "2.4万赞",
+      "url": "https://www.douyin.com/video/7675388661910850851",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "从CNN到Transformer的两条主线 卷积、循环、LSTM、注意力，每一代都在补上一代的窟窿，从滑窗扫图到QKV，看懂他们怎么成长为今天的大模型。 #深度学习 #Transformer #神经网络 #人工智能 #AI科普",
+      "author": "知了AI",
+      "published": "8月9日",
+      "engagement": 20000,
+      "engagementLabel": "2.0万赞",
+      "url": "https://www.douyin.com/video/7671849026974779749",
+      "topic": "大模型",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "一周AI大事件，AI开始组队干活了！ DeepSeek国产Agent登场，流量暴涨或将涨价， OpenAI免费无限对话。 Claude上线AI隐形溯源水印，AI 可以内部组队分工干活。马斯克砸千亿自建芯片工厂，大批国产开源工具解放打工人 ，AI设计出自然界没有的病毒，机遇和风险同时到来。你最看好哪一项技术？#前沿科技趋势发布月 #AI新星计划 #AI #大模型 #claude",
+      "author": "AI风向标",
+      "published": "8月12日",
+      "engagement": 15000,
+      "engagementLabel": "1.5万赞",
+      "url": "https://www.douyin.com/video/7673106776312565026",
+      "topic": "大模型",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "没拍，没录制，没剪辑，我用AI(Codex)做完这条视频 你现在看到的人和听到的声音都是我，但这条视频我没有出镜拍，也没有重新录口播。 我把 Codex、video-use、HeyGen、HyperFrames、Remotion 和 FFmpeg 串成了一套视频制作流程。 这条视频，就是它的第一次完整测试。 它还不是“一键全自动”，但下一次只需要更换文案和内容，就能沿着同一套流程继续制作。 #遇事不决用ai #ai工作流 #AI剪辑 #数字人 #自媒体工具",
+      "author": "小菜头",
+      "published": "8月2日",
+      "engagement": 15000,
+      "engagementLabel": "1.5万赞",
+      "url": "https://www.douyin.com/video/7669351792022941626",
+      "topic": "大模型",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "好开始不如烂开始，普通人AI入门指南 #AI #职场 #AI提效 #有趣的知识又增长了 #知识分享内容太过真实",
+      "author": "爱上班的黑土豆",
+      "published": "8月7日",
+      "engagement": 14000,
+      "engagementLabel": "1.4万赞",
+      "url": "https://www.douyin.com/video/7671298914557338213",
+      "topic": "AI热点",
+      "collectedAt": "2026-08-31T16:10:00+08:00"
+    }
+  ]
+}

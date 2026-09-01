@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-08-26T11:02:52+08:00",
+  "scope": [
+    "xiaohongshu",
+    "douyin"
+  ],
+  "excludedSources": [
+    "wechat_official_accounts"
+  ],
+  "method": "logged_in_web_search_read_only",
+  "notes": [
+    "互动数为采集时页面显示值，会继续变化。",
+    "榜单按平台分别归一化，不直接比较小红书赞数与抖音赞数。",
+    "仅收录最近两天且与 AI 新闻、模型或 Agent 强相关的候选。"
+  ],
+  "items": [
+    {
+      "platform": "xiaohongshu",
+      "title": "GitHub每日AI项目推荐·第19期",
+      "author": "AI大事纪",
+      "published": "昨天 21:54",
+      "engagement": 38,
+      "engagementLabel": "38赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8d9d50000000001f00311a",
+      "topic": "AI开源项目",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "如今的AI，就像iPhone问世前的智能手机",
+      "author": "c3po加载中",
+      "published": "昨天 21:43",
+      "engagement": 24,
+      "engagementLabel": "24赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8d5a8f00000000160240c4",
+      "topic": "AI趋势",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "DeepSeek Harness终于可以远程指挥AI干活了",
+      "author": "哈姆雷鹿",
+      "published": "昨天 21:25",
+      "engagement": 23,
+      "engagementLabel": "23赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8d97cf0000000008012386",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "8月25日 每天5分钟看懂前沿AI动态",
+      "author": "Frankie的智讯星球",
+      "published": "1天前",
+      "engagement": 21,
+      "engagementLabel": "21赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8ce039000000003003ee49",
+      "topic": "AI资讯",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "8月25日 AI资讯",
+      "author": "AI日报｜职场效率",
+      "published": "1天前",
+      "engagement": 8,
+      "engagementLabel": "8赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8cef5e000000002802ddfb",
+      "topic": "AI资讯",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "RAG 和整篇塞进去，差在哪？",
+      "author": "霜鸮SnowyOwl",
+      "published": "昨天 17:15",
+      "engagement": 7,
+      "engagementLabel": "7赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8d5d2b000000002b001944",
+      "topic": "RAG",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "GitHub本周AI热门项目排行榜（2026.08.23）",
+      "author": "cccccc",
+      "published": "2天前",
+      "engagement": 6,
+      "engagementLabel": "6赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a89dd05000000002202172a",
+      "topic": "AI开源项目",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI资讯周报2026.08.17—08.23",
+      "author": "Mostly harmless",
+      "published": "昨天 19:44",
+      "engagement": 2,
+      "engagementLabel": "2赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8d8039000000001f01c01f",
+      "topic": "AI资讯",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI日报丨8月26日 芯片大战开打",
+      "author": "AI WAYS",
+      "published": "28分钟前",
+      "engagement": 2,
+      "engagementLabel": "2赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8e4ecf000000002102c7f2",
+      "topic": "AI资讯",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI日报｜8月26日十大AI要闻",
+      "author": "机甲Leon",
+      "published": "39分钟前",
+      "engagement": 1,
+      "engagementLabel": "1赞",
+      "url": "https://www.xiaohongshu.com/search_result/6a8e4c63000000002c03fdb1",
+      "topic": "AI资讯",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "我居然也开始用豆包工作了，分享体验和洞察",
+      "author": "小天fotos",
+      "published": "17小时前",
+      "engagement": 28000,
+      "engagementLabel": "2.8万赞",
+      "url": "https://www.douyin.com/video/7677849268564102454",
+      "topic": "AI办公",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "实测豆包Agent，普通人做动画的门槛真的被打下来了",
+      "author": "徐皓AI分享",
+      "published": "19小时前",
+      "engagement": 8729,
+      "engagementLabel": "8729赞",
+      "url": "https://www.douyin.com/video/7677870789386915106",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "接下来一个月要发布的模型",
+      "author": "算力炼丹炉",
+      "published": "1天前",
+      "engagement": 3232,
+      "engagementLabel": "3232赞",
+      "url": "https://www.douyin.com/video/7677541928853949723",
+      "topic": "大模型",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI中转站正在控制你的电脑",
+      "author": "第四种黑猩猩",
+      "published": "2天前",
+      "engagement": 3166,
+      "engagementLabel": "3166赞",
+      "url": "https://www.douyin.com/video/7677190265979890681",
+      "topic": "AI安全",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "为把AI对话和练英语结合，我专门做了个Agent",
+      "author": "周见川Nex",
+      "published": "2天前",
+      "engagement": 2533,
+      "engagementLabel": "2533赞",
+      "url": "https://www.douyin.com/video/7676907776225038555",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "小白8分钟速通DeepSeek Harness教程",
+      "author": "林粒粒呀",
+      "published": "1天前",
+      "engagement": 2009,
+      "engagementLabel": "2009赞",
+      "url": "https://www.douyin.com/video/7677537831346064680",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "盘点截止到目前为止最新的大模型AI写作能力，从夯到拉",
+      "author": "码字如有神",
+      "published": "1天前",
+      "engagement": 1566,
+      "engagementLabel": "1566赞",
+      "url": "https://www.douyin.com/video/7677460233421131023",
+      "topic": "大模型评测",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "为什么全球AI大模型，几乎只剩中美在玩？",
+      "author": "芯片yi姐",
+      "published": "2天前",
+      "engagement": 1278,
+      "engagementLabel": "1278赞",
+      "url": "https://www.douyin.com/video/7676019344509275402",
+      "topic": "AI产业",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "用自己显卡，不花钱本地部署大模型，做了部6分钟的AI短剧",
+      "author": "一小般般",
+      "published": "2天前",
+      "engagement": 930,
+      "engagementLabel": "930赞",
+      "url": "https://www.douyin.com/video/7677197697220499113",
+      "topic": "本地大模型",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "3分钟搞懂Agent是什么？",
+      "author": "QY的AI思考笔记",
+      "published": "21小时前",
+      "engagement": 167,
+      "engagementLabel": "167赞",
+      "url": "https://www.douyin.com/video/7677840722230237945",
+      "topic": "AI Agent",
+      "collectedAt": "2026-08-26T11:02:52+08:00"
+    }
+  ]
+}

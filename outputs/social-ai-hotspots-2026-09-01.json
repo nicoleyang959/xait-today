@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-09-01T09:07:12+08:00",
+  "scope": [
+    "xiaohongshu",
+    "douyin"
+  ],
+  "excludedSources": [
+    "wechat_official_accounts"
+  ],
+  "method": "last30days_xhs_service_and_logged_in_chrome_read_only",
+  "notes": [
+    "互动量为采集时来源页面公开显示值，会继续变化。",
+    "小红书从公开搜索候选中按点赞、评论、收藏合计排序；来源未返回单独时间字段时，发布时间由公开内容 ID 的时间前缀换算，并限定 2026-08-02 至 2026-09-01。",
+    "抖音使用正常登录后的浏览器只读搜索“AI 人工智能”，加载 75 个链接候选，解析 74 条，其中近 30 天 36 条，按页面展示点赞数排序。",
+    "两平台均按内容 ID 去重后各取 Top 10，不做跨平台比较。",
+    "未导出或存储 Cookie、登录令牌、密码或浏览器存储内容。"
+  ],
+  "items": [
+    {
+      "platform": "xiaohongshu",
+      "title": "为什么不要一句话让 AI 做网站",
+      "author": "科技鱼很酷",
+      "published": "2026-08-21",
+      "engagement": 70591,
+      "engagementLabel": "28479赞 · 42009藏 · 103评",
+      "url": "https://www.xiaohongshu.com/explore/6a8726520000000025005900",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "比尔盖茨刚发了一篇超长的内容警告AI的危险",
+      "author": "硅谷大脑 成长计划",
+      "published": "2026-08-26",
+      "engagement": 67962,
+      "engagementLabel": "46582赞 · 17571藏 · 3809评",
+      "url": "https://www.xiaohongshu.com/explore/6a8ef4f00000000021030e00",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "2026年8月 AI大模型能力排行榜 TOP30",
+      "author": "山风与路",
+      "published": "2026-08-19",
+      "engagement": 2939,
+      "engagementLabel": "1634赞 · 1013藏 · 292评",
+      "url": "https://www.xiaohongshu.com/explore/6a852453000000000502354b",
+      "topic": "大模型",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "当下的AI叙事",
+      "author": "达尔文",
+      "published": "2026-08-13",
+      "engagement": 2119,
+      "engagementLabel": "1520赞 · 197藏 · 402评",
+      "url": "https://www.xiaohongshu.com/explore/6a7ca1b1000000003300deae",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI自动化全TM是dirty work。",
+      "author": "Vieserthy",
+      "published": "2026-08-22",
+      "engagement": 1987,
+      "engagementLabel": "1096赞 · 735藏 · 156评",
+      "url": "https://www.xiaohongshu.com/explore/6a891b3c000000000f03a000",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "大家还在用Hermes吗，怎么感觉少了好多声量",
+      "author": "莫莫大王",
+      "published": "2026-08-23",
+      "engagement": 1602,
+      "engagementLabel": "577赞 · 687藏 · 338评",
+      "url": "https://www.xiaohongshu.com/explore/6a8acf510000000029027761",
+      "topic": "AI Agent",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "都别来转ai产品了啊！！！",
+      "author": "yyii1",
+      "published": "2026-08-17",
+      "engagement": 1331,
+      "engagementLabel": "750赞 · 502藏 · 79评",
+      "url": "https://www.xiaohongshu.com/explore/6a82fedf000000003300eeee",
+      "topic": "AI产品",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "某脉：AI产品跑数太狠了",
+      "author": "产品经理圈那些事",
+      "published": "2026-08-13",
+      "engagement": 1056,
+      "engagementLabel": "580赞 · 335藏 · 141评",
+      "url": "https://www.xiaohongshu.com/explore/6a7dbc1d0000000022011555",
+      "topic": "AI产品",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "AI新手村｜看看有没有你喜欢的AI工具",
+      "author": "小一。",
+      "published": "2026-08-02",
+      "engagement": 740,
+      "engagementLabel": "417赞 · 320藏 · 3评",
+      "url": "https://www.xiaohongshu.com/explore/6a6ecf150000000005031e84",
+      "topic": "AI工具",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "xiaohongshu",
+      "title": "国内四强Agent一张图说清楚🔥",
+      "author": "猪腰子2号",
+      "published": "2026-08-24",
+      "engagement": 19,
+      "engagementLabel": "11赞 · 8藏 · 0评",
+      "url": "https://www.xiaohongshu.com/explore/6a8c0d24000000002800860a",
+      "topic": "AI Agent",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "我们见证了第四次工业革命的诞生 #AI #人工智能 #抖音",
+      "author": "叶少阳『AI漫剪』",
+      "published": "1周前",
+      "engagement": 214000,
+      "engagementLabel": "21.4万赞",
+      "url": "https://www.douyin.com/video/7676944704864891313",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "到底谁说AI能取代人类的，尚雯婕第一个不同意#尚雯婕 #伦敦合伙人 #尚雯婕学习法还是太权威了 @DOU+上热门",
+      "author": "橘子娱乐.",
+      "published": "1周前",
+      "engagement": 129000,
+      "engagementLabel": "12.9万赞",
+      "url": "https://www.douyin.com/video/7676445732060035938",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "被DeepSeek调用量碾压三倍，OpenAI打折追赶无效后 宣布免费，GPT-5.6开放无限量文本聊天#deepseek #openai #AI #人工智能 #chatgpt",
+      "author": "财研网AI",
+      "published": "3周前",
+      "engagement": 78000,
+      "engagementLabel": "7.8万赞",
+      "url": "https://www.douyin.com/video/7671182060207246607",
+      "topic": "大模型",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI焚书，闭源模式如何让美国企业变成人类叛徒 #全球创作者计划 #零基础看懂全球 #全球深度看抖音 #科技",
+      "author": "棱镜Talk",
+      "published": "2天前",
+      "engagement": 57000,
+      "engagementLabel": "5.7万赞",
+      "url": "https://www.douyin.com/video/7678982058496052506",
+      "topic": "AI热点",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "睡前让Codex自己干活的下场：凌晨2点被它喊起来当工具人 #Codex #AI #人工智能 #科技 #热门",
+      "author": "凤凰AI",
+      "published": "2周前",
+      "engagement": 30000,
+      "engagementLabel": "3.0万赞",
+      "url": "https://www.douyin.com/video/7673436733085650214",
+      "topic": "AI工具",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "这才是ai＋教育的正确打开方式！#ai教育#ai大模型#芯位科技 #人工智能#芯位大模型",
+      "author": "森森AI日记",
+      "published": "2周前",
+      "engagement": 27000,
+      "engagementLabel": "2.7万赞",
+      "url": "https://www.douyin.com/video/7672679494327123185",
+      "topic": "AI教育",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "机骸重铸：穿越成了破烂机器人，我要打造铁甲军团！真-人工智能 #ai漫剧 #机甲",
+      "author": "填点击",
+      "published": "2天前",
+      "engagement": 27000,
+      "engagementLabel": "2.7万赞",
+      "url": "https://www.douyin.com/video/7679381116071021858",
+      "topic": "AI创作",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "AI榜单大洗牌，国产AI突围！ #国产AI #人工智能 #AI大模型 #AI科普 #deepseek",
+      "author": "粥粥玩AI",
+      "published": "1周前",
+      "engagement": 20000,
+      "engagementLabel": "2.0万赞",
+      "url": "https://www.douyin.com/video/7675279305273920806",
+      "topic": "大模型",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "Deepseek v4 flash 开始斩杀#AI #人工智能 #DeepSeek #openai",
+      "author": "北大宝哥AI",
+      "published": "4周前",
+      "engagement": 19000,
+      "engagementLabel": "1.9万赞",
+      "url": "https://www.douyin.com/video/7669463474829862905",
+      "topic": "大模型",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    },
+    {
+      "platform": "douyin",
+      "title": "6个设置，把WorkBuddy调成你的专属AI员工 #ai #AI工具 #人工智能 #workbuddy#一天一个ai干货",
+      "author": "Neil的AI笔记",
+      "published": "2周前",
+      "engagement": 17000,
+      "engagementLabel": "1.7万赞",
+      "url": "https://www.douyin.com/video/7674272203390932401",
+      "topic": "AI工具",
+      "collectedAt": "2026-09-01T09:07:12+08:00"
+    }
+  ]
+}
