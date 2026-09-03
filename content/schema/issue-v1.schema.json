@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/nicoleyang959/xait-today/main/content/schema/issue-v1.schema.json",
+  "title": "xAIT Today issue v1",
+  "description": "Canonical, sanitized input for one public xAIT Today issue.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "date",
+    "generatedAt",
+    "title",
+    "tagline",
+    "sections"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "date": { "type": "string", "format": "date" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "title": { "$ref": "#/$defs/text" },
+    "tagline": { "$ref": "#/$defs/text" },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          { "$ref": "#/$defs/blocksSection" },
+          { "$ref": "#/$defs/linksSection" },
+          { "$ref": "#/$defs/tableSection" },
+          { "$ref": "#/$defs/wechatSection" },
+          { "$ref": "#/$defs/socialSection" }
+        ]
+      }
+    }
+  },
+  "$defs": {
+    "text": { "type": "string", "minLength": 1 },
+    "optionalText": { "type": "string" },
+    "publicUrl": {
+      "type": "string",
+      "pattern": "^https?://"
+    },
+    "sectionId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text"],
+      "properties": {
+        "text": { "$ref": "#/$defs/text" },
+        "strong": { "type": "boolean" },
+        "url": { "$ref": "#/$defs/publicUrl" }
+      }
+    },
+    "spanLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["spans"],
+      "properties": {
+        "spans": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/span" }
+        }
+      }
+    },
+    "sectionBase": {
+      "type": "object",
+      "required": ["kind", "id", "title"],
+      "properties": {
+        "kind": { "type": "string" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" }
+      }
+    },
+    "blocksSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "title", "blocks"],
+      "properties": {
+        "kind": { "const": "blocks" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["type", "spans"],
+                "properties": {
+                  "type": { "const": "paragraph" },
+                  "spans": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": { "$ref": "#/$defs/span" }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["type", "ordered", "items"],
+                "properties": {
+                  "type": { "const": "list" },
+                  "ordered": { "type": "boolean" },
+                  "items": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": { "$ref": "#/$defs/spanLine" }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "linksSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "title", "items"],
+      "properties": {
+        "kind": { "const": "links" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title"],
+            "properties": {
+              "title": { "$ref": "#/$defs/text" },
+              "url": { "$ref": "#/$defs/publicUrl" },
+              "meta": { "$ref": "#/$defs/optionalText" }
+            }
+          }
+        }
+      }
+    },
+    "tableCell": {
+      "oneOf": [
+        { "$ref": "#/$defs/text" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["text"],
+          "properties": {
+            "text": { "$ref": "#/$defs/text" },
+            "url": { "$ref": "#/$defs/publicUrl" }
+          }
+        }
+      ]
+    },
+    "tableSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "title", "columns", "rows"],
+      "properties": {
+        "kind": { "const": "table" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" },
+        "columns": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/text" }
+        },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/tableCell" }
+          }
+        }
+      }
+    },
+    "wechatSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "title", "overview", "capturedAt", "accounts"],
+      "properties": {
+        "kind": { "const": "wechat" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" },
+        "overview": { "$ref": "#/$defs/text" },
+        "capturedAt": { "type": "string", "format": "date-time" },
+        "accounts": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "status", "statusTone", "sourceUrl", "items"],
+            "properties": {
+              "name": { "$ref": "#/$defs/text" },
+              "status": { "$ref": "#/$defs/text" },
+              "statusTone": { "enum": ["fresh", "quiet", "stale"] },
+              "sourceUrl": { "$ref": "#/$defs/publicUrl" },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["badge", "title", "meta"],
+                  "properties": {
+                    "badge": { "$ref": "#/$defs/text" },
+                    "title": { "$ref": "#/$defs/text" },
+                    "url": { "$ref": "#/$defs/publicUrl" },
+                    "meta": { "$ref": "#/$defs/optionalText" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "socialSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id", "title", "overview", "platforms"],
+      "properties": {
+        "kind": { "const": "social" },
+        "id": { "$ref": "#/$defs/sectionId" },
+        "title": { "$ref": "#/$defs/text" },
+        "overview": { "$ref": "#/$defs/text" },
+        "platforms": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "title", "snapshotLabel", "status", "origin", "items"],
+            "properties": {
+              "id": { "$ref": "#/$defs/sectionId" },
+              "title": { "$ref": "#/$defs/text" },
+              "snapshotLabel": { "$ref": "#/$defs/text" },
+              "status": { "enum": ["fresh", "stale", "unavailable"] },
+              "origin": { "$ref": "#/$defs/text" },
+              "items": {
+                "type": "array",
+                "maxItems": 10,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["rank", "title", "meta", "heat"],
+                  "properties": {
+                    "rank": { "type": "integer", "minimum": 1 },
+                    "title": { "$ref": "#/$defs/text" },
+                    "url": { "$ref": "#/$defs/publicUrl" },
+                    "meta": { "$ref": "#/$defs/optionalText" },
+                    "heat": { "$ref": "#/$defs/optionalText" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -29,3 +29,12 @@ outputs/wechat-daily*.json
 *-raw.json
 *.tmp
 *.log
+
+# Test and coverage artifacts
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Local build staging directories
+.xait-build-*/

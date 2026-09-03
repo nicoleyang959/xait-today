@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="xAIT 今日——每日 AI 资讯、中文平台热榜与多源科技信号">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{PAGE_TITLE}}">
+  <meta property="og:description" content="{{TAGLINE}}">
+  <meta property="og:url" content="{{CANONICAL_URL}}">
+  <title>{{PAGE_TITLE}}</title>
+  <link rel="canonical" href="{{CANONICAL_URL}}">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/app.css">
+  <script src="{{ASSET_PREFIX}}assets/app.js" defer></script>
+</head>
+<body class="theme-terminal">
+  <aside class="sidebar" id="sidebar">
+    <a class="sidebar-brand" href="{{HOME_HREF}}">xAIT 今日</a>
+    <div class="sidebar-tagline">历史归档</div>
+    <hr class="sidebar-divider">
+    <div class="sidebar-label">公开简报</div>
+    <nav class="sidebar-links" aria-label="历史归档">
+{{HISTORY_LINKS}}
+    </nav>
+  </aside>
+
+  <main class="main">
+    <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="收起历史栏" title="收起历史栏">‹</button>
+
+    <header class="masthead">
+      <div class="masthead-copy">
+        <div class="meta">
+          <span>xAIT 今日</span>
+          <span>AI 和 IT 的无限可能</span>
+          <span>DAILY</span>
+        </div>
+        <h1>{{ISSUE_TITLE}}</h1>
+        <p class="tagline">{{TAGLINE}}</p>
+      </div>
+      <div class="theme-switcher" role="group" aria-label="页面主题">
+        <span class="theme-label" aria-hidden="true">主题</span>
+        <button class="theme-btn" type="button" data-theme="theme-terminal" aria-pressed="true" title="数据终端">终端</button>
+        <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" title="赛博霓虹">赛博</button>
+        <button class="theme-btn" type="button" data-theme="theme-swiss" aria-pressed="false" title="瑞士国际主义">瑞士</button>
+        <button class="theme-btn" type="button" data-theme="theme-editorial" aria-pressed="false" title="编辑杂志">杂志</button>
+        <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" title="高端咨询报告">咨询</button>
+        <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" title="极简科技">极简</button>
+        <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" title="柔和纸张">纸张</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="issue-header">
+        <span class="section-label">{{ISSUE_LABEL}}</span>
+        <time class="issue-date" datetime="{{ISSUE_DATE}}">{{ISSUE_DATE}}</time>
+        <a class="issue-json-link" href="{{ISSUE_JSON_HREF}}">查看公开 JSON</a>
+      </div>
+
+      <article class="card" id="date-{{ISSUE_DATE}}">
+        <header class="card-header">
+          <span class="card-date">{{ISSUE_DATE}}</span>
+          <span class="card-tag">{{CARD_TAG}}</span>
+        </header>
+        <div class="card-body">
+{{SECTIONS}}
+        </div>
+      </article>
+
+      <footer class="site-footer">
+        <span>公开快照生成于 {{GENERATED_AT}}</span>
+        <a href="{{HEALTH_HREF}}">构建状态</a>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>

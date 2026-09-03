@@ -1,0 +1,13 @@
+{
+  "buildMode": "offline",
+  "generatedAt": "2026-09-03T10:09:12+08:00",
+  "issueCount": 3,
+  "issueSha256": {
+    "2026-09-01": "66c6f0fa70d9dfadadb590ce05d794ea16f320cdd1b06dac23b4e25de7a3b5f8",
+    "2026-09-02": "bcdf155b3b20866aa5860c6ba63e8e402f63973f514c2994193f5bbf06362958",
+    "2026-09-03": "1e0f6830545ee34ebb8bc755e527f3b479bba994e3efc57515c116a9a0acf4f7"
+  },
+  "latest": "2026-09-03",
+  "schemaVersion": 1,
+  "status": "ok"
+}

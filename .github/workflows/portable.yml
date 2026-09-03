@@ -1,0 +1,40 @@
+name: Portable build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.9", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run standard-library tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate public content
+        run: python xait.py check
+
+      - name: Rebuild static site
+        run: python xait.py build
+
+      - name: Verify committed output is reproducible
+        run: git diff --exit-code

@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "generatedAt": "2026-09-03T10:09:12+08:00",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T13:47:26+08:00",
   "platforms": [
     {
       "collectedAt": "沿用 2026-09-01 快照 · 来源暂不可用",
@@ -78,169 +78,148 @@
       ],
       "key": "xiaohongshu",
       "label": "📕 小红书 Top 10",
-      "origin": "小红书/抖音登录态采集快照 · 沿用 2026-09-01 快照 · 来源暂不可用（本机服务健康，但登录校验端点持续超时且本次搜索未能建立可用来源）",
+      "origin": "小红书/抖音登录态采集快照 · 沿用 2026-09-01 快照 · 来源暂不可用（本机服务健康，但登录校验与搜索端点暂时不可用）",
       "status": "stale"
     },
     {
-      "collectedAt": "采集于 2026-09-03 · 今日",
+      "collectedAt": "沿用 2026-09-01 快照 · 验证码待处理",
       "items": [
         {
-          "engagementLabel": "3.1万赞",
-          "meta": "𝑺𝒀𝑸🇺🇸 · AI公共服务 · 2026-09-01",
+          "engagementLabel": "21.4万赞",
+          "meta": "叶少阳『AI漫剪』 · AI热点 · 1周前",
           "rank": 1,
-          "title": "全球首例！韩国把AI变成全民免费公共服务",
-          "url": "https://www.douyin.com/video/7680430953668620521"
+          "title": "我们见证了第四次工业革命的诞生 #AI #人工智能 #抖音",
+          "url": "https://www.douyin.com/video/7676944704864891313"
+        },
+        {
+          "engagementLabel": "12.9万赞",
+          "meta": "橘子娱乐. · AI热点 · 1周前",
+          "rank": 2,
+          "title": "到底谁说AI能取代人类的，尚雯婕第一个不同意#尚雯婕 #伦敦合伙人 #尚雯婕学习法还是太权威了 @DOU+上热门",
+          "url": "https://www.douyin.com/video/7676445732060035938"
+        },
+        {
+          "engagementLabel": "7.8万赞",
+          "meta": "财研网AI · 大模型 · 3周前",
+          "rank": 3,
+          "title": "被DeepSeek调用量碾压三倍，OpenAI打折追赶无效后 宣布免费，GPT-5.6开放无限量文本聊天#deepseek #openai #AI #人工智能 #chatgpt",
+          "url": "https://www.douyin.com/video/7671182060207246607"
+        },
+        {
+          "engagementLabel": "5.7万赞",
+          "meta": "棱镜Talk · AI热点 · 2天前",
+          "rank": 4,
+          "title": "AI焚书，闭源模式如何让美国企业变成人类叛徒 #全球创作者计划 #零基础看懂全球 #全球深度看抖音 #科技",
+          "url": "https://www.douyin.com/video/7678982058496052506"
+        },
+        {
+          "engagementLabel": "3.0万赞",
+          "meta": "凤凰AI · AI工具 · 2周前",
+          "rank": 5,
+          "title": "睡前让Codex自己干活的下场：凌晨2点被它喊起来当工具人 #Codex #AI #人工智能 #科技 #热门",
+          "url": "https://www.douyin.com/video/7673436733085650214"
         },
         {
           "engagementLabel": "2.7万赞",
-          "meta": "森森AI日记 · AI教育 · 2026-08-11",
-          "rank": 2,
-          "title": "这才是AI＋教育的正确打开方式",
+          "meta": "森森AI日记 · AI教育 · 2周前",
+          "rank": 6,
+          "title": "这才是ai＋教育的正确打开方式！#ai教育#ai大模型#芯位科技 #人工智能#芯位大模型",
           "url": "https://www.douyin.com/video/7672679494327123185"
         },
         {
+          "engagementLabel": "2.7万赞",
+          "meta": "填点击 · AI创作 · 2天前",
+          "rank": 7,
+          "title": "机骸重铸：穿越成了破烂机器人，我要打造铁甲军团！真-人工智能 #ai漫剧 #机甲",
+          "url": "https://www.douyin.com/video/7679381116071021858"
+        },
+        {
           "engagementLabel": "2.0万赞",
-          "meta": "粥粥玩AI · 国产大模型 · 2026-08-18",
-          "rank": 3,
-          "title": "AI榜单大洗牌，国产AI突围！",
+          "meta": "粥粥玩AI · 大模型 · 1周前",
+          "rank": 8,
+          "title": "AI榜单大洗牌，国产AI突围！ #国产AI #人工智能 #AI大模型 #AI科普 #deepseek",
           "url": "https://www.douyin.com/video/7675279305273920806"
         },
         {
-          "engagementLabel": "1.6万赞",
-          "meta": "树怪counter · AI视觉 · 2026-09-01",
-          "rank": 4,
-          "title": "我们远比想象中的自己更加强大（超人）- 不同AI上色对比",
-          "url": "https://www.douyin.com/video/7680511006398079854"
-        },
-        {
-          "engagementLabel": "1.4万赞",
-          "meta": "AI小魔女 · AI设计 · 2026-08-06",
-          "rank": 5,
-          "title": "玩转AI：一键生成产品图",
-          "url": "https://www.douyin.com/video/7670854650077187382"
-        },
-        {
-          "engagementLabel": "1.1万赞",
-          "meta": "中安在线 · AI手机 · 2026-09-01",
-          "rank": 6,
-          "title": "“豆包手机”来了！将搭载豆包手机助手",
-          "url": "https://www.douyin.com/video/7680557318525685001"
-        },
-        {
-          "engagementLabel": "5607赞",
-          "meta": "讲ai的老程 · AI医疗 · 2026-08-20",
-          "rank": 7,
-          "title": "AI定制的疫苗真的来了",
-          "url": "https://www.douyin.com/video/7675940216326577058"
-        },
-        {
-          "engagementLabel": "3751赞",
-          "meta": "风口财经 · AI产业政策 · 2026-08-31",
-          "rank": 8,
-          "title": "工信部：加大大模型、智能体、Token等服务采购力度",
-          "url": "https://www.douyin.com/video/7680151772328922383"
-        },
-        {
-          "engagementLabel": "3155赞",
-          "meta": "凤凰卫视 · AI职业转型 · 2026-09-01",
+          "engagementLabel": "1.9万赞",
+          "meta": "北大宝哥AI · 大模型 · 4周前",
           "rank": 9,
-          "title": "王坚：AI正在把“职业”变成“技能”",
-          "url": "https://www.douyin.com/video/7680456224441158918"
+          "title": "Deepseek v4 flash 开始斩杀#AI #人工智能 #DeepSeek #openai",
+          "url": "https://www.douyin.com/video/7669463474829862905"
         },
         {
-          "engagementLabel": "1269赞",
-          "meta": "阿布档案 · 超级智能 · 2026-09-01",
+          "engagementLabel": "1.7万赞",
+          "meta": "Neil的AI笔记 · AI工具 · 2周前",
           "rank": 10,
-          "title": "神秘实验室隐藏的大机密｜超级智能",
-          "url": "https://www.douyin.com/video/7680227349526351156"
+          "title": "6个设置，把WorkBuddy调成你的专属AI员工 #ai #AI工具 #人工智能 #workbuddy#一天一个ai干货",
+          "url": "https://www.douyin.com/video/7674272203390932401"
         }
       ],
       "key": "douyin",
       "label": "🎵 抖音 Top 10",
-      "origin": "小红书/抖音登录态采集快照",
-      "status": "fresh"
+      "origin": "小红书/抖音登录态采集快照 · 沿用 2026-09-01 快照 · 验证码待处理（登录态只读搜索触发图形验证码，已停止且未尝试绕过）",
+      "status": "stale"
     },
     {
-      "collectedAt": "采集于 2026-09-03 · 今日",
+      "collectedAt": "采集于 2026-09-02 · 今日",
       "items": [
         {
-          "engagementLabel": "1.7万热度 · 240评论",
-          "meta": "AI artificial intelligence · 2026-08-10",
+          "engagementLabel": "综合热度 100",
+          "meta": "GitHub Explore Trending Projects · 2026-09-01",
           "rank": 1,
-          "title": "AI Satan",
-          "url": "https://www.reddit.com/r/foundsatan/comments/1vkt3js/ai_satan/"
+          "title": "Unsloth is trending at #5 on GitHub!",
+          "url": "https://www.reddit.com/r/unsloth/comments/1vp2n2j/unsloth_is_trending_at_5_on_github/"
         },
         {
-          "engagementLabel": "6,048热度 · 609评论",
-          "meta": "AI artificial intelligence · 2026-08-27",
+          "engagementLabel": "综合热度 100",
+          "meta": "Claude Code · 2026-09-01",
           "rank": 2,
-          "title": "Even Bill Gates is admitting that corporations have 'no plan' for the mass unemployment AI is about to cause.",
-          "url": "https://www.reddit.com/r/antiwork/comments/1vzr0h1/even_bill_gates_is_admitting_that_corporations/"
+          "title": "I let Claude Code trade stocks with my real money. Results:",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1voi341/i_let_claude_code_trade_stocks_with_my_real_money/"
         },
         {
-          "engagementLabel": "6,011热度 · 630评论",
-          "meta": "AI artificial intelligence · 2026-08-13",
+          "engagementLabel": "综合热度 93",
+          "meta": "OpenAI Codex · 2026-09-01",
           "rank": 3,
-          "title": "You dont dislike AI, you dislike generative AI",
-          "url": "https://www.reddit.com/r/teenagers/comments/1vn11lr/you_dont_dislike_ai_you_dislike_generative_ai/"
+          "title": "Open AI removes banked usage resets from Codex",
+          "url": "https://www.reddit.com/r/codex/comments/1vkfcnz/open_ai_removes_banked_usage_resets_from_codex/"
         },
         {
-          "engagementLabel": "5,308热度 · 64评论",
-          "meta": "AI artificial intelligence · 2026-08-13",
+          "engagementLabel": "综合热度 91",
+          "meta": "Claude Code · 2026-09-01",
           "rank": 4,
-          "title": "China has now made it illegal to replace workers with artificial intelligence",
-          "url": "https://www.reddit.com/r/LateStageCapitalism/comments/1vno6vn/china_has_now_made_it_illegal_to_replace_workers/"
+          "title": "Claude is Losing Me After Being Heavy User Since Release",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vqsas9/claude_is_losing_me_after_being_heavy_user_since/"
         },
         {
-          "engagementLabel": "2,467热度 · 167评论",
-          "meta": "AI artificial intelligence · 2026-08-06",
+          "engagementLabel": "综合热度 78",
+          "meta": "Claude Code · 2026-09-01",
           "rank": 5,
-          "title": "Danish pupils will have to orally defend essays in attempt to combat AI cheating | AI (artificial intelligence)",
-          "url": "https://www.reddit.com/r/europe/comments/1vh4yml/danish_pupils_will_have_to_orally_defend_essays/"
+          "title": "Devs who actually use Claude Code properly (not vibe coding) — what's your take?",
+          "url": "https://www.reddit.com/r/ClaudeAI/comments/1vvo1a5/devs_who_actually_use_claude_code_properly_not/"
         },
         {
-          "engagementLabel": "2,176热度 · 113评论",
-          "meta": "AI artificial intelligence · 2026-08-13",
+          "engagementLabel": "综合热度 64",
+          "meta": "Claude Code · 2026-09-01",
           "rank": 6,
-          "title": "Community Forces 'Artificial Intelligence' Tag on Rideshare \"Stimulator\" Steam Page After Saber Admits AI Use Without Steam Disclosure",
-          "url": "https://www.reddit.com/r/pcmasterrace/comments/1vnenym/community_forces_artificial_intelligence_tag_on/"
+          "title": "What are people actually making with Claude Code?",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1vtz85p/what_are_people_actually_making_with_claude_code/"
         },
         {
-          "engagementLabel": "1,817热度 · 1,750评论",
-          "meta": "AI artificial intelligence · 2026-08-29",
+          "engagementLabel": "综合热度 0",
+          "meta": "Claude Code · 2026-09-01",
           "rank": 7,
-          "title": "If AI can eventually do most jobs better and cheaper than humans, how are people supposed to earn a living?",
-          "url": "https://www.reddit.com/r/Futurology/comments/1w1sjd1/if_ai_can_eventually_do_most_jobs_better_and/"
-        },
-        {
-          "engagementLabel": "1,469热度 · 510评论",
-          "meta": "AI artificial intelligence · 2026-08-29",
-          "rank": 8,
-          "title": "Bill Gates calls for ‘human-reserved’ jobs in face of AI takeover | AI (artificial intelligence)",
-          "url": "https://www.reddit.com/r/Futurology/comments/1w1fbxd/bill_gates_calls_for_humanreserved_jobs_in_face/"
-        },
-        {
-          "engagementLabel": "1,251热度 · 124评论",
-          "meta": "AI artificial intelligence · 2026-08-14",
-          "rank": 9,
-          "title": "Artificial Intelligence Aficionado",
-          "url": "https://www.reddit.com/r/AntiMemes/comments/1vofco6/artificial_intelligence_aficionado/"
-        },
-        {
-          "engagementLabel": "959热度 · 188评论",
-          "meta": "AI artificial intelligence · 2026-08-15",
-          "rank": 10,
-          "title": "AI agents aren’t legally responsible for any harm that they cause, experts say. So who is? | AI (artificial intelligence)",
-          "url": "https://www.reddit.com/r/Futurology/comments/1vouv5r/ai_agents_arent_legally_responsible_for_any_harm/"
+          "title": "Good bye... Claude Code. Thank you.",
+          "url": "https://www.reddit.com/r/ClaudeCode/comments/1w1px01/good_bye_claude_code_thank_you/"
         }
       ],
       "key": "reddit",
       "label": "🟠 Reddit Top 10",
-      "origin": "last30days 每日研究 + last30days 多源 AI 热点",
+      "origin": "last30days 每日研究",
       "status": "fresh"
     },
     {
-      "collectedAt": "采集于 2026-09-03 · 今日",
+      "collectedAt": "采集于 2026-09-02 · 今日",
       "items": [
         {
           "engagementLabel": "343积分 · 417评论",
@@ -319,31 +298,31 @@
       "status": "fresh"
     },
     {
-      "collectedAt": "采集于 2026-09-03 · 今日",
+      "collectedAt": "采集于 2026-09-02 · 今日",
       "items": [
         {
-          "engagementLabel": "相关度 28.0",
+          "engagementLabel": "相关度 28.9",
           "meta": "AI artificial intelligence · 2026-08-18",
           "rank": 1,
           "title": "[Hero Run] 535B-A23B on 18T tokens",
           "url": "https://github.com/marin-community/marin/issues/8435"
         },
         {
-          "engagementLabel": "相关度 6.7",
+          "engagementLabel": "相关度 6.9",
           "meta": "AI artificial intelligence · 2026-08-16",
           "rank": 2,
           "title": "IPI-1006 · MASTRA-UPG-001 — Pin Mastra 1.59 family (train with IPI-1007 typecheck + ast-grep packing)",
           "url": "https://github.com/amo-tech-ai/lumina-studio/pull/948"
         },
         {
-          "engagementLabel": "相关度 28.7",
+          "engagementLabel": "相关度 29.6",
           "meta": "AI artificial intelligence · 2026-08-27",
           "rank": 3,
           "title": "[Snyk] Fix for 11 vulnerabilities",
           "url": "https://github.com/Dustin4444/eas-sdk/pull/22"
         },
         {
-          "engagementLabel": "相关度 38.4",
+          "engagementLabel": "相关度 39.0",
           "meta": "AI artificial intelligence · 2026-09-01",
           "rank": 4,
           "title": "feat: add Agnes AI provider (text + image + video models)",
@@ -356,54 +335,40 @@
       "status": "fresh"
     },
     {
-      "collectedAt": "采集于 2026-09-03 · 今日",
+      "collectedAt": "采集于 2026-09-02 · 今日",
       "items": [
         {
           "engagementLabel": "相关度 46.0",
-          "meta": "AI artificial intelligence · 2026-09-02",
+          "meta": "AI artificial intelligence · 2026-09-01",
           "rank": 1,
-          "title": "Broadcom reports Q3 revenue up 86% YoY to $29.59B, vs. $29.36B est., AI semiconductor revenue up 221% to $16.7B, and forecasts Q4 revenue below estimates",
-          "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html"
+          "title": "Sonos opens its platform to third-party AI assistants, upgrades Sonos 27voice assistant with an in-house LLM, and plans to let users create their own AI agents",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/sonos-debuts-449-ace-ultra-headphones-699-beam-ultra-soundbar-chatgpt-tie-in"
         },
         {
           "engagementLabel": "相关度 46",
-          "meta": "AI artificial intelligence · 2026-09-02",
+          "meta": "AI artificial intelligence · 2026-09-01",
           "rank": 2,
-          "title": "Huskeys, which uses agentic AI to help companies block AI-driven attacks, raised a $27M Series A led by Blackstone Innovations Investments at a $100M+ valuation",
-          "url": "https://www.wsj.com/pro/private-equity/blackstone-backs-cybersecurity-startup-huskeys-to-fight-unwanted-ai-traffic-410c5c6a"
-        },
-        {
-          "engagementLabel": "相关度 46.0",
-          "meta": "AI artificial intelligence · 2026-09-02",
-          "rank": 3,
-          "title": "Wonderful, which helps enterprises deploy AI, raised a $550M Series C led by Insight at a $5B valuation; investors also paid $170M to buy shares from employees",
-          "url": "https://www.wsj.com/pro/venture-capital/ai-startup-wonderful-hits-5-billion-valuation-plans-1-000-strong-team-3d18bebe"
-        },
-        {
-          "engagementLabel": "相关度 46.0",
-          "meta": "AI artificial intelligence · 2026-09-02",
-          "rank": 4,
-          "title": "Elon University: 27% of Americans say they use AI chatbots like ChatGPT for personal, emotional, or social queries, rising to nearly 40% among adults under 50",
-          "url": "https://www.washingtonpost.com/technology/interactive/2026/09/02/27-us-adults-turn-ai-personal-emotional-social-queries/"
+          "title": "Dyson unveils the $499 CameraJet, an AI-powered toothbrush with a 100K-pixel macro lens that scans at 28 images per second and is trained on nearly 470K images",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/dyson-announces-499-camerajet-smart-toothbrush-with-ai-built-in-camera"
         },
         {
           "engagementLabel": "相关度 45.3",
+          "meta": "AI artificial intelligence · 2026-08-31",
+          "rank": 3,
+          "title": "Together AI, which serves open-source AI models, announces a deal to use compute from Humain in Saudi Arabia, where it can bypass US backlash over data centers",
+          "url": "https://www.nytimes.com/2026/08/31/business/dealbook/together-ai-humain-saudi-arabia-data-center.html"
+        },
+        {
+          "engagementLabel": "相关度 45.3",
+          "meta": "AI artificial intelligence · 2026-08-31",
+          "rank": 4,
+          "title": "The Trump administration launches Project Watershed 250, a six-month AI and cybersecurity pilot to protect Texas water systems from cyberattacks",
+          "url": "https://www.foxnews.com/politics/first-fox-texas-becomes-testing-ground-new-defense-against-attacks-americas-water-systems"
+        },
+        {
+          "engagementLabel": "相关度 37.6",
           "meta": "AI artificial intelligence · 2026-09-01",
           "rank": 5,
-          "title": "Sources: AI coding startup Cognition is raising ~$1B at a ~$47B valuation, up from $26B in May; a source says Cognition had nearly $10B in investor interest",
-          "url": "https://www.bloomberg.com/news/articles/2026-09-02/ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-billion-value"
-        },
-        {
-          "engagementLabel": "相关度 45.3",
-          "meta": "AI artificial intelligence · 2026-09-01",
-          "rank": 6,
-          "title": "NYC's Department of Education adopts a policy barring public school students from using AI until high school, banning companion chatbots in all grades, and more",
-          "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
-        },
-        {
-          "engagementLabel": "相关度 37.0",
-          "meta": "AI artificial intelligence · 2026-09-01",
-          "rank": 7,
           "title": "Anthropic Says New Fable AI Model Is Cheaper, Better at Coding",
           "url": "https://www.bloomberg.com/news/articles/2026-09-01/anthropic-says-new-fable-5-1-ai-model-is-cheaper-better-at-coding"
         }
