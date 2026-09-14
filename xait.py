@@ -21,6 +21,7 @@ from pathlib import Path
 import re
 import shutil
 import socket
+import socketserver
 import sys
 import tempfile
 from datetime import date as Date
@@ -1154,6 +1155,13 @@ class _QuietHandler(http.server.SimpleHTTPRequestHandler):
 class _ReusableThreadingServer(http.server.ThreadingHTTPServer):
     allow_reuse_address = True
     daemon_threads = True
+
+    def server_bind(self) -> None:
+        # HTTPServer resolves a display name with getfqdn() during startup.
+        # A static preview only needs its numeric bind address; reverse DNS
+        # must not delay or prevent serving offline on a local interface.
+        socketserver.TCPServer.server_bind(self)
+        self.server_name, self.server_port = self.server_address[:2]
 
 
 def serve(port: int = 8022, lan: bool = False) -> None:

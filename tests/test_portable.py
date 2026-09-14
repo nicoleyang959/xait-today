@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -290,6 +291,21 @@ class PortableCommandTests(unittest.TestCase):
             run_cli(repository, "build", cwd=external_path)
             self.assertEqual(before, sorted(external_path.iterdir()))
 
+    def test_local_server_binding_does_not_require_reverse_dns(self) -> None:
+        spec = importlib.util.spec_from_file_location("xait_under_test", REPOSITORY / "xait.py")
+        self.assertIsNotNone(spec)
+        self.assertIsNotNone(spec.loader)
+        application = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(application)
+        with patch("socket.getfqdn", side_effect=AssertionError("reverse DNS is unavailable")), \
+             patch("socket.gethostbyaddr", side_effect=AssertionError("reverse DNS is unavailable")):
+            with application._ReusableThreadingServer(
+                ("127.0.0.1", 0), application._QuietHandler
+            ) as server:
+                self.assertEqual("127.0.0.1", server.server_name)
+                self.assertEqual(server.server_address[1], server.server_port)
+                self.assertGreater(server.server_port, 0)
+
     def test_serve_exposes_homepage_and_health(self) -> None:
         temporary, repository = self.make_checkout()
         self.addCleanup(temporary.cleanup)
@@ -301,6 +317,12 @@ class PortableCommandTests(unittest.TestCase):
         process = subprocess.Popen(
             [
                 sys.executable,
+                "-u",
+                "-c",
+                "import faulthandler, runpy, sys; "
+                "faulthandler.dump_traceback_later(10); "
+                "script = sys.argv.pop(1); "
+                "runpy.run_path(script, run_name='__main__')",
                 str(repository / "xait.py"),
                 "serve",
                 "--port",
@@ -348,11 +370,23 @@ class PortableCommandTests(unittest.TestCase):
                 last_error = error
                 time.sleep(0.1)
 
-        self.assertIsNotNone(homepage, last_error)
+        if homepage is None or health is None:
+            if process.poll() is None:
+                process.terminate()
+            try:
+                output, _ = process.communicate(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                output, _ = process.communicate(timeout=5)
+            self.fail(
+                f"serve did not respond within 20 seconds: {last_error}\n"
+                f"Child startup output / bounded stack trace:\n{output[-12000:]}"
+            )
         self.assertIn("xAIT 今日", homepage)
         self.assertIsInstance(health, dict)
         with self.assertRaises(HTTPError) as directory_error:
             local_http.open(f"http://127.0.0.1:{port}/assets/", timeout=1)
+        self.addCleanup(directory_error.exception.close)
         self.assertEqual(404, directory_error.exception.code)
 
     @staticmethod
