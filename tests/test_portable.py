@@ -20,6 +20,13 @@ from urllib.request import urlopen
 REPOSITORY = Path(__file__).resolve().parents[1]
 
 
+def minimal_environment() -> dict[str, str]:
+    environment = {"PATH": os.defpath, "PYTHONDONTWRITEBYTECODE": "1", "PYTHONUTF8": "1"}
+    if sys.platform == "win32" and os.environ.get("SystemRoot"):
+        environment["SystemRoot"] = os.environ["SystemRoot"]
+    return environment
+
+
 def copy_repository(destination: Path) -> Path:
     """Copy the public checkout without VCS or local test artifacts."""
     target = destination / "xait-today"
@@ -45,11 +52,12 @@ def run_cli(
         [sys.executable, str(repository / "xait.py"), *arguments],
         cwd=str(cwd or repository),
         text=True,
+        encoding="utf-8",
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         timeout=60,
         check=False,
-        env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+        env=minimal_environment(),
     )
     if expect_success and result.returncode != 0:
         raise AssertionError(
@@ -189,6 +197,56 @@ class PortableCommandTests(unittest.TestCase):
         self.assertIn("generatedAt", built.stdout)
         self.assertEqual(before, tree_digest(repository / "docs"))
 
+    def test_stale_wechat_capture_is_accepted_only_with_clear_labels(self) -> None:
+        temporary, repository = self.make_checkout()
+        self.addCleanup(temporary.cleanup)
+        latest = sorted((repository / "content" / "issues").glob("*.json"))[-1]
+        original = json.loads(latest.read_text(encoding="utf-8"))
+        from datetime import date, timedelta
+        previous = (date.fromisoformat(original["date"]) - timedelta(days=1)).isoformat()
+
+        for mode in ("stale", "fresh", "today-badge", "future"):
+            issue = json.loads(json.dumps(original))
+            wechat = next(section for section in issue["sections"] if section["kind"] == "wechat")
+            wechat["capturedAt"] = previous + "T08:45:00+08:00"
+            for account in wechat["accounts"]:
+                account["statusTone"] = "stale"
+                account["status"] = "沿用 " + previous + " 快照"
+                for item in account["items"]:
+                    item["badge"] = "最近"
+            if mode == "fresh":
+                wechat["accounts"][0]["statusTone"] = "fresh"
+            elif mode == "today-badge":
+                next(a for a in wechat["accounts"] if a["items"])["items"][0]["badge"] = "今日"
+            elif mode == "future":
+                wechat["capturedAt"] = "2099-01-01T08:45:00+08:00"
+            latest.write_text(json.dumps(issue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            before = tree_digest(repository / "docs")
+            result = run_cli(repository, "build", expect_success=(mode == "stale"))
+            if mode == "stale":
+                self.assertEqual(0, result.returncode)
+                run_cli(repository, "check")
+            else:
+                self.assertNotEqual(0, result.returncode)
+                self.assertEqual(before, tree_digest(repository / "docs"))
+
+    def test_source_health_is_collapsible_and_text_is_escaped(self) -> None:
+        temporary, repository = self.make_checkout()
+        self.addCleanup(temporary.cleanup)
+        latest = sorted((repository / "content" / "issues").glob("*.json"))[-1]
+        issue = json.loads(latest.read_text(encoding="utf-8"))
+        issue["sections"] = [section for section in issue["sections"] if section["id"] != "source-health"]
+        issue["sections"].append({
+            "id": "source-health", "kind": "blocks", "title": "来源状态",
+            "blocks": [{"type": "paragraph", "spans": [{"text": "Source A & B"}]}],
+        })
+        latest.write_text(json.dumps(issue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        run_cli(repository, "build")
+        page = (repository / "docs" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<details class="source-health"><summary>', page)
+        self.assertIn("Source A &amp; B", page)
+        run_cli(repository, "check")
+
     def test_commands_work_when_invoked_outside_repository(self) -> None:
         temporary, repository = self.make_checkout()
         self.addCleanup(temporary.cleanup)
@@ -219,7 +277,8 @@ class PortableCommandTests(unittest.TestCase):
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
-            env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
+            encoding="utf-8",
+            env=minimal_environment(),
         )
         self.addCleanup(self._stop_process, process)
 

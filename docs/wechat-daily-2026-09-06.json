@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "14 小时前 · 打开文章",
+          "title": "实测完GPT6，AGI还没来，但我真瘫坐在地上",
+          "url": "https://www.jintiankansha.me/t/YnCAxE2cb6"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "13 小时前 · 打开文章",
+          "title": "实测GPT-6 Astra：曾经的那个OpenAI，回来了。",
+          "url": "https://www.jintiankansha.com/t/amlmV8seSc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "11 小时前 · 打开文章",
+          "title": "暴走5万步！IFA 2026一手情报：超1000家中国厂商创历史，物理AI狠戳老外兴奋点",
+          "url": "https://www.jintiankansha.com/t/M5L1werHWK"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "2 天前 · 打开文章",
+          "title": "GPT-6发布，OpenAI说AGI时代来了",
+          "url": "https://www.jintiankansha.com/t/Uy6YCmKIcm"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    }
+  ],
+  "capturedAt": "2026-09-06T08:51:50+08:00",
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T09:00:01+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；按发布时间列出，不使用无法公开核验的后台阅读量。采集于 2026-09-06。"
+}

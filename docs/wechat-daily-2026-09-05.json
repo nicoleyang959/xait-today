@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "17 小时前 · 打开文章",
+          "title": "马斯克发布没有方向盘的特斯拉！坐进去像科幻片，体验暂时不如网约车",
+          "url": "https://www.jintiankansha.me/t/zfOeUgr8bc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "昨天 · 打开账号列表",
+          "title": "GPT-6 Astra全面解析 - “欢迎来到AGI时代。”",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "13 小时前 · 打开文章",
+          "title": "智谱开店，Kimi、MiniMax在路上，从AI到“日用品”的最短距离是天猫？",
+          "url": "https://www.jintiankansha.com/t/jJPN2aoQRp"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "昨天 · 打开文章",
+          "title": "GPT-6发布，OpenAI说AGI时代来了",
+          "url": "https://www.jintiankansha.com/t/Uy6YCmKIcm"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    }
+  ],
+  "capturedAt": "2026-09-05T08:47:31+08:00",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T08:54:39+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；按发布时间列出，不使用无法公开核验的后台阅读量。采集于 2026-09-05。"
+}

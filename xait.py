@@ -434,8 +434,17 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
         ids.add(section_id)
         _expect_string(raw_section.get("title"), section_path + ".title")
         SECTION_VALIDATORS[kind](raw_section, section_path)
-        if kind == "wechat" and raw_section["capturedAt"][:10] != issue_date:
-            raise XaitError("{0}.capturedAt 日期必须与 issue date 一致".format(section_path))
+        if kind == "wechat":
+            captured_day = raw_section["capturedAt"][:10]
+            if captured_day > issue_date:
+                raise XaitError("{0}.capturedAt 不得晚于 issue date".format(section_path))
+            if captured_day < issue_date:
+                # Preserve the actual capture time of a fallback, never rewrite
+                # it to today's date just to satisfy a publication contract.
+                if any(account["statusTone"] != "stale" for account in raw_section["accounts"]):
+                    raise XaitError("{0} 的旧快照必须明确标记 stale".format(section_path))
+                if any(item["badge"] == "今日" for account in raw_section["accounts"] for item in account["items"]):
+                    raise XaitError("{0} 的旧快照不得标记今日推文".format(section_path))
         kind_counts[kind] = kind_counts.get(kind, 0) + 1
     if kind_counts.get("wechat") != 1 or kind_counts.get("social") != 1:
         raise XaitError("{0} 必须恰好包含一个 wechat 和一个 social 章节".format(source_name))
@@ -605,6 +614,12 @@ SECTION_RENDERERS = {
 def _render_sections(issue: Dict[str, Any]) -> str:
     chunks: List[str] = []
     for section in issue["sections"]:
+        body = SECTION_RENDERERS[section["kind"]](section)
+        if section["id"] == "source-health":
+            body = (
+                '<details class="source-health"><summary>查看各来源状态、条数与采集时间</summary>'
+                + body + "</details>"
+            )
         chunks.append(
             '          <section class="section section-{0}" id="{1}">\n'
             "            <h2>{2}</h2>\n"
@@ -613,7 +628,7 @@ def _render_sections(issue: Dict[str, Any]) -> str:
                 section["kind"],
                 html.escape(section["id"], quote=True),
                 _escape_text(section["title"]),
-                SECTION_RENDERERS[section["kind"]](section),
+                body,
             )
         )
     return "\n".join(chunks)
@@ -1107,7 +1122,6 @@ def _lan_address() -> Optional[str]:
             continue
         if any(address in network for network in private_ranges):
             return candidate
-    return None
     return None
 
 

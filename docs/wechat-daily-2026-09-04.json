@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "1小时前 · 打开账号列表",
+          "title": "星宇董事长再次为「批量解雇应届生」致歉/马斯克:AI明年底可胜任所有数字工作/智谱在天猫开店卖Tok...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "公开来源暂时不可用，沿用最近一次成功快照",
+      "statusTone": "stale"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "21 小时前 · 打开文章",
+          "title": "UU远程史诗级升级，这就是如今远程Vibe Coding的第一神器。",
+          "url": "https://www.jintiankansha.com/t/oJ6qnVmXhI"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "公开来源暂时不可用，沿用最近一次成功快照",
+      "statusTone": "stale"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "15 小时前 · 打开文章",
+          "title": "突发：OpenAI Astra模型被曝安全风险",
+          "url": "https://www.jintiankansha.com/t/sAV6oIP3de"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "公开来源暂时不可用，沿用最近一次成功快照",
+      "statusTone": "stale"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "最近",
+          "meta": "15 小时前 · 打开文章",
+          "title": "豆包有Agent了：派活、离开，回来报告写完了",
+          "url": "https://www.jintiankansha.com/t/lqwSY2UCaX"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "公开来源暂时不可用，沿用最近一次成功快照",
+      "statusTone": "stale"
+    }
+  ],
+  "capturedAt": "2026-09-04T09:00:28+08:00",
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T19:20:00+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；按发布时间列出，不使用无法公开核验的后台阅读量。采集于 2026-09-04。"
+}
