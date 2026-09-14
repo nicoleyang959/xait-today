@@ -13,8 +13,9 @@ import sys
 import tempfile
 import time
 import unittest
+from unittest.mock import patch
 from urllib.error import HTTPError, URLError
-from urllib.request import urlopen
+from urllib.request import ProxyHandler, build_opener
 
 
 REPOSITORY = Path(__file__).resolve().parents[1]
@@ -47,7 +48,10 @@ def run_cli(
     *arguments: str,
     cwd: Path | None = None,
     expect_success: bool = True,
+    environment_overrides: dict[str, str] | None = None,
 ) -> subprocess.CompletedProcess[str]:
+    environment = minimal_environment()
+    environment.update(environment_overrides or {})
     result = subprocess.run(
         [sys.executable, str(repository / "xait.py"), *arguments],
         cwd=str(cwd or repository),
@@ -57,7 +61,7 @@ def run_cli(
         stderr=subprocess.STDOUT,
         timeout=60,
         check=False,
-        env=minimal_environment(),
+        env=environment,
     )
     if expect_success and result.returncode != 0:
         raise AssertionError(
@@ -132,6 +136,35 @@ class PortableCommandTests(unittest.TestCase):
         self.assertNotEqual(checked.returncode, 0, checked.stdout)
         self.assertNotEqual(built.returncode, 0, built.stdout)
         self.assertEqual(before, tree_digest(repository / "docs"))
+
+    def test_cli_output_is_utf8_with_a_legacy_system_encoding(self) -> None:
+        temporary, repository = self.make_checkout()
+        self.addCleanup(temporary.cleanup)
+        legacy_environment = {"PYTHONUTF8": "0", "PYTHONIOENCODING": "cp1252"}
+        for command in ("check", "build"):
+            result = run_cli(
+                repository, command, environment_overrides=legacy_environment
+            )
+            self.assertIn("最新", result.stdout)
+        checked_json = run_cli(
+            repository, "check", "--json", environment_overrides=legacy_environment
+        )
+        self.assertTrue(json.loads(checked_json.stdout)["ok"])
+
+        issue = repository / "content" / "issues" / "2099-01-01.json"
+        issue.write_text('{"schemaVersion": 1,', encoding="utf-8")
+        rejected = run_cli(
+            repository, "check", expect_success=False,
+            environment_overrides=legacy_environment,
+        )
+        self.assertNotEqual(0, rejected.returncode)
+        self.assertIn("错误：", rejected.stdout)
+        rejected_json = run_cli(
+            repository, "check", "--json", expect_success=False,
+            environment_overrides=legacy_environment,
+        )
+        self.assertNotEqual(0, rejected_json.returncode)
+        self.assertIn("无法解析", json.loads(rejected_json.stdout)["error"])
 
     def test_history_matches_issues_and_real_archives(self) -> None:
         temporary, repository = self.make_checkout()
@@ -282,6 +315,11 @@ class PortableCommandTests(unittest.TestCase):
         )
         self.addCleanup(self._stop_process, process)
 
+        # This probe must stay on loopback even when the host/CI has proxies.
+        # An explicit empty handler also skips macOS system proxy discovery.
+        with patch("urllib.request.getproxies", side_effect=AssertionError("proxy discovery is not needed for loopback")):
+            local_http = build_opener(ProxyHandler({}))
+
         homepage = None
         health = None
         deadline = time.monotonic() + 20
@@ -291,7 +329,7 @@ class PortableCommandTests(unittest.TestCase):
                 output = process.stdout.read() if process.stdout else ""
                 self.fail(f"serve exited early ({process.returncode}):\n{output}")
             try:
-                with urlopen(f"http://127.0.0.1:{port}/", timeout=1) as response:
+                with local_http.open(f"http://127.0.0.1:{port}/", timeout=1) as response:
                     self.assertEqual(200, response.status)
                     self.assertEqual("nosniff", response.headers["X-Content-Type-Options"])
                     self.assertEqual(
@@ -300,7 +338,7 @@ class PortableCommandTests(unittest.TestCase):
                     )
                     self.assertEqual("no-store", response.headers["Cache-Control"])
                     homepage = response.read().decode("utf-8")
-                with urlopen(
+                with local_http.open(
                     f"http://127.0.0.1:{port}/health.json", timeout=1
                 ) as response:
                     self.assertEqual(200, response.status)
@@ -314,7 +352,7 @@ class PortableCommandTests(unittest.TestCase):
         self.assertIn("xAIT 今日", homepage)
         self.assertIsInstance(health, dict)
         with self.assertRaises(HTTPError) as directory_error:
-            urlopen(f"http://127.0.0.1:{port}/assets/", timeout=1)
+            local_http.open(f"http://127.0.0.1:{port}/assets/", timeout=1)
         self.assertEqual(404, directory_error.exception.code)
 
     @staticmethod

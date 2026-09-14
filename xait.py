@@ -1211,6 +1211,13 @@ def _emit_success(command: str, result: Dict[str, Any], as_json: bool) -> None:
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
+    # Windows redirects stdout using the active legacy code page by default.
+    # The CLI has a UTF-8 contract for both human-readable Chinese and JSON,
+    # independent of terminal locale or whether output is captured by CI.
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
+            reconfigure(encoding="utf-8", errors="backslashreplace")
     arguments = _parser().parse_args(argv)
     as_json = bool(getattr(arguments, "json", False))
     try:
