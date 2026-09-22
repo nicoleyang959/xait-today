@@ -1,0 +1,1196 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T08:55:43+08:00",
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "今日日报未检出，展示来源最近一期（2026-09-21）"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "spans": [
+            {
+              "text": "2026-09-21 日报",
+              "url": "https://hex2077.dev/docs/2026-09/2026-09-21/"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "spans": [
+            {
+              "text": "今日摘要：Qwen-Image-2.1把生成、编辑与透明通道收进一个7B模型 美军AI幻觉情报险登中国船，行动前被拦下 美方实验室测试中未受监控的智能体集群自我复制并扩散 Google开源Agentic编排器被质疑官方背书与长期维护 GPT-6 Astra与人联手拿下悬置九年的数学难题 JEPA-Anything用一套预测核心覆盖七类系统"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "spans": [
+            {
+              "text": "开源 TOP 项目：needle把端侧模型压到29兆。 cactus-compute 的端侧自动化基础模型冲上热榜 🔥，2-bit 量化后体积只有 8 到 29MB。它支持工具调用、结构化提取与嵌入，手机、可穿戴、机器人和微控制器都能跑。 开源端侧自动化模型仓库 已累计 11479 星，今日新增 207 星，Fork 730。 Codex-X把配置管理收拢到一处。 这是面向 Codex 桌面端与 CLI 的可视化工具，专治 Provider 切换和会话同步分散 🔧。它还能注入提示词、管理 Skills 与 MCP、可视化 TOML 配置。 跨平台智能体配置管理工具 现有 3346 星，今日涨 64 星，Fork 441。 higgsfield盯上万亿参数训练。 这是一个容错、高扩展的 GPU 编排与机器学习框架，面向十亿到万亿参数模型 ⚙️。大模型训练最怕掉卡和调度失序，它想把这块做稳。相关代码见 容错式大规模训练编排框架 ，累计 4790 星，单日新增 325 星。 docling给文档做生成前预处理。 它把杂乱文档整理成生成式 AI 能直接读取的格式，检索、问答和知识库准备都靠这一步 📄。文档管线团队能借此压低清洗成本。 文档解析预处理开源项目 已获 66813 星，今日再添 94 星，Fork 4822。 cua把电脑操控代理做成框架。 trycua 的项目覆盖驱动、跨系统集群和评测基准，训练、评估与数据生成三个环节都有对应工具 🖱️。 电脑操控代理开源框架 当前 24026 星，今日新增 383 星，Fork 1659，开源代理基础设施热度不减。"
+            }
+          ],
+          "type": "paragraph"
+        },
+        {
+          "spans": [
+            {
+              "text": "来源最新周报：何夕2077 AI 深度信号周报 2026 W37 2026 年第 37 周 AI 深度信号周报：智能体平台化、数学证明争议、算力资本化。 AI周报 AI Agent",
+              "url": "https://hex2077.dev/blog/weekly/2026-09-13-ai-weekly-2026-w37/"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "hexi-2077",
+      "kind": "blocks",
+      "title": "📰 何夕2077 · AI 资讯日报"
+    },
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-09-22 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "突发｜ChatGPT神秘模型24天速通100+道数学未解难题，搁这刷题呢",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-09-22 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "刚刚，马斯克交卷 Grok 4.7！但这次吹牛吹大了",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "最近",
+              "meta": "2026-09-21 · 采集时显示：22 小时前 · 打开文章",
+              "title": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+              "url": "https://www.jintiankansha.com/t/ZHHmljnPZZ"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-09-22 · 采集时显示：45 分钟前 · 打开账号列表",
+              "title": "当AI无处不在，TI用全栈嵌入式边缘AI方案破解AI落地“老大难”",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-09-22 · 采集时显示：45 分钟前 · 打开账号列表",
+              "title": "被菲尔兹奖得主痛批后，OpenAI找来9位数学家“把关”",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "最近",
+              "meta": "2026-09-21 · 采集时显示：9 小时前 · 打开文章",
+              "title": "我的一人公司品牌部又又又升级：这次我雇了个演员和一个导演（LibTV 1.5）",
+              "url": "https://www.jintiankansha.com/t/qzmoRe9LqI"
+            }
+          ],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-09-22T08:47:42+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-09-22T08:47:42+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "id": "social-research-top10",
+      "kind": "social",
+      "overview": "仅在已采集的 AI 相关候选内各自排序，不是平台全站官方榜单。小红书按赞、藏、评总和，抖音按点赞量；不跨平台比较。近 30 天筛选中，标有“估算日期”的条目由内容 ID 推算，未核验为平台精确发布时间。旧快照会明确标记，不冒充今日采集。",
+      "platforms": [
+        {
+          "id": "xiaohongshu",
+          "items": [
+            {
+              "heat": "4804赞 · 765藏 · 1884评",
+              "meta": "Adrian Lee · AI热点 · 估算日期（内容 ID 推算） 2026-09-09",
+              "rank": 1,
+              "title": "这哥们说Ai十年内要消灭全人类，马斯克转发",
+              "url": "https://www.xiaohongshu.com/explore/6aa15b11000000000b00cafa"
+            },
+            {
+              "heat": "3451赞 · 2678藏 · 349评",
+              "meta": "Lando的AI实践 · AI热点 · 估算日期（内容 ID 推算） 2026-09-17",
+              "rank": 2,
+              "title": "一种颠覆目前所有AI的新模型出现了！",
+              "url": "https://www.xiaohongshu.com/explore/6aabdaa4000000002502ef23"
+            },
+            {
+              "heat": "1499赞 · 1578藏 · 99评",
+              "meta": "rrrrrredy · AI热点 · 估算日期（内容 ID 推算） 2026-09-18",
+              "rank": 3,
+              "title": "近期爆火的Jev，确实有点不一样",
+              "url": "https://www.xiaohongshu.com/explore/6aacbdcb000000002902cefe"
+            },
+            {
+              "heat": "1026赞 · 222藏 · 509评",
+              "meta": "Aigenn · AI热点 · 估算日期（内容 ID 推算） 2026-09-06",
+              "rank": 4,
+              "title": "外网爆火一句话",
+              "url": "https://www.xiaohongshu.com/explore/6a9d7df2000000001103adb6"
+            },
+            {
+              "heat": "674赞 · 660藏 · 46评",
+              "meta": "超级无敌上等签 · AI热点 · 估算日期（内容 ID 推算） 2026-08-24",
+              "rank": 5,
+              "title": "大厂AI工作流发展到什么样了？",
+              "url": "https://www.xiaohongshu.com/explore/6a8c2290000000001600b917"
+            },
+            {
+              "heat": "408赞 · 371藏 · 12评",
+              "meta": "加宁慢慢来 · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
+              "rank": 6,
+              "title": "新手用AI Agent选哪个？我的使用经验",
+              "url": "https://www.xiaohongshu.com/explore/6aa9305c00000000260329d0"
+            },
+            {
+              "heat": "324赞 · 324藏 · 9评",
+              "meta": "火耀星 · AI热点 · 估算日期（内容 ID 推算） 2026-09-07",
+              "rank": 7,
+              "title": "每天分享一个实用AI教程：Codex",
+              "url": "https://www.xiaohongshu.com/explore/6a9ebe41000000001203edbc"
+            },
+            {
+              "heat": "270赞 · 62藏 · 231评",
+              "meta": "AI前线速递 · AI热点 · 估算日期（内容 ID 推算） 2026-09-10",
+              "rank": 8,
+              "title": "苹果发布全新Siri AI",
+              "url": "https://www.xiaohongshu.com/explore/6aa1d1c5000000002802e345"
+            },
+            {
+              "heat": "286赞 · 98藏 · 49评",
+              "meta": "智润 Jeremy · AI热点 · 估算日期（内容 ID 推算） 2026-09-22",
+              "rank": 9,
+              "title": "Meta的Muse真的可以做AI助理了",
+              "url": "https://www.xiaohongshu.com/explore/6ab1ad300000000033031b6f"
+            },
+            {
+              "heat": "113赞 · 83藏 · 68评",
+              "meta": "林铁牛 · AI热点 · 估算日期（内容 ID 推算） 2026-09-01",
+              "rank": 10,
+              "title": "花了半天的时间，手搓了一个CRM系统",
+              "url": "https://www.xiaohongshu.com/explore/6a9685fa000000001202634f"
+            }
+          ],
+          "origin": "小红书/抖音登录态采集快照",
+          "snapshotLabel": "采集于 2026-09-22T08:54:13+08:00",
+          "status": "fresh",
+          "title": "📕 小红书 Top 10"
+        },
+        {
+          "id": "douyin",
+          "items": [],
+          "origin": "小红书/抖音登录态采集快照 · 2026-09-22 · 来源暂不可用，本期未使用历史榜单（公开搜索近30天可核验候选不足10条；本期未使用历史榜单）",
+          "snapshotLabel": "2026-09-22 · 来源暂不可用，本期未使用历史榜单",
+          "status": "unavailable",
+          "title": "🎵 抖音 Top 10"
+        },
+        {
+          "id": "reddit",
+          "items": [
+            {
+              "heat": "6,048热度 · 629评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-08-27",
+              "rank": 1,
+              "title": "Even Bill Gates is admitting that corporations have 'no plan' for the mass unemployment AI is about to cause.",
+              "url": "https://www.reddit.com/r/antiwork/comments/1vzr0h1/even_bill_gates_is_admitting_that_corporations/"
+            },
+            {
+              "heat": "3,674热度 · 25评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-14",
+              "rank": 2,
+              "title": "In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it",
+              "url": "https://www.reddit.com/r/shittymoviedetails/comments/1wgin41/in_t2_1991_humanity_creates_an_artificial/"
+            },
+            {
+              "heat": "1,469热度 · 529评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-08-29",
+              "rank": 3,
+              "title": "Bill Gates calls for ‘human-reserved’ jobs in face of AI takeover | AI (artificial intelligence)",
+              "url": "https://www.reddit.com/r/Futurology/comments/1w1fbxd/bill_gates_calls_for_humanreserved_jobs_in_face/"
+            },
+            {
+              "heat": "921热度 · 323评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-18",
+              "rank": 4,
+              "title": "The people versus AI: Young people pushing back against artificial intelligence",
+              "url": "https://www.reddit.com/r/australia/comments/1wk0zit/the_people_versus_ai_young_people_pushing_back/"
+            },
+            {
+              "heat": "811热度 · 55评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-03",
+              "rank": 5,
+              "title": "George Clooney warns artificial intelligence is a threat to truth and journalism",
+              "url": "https://www.reddit.com/r/entertainment/comments/1w69xq0/george_clooney_warns_artificial_intelligence_is_a/"
+            },
+            {
+              "heat": "777热度 · 63评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-04",
+              "rank": 6,
+              "title": "Voters in a Missouri city have recalled a city council member after a dispute over tax incentives for an AI data center, highlighting growing tensions around the local impact of the infrastructure powering artificial intelligence.",
+              "url": "https://www.reddit.com/r/AIdaily_news/comments/1w791k9/voters_in_a_missouri_city_have_recalled_a_city/"
+            },
+            {
+              "heat": "671热度 · 49评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-05",
+              "rank": 7,
+              "title": "\"Artificial Gooner Intelligence\": Claude AI Coding Agent Lands on Adult Website During Debugging",
+              "url": "https://www.reddit.com/r/technology/comments/1w7v8zp/artificial_gooner_intelligence_claude_ai_coding/"
+            },
+            {
+              "heat": "669热度 · 234评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-06",
+              "rank": 8,
+              "title": "CEO Jensen Huang says Artificial General Intelligence (AGI) has arrived.",
+              "url": "https://www.reddit.com/r/singularity/comments/1w9cbcb/ceo_jensen_huang_says_artificial_general/"
+            },
+            {
+              "heat": "603热度 · 56评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-14",
+              "rank": 9,
+              "title": "For the GPU poor. K2 Horizon 7B ranks between qwen 3.6 27B and qwen 3.6 35BA3b on the Artificial Analysis Intelligence Index.",
+              "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wg82rd/for_the_gpu_poor_k2_horizon_7b_ranks_between_qwen/"
+            },
+            {
+              "heat": "488热度 · 88评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-08",
+              "rank": 10,
+              "title": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No",
+              "url": "https://www.reddit.com/r/technology/comments/1wapzd8/the_pentagon_asked_openai_for_artificial/"
+            }
+          ],
+          "origin": "last30days 每日研究 + last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-09-22",
+          "status": "fresh",
+          "title": "🟠 Reddit Top 10"
+        },
+        {
+          "id": "hacker-news",
+          "items": [
+            {
+              "heat": "158积分 · 65评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-05",
+              "rank": 1,
+              "title": "Artificial Analysis Intelligence Index v4.2",
+              "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2"
+            },
+            {
+              "heat": "5积分 · 2评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-08-27",
+              "rank": 2,
+              "title": "OpenAI's rogue AI model incident was worse than we thought",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
+            },
+            {
+              "heat": "5积分",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-03",
+              "rank": 3,
+              "title": "OpenAI's next big AI model has 'entered the AGI era'",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-09-22",
+          "status": "fresh",
+          "title": "Y Hacker News Top 10"
+        },
+        {
+          "id": "github",
+          "items": [
+            {
+              "heat": "相关度 25.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-03",
+              "rank": 1,
+              "title": "fix(history): recover logan/obsidian ancestry",
+              "url": "https://github.com/LAF-US/IDAHO-VAULT/pull/1029"
+            },
+            {
+              "heat": "相关度 25.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-02",
+              "rank": 2,
+              "title": "Add Fable 5.1, Muse Spark 1.3 & GPT 6 Astra to the bench",
+              "url": "https://github.com/datacurve-ai/deep-swe/issues/89"
+            },
+            {
+              "heat": "相关度 6.9",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-05",
+              "rank": 3,
+              "title": "Remove artificial flagship limits from public estate presentation",
+              "url": "https://github.com/GlacierEQ/job-application/pull/271"
+            },
+            {
+              "heat": "相关度 30.4",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-15",
+              "rank": 4,
+              "title": "data: 15 Sep source check — 10 records re-verified (1 date moved, 1 conflict resolved)",
+              "url": "https://github.com/timnik82/lisbon-ai-week/pull/13"
+            },
+            {
+              "heat": "相关度 24.5",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-01",
+              "rank": 5,
+              "title": "feat: add Agnes AI provider (text + image + video models)",
+              "url": "https://github.com/BerriAI/litellm/pull/39083"
+            },
+            {
+              "heat": "相关度 25.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-02",
+              "rank": 6,
+              "title": "docs: Update the AI code guidelines",
+              "url": "https://github.com/TheSuperHackers/GeneralsGameCode/pull/3249"
+            },
+            {
+              "heat": "相关度 4.4",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-08-27",
+              "rank": 7,
+              "title": "Stream, mail: custom PROXY protocol v2 TLVs to backends.",
+              "url": "https://github.com/nginx/nginx/pull/1698"
+            },
+            {
+              "heat": "相关度 6.9",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-09",
+              "rank": 8,
+              "title": "fix(release): pin the Linux builds to a portable glibc baseline",
+              "url": "https://github.com/ADORSYS-GIS/lci-mcp/pull/11"
+            },
+            {
+              "heat": "相关度 20.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-06",
+              "rank": 9,
+              "title": "[Suggestion] Anti-AI policy",
+              "url": "https://github.com/Senryoku/Deecy/issues/304"
+            },
+            {
+              "heat": "相关度 21.6",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-04",
+              "rank": 10,
+              "title": "DFlash2 speculative decoding for Qwen3.8-27B",
+              "url": "https://github.com/ml-explore/mlx-swift-lm/pull/607"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-09-22",
+          "status": "fresh",
+          "title": "⌘ GitHub Top 10"
+        },
+        {
+          "id": "digg",
+          "items": [
+            {
+              "heat": "相关度 30.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-09",
+              "rank": 1,
+              "title": "The choice between centralizing and dispersing power in AI",
+              "url": "https://di.gg/ai/u6atvcoe"
+            },
+            {
+              "heat": "相关度 36.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+              "rank": 2,
+              "title": "Artificial Intelligence Underwriting Company raises $55M to audit and insure frontier AI models",
+              "url": "https://di.gg/ai/b3tvocer"
+            },
+            {
+              "heat": "相关度 36.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+              "rank": 3,
+              "title": "Human extinction and widespread harm in the AI safety debate",
+              "url": "https://di.gg/ai/vescsxc2"
+            },
+            {
+              "heat": "相关度 33.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-12",
+              "rank": 4,
+              "title": "Sakana AI highlights Royal Society issue on how AI models the world",
+              "url": "https://di.gg/ai/l6qw1pzj"
+            },
+            {
+              "heat": "相关度 31.7",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-15",
+              "rank": 5,
+              "title": "Uploaded intelligence versus AI: computing demands and efficiency",
+              "url": "https://di.gg/ai/bgcolwva"
+            },
+            {
+              "heat": "相关度 29.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-06",
+              "rank": 6,
+              "title": "AI economics volume covers jobs and markets, according to contents shared by Erik Brynjolfsson",
+              "url": "https://di.gg/ai/lhwi2os0"
+            },
+            {
+              "heat": "相关度 30.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-08",
+              "rank": 7,
+              "title": "UN rights chief warns AI could pose ‘existential’ risk, Reuters reports",
+              "url": "https://di.gg/ai/ju9tih7j"
+            },
+            {
+              "heat": "相关度 38.9",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+              "rank": 8,
+              "title": "The case for treating AI as a tool, not a person",
+              "url": "https://di.gg/ai/hec4j4or"
+            },
+            {
+              "heat": "相关度 30.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-08",
+              "rank": 9,
+              "title": "A post mocks the idea that AI’s lack of “soul” means it will never replace people",
+              "url": "https://di.gg/ai/pdyo99a5"
+            },
+            {
+              "heat": "相关度 25.4",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-04",
+              "rank": 10,
+              "title": "@scaling01 Claims Persistent Astra and Persistent Sol",
+              "url": "https://di.gg/ai/qdxrqgqd"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-09-22",
+          "status": "fresh",
+          "title": "D Digg Top 10"
+        }
+      ],
+      "title": "🔥 社交与社区 AI 热度 Top 10"
+    },
+    {
+      "blocks": [
+        {
+          "items": [
+            {
+              "spans": [
+                {
+                  "text": "📰 何夕2077 · AI 资讯日报：沿用最近成功快照 · 1 条 · 今日日报未检出，展示来源最近一期（2026-09-21） · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🤖 aihot · AI 热点速递：正常 · 10 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📈 GitHub 今日 Trending：正常 · 12 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🌱 本周新建高星项目：正常 · 10 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📰 Techmeme · 科技新闻聚合：正常 · 8 条 · 公开列表元数据；未提供日期的文章不推断发布时间。 · 采集 2026-09-22T08:55:39+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "💬 Hacker News · 开发者热榜：正常 · 3 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🧪 arXiv · AI 最新论文：正常 · 6 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🦋 Bluesky · 联邦宇宙动态：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📈 StockTwits · 市场情绪热榜：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🚀 Product Hunt · 今日新品：正常 · 8 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🌟 Hacker News · 最佳故事：正常 · 8 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🆕 Hacker News · 最新发布：正常 · 8 条 · 公开来源采集成功 · 采集 2026-09-22T08:55:29+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🏡 Y Combinator · 官方博客：正常 · 6 条 · 公开列表元数据；未提供日期的文章不推断发布时间。 · 采集 2026-09-22T08:55:43+08:00"
+                }
+              ]
+            }
+          ],
+          "ordered": false,
+          "type": "list"
+        }
+      ],
+      "id": "source-health",
+      "kind": "blocks",
+      "title": "◎ 来源状态与采集口径"
+    },
+    {
+      "id": "aihot",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
+          "url": "https://aihot.virxact.com/items/cmubyl2o004y7ro9i986nyhfy"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
+          "url": "https://aihot.virxact.com/items/cmubpn8sw05u5ro4vlvacy22d"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Linear 重构 CI 流程应对 AI 编码带来的验证瓶颈，PR 等待时间从 6 分钟降至 5 分钟",
+          "url": "https://aihot.virxact.com/items/cmublfs5a03bcro0lebbtf8fb"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Tomer Tunguz 谈 AI 优化 if-then 判断：专用决策器把分类成本降近百倍",
+          "url": "https://aihot.virxact.com/items/cmubhvftd10qjrolnr7q9k3lt"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
+          "url": "https://aihot.virxact.com/items/cmubni6yr03ihro4v6pea4amm"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "xAI 发布 Grok 4.7，主打编码与知识工作",
+          "url": "https://aihot.virxact.com/items/cmubfarpy0xtirolnplntl9p1"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Nathan Lambert 撰文分析开源模型的中美实力格局",
+          "url": "https://aihot.virxact.com/items/cmub7xfbe0putrolnfkkepe2c"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "亚马逊封禁 Meta Muse 智能体代用户购物，双方争端升级",
+          "url": "https://aihot.virxact.com/items/cmub7xf1o0pu2roln165i6mhu"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Kimi 发布 Kimi Code Desktop 1.0，macOS 与 Windows 版同步上线",
+          "url": "https://aihot.virxact.com/items/cmuaytowf0c4oroln02tacq0c"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "url": "https://aihot.virxact.com/items/cmualyqxc0nztro5tbldva2bh"
+        }
+      ],
+      "kind": "links",
+      "title": "🤖 aihot · AI 热点速递"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "BuilderIO/agent-native",
+            "url": "https://github.com/BuilderIO/agent-native"
+          },
+          "TypeScript",
+          "607",
+          "A framework for building agentic apps"
+        ],
+        [
+          {
+            "text": "trycua/cua",
+            "url": "https://github.com/trycua/cua"
+          },
+          "HTML",
+          "609",
+          "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+        ],
+        [
+          {
+            "text": "Open-Dev-Society/OpenStock",
+            "url": "https://github.com/Open-Dev-Society/OpenStock"
+          },
+          "TypeScript",
+          "844",
+          "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for ev"
+        ],
+        [
+          {
+            "text": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory"
+          },
+          "Rust",
+          "167",
+          "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+        ],
+        [
+          {
+            "text": "coder/coder",
+            "url": "https://github.com/coder/coder"
+          },
+          "Go",
+          "460",
+          "Secure environments for developers and their agents"
+        ],
+        [
+          {
+            "text": "anthropics/financial-services",
+            "url": "https://github.com/anthropics/financial-services"
+          },
+          "Python",
+          "424",
+          "未提供"
+        ],
+        [
+          {
+            "text": "cloudflare/quiche",
+            "url": "https://github.com/cloudflare/quiche"
+          },
+          "Rust",
+          "32",
+          "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3"
+        ],
+        [
+          {
+            "text": "mvt-project/mvt",
+            "url": "https://github.com/mvt-project/mvt"
+          },
+          "Python",
+          "169",
+          "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise."
+        ],
+        [
+          {
+            "text": "zhouxiaoka/autoclip",
+            "url": "https://github.com/zhouxiaoka/autoclip"
+          },
+          "Python",
+          "250",
+          "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具"
+        ],
+        [
+          {
+            "text": "ruanyf/weekly",
+            "url": "https://github.com/ruanyf/weekly"
+          },
+          "未提供",
+          "182",
+          "科技爱好者周刊，每周五发布"
+        ],
+        [
+          {
+            "text": "Crosstalk-Solutions/project-nomad",
+            "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+          },
+          "TypeScript",
+          "394",
+          "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no inter"
+        ],
+        [
+          {
+            "text": "yynxxxxx/Codex-X",
+            "url": "https://github.com/yynxxxxx/Codex-X"
+          },
+          "Rust",
+          "50",
+          "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "browser-use/jev-ultrafast",
+            "url": "https://github.com/browser-use/jev-ultrafast"
+          },
+          "Python",
+          "15740",
+          "Fastest and cheapest web agent"
+        ],
+        [
+          {
+            "text": "NandhaKishorM/laya",
+            "url": "https://github.com/NandhaKishorM/laya"
+          },
+          "Python",
+          "10321",
+          "未提供"
+        ],
+        [
+          {
+            "text": "tamaratran/fast-jev-compaction",
+            "url": "https://github.com/tamaratran/fast-jev-compaction"
+          },
+          "TypeScript",
+          "5965",
+          "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everythin"
+        ],
+        [
+          {
+            "text": "zai-org/ZCode",
+            "url": "https://github.com/zai-org/ZCode"
+          },
+          "TypeScript",
+          "5601",
+          "Z.ai's coding agent harness. Powerful, intelligent, extensible."
+        ],
+        [
+          {
+            "text": "robbietilton/Compositor",
+            "url": "https://github.com/robbietilton/Compositor"
+          },
+          "Swift",
+          "4395",
+          "The Photoshop alternative for Mac"
+        ],
+        [
+          {
+            "text": "mizorewww/laya-mlx",
+            "url": "https://github.com/mizorewww/laya-mlx"
+          },
+          "Python",
+          "3852",
+          "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API."
+        ],
+        [
+          {
+            "text": "TheoLeeCJ/SemIf",
+            "url": "https://github.com/TheoLeeCJ/SemIf"
+          },
+          "Python",
+          "3246",
+          "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
+        ],
+        [
+          {
+            "text": "jaredpalmer/kev",
+            "url": "https://github.com/jaredpalmer/kev"
+          },
+          "Python",
+          "2450",
+          "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own"
+        ],
+        [
+          {
+            "text": "jarrodwatts/jev-trader",
+            "url": "https://github.com/jarrodwatts/jev-trader"
+          },
+          "TypeScript",
+          "1854",
+          "One AI trade decision every Monad block. Jev on Kuru MON-USDC."
+        ],
+        [
+          {
+            "text": "TianyuCodings/NanoJev",
+            "url": "https://github.com/TianyuCodings/NanoJev"
+          },
+          "Python",
+          "1811",
+          "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Amazon says it blocked Meta's Muse AI agent from accessing Amazon.com to shop on users' behalf, citing ToS violations, security risks, and no merchant consent",
+          "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Intel closes up 12%, AMD 10%, and Arm 17% on Monday amid investor optimism that Meta's Muse could boost CPU demand; AMD's market cap tops $1T for the first time",
+          "url": "https://www.barrons.com/articles/intel-stock-price-arm-meta-muse-2a81cacf?st=DS1dmX&reflink=desktopwebshare_permalink"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sensor Tower: Muse was downloaded 902K+ times in the six days after its launch on Sept. 8, vs. Meta AI's 773K in the same post-launch period; META jumps 12%+",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-21/meta-s-new-muse-ai-app-tops-charts-draws-strong-early-reviews"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: OpenAI is developing features to counter SpaceX's Grok Bot “teammates”, and has discussed creating a personal AI assistant to compete with Meta's Muse",
+          "url": "https://www.theinformation.com/articles/openai-develops-features-counter-grok-bot-mulls-response-metas-muse"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI says automated research could improve alignment, but “fully autonomous RSI is not happening today” and shouldn't be pursued unless it can be done safely",
+          "url": "https://openai.com/index/building-standards-next-phase-ai/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Ahead of Sam Altman's UN address, OpenAI urges the US to lead an effort to develop global safety and security standards for building frontier systems",
+          "url": "https://www.axios.com/2026/09/21/openai-ai-safety-standards-us-china"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google unveils Googlebook hardware, with flagship devices from Acer, Asus, Dell, HP, and Lenovo, offering deep Android integration, coming in October for $899+",
+          "url": "https://9to5google.com/2026/09/21/googlebook-launch/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google's Googlebook OS, built on Android with a Material 3 Expressive and ChromeOS hybrid UI, offers deep Android 17 integration, 10 years of support, and more",
+          "url": "https://www.theverge.com/tech/998095/googlebook-laptop-android-continue-on-app-cast"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-09-22 · 128 互动/积分 · 120 评论",
+          "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+          "url": "https://linear.app/now/ci-bottleneck-reworked"
+        },
+        {
+          "meta": "发布 2026-09-22 · 93 互动/积分 · 46 评论",
+          "title": "Frontier AI on Your Own Hardware",
+          "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/"
+        },
+        {
+          "meta": "发布 2026-09-22 · 35 互动/积分 · 4 评论",
+          "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+          "url": "https://github.com/naw103/foremerge"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-09-19",
+          "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+          "url": "https://arxiv.org/abs/2609.22086v1"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "Cross-sector generalization of accident-process role classification in occupational accident narratives",
+          "url": "https://arxiv.org/abs/2609.22081v1"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+          "url": "https://arxiv.org/abs/2609.22068v1"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+          "url": "https://arxiv.org/abs/2609.22067v1"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+          "url": "https://arxiv.org/abs/2609.22056v1"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+          "url": "https://arxiv.org/abs/2609.22043v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源要求验证或限制访问，已停止该来源"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "bluesky",
+      "kind": "blocks",
+      "title": "🦋 Bluesky · 联邦宇宙动态"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源要求验证或限制访问，已停止该来源"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "stocktwits",
+      "kind": "blocks",
+      "title": "📈 StockTwits · 市场情绪热榜"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-09-15",
+          "title": "Arcjet",
+          "url": "https://www.producthunt.com/products/arcjet"
+        },
+        {
+          "meta": "发布 2026-09-19",
+          "title": "Gradio Workflow",
+          "url": "https://www.producthunt.com/products/gradio"
+        },
+        {
+          "meta": "发布 2026-09-21",
+          "title": "Milliseconds.ai",
+          "url": "https://www.producthunt.com/products/milliseconds-ai"
+        },
+        {
+          "meta": "发布 2026-09-21",
+          "title": "Jev",
+          "url": "https://www.producthunt.com/products/jev-2"
+        },
+        {
+          "meta": "发布 2026-09-21",
+          "title": "Cronhq",
+          "url": "https://www.producthunt.com/products/cronhq"
+        },
+        {
+          "meta": "发布 2026-09-20",
+          "title": "Sai",
+          "url": "https://www.producthunt.com/products/simular"
+        },
+        {
+          "meta": "发布 2026-08-26",
+          "title": "Supacut",
+          "url": "https://www.producthunt.com/products/supacut"
+        },
+        {
+          "meta": "发布 2026-09-16",
+          "title": "Refoid",
+          "url": "https://www.producthunt.com/products/refoid-decline-unreasonable-refunds"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 今日新品"
+    },
+    {
+      "id": "hacker-news-best",
+      "items": [
+        {
+          "meta": "发布 2026-09-19 · 1855 互动/积分 · 942 评论",
+          "title": "AI-generated posters don’t have to be horrible",
+          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html"
+        },
+        {
+          "meta": "发布 2026-09-02 · 1419 互动/积分 · 1395 评论",
+          "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "meta": "发布 2026-09-12 · 1241 互动/积分 · 1214 评论",
+          "title": "A misalignment of AI in mathematics",
+          "url": "https://mathandai.org/"
+        },
+        {
+          "meta": "发布 2026-09-09 · 1212 互动/积分 · 453 评论",
+          "title": "Claude, change the “Add to Cart” button to blue",
+          "url": "https://opusfived.dev/"
+        },
+        {
+          "meta": "发布 2026-08-27 · 1035 互动/积分 · 716 评论",
+          "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+          "url": "https://github.com/SenteLabsAI/OpenExecutive"
+        },
+        {
+          "meta": "发布 2026-09-18 · 942 互动/积分 · 825 评论",
+          "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+        },
+        {
+          "meta": "发布 2026-09-02 · 879 互动/积分 · 1056 评论",
+          "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+          "url": "https://danluu.com/zitron/"
+        },
+        {
+          "meta": "发布 2026-09-11 · 868 互动/积分 · 404 评论",
+          "title": "Ask HN: Can we please limit the AI news flood?",
+          "url": "https://news.ycombinator.com/item?id=49657850"
+        }
+      ],
+      "kind": "links",
+      "title": "🌟 Hacker News · 最佳故事"
+    },
+    {
+      "id": "hacker-news-new",
+      "items": [
+        {
+          "meta": "发布 2026-09-22 · 1 互动/积分 · 0 评论",
+          "title": "First NetHack Ascension by an LLM",
+          "url": "https://www.hardfought.org/userdata/C/CodexDelver/nethack/dumplog/1788964024.nh.html"
+        },
+        {
+          "meta": "发布 2026-09-22 · 1 互动/积分 · 0 评论",
+          "title": "Trump admin won't give AI leaders a 'liability shield,' Bessent tells CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/treasury-bessent-cnbc-squawk-trump-bond-affordabilty.html"
+        },
+        {
+          "meta": "发布 2026-09-22 · 1 互动/积分 · 0 评论",
+          "title": "You're predictable. That's a good thing: Can personal LLMs learn your judgment?",
+          "url": "https://handsdiff.substack.com/p/youre-predictable-thats-a-good-thing"
+        },
+        {
+          "meta": "发布 2026-09-22 · 2 互动/积分 · 0 评论",
+          "title": "How Google is drafting AI chatbot laws around the country",
+          "url": "https://www.npr.org/2026/09/18/nx-s1-5968878/ai-chatbots-safety-regulation-google"
+        },
+        {
+          "meta": "发布 2026-09-22 · 2 互动/积分 · 0 评论",
+          "title": "What We Should Do During a Pause on AI Development",
+          "url": "https://blog.saikat.us/p/what-we-should-do-during-a-pause"
+        },
+        {
+          "meta": "发布 2026-09-22 · 2 互动/积分 · 1 评论",
+          "title": "AI provides the logic; the compiler makes it real – with zero hallucinations",
+          "url": "https://github.com/SPLWare/SQLazy"
+        },
+        {
+          "meta": "发布 2026-09-22 · 1 互动/积分 · 0 评论",
+          "title": "So, is AI going to kill us? 11 experts, 11 answers",
+          "url": "https://sfstandard.com/2026/09/21/experts-ai-doom/"
+        },
+        {
+          "meta": "发布 2026-09-22 · 2 互动/积分 · 0 评论",
+          "title": "Brad Smith and Kevin Rudd on AI, Regulation, and the Future of Work [video]",
+          "url": "https://www.youtube.com/watch?v=hClbN_imH5Y"
+        }
+      ],
+      "kind": "links",
+      "title": "🆕 Hacker News · 最新发布"
+    },
+    {
+      "id": "y-combinator",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Christopher Golda and Grey Baker Join YC as General Partners",
+          "url": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Diana Hu Is YC's Newest Managing Partner",
+          "url": "https://www.ycombinator.com/blog/diana-hu-managing-partner"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Harshita Arora Joins YC as General Partner",
+          "url": "https://www.ycombinator.com/blog/welcome-harshita"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+          "url": "https://www.ycombinator.com/blog/adding-canada-back"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Congratulations to EquipmentShare on Going Public",
+          "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Announcing the YC AI Stack",
+          "url": "https://www.ycombinator.com/blog/the-yc-ai-student-starter-pack"
+        }
+      ],
+      "kind": "links",
+      "title": "🏡 Y Combinator · 官方博客"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
