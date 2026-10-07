@@ -66,7 +66,13 @@
         <h1>xAIT 今日</h1>
         <p class="tagline">AI 和 IT 的无限可能</p>
       </div>
-      <div class="theme-switcher" role="group" aria-label="页面主题">
+      <div class="reading-controls">
+        <div class="language-switcher" role="group" aria-label="阅读语言" data-no-i18n>
+          <button class="language-btn active" type="button" data-language="zh" aria-pressed="true" lang="zh-CN">中文</button>
+          <button class="language-btn" type="button" data-language="en" aria-pressed="false" lang="en">English</button>
+        </div>
+        <button class="original-content-toggle" id="original-content-toggle" type="button" aria-pressed="false">查看原文</button>
+        <div class="theme-switcher" role="group" aria-label="页面主题">
         <span class="theme-label" aria-hidden="true">主题</span>
         <button class="theme-btn" type="button" data-theme="theme-terminal" aria-pressed="true" title="数据终端">终端</button>
         <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" title="赛博霓虹">赛博</button>
@@ -75,10 +81,13 @@
         <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" title="高端咨询报告">咨询</button>
         <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" title="极简科技">极简</button>
         <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" title="柔和纸张">纸张</button>
+        </div>
       </div>
     </header>
 
     <div class="container">
+      <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
+      <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
         <span class="section-label">历史归档</span>
         <time class="issue-date" datetime="2026-09-23">2026-09-23</time>
@@ -255,5 +264,569 @@
       </footer>
     </div>
   </main>
+<template id="xait-language-data">{
+  "content": {
+    "Adding Canada Back to Our List of Accepted Countries of Incorporation": {
+      "en": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "zh": "将加拿大重新加入获准公司注册地名单"
+    },
+    "Christopher Golda and Grey Baker Join YC as General Partners": {
+      "en": "Christopher Golda and Grey Baker Join YC as General Partners",
+      "zh": "Christopher Golda 和 Grey Baker 加入 YC，担任普通合伙人"
+    },
+    "Congratulations to EquipmentShare on Going Public": {
+      "en": "Congratulations to EquipmentShare on Going Public",
+      "zh": "祝贺 EquipmentShare 上市"
+    },
+    "Diana Hu Is YC's Newest Managing Partner": {
+      "en": "Diana Hu Is YC's Newest Managing Partner",
+      "zh": "Diana Hu 成为 YC 最新的管理合伙人"
+    },
+    "Harshita Arora Joins YC as General Partner": {
+      "en": "Harshita Arora Joins YC as General Partner",
+      "zh": "Harshita Arora 加入 YC，担任普通合伙人"
+    }
+  },
+  "schemaVersion": 1,
+  "ui": {
+    "AI 和 IT 的无限可能": {
+      "en": "The possibilities of AI and IT",
+      "zh": "AI 和 IT 的无限可能"
+    },
+    "AI 资讯 · IT 热点 · 每日精选": {
+      "en": "AI news · IT trends · Daily picks",
+      "zh": "AI 资讯 · IT 热点 · 每日精选"
+    },
+    "AI资讯：": {
+      "en": "AI news: ",
+      "zh": "AI资讯："
+    },
+    "last30days 多源 AI 热点": {
+      "en": "last30days multi-source AI trends",
+      "zh": "last30days 多源 AI 热点"
+    },
+    "last30days 每日研究": {
+      "en": "last30days daily research",
+      "zh": "last30days 每日研究"
+    },
+    "last30days 每日研究 + last30days 多源 AI 热点": {
+      "en": "last30days daily research + last30days multi-source AI trends",
+      "zh": "last30days 每日研究 + last30days 多源 AI 热点"
+    },
+    "xAIT 今日": {
+      "en": "xAIT Today",
+      "zh": "xAIT 今日"
+    },
+    "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接": {
+      "en": "xAIT Today — essential AI news from public sources, with publication windows, source status and original links.",
+      "zh": "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接"
+    },
+    "◎ 来源状态与采集口径": {
+      "en": "◎ Source status and collection methodology",
+      "zh": "◎ 来源状态与采集口径"
+    },
+    "一句话总结：": {
+      "en": "In one sentence: ",
+      "zh": "一句话总结："
+    },
+    "不可用": {
+      "en": "Unavailable",
+      "zh": "不可用"
+    },
+    "主题": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "互动/积分": {
+      "en": "interactions/points",
+      "zh": "互动/积分"
+    },
+    "产品": {
+      "en": "Products",
+      "zh": "产品"
+    },
+    "仅切换新闻内容，界面语言保持不变": {
+      "en": "Switch news content only; keep the selected interface language",
+      "zh": "仅切换新闻内容，界面语言保持不变"
+    },
+    "今日": {
+      "en": "Today",
+      "zh": "今日"
+    },
+    "今日增长": {
+      "en": "Today's growth",
+      "zh": "今日增长"
+    },
+    "今日必读": {
+      "en": "Today's essentials",
+      "zh": "今日必读"
+    },
+    "今日摘要": {
+      "en": "Daily summary",
+      "zh": "今日摘要"
+    },
+    "今日摘要：": {
+      "en": "Daily summary: ",
+      "zh": "今日摘要："
+    },
+    "今日未检出新文章": {
+      "en": "No new article found today",
+      "zh": "今日未检出新文章"
+    },
+    "仓库": {
+      "en": "Repository",
+      "zh": "仓库"
+    },
+    "公开列表元数据；未提供日期的文章不推断发布时间。": {
+      "en": "Public-list metadata only; publication times are not inferred when dates are absent.",
+      "zh": "公开列表元数据；未提供日期的文章不推断发布时间。"
+    },
+    "公开文章列表": {
+      "en": "Public article list",
+      "zh": "公开文章列表"
+    },
+    "公开来源暂时不可用，沿用最近一次成功快照": {
+      "en": "Public source temporarily unavailable; using the latest successful snapshot",
+      "zh": "公开来源暂时不可用，沿用最近一次成功快照"
+    },
+    "公开来源连接失败或超时": {
+      "en": "Public-source connection failed or timed out",
+      "zh": "公开来源连接失败或超时"
+    },
+    "公开来源采集成功": {
+      "en": "Public source collected successfully",
+      "zh": "公开来源采集成功"
+    },
+    "公开简报": {
+      "en": "Public briefings",
+      "zh": "公开简报"
+    },
+    "刚刚": {
+      "en": "Just now",
+      "zh": "刚刚"
+    },
+    "前天": {
+      "en": "Two days ago",
+      "zh": "前天"
+    },
+    "历史归档": {
+      "en": "Archives",
+      "zh": "历史归档"
+    },
+    "历史简报": {
+      "en": "Archived briefing",
+      "zh": "历史简报"
+    },
+    "原文 · 暂无译文": {
+      "en": "Original · translation unavailable",
+      "zh": "原文 · 暂无译文"
+    },
+    "发布时间未核验": {
+      "en": "Publication time not verified",
+      "zh": "发布时间未核验"
+    },
+    "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。": {
+      "en": "Each community shows the collected AI-related candidates and collection dates. Rankings cover these candidates only, are not official site-wide rankings, and do not compare engagement across communities.",
+      "zh": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
+    },
+    "咨询": {
+      "en": "Executive",
+      "zh": "咨询"
+    },
+    "展开历史栏": {
+      "en": "Expand archive sidebar",
+      "zh": "展开历史栏"
+    },
+    "开源": {
+      "en": "Open source",
+      "zh": "开源"
+    },
+    "开源 TOP 项目：": {
+      "en": "Top open-source projects: ",
+      "zh": "开源 TOP 项目："
+    },
+    "开源TOP项目": {
+      "en": "Top open-source projects",
+      "zh": "开源TOP项目"
+    },
+    "开源TOP项目：": {
+      "en": "Top open-source projects: ",
+      "zh": "开源TOP项目："
+    },
+    "当前快照没有公开文章": {
+      "en": "No public articles in the current snapshot",
+      "zh": "当前快照没有公开文章"
+    },
+    "当前显示新闻原文；界面语言保持不变，来源链接始终保留。": {
+      "en": "Showing original news text. The interface language is unchanged and source links are preserved.",
+      "zh": "当前显示新闻原文；界面语言保持不变，来源链接始终保留。"
+    },
+    "快照日期（未注明核验方式）": {
+      "en": "Snapshot date (verification method not specified)",
+      "zh": "快照日期（未注明核验方式）"
+    },
+    "成功": {
+      "en": "Success",
+      "zh": "成功"
+    },
+    "打开文章": {
+      "en": "Open article",
+      "zh": "打开文章"
+    },
+    "打开账号列表": {
+      "en": "Open account list",
+      "zh": "打开账号列表"
+    },
+    "技术趋势": {
+      "en": "Technology trends",
+      "zh": "技术趋势"
+    },
+    "技术趋势：": {
+      "en": "Technology trends: ",
+      "zh": "技术趋势："
+    },
+    "按来源跳转": {
+      "en": "Jump to a source",
+      "zh": "按来源跳转"
+    },
+    "按来源阅读": {
+      "en": "Read by source",
+      "zh": "按来源阅读"
+    },
+    "收起历史栏": {
+      "en": "Collapse archive sidebar",
+      "zh": "收起历史栏"
+    },
+    "教程": {
+      "en": "Tutorials",
+      "zh": "教程"
+    },
+    "数据终端": {
+      "en": "Data terminal",
+      "zh": "数据终端"
+    },
+    "无新增": {
+      "en": "No new items",
+      "zh": "无新增"
+    },
+    "昨天": {
+      "en": "Yesterday",
+      "zh": "昨天"
+    },
+    "最新一期": {
+      "en": "Latest issue",
+      "zh": "最新一期"
+    },
+    "最近": {
+      "en": "Recent",
+      "zh": "最近"
+    },
+    "最近成功": {
+      "en": "Last success",
+      "zh": "最近成功"
+    },
+    "未提供": {
+      "en": "Not provided",
+      "zh": "未提供"
+    },
+    "未检出符合条件的内容": {
+      "en": "No qualifying items found",
+      "zh": "未检出符合条件的内容"
+    },
+    "未记录": {
+      "en": "Not recorded",
+      "zh": "未记录"
+    },
+    "未运行": {
+      "en": "Not run",
+      "zh": "未运行"
+    },
+    "本期没有来源记录": {
+      "en": "No source records for this issue",
+      "zh": "本期没有来源记录"
+    },
+    "本期没有满足条件的今日必读。仅采用窗口内发布时间明确、采集成功且与 AI 相关的公开文章；日期不明或来源受限的内容请在按来源阅读中查看。": {
+      "en": "No articles qualify for this issue's essentials. Only successfully collected, AI-related public articles with a clear publication time inside the issue window are included. Find undated or restricted-source content under Read by source.",
+      "zh": "本期没有满足条件的今日必读。仅采用窗口内发布时间明确、采集成功且与 AI 相关的公开文章；日期不明或来源受限的内容请在按来源阅读中查看。"
+    },
+    "本次未检出符合条件的公开内容": {
+      "en": "No qualifying public content found in this collection",
+      "zh": "本次未检出符合条件的公开内容"
+    },
+    "杂志": {
+      "en": "Magazine",
+      "zh": "杂志"
+    },
+    "条数": {
+      "en": "Items",
+      "zh": "条数"
+    },
+    "来源": {
+      "en": "Source",
+      "zh": "来源"
+    },
+    "来源列表未提供可核验发布日期": {
+      "en": "The source list provides no verifiable publication date",
+      "zh": "来源列表未提供可核验发布日期"
+    },
+    "来源暂不可用": {
+      "en": "Source temporarily unavailable",
+      "zh": "来源暂不可用"
+    },
+    "来源最新周报：": {
+      "en": "Latest weekly issue from the source: ",
+      "zh": "来源最新周报："
+    },
+    "来源要求验证或限制访问，已停止该来源": {
+      "en": "The source requires verification or restricts access; collection stopped",
+      "zh": "来源要求验证或限制访问，已停止该来源"
+    },
+    "来源：": {
+      "en": "Source: ",
+      "zh": "来源："
+    },
+    "极简": {
+      "en": "Minimal",
+      "zh": "极简"
+    },
+    "极简科技": {
+      "en": "Quiet technology",
+      "zh": "极简科技"
+    },
+    "构建状态": {
+      "en": "Build status",
+      "zh": "构建状态"
+    },
+    "柔和纸张": {
+      "en": "Soft paper",
+      "zh": "柔和纸张"
+    },
+    "查看公开 JSON": {
+      "en": "View public JSON",
+      "zh": "查看公开 JSON"
+    },
+    "查看原文": {
+      "en": "Show originals",
+      "zh": "查看原文"
+    },
+    "查看各来源状态、条数与采集时间": {
+      "en": "View source status, item counts and collection times",
+      "zh": "查看各来源状态、条数与采集时间"
+    },
+    "查看来源状态与采集时间": {
+      "en": "View source status and collection times",
+      "zh": "查看来源状态与采集时间"
+    },
+    "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。": {
+      "en": "Titles or summaries must contain AI-related terms. Up to 8 items are ordered by source-recorded publication time, with at most 2 per representative source; Hacker News channels share that limit. Records may merge only by the same public URL, an explicit original URL or an event identifier—not by similar titles. A source's listing time is not necessarily the original publication time.",
+      "zh": "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。"
+    },
+    "检查时间": {
+      "en": "Checked at",
+      "zh": "检查时间"
+    },
+    "模型": {
+      "en": "Models",
+      "zh": "模型"
+    },
+    "正常": {
+      "en": "Available",
+      "zh": "正常"
+    },
+    "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。": {
+      "en": "Each platform is ranked separately with its own collection date. Interaction counts and composite engagement use different measures and are not compared across platforms.",
+      "zh": "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。"
+    },
+    "沿用旧快照": {
+      "en": "Previous snapshot",
+      "zh": "沿用旧快照"
+    },
+    "沿用最近一次成功快照": {
+      "en": "Latest successful snapshot",
+      "zh": "沿用最近一次成功快照"
+    },
+    "沿用最近成功快照": {
+      "en": "Latest successful snapshot",
+      "zh": "沿用最近成功快照"
+    },
+    "状态": {
+      "en": "Status",
+      "zh": "状态"
+    },
+    "瑞士": {
+      "en": "Swiss",
+      "zh": "瑞士"
+    },
+    "瑞士国际主义": {
+      "en": "Swiss international",
+      "zh": "瑞士国际主义"
+    },
+    "研究": {
+      "en": "Research",
+      "zh": "研究"
+    },
+    "简介": {
+      "en": "Description",
+      "zh": "简介"
+    },
+    "纸张": {
+      "en": "Paper",
+      "zh": "纸张"
+    },
+    "终端": {
+      "en": "Terminal",
+      "zh": "终端"
+    },
+    "综合": {
+      "en": "General",
+      "zh": "综合"
+    },
+    "编辑杂志": {
+      "en": "Editorial magazine",
+      "zh": "编辑杂志"
+    },
+    "行业": {
+      "en": "Industry",
+      "zh": "行业"
+    },
+    "行业动向": {
+      "en": "Industry developments",
+      "zh": "行业动向"
+    },
+    "行业动向：": {
+      "en": "Industry developments: ",
+      "zh": "行业动向："
+    },
+    "访问验证待处理": {
+      "en": "Access verification pending",
+      "zh": "访问验证待处理"
+    },
+    "译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。": {
+      "en": "AI-assisted translations are prepared in advance for reading convenience. Original text and source links are always preserved.",
+      "zh": "译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。"
+    },
+    "该来源当前不可用，等待下一次有效快照": {
+      "en": "This source is currently unavailable; waiting for the next valid snapshot",
+      "zh": "该来源当前不可用，等待下一次有效快照"
+    },
+    "语言": {
+      "en": "Language",
+      "zh": "语言"
+    },
+    "说明": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "赛博": {
+      "en": "Cyber",
+      "zh": "赛博"
+    },
+    "赛博霓虹": {
+      "en": "Cyber neon",
+      "zh": "赛博霓虹"
+    },
+    "跳到简报正文": {
+      "en": "Skip to the briefing",
+      "zh": "跳到简报正文"
+    },
+    "返回译文": {
+      "en": "Show translations",
+      "zh": "返回译文"
+    },
+    "部分内容保留原文 · 暂无译文": {
+      "en": "Some content remains in the original language · translation unavailable",
+      "zh": "部分内容保留原文 · 暂无译文"
+    },
+    "采集时显示：": {
+      "en": "Shown at collection: ",
+      "zh": "采集时显示："
+    },
+    "采集概况": {
+      "en": "Collection overview",
+      "zh": "采集概况"
+    },
+    "采集说明": {
+      "en": "Collection notes",
+      "zh": "采集说明"
+    },
+    "阅读语言": {
+      "en": "Reading language",
+      "zh": "阅读语言"
+    },
+    "页面主题": {
+      "en": "Page theme",
+      "zh": "页面主题"
+    },
+    "高端咨询报告": {
+      "en": "Executive report",
+      "zh": "高端咨询报告"
+    },
+    "（北京时间） · 综合": {
+      "en": " (China Standard Time, UTC+08:00) · General",
+      "zh": "（北京时间） · 综合"
+    },
+    "🆕 Hacker News · 最新发布": {
+      "en": "🆕 Hacker News · Newest posts",
+      "zh": "🆕 Hacker News · 最新发布"
+    },
+    "🌟 Hacker News · 最佳故事": {
+      "en": "🌟 Hacker News · Best stories",
+      "zh": "🌟 Hacker News · 最佳故事"
+    },
+    "🌱 本周新建高星项目": {
+      "en": "🌱 New high-star projects this week",
+      "zh": "🌱 本周新建高星项目"
+    },
+    "🏡 Y Combinator · 官方博客": {
+      "en": "🏡 Y Combinator · Official blog",
+      "zh": "🏡 Y Combinator · 官方博客"
+    },
+    "💬 Hacker News · 开发者热榜": {
+      "en": "💬 Hacker News · Developer trends",
+      "zh": "💬 Hacker News · 开发者热榜"
+    },
+    "📈 GitHub 今日 Trending": {
+      "en": "📈 GitHub · Trending today",
+      "zh": "📈 GitHub 今日 Trending"
+    },
+    "📈 StockTwits · 市场情绪热榜": {
+      "en": "📈 StockTwits · Market sentiment",
+      "zh": "📈 StockTwits · 市场情绪热榜"
+    },
+    "📰 Techmeme · 科技新闻聚合": {
+      "en": "📰 Techmeme · Technology news",
+      "zh": "📰 Techmeme · 科技新闻聚合"
+    },
+    "📰 何夕2077 · AI 资讯日报": {
+      "en": "📰 何夕2077 · Daily AI news",
+      "zh": "📰 何夕2077 · AI 资讯日报"
+    },
+    "🔥 社交与社区 AI 热度 Top 10": {
+      "en": "🔥 Social and community AI trends · Top 10",
+      "zh": "🔥 社交与社区 AI 热度 Top 10"
+    },
+    "🚀 Product Hunt · 今日新品": {
+      "en": "🚀 Product Hunt · New products",
+      "zh": "🚀 Product Hunt · 今日新品"
+    },
+    "🟢 重点公众号 · 每日推文": {
+      "en": "🟢 Featured WeChat accounts · Daily posts",
+      "zh": "🟢 重点公众号 · 每日推文"
+    },
+    "🤖 aihot · AI 热点速递": {
+      "en": "🤖 aihot · AI headlines",
+      "zh": "🤖 aihot · AI 热点速递"
+    },
+    "🦋 Bluesky · 联邦宇宙动态": {
+      "en": "🦋 Bluesky · Decentralized social updates",
+      "zh": "🦋 Bluesky · 联邦宇宙动态"
+    },
+    "🧪 arXiv · AI 最新论文": {
+      "en": "🧪 arXiv · Latest AI papers",
+      "zh": "🧪 arXiv · AI 最新论文"
+    }
+  }
+}
+</template>
 </body>
 </html>

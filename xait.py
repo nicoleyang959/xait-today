@@ -36,6 +36,7 @@ ROOT = Path(__file__).resolve().parent
 ISSUES_DIR = ROOT / "content" / "issues"
 TEMPLATE_PATH = ROOT / "site" / "templates" / "page.html"
 ASSETS_DIR = ROOT / "site" / "assets"
+I18N_DIR = ROOT / "site" / "i18n"
 DOCS_DIR = ROOT / "docs"
 PUBLIC_BASE_URL = "https://nicoleyang959.github.io/xait-today/"
 
@@ -45,6 +46,7 @@ EXIT_DRIFT = 3
 EXIT_BUILD = 4
 EXIT_SERVE = 5
 EXIT_SECURITY = 6
+LANGUAGE_CATALOG_MAX_ENTRIES = 25_000
 
 THEMES = {
     "theme-terminal",
@@ -747,6 +749,124 @@ def _escape_text(value: str) -> str:
     return html.escape(value, quote=True).replace("\n", "<br>\n")
 
 
+def _safe_language_catalog_path(path: Path) -> None:
+    """Reject linked catalog files and directories before reading public inputs."""
+    lexical_root = ROOT.absolute()
+    root = ROOT.resolve()
+    candidate = path.absolute()
+    try:
+        candidate.relative_to(lexical_root)
+        candidate.resolve().relative_to(root)
+    except ValueError as exc:
+        raise XaitError("语言目录越出公开源码目录", EXIT_SECURITY) from exc
+    for component in (candidate,) + tuple(candidate.parents):
+        if component.is_symlink():
+            raise XaitError("拒绝符号链接语言目录", EXIT_SECURITY)
+        if component == lexical_root:
+            break
+
+
+def load_language_catalogs(required: bool = False) -> Dict[str, Dict[str, Dict[str, str]]]:
+    """Validate declared public overlays, including entries unused by this issue.
+
+    UI phrases require both translations. Content overlays may supply only one
+    language; missing translations always retain the original source text. The
+    content digest binds each translation to its exact UTF-8 source, preventing
+    a changed headline from silently inheriting an older translation.
+    """
+    result: Dict[str, Dict[str, Dict[str, str]]] = {"ui": {}, "content": {}}
+    for kind in ("ui", "content"):
+        path = I18N_DIR / (kind + ".json")
+        _safe_language_catalog_path(path)
+        if not path.exists():
+            if kind == "ui" and required:
+                raise XaitError("双语模板缺少 site/i18n/ui.json", EXIT_INPUT)
+            continue
+        catalog = _expect_object(_load_json(path), kind + " catalog", {"schemaVersion", "entries"})
+        if _expect_integer(catalog["schemaVersion"], kind + ".schemaVersion") != 1:
+            raise XaitError("语言目录仅支持 schemaVersion 1", EXIT_INPUT)
+        entries = catalog["entries"]
+        if not isinstance(entries, dict) or len(entries) > LANGUAGE_CATALOG_MAX_ENTRIES:
+            raise XaitError("语言目录 entries 必须是限长对象", EXIT_INPUT)
+        for index, (source, entry) in enumerate(entries.items()):
+            label = "{0}.entries[{1}]".format(kind, index)
+            source = _expect_string(source, label + ".source")
+            _scan_sensitive_text(source, label + ".source")
+            if kind == "ui":
+                entry = _expect_object(entry, label, {"zh", "en"})
+            else:
+                entry = _expect_object(entry, label, {"sourceSha256"}, {"zh", "en"})
+                digest = _expect_string(entry["sourceSha256"], label + ".sourceSha256")
+                if not re.fullmatch(r"[0-9a-f]{64}", digest) or digest != hashlib.sha256(source.encode("utf-8")).hexdigest():
+                    raise XaitError("{0} 的原文摘要不匹配".format(label), EXIT_INPUT)
+                if not {"zh", "en"}.intersection(entry):
+                    raise XaitError("{0} 至少需要一个译文".format(label), EXIT_INPUT)
+            translations: Dict[str, str] = {}
+            for language in ("zh", "en"):
+                if language in entry:
+                    text = _expect_string(entry[language], label + "." + language)
+                    _scan_sensitive_text(text, label + "." + language)
+                    translations[language] = text
+            result[kind][source] = translations
+    return result
+
+
+class _LanguageSourceParser(HTMLParser):
+    """Collect renderer-produced text without interpreting it as executable HTML."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.strings: Set[str] = set()
+
+    def handle_data(self, data: str) -> None:
+        if data.strip():
+            self.strings.update({data, data.strip()})
+
+
+def _issue_language_sources(issue: Dict[str, Any]) -> Set[str]:
+    strings: Set[str] = set()
+
+    def collect(value: Any) -> None:
+        if isinstance(value, str):
+            strings.add(value)
+            strings.update(piece for piece in value.splitlines() if piece.strip())
+        elif isinstance(value, dict):
+            for item in value.values():
+                collect(item)
+        elif isinstance(value, list):
+            for item in value:
+                collect(item)
+
+    collect(issue)
+    parser = _LanguageSourceParser()
+    parser.feed(_render_sections(issue))
+    strings.update(parser.strings)
+    return strings
+
+
+def language_payload(
+    issue: Dict[str, Any],
+    catalogs: Optional[Dict[str, Dict[str, Dict[str, str]]]] = None,
+) -> Dict[str, Any]:
+    """Return an issue-scoped presentation overlay without changing source data."""
+    catalogs = load_language_catalogs(required=True) if catalogs is None else catalogs
+    sources = _issue_language_sources(active_issue(issue))
+    return {
+        "schemaVersion": 1,
+        "ui": copy.deepcopy(catalogs["ui"]),
+        "content": {source: copy.deepcopy(entry) for source, entry in catalogs["content"].items() if source in sources},
+    }
+
+
+def render_language_data(
+    issue: Dict[str, Any],
+    catalogs: Optional[Dict[str, Dict[str, Dict[str, str]]]] = None,
+) -> str:
+    """Embed escaped JSON in an inert template, compatible with the strict CSP."""
+    data = _canonical_json(language_payload(issue, catalogs)).decode("utf-8")
+    return '<template id="xait-language-data">{0}</template>'.format(html.escape(data, quote=False))
+
+
 def _link(url: str, text: str, css_class: str = "") -> str:
     class_attr = ' class="{0}"'.format(css_class) if css_class else ""
     return '<a{0} href="{1}" target="_blank" rel="noopener noreferrer">{2}</a>'.format(
@@ -999,7 +1119,10 @@ def _render_history_links(dates: Sequence[str], selected: str, prefix: str) -> s
     return "\n".join(lines)
 
 
-def _render_page(template: str, issue: Dict[str, Any], dates: Sequence[str], is_home: bool) -> str:
+def _render_page(
+    template: str, issue: Dict[str, Any], dates: Sequence[str], is_home: bool,
+    catalogs: Optional[Dict[str, Dict[str, Dict[str, str]]]] = None,
+) -> str:
     issue_date = issue["date"]
     prefix = "" if is_home else "../../"
     canonical = PUBLIC_BASE_URL if is_home else "{0}archive/{1}/".format(PUBLIC_BASE_URL, issue_date)
@@ -1019,6 +1142,7 @@ def _render_page(template: str, issue: Dict[str, Any], dates: Sequence[str], is_
         "{{SECTIONS}}": _render_sections(issue),
         "{{GENERATED_AT}}": _escape_text(issue["generatedAt"]),
         "{{HEALTH_HREF}}": prefix + "health.json",
+        "{{LANGUAGE_DATA}}": render_language_data(issue, catalogs) if "{{LANGUAGE_DATA}}" in template else "",
     }
     rendered = template
     for marker, value in replacements.items():
@@ -1119,6 +1243,8 @@ def build_site(destination: Path, issues: Optional[List[Dict[str, Any]]] = None)
         template = TEMPLATE_PATH.read_text(encoding="utf-8")
     except (OSError, UnicodeError) as exc:
         raise XaitError("无法读取页面模板：{0}".format(exc), EXIT_BUILD) from exc
+    bilingual = "{{LANGUAGE_DATA}}" in template or "data-language=" in template
+    catalogs = load_language_catalogs(required=bilingual)
 
     _write_bytes(destination, ".nojekyll", b"")
     for asset_name in ("app.css", "app.js"):
@@ -1128,7 +1254,7 @@ def build_site(destination: Path, issues: Optional[List[Dict[str, Any]]] = None)
         except OSError as exc:
             raise XaitError("无法复制静态资源 {0}：{1}".format(asset_name, exc), EXIT_BUILD) from exc
 
-    _write_bytes(destination, "index.html", _render_page(template, latest, dates, True).encode("utf-8"))
+    _write_bytes(destination, "index.html", _render_page(template, latest, dates, True, catalogs).encode("utf-8"))
     issue_hashes: Dict[str, str] = {}
     for issue in issues:
         issue_date = issue["date"]
@@ -1138,7 +1264,7 @@ def build_site(destination: Path, issues: Optional[List[Dict[str, Any]]] = None)
         _write_bytes(
             destination,
             "archive/{0}/index.html".format(issue_date),
-            _render_page(template, issue, dates, False).encode("utf-8"),
+            _render_page(template, issue, dates, False, catalogs).encode("utf-8"),
         )
         _write_json(destination, "wechat-daily-{0}.json".format(issue_date), _wechat_compat(issue))
         _write_json(destination, "social-research-{0}.json".format(issue_date), _social_compat(issue))
@@ -1178,9 +1304,19 @@ class _SiteHTMLParser(HTMLParser):
         self.resources: List[str] = []
         self.themes: List[str] = []
         self.inline_scripts = 0
+        self.languages: List[Dict[str, str]] = []
+        self.language_data: List[str] = []
+        self.language_nested_nodes = False
+        self._language_text: Optional[List[str]] = None
 
     def handle_starttag(self, tag: str, attrs: Sequence[Tuple[str, Optional[str]]]) -> None:
         values = {key: value or "" for key, value in attrs}
+        if self._language_text is not None:
+            self.language_nested_nodes = True
+        if tag == "template" and values.get("id") == "xait-language-data":
+            self._language_text = []
+        if "data-language" in values:
+            self.languages.append(dict(values, _tag=tag))
         if tag == "a" and values.get("href"):
             self.anchors.append(values)
         elif tag == "script":
@@ -1192,6 +1328,15 @@ class _SiteHTMLParser(HTMLParser):
             self.resources.append(values["href"])
         if values.get("data-theme"):
             self.themes.append(values["data-theme"])
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "template" and self._language_text is not None:
+            self.language_data.append("".join(self._language_text))
+            self._language_text = None
+
+    def handle_data(self, data: str) -> None:
+        if self._language_text is not None:
+            self._language_text.append(data)
 
 
 def _iter_files(root: Path) -> Iterable[Path]:
@@ -1305,6 +1450,12 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
     if not site_root.is_dir():
         raise XaitError("缺少生成站点：{0}".format(site_root), EXIT_BUILD)
     issues = issues if issues is not None else load_issues()
+    try:
+        template = TEMPLATE_PATH.read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        raise XaitError("无法读取页面模板", EXIT_BUILD) from exc
+    bilingual = "{{LANGUAGE_DATA}}" in template or "data-language=" in template
+    catalogs = load_language_catalogs(required=bilingual)
     dates = [issue["date"] for issue in sorted(issues, key=lambda item: item["date"])]
     latest = dates[-1]
     expected: Set[str] = {".nojekyll", "index.html", "assets/app.css", "assets/app.js", "history.json", "health.json", "wechat-daily.json", "social-research.json"}
@@ -1352,6 +1503,7 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
         raise XaitError("共享 JS 缺少中性主题存储键", EXIT_BUILD)
 
     html_paths = [site_root / "index.html"] + [site_root / "archive" / item / "index.html" for item in dates]
+    issue_by_date = {issue["date"]: issue for issue in issues}
     for html_path in html_paths:
         parser = _SiteHTMLParser()
         parser.feed(html_path.read_text(encoding="utf-8"))
@@ -1359,6 +1511,19 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
             raise XaitError("{0} 含内联脚本".format(html_path.relative_to(site_root)), EXIT_SECURITY)
         if set(parser.themes) != THEMES or len(parser.themes) != len(THEMES):
             raise XaitError("{0} 未完整提供七套主题".format(html_path.relative_to(site_root)), EXIT_BUILD)
+        if bilingual or parser.languages or parser.language_data:
+            if (len(parser.languages) != 2 or {item.get("data-language") for item in parser.languages} != {"zh", "en"}
+                    or any(item.get("_tag") != "button" or item.get("type") != "button" for item in parser.languages)):
+                raise XaitError("{0} 未完整提供中英文切换按钮".format(html_path.relative_to(site_root)), EXIT_BUILD)
+            if len(parser.language_data) != 1 or parser.language_nested_nodes or parser._language_text is not None:
+                raise XaitError("{0} 缺少安全的惰性语言目录".format(html_path.relative_to(site_root)), EXIT_SECURITY)
+            try:
+                payload = json.loads(parser.language_data[0], object_pairs_hook=_duplicate_safe_object)
+            except (ValueError, json.JSONDecodeError) as exc:
+                raise XaitError("{0} 的语言目录不是有效 JSON".format(html_path.relative_to(site_root)), EXIT_BUILD) from exc
+            page_issue = issue_by_date[latest if html_path == site_root / "index.html" else html_path.parent.name]
+            if payload != language_payload(page_issue, catalogs):
+                raise XaitError("{0} 的语言目录与公开输入不一致".format(html_path.relative_to(site_root)), EXIT_BUILD)
         for resource in parser.resources:
             target = _resolve_local_link(site_root, html_path, resource)
             if target is None or not target.is_file():

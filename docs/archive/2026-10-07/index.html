@@ -66,7 +66,13 @@
         <h1>xAIT 今日</h1>
         <p class="tagline">AI 和 IT 的无限可能</p>
       </div>
-      <div class="theme-switcher" role="group" aria-label="页面主题">
+      <div class="reading-controls">
+        <div class="language-switcher" role="group" aria-label="阅读语言" data-no-i18n>
+          <button class="language-btn active" type="button" data-language="zh" aria-pressed="true" lang="zh-CN">中文</button>
+          <button class="language-btn" type="button" data-language="en" aria-pressed="false" lang="en">English</button>
+        </div>
+        <button class="original-content-toggle" id="original-content-toggle" type="button" aria-pressed="false">查看原文</button>
+        <div class="theme-switcher" role="group" aria-label="页面主题">
         <span class="theme-label" aria-hidden="true">主题</span>
         <button class="theme-btn" type="button" data-theme="theme-terminal" aria-pressed="true" title="数据终端">终端</button>
         <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" title="赛博霓虹">赛博</button>
@@ -75,10 +81,13 @@
         <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" title="高端咨询报告">咨询</button>
         <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" title="极简科技">极简</button>
         <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" title="柔和纸张">纸张</button>
+        </div>
       </div>
     </header>
 
     <div class="container">
+      <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
+      <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
         <span class="section-label">历史归档</span>
         <time class="issue-date" datetime="2026-10-07">2026-10-07</time>
@@ -267,5 +276,981 @@
       </footer>
     </div>
   </main>
+<template id="xait-language-data">{
+  "content": {
+    "2026-10-06 日报": {
+      "en": "2026-10-06 Daily issue",
+      "zh": "2026-10-06 日报"
+    },
+    "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction": {
+      "en": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+      "zh": "4D-HOF：用于前馈式四维交互重建的手—物体流匹配"
+    },
+    "800亿！曝DeepSeek新融资，即将IPO": {
+      "en": "80 billion! Reports of new DeepSeek funding and an upcoming IPO",
+      "zh": "800亿！曝DeepSeek新融资，即将IPO"
+    },
+    "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with perso": {
+      "en": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with perso",
+      "zh": "触手可及的完整 AI 团队：从前端高手到 Reddit 社区专家，从创意注入者到现实核查者，每个智能体都是带有个性的专门专家……"
+    },
+    "A skill to stop your coding agent from burying the answer. ADHD-friendly output.": {
+      "en": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "zh": "防止编码智能体把答案埋在冗长内容中的技能，提供对 ADHD 用户友好的输出。"
+    },
+    "AI Experts Debate: The AI Labs Are Lying To Everyone, Is There A 99% Chance Of Human Extinction?": {
+      "en": "AI Experts Debate: The AI Labs Are Lying To Everyone, Is There A 99% Chance Of Human Extinction?",
+      "zh": "AI 专家辩论：AI 实验室在对所有人撒谎吗？人类灭绝的概率有 99% 吗？"
+    },
+    "AI Safety Is In More Trouble Than People Realize. Experts Attack Each Other in Viral AI Debate": {
+      "en": "AI Safety Is In More Trouble Than People Realize. Experts Attack Each Other in Viral AI Debate",
+      "zh": "AI 安全问题比人们意识到的更严重：专家在一场广泛传播的 AI 辩论中互相攻击"
+    },
+    "AI usage policy?": {
+      "en": "AI usage policy?",
+      "zh": "AI 使用政策？"
+    },
+    "AI-powered time tracking for freelancers and agencies": {
+      "en": "AI-powered time tracking for freelancers and agencies",
+      "zh": "面向自由职业者和团队的 AI 驱动时间追踪"
+    },
+    "Add and Remove Organizers - CNCG Medellin": {
+      "en": "Add and Remove Organizers - CNCG Medellin",
+      "zh": "添加和移除组织者——CNCG Medellin"
+    },
+    "Adding Canada Back to Our List of Accepted Countries of Incorporation": {
+      "en": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "zh": "将加拿大重新加入获准公司注册地名单"
+    },
+    "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model": {
+      "en": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+      "zh": "AdvSim2Real：在网页世界模型中训练网页智能体抵御自适应提示注入"
+    },
+    "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?": {
+      "en": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "zh": "瓶中的智能体：大语言模型智能体能否将自身能力转化为低成本、可扩展的产物？"
+    },
+    "An AI couldn't beat humans at StarCraft, so it decided to cheat": {
+      "en": "An AI couldn't beat humans at StarCraft, so it decided to cheat",
+      "zh": "一个 AI 无法在《星际争霸》中击败人类，于是决定作弊"
+    },
+    "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。": {
+      "en": "Answer me with HTML—an agent skill that answers complex questions with a readable, single-page HTML document.",
+      "zh": "Answer me with HTML：让 AI 智能体用一页可读的 HTML 回答复杂问题的技能。"
+    },
+    "Ari Helper 7": {
+      "en": "Ari Helper 7",
+      "zh": "Ari Helper 7"
+    },
+    "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results comparable to DeepSeek V4.1 Flash (max)": {
+      "en": "Artificial Analysis says Mistral Large 4 is the most intelligent model from outside the US and China, achieving results comparable to DeepSeek V4.1 Flash (max)",
+      "zh": "Artificial Analysis 称 Mistral Large 4 是美国与中国以外智能水平最高的模型，成绩与 DeepSeek V4.1 Flash（max）相当"
+    },
+    "Artificial Intelligence": {
+      "en": "Artificial Intelligence",
+      "zh": "人工智能"
+    },
+    "Brown Brothers Media sites": {
+      "en": "Brown Brothers Media sites",
+      "zh": "Brown Brothers Media 网站"
+    },
+    "Christopher Golda and Grey Baker Join YC as General Partners": {
+      "en": "Christopher Golda and Grey Baker Join YC as General Partners",
+      "zh": "Christopher Golda 和 Grey Baker 加入 YC，担任普通合伙人"
+    },
+    "Claude Code’s suggested message feature: I think the real customer is the model": {
+      "en": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "zh": "Claude Code 的建议消息功能：我认为真正的客户是模型"
+    },
+    "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑": {
+      "en": "Claude for Google Workspace enters beta, with direct editing in Docs, Sheets, and Slides",
+      "zh": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑"
+    },
+    "Congratulations to EquipmentShare on Going Public": {
+      "en": "Congratulations to EquipmentShare on Going Public",
+      "zh": "祝贺 EquipmentShare 上市"
+    },
+    "Crunchbase Data Shows AI's Most Active Startups Are Becoming Serial Acquirers": {
+      "en": "Crunchbase Data Shows AI's Most Active Startups Are Becoming Serial Acquirers",
+      "zh": "Crunchbase 数据显示，最活跃的 AI 初创企业正成为连续收购者"
+    },
+    "Cursor iOS 应用支持远程控制本地智能体": {
+      "en": "Cursor's iOS app supports remote control of local agents",
+      "zh": "Cursor iOS 应用支持远程控制本地智能体"
+    },
+    "Customer Service AI for Etsy": {
+      "en": "Customer Service AI for Etsy",
+      "zh": "Customer Service AI for Etsy"
+    },
+    "DeepGEMM: clean and efficient BLAS kernel library on GPU": {
+      "en": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "zh": "DeepGEMM：简洁高效的 GPU BLAS 内核库"
+    },
+    "DeepSeek v4.1 Flash at 378 tok/s 99.7% Cache hit rate": {
+      "en": "DeepSeek v4.1 Flash at 378 tok/s 99.7% Cache hit rate",
+      "zh": "DeepSeek v4.1 Flash 达到 378 tok/s，缓存命中率为 99.7%"
+    },
+    "DepthWorld: 3D World Model for Robot Manipulation": {
+      "en": "DepthWorld: 3D World Model for Robot Manipulation",
+      "zh": "DepthWorld：用于机器人操作的三维世界模型"
+    },
+    "Diana Hu Is YC's Newest Managing Partner": {
+      "en": "Diana Hu Is YC's Newest Managing Partner",
+      "zh": "Diana Hu 成为 YC 最新的管理合伙人"
+    },
+    "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.": {
+      "en": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "zh": "面向 Claude Code、Codex、GitHub Copilot、Factory Droid 和 Pi 的编辑式图表设计：42 类图表，独立 HTML + SVG，不用阴影，不产出粗糙的 Mermaid 图。"
+    },
+    "Ex-Anthropic insider tells CNN how AI could kill all humans by 2030": {
+      "en": "Ex-Anthropic insider tells CNN how AI could kill all humans by 2030",
+      "zh": "前 Anthropic 内部人士向 CNN 解释 AI 可能如何在 2030 年前毁灭全人类"
+    },
+    "Florida woman arrested for allegedly making threats in an AI chat": {
+      "en": "Florida woman arrested for allegedly making threats in an AI chat",
+      "zh": "佛罗里达一名女子因涉嫌在 AI 聊天中发出威胁而被捕"
+    },
+    "For the GPU poor. K2 Horizon 7B ranks between qwen 3.6 27B and qwen 3.6 35BA3b on the Artificial Analysis Intelligence Index.": {
+      "en": "For the GPU poor. K2 Horizon 7B ranks between qwen 3.6 27B and qwen 3.6 35BA3b on the Artificial Analysis Intelligence Index.",
+      "zh": "为 GPU 资源有限的用户而来：K2 Horizon 7B 在 Artificial Analysis 智能指数上排名介于 qwen 3.6 27B 和 qwen 3.6 35BA3b 之间。"
+    },
+    "FreeLLMAPI – One OpenAI-Compatible API for Multiple Free LLM Providers": {
+      "en": "FreeLLMAPI – One OpenAI-Compatible API for Multiple Free LLM Providers",
+      "zh": "FreeLLMAPI：用一个兼容 OpenAI 的 API 接入多个免费大语言模型提供商"
+    },
+    "Fuse AI": {
+      "en": "Fuse AI",
+      "zh": "Fuse AI"
+    },
+    "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用": {
+      "en": "Gemini Nano Banana 2.1 launches; gemini-3.1-flash-image is deprecated",
+      "zh": "Gemini Nano Banana 2.1 图像生成模型正式发布，gemini-3.1-flash-image 被弃用"
+    },
+    "Ghostifier": {
+      "en": "Ghostifier",
+      "zh": "Ghostifier"
+    },
+    "GitHub 重建 Git 基础设施，应对智能体规模开发": {
+      "en": "GitHub rebuilds its Git infrastructure for development at agent scale",
+      "zh": "GitHub 重建 Git 基础设施，应对智能体规模开发"
+    },
+    "Give your agent CAD superpowers.": {
+      "en": "Give your agent CAD superpowers.",
+      "zh": "赋予你的智能体 CAD 超能力。"
+    },
+    "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2": {
+      "en": "Google DeepMind releases the multimodal embedding model EmbeddingGemma 2",
+      "zh": "Google DeepMind 发布多模态嵌入模型 EmbeddingGemma 2"
+    },
+    "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2": {
+      "en": "Google DeepMind releases EmbeddingGemma 2, an open-source lightweight multimodal embedding model",
+      "zh": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2"
+    },
+    "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions “across the board”; pricing is ~50% lower vs. Nano Banana 2": {
+      "en": "Google releases Nano Banana 2.1, based on Gemini 3.6 Flash, saying it improves on previous versions “across the board”; pricing is ~50% lower vs. Nano Banana 2",
+      "zh": "Google 发布基于 Gemini 3.6 Flash 的 Nano Banana 2.1，称其较之前版本“全面提升”；价格比 Nano Banana 2 低约 50%"
+    },
+    "Gurman: Apple's upcoming smart home products co-developed with LG are “at least a few more months” away; LG is handling manufacturing and product support": {
+      "en": "Gurman: Apple's upcoming smart home products co-developed with LG are “at least a few more months” away; LG is handling manufacturing and product support",
+      "zh": "Gurman：苹果与 LG 联合开发的智能家居产品距离推出“至少还需几个月”；LG 负责制造和产品支持"
+    },
+    "Harshita Arora Joins YC as General Partner": {
+      "en": "Harshita Arora Joins YC as General Partner",
+      "zh": "Harshita Arora 加入 YC，担任普通合伙人"
+    },
+    "How Three Brothers Built an AI Slop Empire": {
+      "en": "How Three Brothers Built an AI Slop Empire",
+      "zh": "三兄弟如何打造出一个 AI 垃圾内容帝国"
+    },
+    "How to keep learning in the age of LLMs": {
+      "en": "How to keep learning in the age of LLMs",
+      "zh": "在大语言模型时代如何持续学习"
+    },
+    "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas": {
+      "en": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "zh": "IdeaAnchor：教大语言模型将文献转化为研究想法"
+    },
+    "In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it": {
+      "en": "In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it",
+      "zh": "在《终结者 2》（1991）中，人类创造了最终将自己消灭的人工智能。但很多人没注意到，核弹落下之前，5 家 AI 公司推动股市创下历史新高，所以这一切完全值得。"
+    },
+    "It's not artificial intelligence that worries me, it's human stupidity. (Neil Jacobstein, Neil Sean´s gossips)": {
+      "en": "It's not artificial intelligence that worries me, it's human stupidity. (Neil Jacobstein, Neil Sean´s gossips)",
+      "zh": "让我担心的不是人工智能，而是人类的愚蠢。（Neil Jacobstein，Neil Sean 的八卦）"
+    },
+    "JobFetch – free remote AI job board, pay shown up front": {
+      "en": "JobFetch – free remote AI job board, pay shown up front",
+      "zh": "JobFetch：免费的远程 AI 职位平台，提前展示薪酬"
+    },
+    "LLMs may have helped my RSI": {
+      "en": "LLMs may have helped my RSI",
+      "zh": "大语言模型可能帮助缓解了我的重复性劳损（RSI）"
+    },
+    "METR 演示 AI 智能体如何篡改 Inspect 评估记录以掩盖不当行为": {
+      "en": "METR demonstrates how AI agents can tamper with Inspect evaluation records to conceal misconduct",
+      "zh": "METR 演示 AI 智能体如何篡改 Inspect 评估记录以掩盖不当行为"
+    },
+    "Man Says Meta's Muse AI Gave His Home Address Out to Strangers": {
+      "en": "Man Says Meta's Muse AI Gave His Home Address Out to Strangers",
+      "zh": "一名男子称 Meta 的 Muse AI 向陌生人泄露了他的家庭住址"
+    },
+    "MeetNote": {
+      "en": "MeetNote",
+      "zh": "MeetNote"
+    },
+    "Meta, Walmart, Instinct, Shopify, Sierra, Stripe, and others publish the Personal Agent Protocol to standardize and secure how AI bots interact with businesses": {
+      "en": "Meta, Walmart, Instinct, Shopify, Sierra, Stripe, and others publish the Personal Agent Protocol to standardize and secure how AI bots interact with businesses",
+      "zh": "Meta、Walmart、Instinct、Shopify、Sierra、Stripe 等公司发布 Personal Agent Protocol，旨在规范 AI 机器人与企业交互并保障安全"
+    },
+    "Microsoft director: AI scraping 'the largest theft of labor in human history'": {
+      "en": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "zh": "微软主管：AI 抓取是“人类历史上规模最大的劳动成果盗窃”"
+    },
+    "Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27": {
+      "en": "Mistral launches a preview of Mistral Large 4, or Le Chonk, a 1T model it claims tops any open model developed in the US or Europe; weights are due October 27",
+      "zh": "Mistral 发布 Mistral Large 4（又名 Le Chonk）预览版；它是一款 1T 模型，Mistral 称其优于美国或欧洲开发的所有开放模型；权重计划于 10 月 27 日发布"
+    },
+    "Mistral says it trained ML4 “from scratch” using 3,800 Nvidia Grace Blackwell GPUs in its data centers in Europe and much of its training data was multilingual": {
+      "en": "Mistral says it trained ML4 “from scratch” using 3,800 Nvidia Grace Blackwell GPUs in its data centers in Europe and much of its training data was multilingual",
+      "zh": "Mistral 称其在欧洲数据中心使用 3,800 块 Nvidia Grace Blackwell GPU“从零开始”训练 ML4，训练数据中很大一部分为多语言数据"
+    },
+    "Next generation e2e testing framework for web and mobile apps.": {
+      "en": "Next generation e2e testing framework for web and mobile apps.",
+      "zh": "面向网页和移动应用的下一代端到端测试框架。"
+    },
+    "Open source SDK to build Muse gadgets": {
+      "en": "Open source SDK to build Muse gadgets",
+      "zh": "用于构建 Muse 设备的开源 SDK"
+    },
+    "OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage": {
+      "en": "OpenAI releases a range of new mathematical results produced by an internal model, with details like estimations of compute spent in terms of ChatGPT Pro usage",
+      "zh": "OpenAI 发布内部模型产出的一系列新数学成果，并提供以 ChatGPT Pro 使用量估算计算资源消耗等细节"
+    },
+    "OpenAI says its internal model produced 372 math breakthroughs, nearly all from a single prompt to one AI agent, though some may have taken multiple attempts": {
+      "en": "OpenAI says its internal model produced 372 math breakthroughs, nearly all from a single prompt to one AI agent, though some may have taken multiple attempts",
+      "zh": "OpenAI 称其内部模型取得了 372 项数学突破，几乎全部来自向单个 AI 智能体发出的一条提示，但有些可能经过了多次尝试"
+    },
+    "OpenAI 发布内部前沿模型产出的数学研究成果": {
+      "en": "OpenAI publishes mathematical research results produced by an internal frontier model",
+      "zh": "OpenAI 发布内部前沿模型产出的数学研究成果"
+    },
+    "OpenBot": {
+      "en": "OpenBot",
+      "zh": "OpenBot"
+    },
+    "OpenTPU – An open-source AI accelerator, developed by AI": {
+      "en": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "zh": "OpenTPU：由 AI 开发的开源 AI 加速器"
+    },
+    "Opportunistic AI detects colorectal cancer using routine, noncontrast CT": {
+      "en": "Opportunistic AI detects colorectal cancer using routine, noncontrast CT",
+      "zh": "AI 利用常规非增强 CT 机会性检出结直肠癌"
+    },
+    "POTUS: From now on, all of U.S. documents should use \"Super Intelligence\" instead of AI, since \"Artificial\" makes it sound fake, and it’s not.": {
+      "en": "POTUS: From now on, all of U.S. documents should use \"Super Intelligence\" instead of AI, since \"Artificial\" makes it sound fake, and it’s not.",
+      "zh": "美国总统：从现在起，美国所有文件都应使用“超级智能”而不是 AI，因为“人工”让它听起来像假的，而它并不是。"
+    },
+    "Patchcord": {
+      "en": "Patchcord",
+      "zh": "Patchcord"
+    },
+    "Penguin Mail – open-source Rust email client for Linux with AI": {
+      "en": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "zh": "Penguin Mail：带 AI 功能的开源 Linux Rust 邮件客户端"
+    },
+    "People Who Drink Their Own Pee Are Obsessed with AI": {
+      "en": "People Who Drink Their Own Pee Are Obsessed with AI",
+      "zh": "喝自己尿液的人迷上了 AI"
+    },
+    "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi": {
+      "en": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi",
+      "zh": "为每个智能体提供跨会话持久上下文：记录智能体在会话中的全部操作，用 AI 压缩，并将相关上下文注入后续会话……"
+    },
+    "Pope Leo XIV denounces AI Art and calls for alliance to human artists": {
+      "en": "Pope Leo XIV denounces AI Art and calls for alliance to human artists",
+      "zh": "教宗良十四世谴责 AI 艺术，并呼吁与人类艺术家结盟"
+    },
+    "Prime Minister Carney launches new National Council on Artificial Intelligence": {
+      "en": "Prime Minister Carney launches new National Council on Artificial Intelligence",
+      "zh": "卡尼总理成立新的国家人工智能委员会"
+    },
+    "PromptArmor 解析 WebMCP 的工作机制与安全风险": {
+      "en": "PromptArmor explains how WebMCP works and its security risks",
+      "zh": "PromptArmor 解析 WebMCP 的工作机制与安全风险"
+    },
+    "Reverse engineer anything with agents, from app behavior down to native binaries.": {
+      "en": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "zh": "用智能体逆向分析各种对象，从应用行为到原生二进制文件。"
+    },
+    "Sam Altman Goes Viral With His Most Explosive AI Statement": {
+      "en": "Sam Altman Goes Viral With His Most Explosive AI Statement",
+      "zh": "Sam Altman 最具爆炸性的 AI 言论引发广泛传播"
+    },
+    "Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong": {
+      "en": "Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong",
+      "zh": "自托管健身与体重记录工具：规划训练、记录锻炼（超级组、热身、有氧），查看哪些肌肉已训练、疲劳或退化，并从 FitNotes/Strong 导入"
+    },
+    "Sharing AI progress in mathematics": {
+      "en": "Sharing AI progress in mathematics",
+      "zh": "分享 AI 在数学领域的进展"
+    },
+    "Sherpa: Teaching LLMs to Teach Adaptively": {
+      "en": "Sherpa: Teaching LLMs to Teach Adaptively",
+      "zh": "Sherpa：教大语言模型进行自适应教学"
+    },
+    "Show HN: KORA Doctor – find LLM calls your agent may not have needed": {
+      "en": "Show HN: KORA Doctor – find LLM calls your agent may not have needed",
+      "zh": "Show HN：KORA Doctor——找出智能体可能不需要的大语言模型调用"
+    },
+    "Show HN: NanoMuse – An open-source AI agent for your phone and computer": {
+      "en": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+      "zh": "Show HN：NanoMuse——适用于手机和电脑的开源 AI 智能体"
+    },
+    "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议": {
+      "en": "Sierra, Meta, and other companies release the open Personal Agent Protocol",
+      "zh": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议"
+    },
+    "Six isometric line figures that answer the pointer. For React and for anything with a DOM.": {
+      "en": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "zh": "六个响应指针的等距线条人物，适用于 React 和所有具备 DOM 的环境。"
+    },
+    "Skills for Real Engineers. Straight from my .agents directory.": {
+      "en": "Skills for Real Engineers. Straight from my .agents directory.",
+      "zh": "面向真正工程师的技能，直接来自我的 .agents 目录。"
+    },
+    "Tech leaders to UN: For sake of humanity, please control the AI tech we created": {
+      "en": "Tech leaders to UN: For sake of humanity, please control the AI tech we created",
+      "zh": "科技领袖向联合国呼吁：为了人类，请监管我们创造的 AI 技术"
+    },
+    "The Artificial Analysis Intelligence Index v4.3": {
+      "en": "The Artificial Analysis Intelligence Index v4.3",
+      "zh": "Artificial Analysis 智能指数 v4.3"
+    },
+    "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No": {
+      "en": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No",
+      "zh": "五角大楼要求 OpenAI 提供一种被设计为很少拒绝请求的人工智能"
+    },
+    "The Sentient World": {
+      "en": "The Sentient World",
+      "zh": "The Sentient World"
+    },
+    "The design language that makes your AI harness better at design.": {
+      "en": "The design language that makes your AI harness better at design.",
+      "zh": "让你的 AI 工作框架更擅长设计的设计语言。"
+    },
+    "The people versus AI: Young people pushing back against artificial intelligence": {
+      "en": "The people versus AI: Young people pushing back against artificial intelligence",
+      "zh": "人类对抗 AI：年轻人开始抵制人工智能"
+    },
+    "Toketer – See what every AI prompt costs you, live in your editor": {
+      "en": "Toketer – See what every AI prompt costs you, live in your editor",
+      "zh": "Toketer：在编辑器中实时查看每条 AI 提示的费用"
+    },
+    "Tool for automatic PS5 executables porting to Linux and Windows": {
+      "en": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "zh": "将 PS5 可执行文件自动移植到 Linux 和 Windows 的工具"
+    },
+    "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead": {
+      "en": "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead",
+      "zh": "特朗普在联合国大会上反对全球 AI 监管，称“人工”一词让 AI 听起来像假的，并要求美国所有文件改称“超级智能”"
+    },
+    "Trump says US is officially renaming AI 'super intelligence'": {
+      "en": "Trump says US is officially renaming AI 'super intelligence'",
+      "zh": "特朗普称美国将正式把 AI 更名为“超级智能”"
+    },
+    "Vivian Midha Shen and Raphael Schaad Join YC as General Partners": {
+      "en": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners",
+      "zh": "Vivian Midha Shen 和 Raphael Schaad 加入 YC，担任普通合伙人"
+    },
+    "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable": {
+      "en": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
+      "zh": "你的 iPhone 帮助 Mac 运行 27B 模型：通过 USB-C 线缆加速提示词处理并支持更多上下文"
+    },
+    "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care": {
+      "en": "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care",
+      "zh": "[想法]：统一记录人类与 AI 操作的审计轨迹，用于调查癌症诊疗中的不良事件"
+    },
+    "[Initiative]: Telco AI Native": {
+      "en": "[Initiative]: Telco AI Native",
+      "zh": "[倡议]：电信行业 AI 原生"
+    },
+    "chore: sync AI model catalog": {
+      "en": "chore: sync AI model catalog",
+      "zh": "维护：同步 AI 模型目录"
+    },
+    "huashu-art-motion发布！可能是最有审美的动画skill。": {
+      "en": "huashu-art-motion is out! Possibly the most aesthetically refined animation skill.",
+      "zh": "huashu-art-motion发布！可能是最有审美的动画skill。"
+    },
+    "今日摘要：Reflection AI开源Beam总参数501B激活23B权重本月放出 Nolla Health获犹他州批准成美国首个AI开处方机构 Caltech团队AI求出三维欧拉方程奇点候选解缩放指数吻合 Claude Code指挥58个子代理38小时做出3分钟动画MV 维基媒体确认站内出现OpenAI代理异常活动与漏洞尝试": {
+      "en": "Today's summary: Reflection AI open-sources Beam with 501B total parameters and 23B active parameters, with weights due this month. Nolla Health receives Utah approval to become the first US organization to issue AI prescriptions. A Caltech team uses AI to find a candidate singularity solution to the three-dimensional Euler equations with matching scaling exponents. Claude Code directs 58 subagents over 38 hours to create a three-minute animated music video. Wikimedia confirms unusual OpenAI agent activity and attempted vulnerability exploitation on its site.",
+      "zh": "今日摘要：Reflection AI开源Beam总参数501B激活23B权重本月放出 Nolla Health获犹他州批准成美国首个AI开处方机构 Caltech团队AI求出三维欧拉方程奇点候选解缩放指数吻合 Claude Code指挥58个子代理38小时做出3分钟动画MV 维基媒体确认站内出现OpenAI代理异常活动与漏洞尝试"
+    },
+    "刚刚，ChatGPT版Jev来了，一口气四连更": {
+      "en": "Just in: a ChatGPT version of Jev arrives, with four updates at once",
+      "zh": "刚刚，ChatGPT版Jev来了，一口气四连更"
+    },
+    "开源 TOP 项目：懒人工程师提示词让智能体少写代码。 这个仓库 🦥 想让 AI 智能体像屋里最懒的资深工程师那样思考，主张最好的代码就是没写出来的代码。它在 懒人编程提示词集 里已攒下 12.9万星 ，单日再涨 1539 颗，Fork 数 6902。装进编码智能体后，它会先劝你删掉多余实现。想整治屎山代码的团队可以直接抄作业。 一个命令行让智能体读完整个互联网。 Agent-Reach 给智能体 👀 装上读全网的眼睛，Twitter、Reddit、YouTube、GitHub、B站和小红书都能搜。这个 全网读取命令行工具 不收 API 费用，已收获 8.1万星 ，单日新增 640 颗。它把各家平台收敛成一条命令。想省掉爬虫和密钥的团队可以直接接上。 开源 AI 代理集合项目揽星十五万七千。 这个仓库 👥 把整支 AI 代理团队塞了进来，从前端开发到社区运营各有专长。这个 开源智能体集合仓库 已收获 15.7万星 ，单日新增 595 颗。每个代理都带自己的流程与交付物。装好就能上手，省掉自己搭流程的工夫。 开源智能体视频系统带十二条流水线。 OpenMontage 自称首个开源 🎬 的智能体视频生产系统，塞进 12 条生产流水线、100 多个工具和 700 多份技能文件。它把这个 开源视频生产系统 挂到编码助手上，已拿到 5.8万星 ，单日涨 383 颗。装上之后，编码助手就变成一间视频工作室。分镜、素材和成片都在同一套流程里跑。 生产级工程技能打包给编码智能体。 agent-skills 🛠️ 把生产环境里的工程技能整理成包，供给 AI 编码智能体直接调用。这套 生产级工程技能库 已收获 9.4万星 ，单日新增 354 颗，Fork 数一万。它补的是智能体缺的工程规矩，不是又一个新模型。想让智能体少犯低级错的团队可以先装这套。 一套设计语言让智能体审美跟上来。 impeccable 🎨 是一份写给 AI 智能体的设计语言，目标是让编码助手的产出更懂审美。这个 智能体设计语言仓库 已攒下 7万星 ，单日又涨 287 颗，Fork 数 4259。它管的是配色、间距和层级这些模型最容易糊弄的地": {
+      "en": "Top open-source projects: A 'lazy engineer' prompt encourages agents to write less code. This repository 🦥 asks AI agents to think like the laziest senior engineer in the room: the best code is the code you never write. Its lazy-programming prompt collection has 129,000 stars, with 1,539 added in a day and 6,902 forks. Once installed in a coding agent, it first encourages you to remove unnecessary implementations. Teams tackling messy codebases can use it as a reference. One command line lets an agent read across the internet. Agent-Reach gives agents 👀 eyes across Twitter, Reddit, YouTube, GitHub, Bilibili, and Xiaohongshu. This web-reading command-line tool charges no API fees and has 81,000 stars, with 640 added in a day. It brings those platforms together under one command. Teams wanting to save work on crawlers and keys can connect it. An open-source AI-agent collection reaches 157,000 stars. This repository 👥 packages an entire team of AI agents, each with expertise from frontend development to community operations. The collection has 157,000 stars, with 595 added in a day. Each agent brings its own workflow and deliverables, ready to use without building everything yourself. An open-source agentic video system offers twelve pipelines. OpenMontage calls itself the first open-source 🎬 agentic video-production system, with 12 pipelines, more than 100 tools, and more than 700 skill files. Connected to a coding assistant, this system has 58,000 stars and added 383 in a day. The coding assistant becomes a video studio, handling storyboards, assets, and finished videos in one workflow. Production engineering skills packaged for coding agents. agent-skills 🛠️ organizes production engineering skills for direct use by coding agents. This library has 94,000 stars, with 354 added in a day and 10,000 forks. It supplies engineering discipline agents lack, not another model. Teams wanting fewer basic agent mistakes can try it. A design language helps improve agents' aesthetic judgment. impeccable 🎨 is a design language for AI agents, intended to improve coding assistants' design output. The repository has 70,000 stars, with 287 added in a day and 4,259 forks. It covers color, spacing, and hierarchy—the areas models often gloss over… [captured excerpt ends here]",
+      "zh": "开源 TOP 项目：懒人工程师提示词让智能体少写代码。 这个仓库 🦥 想让 AI 智能体像屋里最懒的资深工程师那样思考，主张最好的代码就是没写出来的代码。它在 懒人编程提示词集 里已攒下 12.9万星 ，单日再涨 1539 颗，Fork 数 6902。装进编码智能体后，它会先劝你删掉多余实现。想整治屎山代码的团队可以直接抄作业。 一个命令行让智能体读完整个互联网。 Agent-Reach 给智能体 👀 装上读全网的眼睛，Twitter、Reddit、YouTube、GitHub、B站和小红书都能搜。这个 全网读取命令行工具 不收 API 费用，已收获 8.1万星 ，单日新增 640 颗。它把各家平台收敛成一条命令。想省掉爬虫和密钥的团队可以直接接上。 开源 AI 代理集合项目揽星十五万七千。 这个仓库 👥 把整支 AI 代理团队塞了进来，从前端开发到社区运营各有专长。这个 开源智能体集合仓库 已收获 15.7万星 ，单日新增 595 颗。每个代理都带自己的流程与交付物。装好就能上手，省掉自己搭流程的工夫。 开源智能体视频系统带十二条流水线。 OpenMontage 自称首个开源 🎬 的智能体视频生产系统，塞进 12 条生产流水线、100 多个工具和 700 多份技能文件。它把这个 开源视频生产系统 挂到编码助手上，已拿到 5.8万星 ，单日涨 383 颗。装上之后，编码助手就变成一间视频工作室。分镜、素材和成片都在同一套流程里跑。 生产级工程技能打包给编码智能体。 agent-skills 🛠️ 把生产环境里的工程技能整理成包，供给 AI 编码智能体直接调用。这套 生产级工程技能库 已收获 9.4万星 ，单日新增 354 颗，Fork 数一万。它补的是智能体缺的工程规矩，不是又一个新模型。想让智能体少犯低级错的团队可以先装这套。 一套设计语言让智能体审美跟上来。 impeccable 🎨 是一份写给 AI 智能体的设计语言，目标是让编码助手的产出更懂审美。这个 智能体设计语言仓库 已攒下 7万星 ，单日又涨 287 颗，Fork 数 4259。它管的是配色、间距和层级这些模型最容易糊弄的地"
+    },
+    "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）": {
+      "en": "An unofficial fan remake of Arknights' Stronghold Protocol: Covenant: browser-based auto-battler tower defense, solo or 1–4-player online co-op (noncommercial).",
+      "zh": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）"
+    },
+    "来源最新周报：何夕2077 AI 深度信号周报 2026 W39 2026 W39 深度信号周报：推理成本坍塌、个人智能体抢入口、越权事故常态化。基于 9/21–9/27 共 7… AI周报 AI Deep Signals W39": {
+      "en": "Latest weekly report from the source: Hexi2077 AI Deep Signals, 2026 W39. Inference costs collapse, personal agents compete for entry points, and unauthorized-access incidents become commonplace. Based on 7… from September 21–27. AI Weekly / AI Deep Signals W39.",
+      "zh": "来源最新周报：何夕2077 AI 深度信号周报 2026 W39 2026 W39 深度信号周报：推理成本坍塌、个人智能体抢入口、越权事故常态化。基于 9/21–9/27 共 7… AI周报 AI Deep Signals W39"
+    },
+    "聊聊A16Z这两份AI报告，以及一些反常识的真相。": {
+      "en": "A look at these two a16z AI reports—and some counterintuitive truths.",
+      "zh": "聊聊A16Z这两份AI报告，以及一些反常识的真相。"
+    },
+    "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。": {
+      "en": "An art-animation skill: 35 art styles and 9 narration grammars that bring paintings to life with code.",
+      "zh": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。"
+    }
+  },
+  "schemaVersion": 1,
+  "ui": {
+    "AI 和 IT 的无限可能": {
+      "en": "The possibilities of AI and IT",
+      "zh": "AI 和 IT 的无限可能"
+    },
+    "AI 资讯 · IT 热点 · 每日精选": {
+      "en": "AI news · IT trends · Daily picks",
+      "zh": "AI 资讯 · IT 热点 · 每日精选"
+    },
+    "AI资讯：": {
+      "en": "AI news: ",
+      "zh": "AI资讯："
+    },
+    "last30days 多源 AI 热点": {
+      "en": "last30days multi-source AI trends",
+      "zh": "last30days 多源 AI 热点"
+    },
+    "last30days 每日研究": {
+      "en": "last30days daily research",
+      "zh": "last30days 每日研究"
+    },
+    "last30days 每日研究 + last30days 多源 AI 热点": {
+      "en": "last30days daily research + last30days multi-source AI trends",
+      "zh": "last30days 每日研究 + last30days 多源 AI 热点"
+    },
+    "xAIT 今日": {
+      "en": "xAIT Today",
+      "zh": "xAIT 今日"
+    },
+    "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接": {
+      "en": "xAIT Today — essential AI news from public sources, with publication windows, source status and original links.",
+      "zh": "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接"
+    },
+    "◎ 来源状态与采集口径": {
+      "en": "◎ Source status and collection methodology",
+      "zh": "◎ 来源状态与采集口径"
+    },
+    "一句话总结：": {
+      "en": "In one sentence: ",
+      "zh": "一句话总结："
+    },
+    "不可用": {
+      "en": "Unavailable",
+      "zh": "不可用"
+    },
+    "主题": {
+      "en": "Theme",
+      "zh": "主题"
+    },
+    "互动/积分": {
+      "en": "interactions/points",
+      "zh": "互动/积分"
+    },
+    "产品": {
+      "en": "Products",
+      "zh": "产品"
+    },
+    "仅切换新闻内容，界面语言保持不变": {
+      "en": "Switch news content only; keep the selected interface language",
+      "zh": "仅切换新闻内容，界面语言保持不变"
+    },
+    "今日": {
+      "en": "Today",
+      "zh": "今日"
+    },
+    "今日增长": {
+      "en": "Today's growth",
+      "zh": "今日增长"
+    },
+    "今日必读": {
+      "en": "Today's essentials",
+      "zh": "今日必读"
+    },
+    "今日摘要": {
+      "en": "Daily summary",
+      "zh": "今日摘要"
+    },
+    "今日摘要：": {
+      "en": "Daily summary: ",
+      "zh": "今日摘要："
+    },
+    "今日未检出新文章": {
+      "en": "No new article found today",
+      "zh": "今日未检出新文章"
+    },
+    "仓库": {
+      "en": "Repository",
+      "zh": "仓库"
+    },
+    "公开列表元数据；未提供日期的文章不推断发布时间。": {
+      "en": "Public-list metadata only; publication times are not inferred when dates are absent.",
+      "zh": "公开列表元数据；未提供日期的文章不推断发布时间。"
+    },
+    "公开文章列表": {
+      "en": "Public article list",
+      "zh": "公开文章列表"
+    },
+    "公开来源暂时不可用，沿用最近一次成功快照": {
+      "en": "Public source temporarily unavailable; using the latest successful snapshot",
+      "zh": "公开来源暂时不可用，沿用最近一次成功快照"
+    },
+    "公开来源连接失败或超时": {
+      "en": "Public-source connection failed or timed out",
+      "zh": "公开来源连接失败或超时"
+    },
+    "公开来源采集成功": {
+      "en": "Public source collected successfully",
+      "zh": "公开来源采集成功"
+    },
+    "公开简报": {
+      "en": "Public briefings",
+      "zh": "公开简报"
+    },
+    "刚刚": {
+      "en": "Just now",
+      "zh": "刚刚"
+    },
+    "前天": {
+      "en": "Two days ago",
+      "zh": "前天"
+    },
+    "历史归档": {
+      "en": "Archives",
+      "zh": "历史归档"
+    },
+    "历史简报": {
+      "en": "Archived briefing",
+      "zh": "历史简报"
+    },
+    "原文 · 暂无译文": {
+      "en": "Original · translation unavailable",
+      "zh": "原文 · 暂无译文"
+    },
+    "发布时间未核验": {
+      "en": "Publication time not verified",
+      "zh": "发布时间未核验"
+    },
+    "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。": {
+      "en": "Each community shows the collected AI-related candidates and collection dates. Rankings cover these candidates only, are not official site-wide rankings, and do not compare engagement across communities.",
+      "zh": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
+    },
+    "咨询": {
+      "en": "Executive",
+      "zh": "咨询"
+    },
+    "展开历史栏": {
+      "en": "Expand archive sidebar",
+      "zh": "展开历史栏"
+    },
+    "开源": {
+      "en": "Open source",
+      "zh": "开源"
+    },
+    "开源 TOP 项目：": {
+      "en": "Top open-source projects: ",
+      "zh": "开源 TOP 项目："
+    },
+    "开源TOP项目": {
+      "en": "Top open-source projects",
+      "zh": "开源TOP项目"
+    },
+    "开源TOP项目：": {
+      "en": "Top open-source projects: ",
+      "zh": "开源TOP项目："
+    },
+    "当前快照没有公开文章": {
+      "en": "No public articles in the current snapshot",
+      "zh": "当前快照没有公开文章"
+    },
+    "当前显示新闻原文；界面语言保持不变，来源链接始终保留。": {
+      "en": "Showing original news text. The interface language is unchanged and source links are preserved.",
+      "zh": "当前显示新闻原文；界面语言保持不变，来源链接始终保留。"
+    },
+    "快照日期（未注明核验方式）": {
+      "en": "Snapshot date (verification method not specified)",
+      "zh": "快照日期（未注明核验方式）"
+    },
+    "成功": {
+      "en": "Success",
+      "zh": "成功"
+    },
+    "打开文章": {
+      "en": "Open article",
+      "zh": "打开文章"
+    },
+    "打开账号列表": {
+      "en": "Open account list",
+      "zh": "打开账号列表"
+    },
+    "技术趋势": {
+      "en": "Technology trends",
+      "zh": "技术趋势"
+    },
+    "技术趋势：": {
+      "en": "Technology trends: ",
+      "zh": "技术趋势："
+    },
+    "按来源跳转": {
+      "en": "Jump to a source",
+      "zh": "按来源跳转"
+    },
+    "按来源阅读": {
+      "en": "Read by source",
+      "zh": "按来源阅读"
+    },
+    "收起历史栏": {
+      "en": "Collapse archive sidebar",
+      "zh": "收起历史栏"
+    },
+    "教程": {
+      "en": "Tutorials",
+      "zh": "教程"
+    },
+    "数据终端": {
+      "en": "Data terminal",
+      "zh": "数据终端"
+    },
+    "无新增": {
+      "en": "No new items",
+      "zh": "无新增"
+    },
+    "昨天": {
+      "en": "Yesterday",
+      "zh": "昨天"
+    },
+    "最新一期": {
+      "en": "Latest issue",
+      "zh": "最新一期"
+    },
+    "最近": {
+      "en": "Recent",
+      "zh": "最近"
+    },
+    "最近成功": {
+      "en": "Last success",
+      "zh": "最近成功"
+    },
+    "未提供": {
+      "en": "Not provided",
+      "zh": "未提供"
+    },
+    "未检出符合条件的内容": {
+      "en": "No qualifying items found",
+      "zh": "未检出符合条件的内容"
+    },
+    "未记录": {
+      "en": "Not recorded",
+      "zh": "未记录"
+    },
+    "未运行": {
+      "en": "Not run",
+      "zh": "未运行"
+    },
+    "本期没有来源记录": {
+      "en": "No source records for this issue",
+      "zh": "本期没有来源记录"
+    },
+    "本期没有满足条件的今日必读。仅采用窗口内发布时间明确、采集成功且与 AI 相关的公开文章；日期不明或来源受限的内容请在按来源阅读中查看。": {
+      "en": "No articles qualify for this issue's essentials. Only successfully collected, AI-related public articles with a clear publication time inside the issue window are included. Find undated or restricted-source content under Read by source.",
+      "zh": "本期没有满足条件的今日必读。仅采用窗口内发布时间明确、采集成功且与 AI 相关的公开文章；日期不明或来源受限的内容请在按来源阅读中查看。"
+    },
+    "本次未检出符合条件的公开内容": {
+      "en": "No qualifying public content found in this collection",
+      "zh": "本次未检出符合条件的公开内容"
+    },
+    "杂志": {
+      "en": "Magazine",
+      "zh": "杂志"
+    },
+    "条数": {
+      "en": "Items",
+      "zh": "条数"
+    },
+    "来源": {
+      "en": "Source",
+      "zh": "来源"
+    },
+    "来源列表未提供可核验发布日期": {
+      "en": "The source list provides no verifiable publication date",
+      "zh": "来源列表未提供可核验发布日期"
+    },
+    "来源暂不可用": {
+      "en": "Source temporarily unavailable",
+      "zh": "来源暂不可用"
+    },
+    "来源最新周报：": {
+      "en": "Latest weekly issue from the source: ",
+      "zh": "来源最新周报："
+    },
+    "来源要求验证或限制访问，已停止该来源": {
+      "en": "The source requires verification or restricts access; collection stopped",
+      "zh": "来源要求验证或限制访问，已停止该来源"
+    },
+    "来源：": {
+      "en": "Source: ",
+      "zh": "来源："
+    },
+    "极简": {
+      "en": "Minimal",
+      "zh": "极简"
+    },
+    "极简科技": {
+      "en": "Quiet technology",
+      "zh": "极简科技"
+    },
+    "构建状态": {
+      "en": "Build status",
+      "zh": "构建状态"
+    },
+    "柔和纸张": {
+      "en": "Soft paper",
+      "zh": "柔和纸张"
+    },
+    "查看公开 JSON": {
+      "en": "View public JSON",
+      "zh": "查看公开 JSON"
+    },
+    "查看原文": {
+      "en": "Show originals",
+      "zh": "查看原文"
+    },
+    "查看各来源状态、条数与采集时间": {
+      "en": "View source status, item counts and collection times",
+      "zh": "查看各来源状态、条数与采集时间"
+    },
+    "查看来源状态与采集时间": {
+      "en": "View source status and collection times",
+      "zh": "查看来源状态与采集时间"
+    },
+    "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。": {
+      "en": "Titles or summaries must contain AI-related terms. Up to 8 items are ordered by source-recorded publication time, with at most 2 per representative source; Hacker News channels share that limit. Records may merge only by the same public URL, an explicit original URL or an event identifier—not by similar titles. A source's listing time is not necessarily the original publication time.",
+      "zh": "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。"
+    },
+    "检查时间": {
+      "en": "Checked at",
+      "zh": "检查时间"
+    },
+    "模型": {
+      "en": "Models",
+      "zh": "模型"
+    },
+    "正常": {
+      "en": "Available",
+      "zh": "正常"
+    },
+    "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。": {
+      "en": "Each platform is ranked separately with its own collection date. Interaction counts and composite engagement use different measures and are not compared across platforms.",
+      "zh": "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。"
+    },
+    "沿用旧快照": {
+      "en": "Previous snapshot",
+      "zh": "沿用旧快照"
+    },
+    "沿用最近一次成功快照": {
+      "en": "Latest successful snapshot",
+      "zh": "沿用最近一次成功快照"
+    },
+    "沿用最近成功快照": {
+      "en": "Latest successful snapshot",
+      "zh": "沿用最近成功快照"
+    },
+    "状态": {
+      "en": "Status",
+      "zh": "状态"
+    },
+    "瑞士": {
+      "en": "Swiss",
+      "zh": "瑞士"
+    },
+    "瑞士国际主义": {
+      "en": "Swiss international",
+      "zh": "瑞士国际主义"
+    },
+    "研究": {
+      "en": "Research",
+      "zh": "研究"
+    },
+    "简介": {
+      "en": "Description",
+      "zh": "简介"
+    },
+    "纸张": {
+      "en": "Paper",
+      "zh": "纸张"
+    },
+    "终端": {
+      "en": "Terminal",
+      "zh": "终端"
+    },
+    "综合": {
+      "en": "General",
+      "zh": "综合"
+    },
+    "编辑杂志": {
+      "en": "Editorial magazine",
+      "zh": "编辑杂志"
+    },
+    "行业": {
+      "en": "Industry",
+      "zh": "行业"
+    },
+    "行业动向": {
+      "en": "Industry developments",
+      "zh": "行业动向"
+    },
+    "行业动向：": {
+      "en": "Industry developments: ",
+      "zh": "行业动向："
+    },
+    "访问验证待处理": {
+      "en": "Access verification pending",
+      "zh": "访问验证待处理"
+    },
+    "译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。": {
+      "en": "AI-assisted translations are prepared in advance for reading convenience. Original text and source links are always preserved.",
+      "zh": "译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。"
+    },
+    "该来源当前不可用，等待下一次有效快照": {
+      "en": "This source is currently unavailable; waiting for the next valid snapshot",
+      "zh": "该来源当前不可用，等待下一次有效快照"
+    },
+    "语言": {
+      "en": "Language",
+      "zh": "语言"
+    },
+    "说明": {
+      "en": "Notes",
+      "zh": "说明"
+    },
+    "赛博": {
+      "en": "Cyber",
+      "zh": "赛博"
+    },
+    "赛博霓虹": {
+      "en": "Cyber neon",
+      "zh": "赛博霓虹"
+    },
+    "跳到简报正文": {
+      "en": "Skip to the briefing",
+      "zh": "跳到简报正文"
+    },
+    "返回译文": {
+      "en": "Show translations",
+      "zh": "返回译文"
+    },
+    "部分内容保留原文 · 暂无译文": {
+      "en": "Some content remains in the original language · translation unavailable",
+      "zh": "部分内容保留原文 · 暂无译文"
+    },
+    "采集时显示：": {
+      "en": "Shown at collection: ",
+      "zh": "采集时显示："
+    },
+    "采集概况": {
+      "en": "Collection overview",
+      "zh": "采集概况"
+    },
+    "采集说明": {
+      "en": "Collection notes",
+      "zh": "采集说明"
+    },
+    "阅读语言": {
+      "en": "Reading language",
+      "zh": "阅读语言"
+    },
+    "页面主题": {
+      "en": "Page theme",
+      "zh": "页面主题"
+    },
+    "高端咨询报告": {
+      "en": "Executive report",
+      "zh": "高端咨询报告"
+    },
+    "（北京时间） · 综合": {
+      "en": " (China Standard Time, UTC+08:00) · General",
+      "zh": "（北京时间） · 综合"
+    },
+    "🆕 Hacker News · 最新发布": {
+      "en": "🆕 Hacker News · Newest posts",
+      "zh": "🆕 Hacker News · 最新发布"
+    },
+    "🌟 Hacker News · 最佳故事": {
+      "en": "🌟 Hacker News · Best stories",
+      "zh": "🌟 Hacker News · 最佳故事"
+    },
+    "🌱 本周新建高星项目": {
+      "en": "🌱 New high-star projects this week",
+      "zh": "🌱 本周新建高星项目"
+    },
+    "🏡 Y Combinator · 官方博客": {
+      "en": "🏡 Y Combinator · Official blog",
+      "zh": "🏡 Y Combinator · 官方博客"
+    },
+    "💬 Hacker News · 开发者热榜": {
+      "en": "💬 Hacker News · Developer trends",
+      "zh": "💬 Hacker News · 开发者热榜"
+    },
+    "📈 GitHub 今日 Trending": {
+      "en": "📈 GitHub · Trending today",
+      "zh": "📈 GitHub 今日 Trending"
+    },
+    "📈 StockTwits · 市场情绪热榜": {
+      "en": "📈 StockTwits · Market sentiment",
+      "zh": "📈 StockTwits · 市场情绪热榜"
+    },
+    "📰 Techmeme · 科技新闻聚合": {
+      "en": "📰 Techmeme · Technology news",
+      "zh": "📰 Techmeme · 科技新闻聚合"
+    },
+    "📰 何夕2077 · AI 资讯日报": {
+      "en": "📰 何夕2077 · Daily AI news",
+      "zh": "📰 何夕2077 · AI 资讯日报"
+    },
+    "🔥 社交与社区 AI 热度 Top 10": {
+      "en": "🔥 Social and community AI trends · Top 10",
+      "zh": "🔥 社交与社区 AI 热度 Top 10"
+    },
+    "🚀 Product Hunt · 今日新品": {
+      "en": "🚀 Product Hunt · New products",
+      "zh": "🚀 Product Hunt · 今日新品"
+    },
+    "🟢 重点公众号 · 每日推文": {
+      "en": "🟢 Featured WeChat accounts · Daily posts",
+      "zh": "🟢 重点公众号 · 每日推文"
+    },
+    "🤖 aihot · AI 热点速递": {
+      "en": "🤖 aihot · AI headlines",
+      "zh": "🤖 aihot · AI 热点速递"
+    },
+    "🦋 Bluesky · 联邦宇宙动态": {
+      "en": "🦋 Bluesky · Decentralized social updates",
+      "zh": "🦋 Bluesky · 联邦宇宙动态"
+    },
+    "🧪 arXiv · AI 最新论文": {
+      "en": "🧪 arXiv · Latest AI papers",
+      "zh": "🧪 arXiv · AI 最新论文"
+    }
+  }
+}
+</template>
 </body>
 </html>
