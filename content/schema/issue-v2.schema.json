@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/nicoleyang959/xait-today/main/content/schema/issue-v2.schema.json",
+  "title": "xAIT Today issue v2",
+  "description": "Sanitized public source ledger and article evidence. The daily briefing is derived deterministically; no v1 section is promoted automatically.",
+  "$comment": "xait.py also enforces source/article ID uniqueness, sourceId references, safe public URLs and text, the fixed previous-day 08:45 to issue-day 08:45 +08:00 edition, generatedAt date consistency, and the existing v1 section semantics. Selection uses [windowStart, windowEnd), exact dates only, successful sources, AI-related terms, no restricted/social sources, a maximum of 8 events and 2 per representative source. Title similarity is never a grouping key.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "date", "generatedAt", "title", "tagline", "sections", "edition", "sources", "articles"],
+  "properties": {
+    "schemaVersion": {"const": 2},
+    "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "generatedAt": {"$ref": "#/$defs/timestamp"},
+    "title": {"$ref": "issue-v1.schema.json#/$defs/text"},
+    "tagline": {"$ref": "issue-v1.schema.json#/$defs/text"},
+    "sections": {"$ref": "issue-v1.schema.json#/properties/sections"},
+    "edition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["windowStart", "windowEnd"],
+      "properties": {
+        "windowStart": {"allOf": [{"$ref": "#/$defs/timestamp"}, {"pattern": "T08:45:00(?:\\.0+)?\\+08:00$"}]},
+        "windowEnd": {"allOf": [{"$ref": "#/$defs/timestamp"}, {"pattern": "T08:45:00(?:\\.0+)?\\+08:00$"}]}
+      }
+    },
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "articles": {"type": "array", "items": {"$ref": "#/$defs/article"}}
+  },
+  "$defs": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "nullableTimestamp": {"oneOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "status", "checkedAt", "lastSuccessAt", "itemCount", "message"],
+      "properties": {
+        "id": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
+        "label": {"$ref": "issue-v1.schema.json#/$defs/text"},
+        "status": {"enum": ["ok", "empty", "unavailable", "stale", "not_run"]},
+        "checkedAt": {"$ref": "#/$defs/nullableTimestamp"},
+        "lastSuccessAt": {"$ref": "#/$defs/nullableTimestamp"},
+        "itemCount": {"type": "integer", "minimum": 0},
+        "message": {"type": "string"}
+      }
+    },
+    "article": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "sourceId", "title", "url", "publishedAt", "dateEvidence", "collectedAt", "category"],
+      "properties": {
+        "id": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
+        "sourceId": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
+        "title": {"$ref": "issue-v1.schema.json#/$defs/text"},
+        "url": {"$ref": "issue-v1.schema.json#/$defs/publicUrl"},
+        "originalUrl": {"$ref": "issue-v1.schema.json#/$defs/publicUrl"},
+        "eventKey": {"$ref": "issue-v1.schema.json#/$defs/text"},
+        "summary": {"$ref": "issue-v1.schema.json#/$defs/text"},
+        "publishedAt": {"type": ["string", "null"]},
+        "dateEvidence": {"enum": ["exact", "day", "unknown"]},
+        "collectedAt": {"$ref": "#/$defs/timestamp"},
+        "category": {"enum": ["models", "products", "research", "tutorials", "industry", "opensource", "other"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"dateEvidence": {"const": "exact"}}}, "then": {"properties": {"publishedAt": {"$ref": "#/$defs/timestamp"}}}},
+        {"if": {"properties": {"dateEvidence": {"const": "day"}}}, "then": {"properties": {"publishedAt": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}}}},
+        {"if": {"properties": {"dateEvidence": {"const": "unknown"}}}, "then": {"properties": {"publishedAt": {"type": "null"}}}}
+      ]
+    }
+  }
+}

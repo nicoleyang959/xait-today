@@ -25,9 +25,9 @@ import socketserver
 import sys
 import tempfile
 from datetime import date as Date
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
-from urllib.parse import parse_qsl, unquote, urlsplit
+from urllib.parse import parse_qsl, unquote, urlsplit, urlunsplit
 import uuid
 
 
@@ -79,6 +79,21 @@ CONTROL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
 HTML_TAG_RE = re.compile(r"<\s*/?\s*[A-Za-z][^>]*>")
 MARKDOWN_BLOCK_RE = re.compile(r"(?m)^\s*(?:#{1,6}\s+|```|~~~|>\s+)")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]\n]+\]\(\s*(?:https?://|/)[^)]+\)")
+RFC3339_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$")
+CST = timezone(timedelta(hours=8))
+SOURCE_STATUS = {"ok", "empty", "unavailable", "stale", "not_run"}
+ARTICLE_CATEGORIES = {"models", "products", "research", "tutorials", "industry", "opensource", "other"}
+TRACKING_QUERY_KEYS = {
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id",
+    "utm_source_platform", "utm_creative_format", "utm_marketing_tactic",
+    "fbclid", "gclid", "dclid", "msclkid", "mc_cid", "mc_eid",
+}
+AI_RE = re.compile(
+    r"(?i)(?:\b(?:ai|llms?|gpt(?:-?\d[\w.-]*)?|chatgpt|openai|anthropic|claude|gemini|"
+    r"deepseek|qwen|llama|mistral|copilot|chatbot|transformers?|diffusion|rag|"
+    r"artificial intelligence|machine learning|deep learning|neural network|generative|agentic)\b|"
+    r"人工智能|大模型|语言模型|智能体|机器学习|深度学习|生成式|神经网络|多模态|扩散模型)"
+)
 
 
 class XaitError(Exception):
@@ -214,7 +229,8 @@ def _validate_public_url(value: Any, path: str) -> str:
     if port is not None and not (1 <= port <= 65535):
         raise XaitError("{0} 端口无效".format(path), EXIT_SECURITY)
     hostname = parts.hostname.rstrip(".").lower()
-    if hostname == "localhost" or hostname.endswith(".localhost") or hostname.endswith(".local"):
+    if (hostname == "localhost" or any(hostname.endswith(suffix) for suffix in (".localhost", ".local", ".internal", ".lan", ".home"))
+            or ("." not in hostname and ":" not in hostname)):
         raise XaitError("{0} 不允许本机地址".format(path), EXIT_SECURITY)
     if "%" in hostname or hostname.isdigit() or hostname.startswith("0x"):
         raise XaitError("{0} 不允许混淆的主机地址".format(path), EXIT_SECURITY)
@@ -222,6 +238,8 @@ def _validate_public_url(value: Any, path: str) -> str:
         address = ipaddress.ip_address(hostname)
     except ValueError:
         address = None
+        if re.fullmatch(r"[0-9.]+", hostname):
+            raise XaitError("{0} 不允许混淆的主机地址".format(path), EXIT_SECURITY)
     if address is not None and not address.is_global:
         raise XaitError("{0} 不允许私网或保留地址".format(path), EXIT_SECURITY)
     for key, _ in parse_qsl(parts.query, keep_blank_values=True):
@@ -405,17 +423,100 @@ SECTION_VALIDATORS = {
 }
 
 
+def _strict_datetime(value: Any, path: str) -> datetime:
+    text = _expect_string(value, path)
+    if not RFC3339_RE.fullmatch(text):
+        raise XaitError("{0} 必须是包含时区的 ISO 8601 时间".format(path))
+    _expect_datetime(text, path)
+    return datetime.fromisoformat(text[:-1] + "+00:00" if text.endswith("Z") else text)
+
+
+def _validate_editorial(root: Dict[str, Any], path: str) -> None:
+    generated = _strict_datetime(root["generatedAt"], path + ".generatedAt")
+    if generated.astimezone(CST).date().isoformat() != root["date"]:
+        raise XaitError("{0}.generatedAt 的北京时间日期必须与 date 一致".format(path))
+    edition = _expect_object(root["edition"], path + ".edition", {"windowStart", "windowEnd"})
+    start = _strict_datetime(edition["windowStart"], path + ".edition.windowStart")
+    end = _strict_datetime(edition["windowEnd"], path + ".edition.windowEnd")
+    expected_end = datetime.fromisoformat(root["date"] + "T08:45:00+08:00")
+    if (start.utcoffset() != timedelta(hours=8) or end.utcoffset() != timedelta(hours=8)
+            or end != expected_end or start != expected_end - timedelta(days=1)):
+        raise XaitError("{0}.edition 必须为前日 08:45 至当日 08:45，时区 +08:00".format(path))
+    sources = _expect_array(root["sources"], path + ".sources")
+    source_ids: Set[str] = set()
+    for index, raw in enumerate(sources):
+        item_path = "{0}.sources[{1}]".format(path, index)
+        source = _expect_object(raw, item_path, {
+            "id", "label", "status", "checkedAt", "lastSuccessAt", "itemCount", "message",
+        })
+        source_id = _expect_id(source["id"], item_path + ".id")
+        if source_id in source_ids:
+            raise XaitError("{0}.id 重复".format(item_path))
+        source_ids.add(source_id)
+        _expect_string(source["label"], item_path + ".label")
+        if not isinstance(source["status"], str) or source["status"] not in SOURCE_STATUS:
+            raise XaitError("{0}.status 无效".format(item_path))
+        provenance = {}
+        for field in ("checkedAt", "lastSuccessAt"):
+            if source[field] is not None:
+                provenance[field] = _strict_datetime(source[field], item_path + "." + field)
+                if provenance[field] > generated:
+                    raise XaitError("{0}.{1} 不得晚于 generatedAt".format(item_path, field))
+        if ("checkedAt" in provenance and "lastSuccessAt" in provenance
+                and provenance["lastSuccessAt"] > provenance["checkedAt"]):
+            raise XaitError("{0}.lastSuccessAt 不得晚于 checkedAt".format(item_path))
+        _expect_integer(source["itemCount"], item_path + ".itemCount", minimum=0)
+        _expect_string(source["message"], item_path + ".message", allow_empty=True)
+    article_ids: Set[str] = set()
+    for index, raw in enumerate(_expect_array(root["articles"], path + ".articles")):
+        item_path = "{0}.articles[{1}]".format(path, index)
+        article = _expect_object(raw, item_path, {
+            "id", "sourceId", "title", "url", "publishedAt", "dateEvidence", "collectedAt", "category",
+        }, {"originalUrl", "eventKey", "summary"})
+        article_id = _expect_id(article["id"], item_path + ".id")
+        if article_id in article_ids:
+            raise XaitError("{0}.id 重复".format(item_path))
+        article_ids.add(article_id)
+        if _expect_id(article["sourceId"], item_path + ".sourceId") not in source_ids:
+            raise XaitError("{0}.sourceId 未声明".format(item_path))
+        _expect_string(article["title"], item_path + ".title")
+        _validate_public_url(article["url"], item_path + ".url")
+        evidence = article["dateEvidence"]
+        if evidence == "exact":
+            _strict_datetime(article["publishedAt"], item_path + ".publishedAt")
+        elif evidence == "day":
+            _expect_date(article["publishedAt"], item_path + ".publishedAt")
+        elif evidence == "unknown":
+            if article["publishedAt"] is not None:
+                raise XaitError("{0}.publishedAt 日期未知时必须为 null".format(item_path))
+        else:
+            raise XaitError("{0}.dateEvidence 无效".format(item_path))
+        if _strict_datetime(article["collectedAt"], item_path + ".collectedAt") > generated:
+            raise XaitError("{0}.collectedAt 不得晚于 generatedAt".format(item_path))
+        if not isinstance(article["category"], str) or article["category"] not in ARTICLE_CATEGORIES:
+            raise XaitError("{0}.category 无效".format(item_path))
+        if "originalUrl" in article:
+            _validate_public_url(article["originalUrl"], item_path + ".originalUrl")
+        for field in ("eventKey", "summary"):
+            if field in article:
+                _expect_string(article[field], item_path + "." + field)
+
+
 def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
+    version = issue.get("schemaVersion") if isinstance(issue, dict) else None
+    if isinstance(version, bool) or not isinstance(version, int) or version not in {1, 2}:
+        raise XaitError("{0}.schemaVersion 只支持 1 或 2".format(source_name))
+    required = {"schemaVersion", "date", "generatedAt", "title", "tagline", "sections"}
+    if version == 2:
+        required.update({"edition", "sources", "articles"})
     root = _expect_object(
         issue,
         source_name,
-        {"schemaVersion", "date", "generatedAt", "title", "tagline", "sections"},
+        required,
     )
-    if isinstance(root["schemaVersion"], bool) or not isinstance(root["schemaVersion"], int) or root["schemaVersion"] != 1:
-        raise XaitError("{0}.schemaVersion 只支持 1".format(source_name))
     issue_date = _expect_date(root["date"], source_name + ".date")
     generated_at = _expect_datetime(root["generatedAt"], source_name + ".generatedAt")
-    if generated_at[:10] != issue_date:
+    if version == 1 and generated_at[:10] != issue_date:
         raise XaitError("{0}.generatedAt 日期必须与 date 一致".format(source_name))
     _expect_string(root["title"], source_name + ".title")
     _expect_string(root["tagline"], source_name + ".tagline")
@@ -432,6 +533,8 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
         section_id = _expect_id(raw_section.get("id"), section_path + ".id")
         if section_id in ids:
             raise XaitError("{0}.id 重复".format(section_path))
+        if version == 2 and section_id in {"collection-status", "today-brief", "source-reading"}:
+            raise XaitError("{0}.id 与编辑版块保留 ID 冲突".format(section_path))
         ids.add(section_id)
         _expect_string(raw_section.get("title"), section_path + ".title")
         SECTION_VALIDATORS[kind](raw_section, section_path)
@@ -449,7 +552,143 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
         kind_counts[kind] = kind_counts.get(kind, 0) + 1
     if kind_counts.get("wechat") != 1 or kind_counts.get("social") != 1:
         raise XaitError("{0} 必须恰好包含一个 wechat 和一个 social 章节".format(source_name))
+    if version == 2:
+        _validate_editorial(root, source_name)
     return root
+
+
+def canonical_public_url(url: str) -> str:
+    """Identity key: normalize host/default port and remove only known tracking keys.
+
+    Path case, trailing slashes, fragments, query ordering and semantic query
+    values are significant. We do not guess redirects or decode URL paths.
+    """
+    _validate_public_url(url, "article.url")
+    parts = urlsplit(url)
+    host = (parts.hostname or "").lower().rstrip(".")
+    if ":" in host:
+        host = "[" + host + "]"
+    if parts.port is not None and (parts.scheme, parts.port) not in {("http", 80), ("https", 443)}:
+        host += ":" + str(parts.port)
+    query = "&".join(
+        piece for piece in parts.query.split("&")
+        if unquote(piece.partition("=")[0]).lower() not in TRACKING_QUERY_KEYS
+    )
+    return urlunsplit((parts.scheme.lower(), host, parts.path, query, parts.fragment))
+
+
+def _article_order(article: Dict[str, Any]) -> Tuple[str, str, str]:
+    return (article["sourceId"], canonical_public_url(article["url"]), article["id"])
+
+
+def _make_group(articles: Sequence[Dict[str, Any]]) -> Dict[str, Any]:
+    members = sorted(articles, key=_article_order)
+    originals = {canonical_public_url(item["originalUrl"]) for item in members if item.get("originalUrl")}
+    representative = min(members, key=lambda item: (
+        0 if canonical_public_url(item["url"]) in originals else (1 if item.get("originalUrl") else 2),
+        0 if not item.get("originalUrl") else 1,
+        _article_order(item),
+    ))
+    main_url = representative.get("originalUrl", representative["url"])
+    seen_urls = {canonical_public_url(main_url)}
+    related = []
+    for item in members:
+        key = canonical_public_url(item["url"])
+        if key not in seen_urls:
+            related.append({"title": item["title"], "url": item["url"], "sourceId": item["sourceId"]})
+            seen_urls.add(key)
+    return {"representative": representative, "url": main_url, "articles": members, "relatedLinks": related}
+
+
+def group_articles(articles: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Group only explicit event keys or shared canonical/original URLs.
+
+    No title similarity, title normalization or semantic inference participates.
+    Connected components make explicit original-source chains order independent.
+    """
+    members = sorted(articles, key=_article_order)
+    parents = list(range(len(members)))
+
+    def find(index: int) -> int:
+        while parents[index] != index:
+            parents[index] = parents[parents[index]]
+            index = parents[index]
+        return index
+
+    keys: Dict[Tuple[str, str], int] = {}
+    for index, article in enumerate(members):
+        identities = [("url", canonical_public_url(article["url"]))]
+        if article.get("originalUrl"):
+            identities.append(("url", canonical_public_url(article["originalUrl"])))
+        if article.get("eventKey"):
+            identities.append(("event", article["eventKey"]))
+        for identity in identities:
+            if identity in keys:
+                parents[find(index)] = find(keys[identity])
+            else:
+                keys[identity] = index
+    grouped: Dict[int, List[Dict[str, Any]]] = {}
+    for index, article in enumerate(members):
+        grouped.setdefault(find(index), []).append(article)
+    return sorted((_make_group(items) for items in grouped.values()), key=lambda group: _article_order(group["representative"]))
+
+
+def _brief_source_allowed(article: Dict[str, Any]) -> bool:
+    source = article["sourceId"].lower()
+    if "aihot" in source or any(source == prefix or source.startswith(prefix + "-")
+                                for prefix in ("wechat", "social", "xiaohongshu", "douyin", "weibo")):
+        return False
+    social_hosts = {"mp.weixin.qq.com", "weibo.com", "weibo.cn", "douyin.com", "xiaohongshu.com"}
+    for field in ("url", "originalUrl"):
+        if article.get(field):
+            host = (urlsplit(article[field]).hostname or "").lower().rstrip(".")
+            if any(host == blocked or host.endswith("." + blocked) for blocked in social_hosts):
+                return False
+    return True
+
+
+def select_today(issue: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Select up to eight distinct, evidenced AI events from the stored edition.
+
+    No clock/network access and no factual summary generation. Exact published
+    times determine newest-first ordering; ties use stable article identity.
+    Each representative source contributes at most two selected events. Hacker
+    News hot/new/show feeds share one source budget.
+    """
+    if issue.get("schemaVersion") != 2:
+        return []
+    start = _strict_datetime(issue["edition"]["windowStart"], "edition.windowStart")
+    end = _strict_datetime(issue["edition"]["windowEnd"], "edition.windowEnd")
+    sources = {source["id"]: source for source in issue["sources"]}
+    eligible = []
+    for article in issue["articles"]:
+        if (article["dateEvidence"] != "exact" or sources[article["sourceId"]]["status"] != "ok"
+                or not _brief_source_allowed(article)):
+            continue
+        published = _strict_datetime(article["publishedAt"], "article.publishedAt")
+        collected = _strict_datetime(article["collectedAt"], "article.collectedAt")
+        if start <= published < end and published <= collected and AI_RE.search(article["title"] + " " + article.get("summary", "")):
+            eligible.append(article)
+    groups = group_articles(eligible)
+    groups.sort(key=lambda group: (
+        -_strict_datetime(group["representative"]["publishedAt"], "article.publishedAt").timestamp(),
+        _article_order(group["representative"]),
+    ))
+    selected = []
+    counts: Dict[str, int] = {}
+    for group in groups:
+        source_id = group["representative"]["sourceId"]
+        family = "hacker-news" if source_id in {"hacker-news", "hacker-news-new", "hacker-news-show"} else source_id
+        if counts.get(family, 0) >= 2:
+            continue
+        counts[family] = counts.get(family, 0) + 1
+        group["reason"] = "入选依据：AI 相关；来源记录时间在本期窗口内；采集成功。"
+        if len(group["articles"]) > 1:
+            group["reason"] += " 已按相同公开链接、明确原文链接或事件标识合并 {0} 条记录。".format(len(group["articles"]))
+        selected.append(group)
+        if len(selected) == 8:
+            break
+    return selected
 
 
 def load_issues(issues_dir: Path = ISSUES_DIR) -> List[Dict[str, Any]]:
@@ -571,7 +810,7 @@ def _render_wechat(section: Dict[str, Any]) -> str:
     )
 
 
-def _render_social(section: Dict[str, Any]) -> str:
+def _render_social(section: Dict[str, Any], compact_empty: bool = False) -> str:
     panels: List[str] = []
     for platform in section["platforms"]:
         entries: List[str] = []
@@ -585,17 +824,20 @@ def _render_social(section: Dict[str, Any]) -> str:
                 )
             )
         item_html = '<ol class="social-list">{0}</ol>'.format("".join(entries)) if entries else '<div class="social-empty">该来源当前不可用，等待下一次有效快照</div>'
+        origin = '<div class="social-origin">{0}</div>'.format(_escape_text(platform["origin"]))
+        if compact_empty and not entries:
+            origin = '<details class="social-origin-details"><summary>采集说明</summary>{0}</details>'.format(origin)
         panels.append(
             '<section class="social-panel" aria-labelledby="platform-{0}">'
             '<div class="social-panel-head"><span class="social-title" id="platform-{0}">{1}</span>'
             '<span class="social-status {2}">{3}</span></div>{4}'
-            '<div class="social-origin">{5}</div></section>'.format(
+            '{5}</section>'.format(
                 html.escape(platform["id"], quote=True),
                 _escape_text(platform["title"]),
                 html.escape(platform["status"], quote=True),
                 _escape_text(platform["snapshotLabel"]),
                 item_html,
-                _escape_text(platform["origin"]),
+                origin,
             )
         )
     return '<p class="social-overview">{0}</p><div class="social-grid">{1}</div>'.format(
@@ -612,10 +854,71 @@ SECTION_RENDERERS = {
 }
 
 
+def render_editorial(issue: Dict[str, Any]) -> str:
+    """Render the v2 collection ledger and derived daily briefing only."""
+    if issue.get("schemaVersion") != 2:
+        return ""
+    status_labels = {"ok": "成功", "empty": "无新增", "unavailable": "不可用", "stale": "沿用旧快照", "not_run": "未运行"}
+    counts = {status: sum(source["status"] == status for source in issue["sources"]) for status in status_labels}
+    summary = " / ".join("{0} {1}".format(label, counts[status]) for status, label in status_labels.items())
+    headings = ("来源", "状态", "检查时间", "最近成功", "条数", "说明")
+    rows = []
+    for source in issue["sources"]:
+        values = (source["label"], status_labels[source["status"]], source["checkedAt"] or "未记录",
+                  source["lastSuccessAt"] or "未记录", str(source["itemCount"]), source["message"] or "—")
+        rows.append('<tr>{0}</tr>'.format("".join(
+            '<td data-label="{0}">{1}</td>'.format(label, _escape_text(value)) for label, value in zip(headings, values)
+        )))
+    if not rows:
+        rows.append('<tr><td colspan="6">本期没有来源记录</td></tr>')
+    window = "{0} 至 {1}（北京时间；含起点，不含终点）".format(
+        _strict_datetime(issue["edition"]["windowStart"], "edition.windowStart").astimezone(CST).strftime("%Y-%m-%d %H:%M"),
+        _strict_datetime(issue["edition"]["windowEnd"], "edition.windowEnd").astimezone(CST).strftime("%Y-%m-%d %H:%M"),
+    )
+    collection = (
+        '<section class="section collection-status" id="collection-status"><h2>采集概况</h2>'
+        '<p class="collection-summary">{0}</p><p class="collection-window">{1}</p>'
+        '<details class="collection-details"><summary>查看来源状态与采集时间</summary>'
+        '<div class="table-wrap"><table class="data-table collection-table"><thead><tr>{2}</tr></thead>'
+        '<tbody>{3}</tbody></table></div></details></section>'
+    ).format(_escape_text(summary), _escape_text(window), "".join('<th scope="col">{0}</th>'.format(label) for label in headings), "".join(rows))
+    sources = {source["id"]: source for source in issue["sources"]}
+    category_labels = {"models": "模型", "products": "产品", "research": "研究", "tutorials": "教程", "industry": "行业", "opensource": "开源", "other": "综合"}
+    cards = []
+    for group in select_today(issue):
+        item = group["representative"]
+        timestamp = _strict_datetime(item["publishedAt"], "article.publishedAt").astimezone(CST).strftime("%m-%d %H:%M")
+        meta = '{0} · <time datetime="{1}">{2}</time>（北京时间） · {3}'.format(
+            _escape_text(sources[item["sourceId"]]["label"]), html.escape(item["publishedAt"], quote=True),
+            timestamp, category_labels[item["category"]],
+        )
+        body = '<h3>{0}</h3><p class="brief-meta">{1}</p>'.format(_link(group["url"], item["title"]), meta)
+        if item.get("summary"):
+            body += '<p class="brief-summary">{0}</p>'.format(_escape_text(item["summary"]))
+        body += '<p class="brief-reason">{0}</p>'.format(_escape_text(group["reason"]))
+        if group["relatedLinks"]:
+            links = "".join('<li>{0}<span class="brief-related-source"> · {1}</span></li>'.format(
+                _link(link["url"], link["title"]), _escape_text(sources[link["sourceId"]]["label"])
+            ) for link in group["relatedLinks"])
+            body += '<details class="brief-related"><summary>相关报道（{0}）</summary><ul>{1}</ul></details>'.format(len(group["relatedLinks"]), links)
+        cards.append('<article class="brief-event">{0}</article>'.format(body))
+    brief_body = '<div class="brief-grid">{0}</div>'.format("".join(cards)) if cards else (
+        '<p class="brief-empty">本期没有满足条件的今日必读。仅采用窗口内发布时间明确、采集成功且与 AI 相关的公开文章；日期不明或来源受限的内容请在按来源阅读中查看。</p>'
+    )
+    briefing = (
+        '<section class="section today-brief" id="today-brief"><h2>今日必读</h2>'
+        '<p class="brief-policy">标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。</p>{0}</section>'
+    ).format(brief_body)
+    return collection + "\n" + briefing
+
+
 def _render_sections(issue: Dict[str, Any]) -> str:
     chunks: List[str] = []
     for section in issue["sections"]:
-        body = SECTION_RENDERERS[section["kind"]](section)
+        if issue["schemaVersion"] == 2 and section["kind"] == "social":
+            body = _render_social(section, compact_empty=True)
+        else:
+            body = SECTION_RENDERERS[section["kind"]](section)
         if section["id"] == "source-health":
             body = (
                 '<details class="source-health"><summary>查看各来源状态、条数与采集时间</summary>'
@@ -632,7 +935,14 @@ def _render_sections(issue: Dict[str, Any]) -> str:
                 body,
             )
         )
-    return "\n".join(chunks)
+    source_body = "\n".join(chunks)
+    if issue["schemaVersion"] == 1:
+        return source_body
+    nav = '<nav class="reading-nav" aria-label="按来源跳转">{0}</nav>'.format("".join(
+        '<a href="#{0}">{1}</a>'.format(html.escape(section["id"], quote=True), _escape_text(section["title"]))
+        for section in issue["sections"]
+    ))
+    return render_editorial(issue) + '\n<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2>{0}\n{1}\n</section>'.format(nav, source_body)
 
 
 def _render_history_links(dates: Sequence[str], selected: str, prefix: str) -> str:
@@ -846,6 +1156,51 @@ def _iter_files(root: Path) -> Iterable[Path]:
     return sorted(path for path in root.rglob("*") if path.is_file())
 
 
+def _unescape_scan_text(text: str) -> str:
+    text = html.unescape(text).replace("\\/", "/")
+    return re.sub(r"\\u([0-9a-fA-F]{4})", lambda match: chr(int(match.group(1), 16)), text)
+
+
+def _decode_scan_text(text: str) -> str:
+    previous = None
+    while text != previous:
+        previous = text
+        text = unquote(_unescape_scan_text(text))
+    return text
+
+
+PUBLIC_TEXT_URL_RE = re.compile(r"https?://[^\s<>\"'\\]+", re.IGNORECASE)
+LOCAL_PATH_RE = re.compile(
+    r"(?i)(?:/(?:users|home|private|volumes|var/folders)/"
+    r"|\b[a-z]:[\\/](?:users|documents and settings|windows|temp)[\\/]"
+    r"|\\\\[^\\\s]+\\[^\\\s]+|(?:^|[\s\"'=])~[/\\])"
+)
+
+
+def _path_scan_text(text: str) -> str:
+    """Mask literal /users/ only inside a validated public URL's path.
+
+    Do this before percent decoding: encoded local paths never receive this
+    narrow exception. Queries, fragments, surrounding prose and all other
+    sensitive scans keep their complete text. No domains are exempted.
+    """
+    text = text.replace("\\/", "/")
+
+    def mask_url(match: Any) -> str:
+        url = match.group(0)
+        try:
+            _validate_public_url(url, "text.url")
+        except XaitError:
+            return url
+        parts = urlsplit(url)
+        start = len(parts.scheme) + 3 + len(parts.netloc)
+        finish = start + len(parts.path)
+        path = re.sub(r"(?i)/users/", "/public-users/", url[start:finish])
+        return url[:start] + path + url[finish:]
+
+    return _decode_scan_text(PUBLIC_TEXT_URL_RE.sub(mask_url, text))
+
+
 def _scan_sensitive_text(text: str, relative: str) -> None:
     previous_personal_prefix = "".join(
         chr(code)
@@ -855,22 +1210,25 @@ def _scan_sensitive_text(text: str, relative: str) -> None:
         "fonts.googleapis.com": "远程 Google Fonts",
         "fonts.gstatic.com": "远程 Google Fonts",
         "file" + "://": "本机文件 URL",
-        "/" + "Users" + "/": "macOS 用户绝对路径",
-        "C:" + "\\Users\\": "Windows 用户绝对路径",
         previous_personal_prefix + "-theme": "旧个人主题键",
         previous_personal_prefix: "旧个人命名",
     }
-    lowered = text.lower()
+    decoded = _decode_scan_text(text)
+    lowered = decoded.lower()
     for literal, label in forbidden_literals.items():
         if literal.lower() in lowered:
             raise XaitError("{0} 含{1}".format(relative, label), EXIT_SECURITY)
+    if LOCAL_PATH_RE.search(_path_scan_text(text)):
+        raise XaitError("{0} 含本机绝对路径".format(relative), EXIT_SECURITY)
+    for match in PUBLIC_TEXT_URL_RE.finditer(decoded):
+        _validate_public_url(match.group(0), relative + ".url")
     credential_patterns = [
-        re.compile(r"(?i)(?:api[_-]?key|access[_-]?token|authorization|cookie|password|secret)\s*[:=]\s*['\"]?[^\s<'\"]{8,}"),
+        re.compile(r"(?i)(?:api[_-]?key|access[_-]?token|authorization|cookie|password|secret)\s*['\"]?\s*[:=]\s*['\"]?[^\s<'\",}]{1,}"),
         re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     ]
-    if any(pattern.search(text) for pattern in credential_patterns):
+    if any(pattern.search(decoded) for pattern in credential_patterns):
         raise XaitError("{0} 疑似包含凭据".format(relative), EXIT_SECURITY)
-    for match in re.finditer(r"(?<![\d.])(?:\d{1,3}\.){3}\d{1,3}(?![\d.])", text):
+    for match in re.finditer(r"(?<![\d.])(?:\d{1,3}\.){3}\d{1,3}(?![\d.])", decoded):
         try:
             address = ipaddress.ip_address(match.group(0))
         except ValueError:

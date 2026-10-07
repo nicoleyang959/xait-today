@@ -69,6 +69,8 @@
     const toggle = document.getElementById("sidebar-toggle");
     if (!sidebar || !toggle) return;
     sidebar.classList.toggle("collapsed", collapsed);
+    sidebar.inert = collapsed;
+    sidebar.setAttribute("aria-hidden", String(collapsed));
     document.body.classList.toggle("sidebar-collapsed", collapsed);
     toggle.textContent = collapsed ? "›" : "‹";
     toggle.setAttribute("aria-expanded", String(!collapsed));

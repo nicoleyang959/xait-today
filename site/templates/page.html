@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="xAIT 今日——每日 AI 资讯、中文平台热榜与多源科技信号">
+  <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
@@ -16,6 +16,7 @@
   <script src="{{ASSET_PREFIX}}assets/app.js" defer></script>
 </head>
 <body class="theme-terminal">
+  <a class="skip-link" href="#main-content">跳到简报正文</a>
   <aside class="sidebar" id="sidebar">
     <a class="sidebar-brand" href="{{HOME_HREF}}">xAIT 今日</a>
     <div class="sidebar-tagline">历史归档</div>
@@ -26,7 +27,7 @@
     </nav>
   </aside>
 
-  <main class="main">
+  <main class="main" id="main-content" tabindex="-1">
     <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="收起历史栏" title="收起历史栏">‹</button>
 
     <header class="masthead">
