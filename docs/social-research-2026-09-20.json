@@ -3,93 +3,6 @@
   "generatedAt": "2026-09-20T08:49:33+08:00",
   "platforms": [
     {
-      "collectedAt": "采集于 2026-09-20T08:48:55+08:00",
-      "items": [
-        {
-          "engagementLabel": "37882赞 · 9027藏 · 4101评",
-          "meta": "虾聊创始人Weilian · AI热点 · 估算日期（内容 ID 推算） 2026-09-10",
-          "rank": 1,
-          "title": "Anthropic研究员离职警告引爆1亿多人围观",
-          "url": "https://www.xiaohongshu.com/explore/6aa28af3000000002901925a"
-        },
-        {
-          "engagementLabel": "4786赞 · 760藏 · 1865评",
-          "meta": "Adrian Lee · AI热点 · 估算日期（内容 ID 推算） 2026-09-09",
-          "rank": 2,
-          "title": "这哥们说Ai十年内要消灭全人类，马斯克转发",
-          "url": "https://www.xiaohongshu.com/explore/6aa15b11000000000b00cafa"
-        },
-        {
-          "engagementLabel": "2011赞 · 3493藏 · 66评",
-          "meta": "不吃桃子（AI版 · AI热点 · 估算日期（内容 ID 推算） 2026-09-08",
-          "rank": 3,
-          "title": "如何把Codex变成一个AI总控台",
-          "url": "https://www.xiaohongshu.com/explore/6a9fac0b000000002802f9bf"
-        },
-        {
-          "engagementLabel": "3189赞 · 1065藏 · 497评",
-          "meta": "c3po加载中 · AI热点 · 估算日期（内容 ID 推算） 2026-09-02",
-          "rank": 4,
-          "title": "30秒看懂李飞飞团队的Atlas模型",
-          "url": "https://www.xiaohongshu.com/explore/6a97e20a0000000026038e82"
-        },
-        {
-          "engagementLabel": "1627赞 · 1417藏 · 10评",
-          "meta": "乐学的AI笔记 · AI热点 · 估算日期（内容 ID 推算） 2026-08-22",
-          "rank": 5,
-          "title": "一图看懂｜2026最好用的AI工具",
-          "url": "https://www.xiaohongshu.com/explore/6a89a86d0000000033008dae"
-        },
-        {
-          "engagementLabel": "1152赞 · 1026藏 · 39评",
-          "meta": "谢慢慢 · AI热点 · 估算日期（内容 ID 推算） 2026-09-11",
-          "rank": 6,
-          "title": "小白也能看懂的Agent知识讲解来啦",
-          "url": "https://www.xiaohongshu.com/explore/6aa3b25c0000000028036f0e"
-        },
-        {
-          "engagementLabel": "1012赞 · 220藏 · 505评",
-          "meta": "Aigenn · AI热点 · 估算日期（内容 ID 推算） 2026-09-06",
-          "rank": 7,
-          "title": "外网爆火一句话",
-          "url": "https://www.xiaohongshu.com/explore/6a9d7df2000000001103adb6"
-        },
-        {
-          "engagementLabel": "753赞 · 282藏 · 370评",
-          "meta": "大厂AI情报处 · AI热点 · 估算日期（内容 ID 推算） 2026-09-01",
-          "rank": 8,
-          "title": "大厂扫空几十万Claude账号，散户直接无号",
-          "url": "https://www.xiaohongshu.com/explore/6a9687fc0000000011033570"
-        },
-        {
-          "engagementLabel": "656赞 · 640藏 · 45评",
-          "meta": "超级无敌上等签 · AI热点 · 估算日期（内容 ID 推算） 2026-08-24",
-          "rank": 9,
-          "title": "大厂AI工作流发展到什么样了？",
-          "url": "https://www.xiaohongshu.com/explore/6a8c2290000000001600b917"
-        },
-        {
-          "engagementLabel": "367赞 · 230藏 · 75评",
-          "meta": "Raingle · AI热点 · 估算日期（内容 ID 推算） 2026-09-01",
-          "rank": 10,
-          "title": "AI 真的快要没活了，AI 应用到头了",
-          "url": "https://www.xiaohongshu.com/explore/6a966f2d0000000025036f89"
-        }
-      ],
-      "key": "xiaohongshu",
-      "label": "📕 小红书 Top 10",
-      "origin": "小红书/抖音登录态采集快照",
-      "status": "fresh"
-    },
-    {
-      "collectedAt": "2026-09-20 · 来源暂不可用，本期未使用历史榜单",
-      "items": [],
-      "key": "douyin",
-      "label": "🎵 抖音 Top 10",
-      "origin": "小红书/抖音登录态采集快照 · 2026-09-20 · 来源暂不可用，本期未使用历史榜单（当前任务未取得可核验的抖音公开搜索结果；本期未使用历史榜单）",
-      "status": "unavailable"
-    },
-    {
       "collectedAt": "采集于 2026-09-20",
       "items": [
         {
@@ -229,6 +142,6 @@
       "status": "fresh"
     }
   ],
-  "rankingPolicy": "仅在已采集的 AI 相关候选内各自排序，不是平台全站官方榜单。小红书按赞、藏、评总和，抖音按点赞量；不跨平台比较。近 30 天筛选中，标有“估算日期”的条目由内容 ID 推算，未核验为平台精确发布时间。旧快照会明确标记，不冒充今日采集。",
+  "rankingPolicy": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。",
   "schemaVersion": 1
 }

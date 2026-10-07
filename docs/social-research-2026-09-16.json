@@ -3,93 +3,6 @@
   "generatedAt": "2026-09-16T11:26:51+08:00",
   "platforms": [
     {
-      "collectedAt": "采集于 2026-09-16T11:25:01+08:00",
-      "items": [
-        {
-          "engagementLabel": "2711赞 · 410藏 · 739评",
-          "meta": "BKashmir7 · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 1,
-          "title": "马斯克、奥特曼、Dario、连cz都发文了",
-          "url": "https://www.xiaohongshu.com/explore/6aa94b02000000002502d405"
-        },
-        {
-          "engagementLabel": "459赞 · 267藏 · 208评",
-          "meta": "MY·中本聪的猫 · AI热点 · 估算日期（内容 ID 推算） 2026-09-11",
-          "rank": 2,
-          "title": "人工智能吹哨人",
-          "url": "https://www.xiaohongshu.com/explore/6aa3fdde0000000011035451"
-        },
-        {
-          "engagementLabel": "537赞 · 134藏 · 227评",
-          "meta": "小羊肖恩Bund · AI热点 · 估算日期（内容 ID 推算） 2026-09-13",
-          "rank": 3,
-          "title": "🤯三大AI巨头周末集体宣布放缓AI发展！",
-          "url": "https://www.xiaohongshu.com/explore/6aa611a700000000280385b2"
-        },
-        {
-          "engagementLabel": "278赞 · 239藏 · 15评",
-          "meta": "谢慢慢 · AI热点 · 估算日期（内容 ID 推算） 2026-09-11",
-          "rank": 4,
-          "title": "小白也能看懂的Agent知识讲解来啦",
-          "url": "https://www.xiaohongshu.com/explore/6aa3b25c0000000028036f0e"
-        },
-        {
-          "engagementLabel": "116赞 · 55藏 · 14评",
-          "meta": "雪狮upup · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 5,
-          "title": "AI巨头罕见同阵营：人工智能可能杀死全人类",
-          "url": "https://www.xiaohongshu.com/explore/6aa90ba4000000002700ad9a"
-        },
-        {
-          "engagementLabel": "110赞 · 44藏 · 10评",
-          "meta": "我，吉他，猫，LLM · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 6,
-          "title": "你只有在乎Coding，才需要Coding Style",
-          "url": "https://www.xiaohongshu.com/explore/6aa8c5e30000000027008399"
-        },
-        {
-          "engagementLabel": "72赞 · 84藏 · 4评",
-          "meta": "美研芒格君 · AI热点 · 估算日期（内容 ID 推算） 2026-09-12",
-          "rank": 7,
-          "title": "学习 AI 别只顾着收藏，打开一篇认真读下去",
-          "url": "https://www.xiaohongshu.com/explore/6aa4f6d80000000028033270"
-        },
-        {
-          "engagementLabel": "93赞 · 10藏 · 35评",
-          "meta": "李奇琪 · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 8,
-          "title": "关于ai安全我的简单思考",
-          "url": "https://www.xiaohongshu.com/explore/6aa9664b0000000026023143"
-        },
-        {
-          "engagementLabel": "59赞 · 65藏 · 0评",
-          "meta": "新物种日记 · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 9,
-          "title": "什么是Recursive Self-Improvement (RSI)?",
-          "url": "https://www.xiaohongshu.com/explore/6aa94698000000000d027ea1"
-        },
-        {
-          "engagementLabel": "18赞 · 27藏 · 1评",
-          "meta": "麦瓜子 · AI热点 · 估算日期（内容 ID 推算） 2026-09-15",
-          "rank": 10,
-          "title": "AI 开始学会“自己升级”了：最近爆火的 10",
-          "url": "https://www.xiaohongshu.com/explore/6aa93996000000002901aa17"
-        }
-      ],
-      "key": "xiaohongshu",
-      "label": "📕 小红书 Top 10",
-      "origin": "小红书/抖音登录态采集快照",
-      "status": "fresh"
-    },
-    {
-      "collectedAt": "2026-09-16 · 来源暂不可用，本期未使用历史榜单",
-      "items": [],
-      "key": "douyin",
-      "label": "🎵 抖音 Top 10",
-      "origin": "小红书/抖音登录态采集快照 · 2026-09-16 · 来源暂不可用，本期未使用历史榜单（浏览器连接两次失败，无法读取本期公开搜索；未使用历史榜单）",
-      "status": "unavailable"
-    },
-    {
       "collectedAt": "采集于 2026-09-16",
       "items": [
         {
@@ -278,6 +191,6 @@
       "status": "fresh"
     }
   ],
-  "rankingPolicy": "仅在已采集的 AI 相关候选内各自排序，不是平台全站官方榜单。小红书按赞、藏、评总和，抖音按点赞量；不跨平台比较。近 30 天筛选中，标有“估算日期”的条目由内容 ID 推算，未核验为平台精确发布时间。旧快照会明确标记，不冒充今日采集。",
+  "rankingPolicy": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。",
   "schemaVersion": 1
 }

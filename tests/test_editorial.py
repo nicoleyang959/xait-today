@@ -337,7 +337,9 @@ class SchemaAndSelectionTests(unittest.TestCase):
         self.assertNotIn('class="brief-event"', rendered)
         self.assertIn('id="source-reading"', rendered)
         self.assertIn('class="reading-nav"', rendered)
-        for section in issue["sections"]:
+        for section in xait.active_issue(issue)["sections"]:
+            if section["kind"] == "social" and not section["platforms"]:
+                continue
             self.assertIn('href="#' + section["id"] + '"', rendered)
             self.assertIn('id="' + section["id"] + '"', rendered)
 

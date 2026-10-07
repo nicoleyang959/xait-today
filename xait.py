@@ -9,6 +9,7 @@ other agents.  It never performs collection or reads browser/account state.
 from __future__ import annotations
 
 import argparse
+import copy
 import functools
 import hashlib
 import html
@@ -57,6 +58,11 @@ THEMES = {
 SECTION_KINDS = {"blocks", "wechat", "social", "links", "table"}
 WECHAT_ACCOUNTS = {"APPSO", "数字生命卡兹克", "智东西", "花叔"}
 SOCIAL_STATUS = {"fresh", "stale", "unavailable"}
+# Keep older canonical inputs intact while applying the current source policy
+# consistently to pages, published issue JSON and compatibility snapshots.
+DISABLED_SOCIAL_PLATFORMS = frozenset({"xiaohongshu", "douyin"})
+DISABLED_SOCIAL_ALIASES = DISABLED_SOCIAL_PLATFORMS | frozenset({"xhs", "rednote", "red", "小红书", "抖音"})
+SOCIAL_OVERVIEW = "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
 WECHAT_TONES = {"fresh", "quiet", "stale"}
 SENSITIVE_QUERY_KEYS = {
     "access_token",
@@ -368,7 +374,7 @@ def _validate_wechat(section: Dict[str, Any], path: str) -> None:
 def _validate_social(section: Dict[str, Any], path: str) -> None:
     _expect_object(section, path, {"kind", "id", "title", "overview", "platforms"})
     _expect_string(section["overview"], path + ".overview")
-    platforms = _expect_array(section["platforms"], path + ".platforms", minimum=1)
+    platforms = _expect_array(section["platforms"], path + ".platforms")
     platform_ids: Set[str] = set()
     for index, raw_platform in enumerate(platforms):
         platform_path = "{0}.platforms[{1}]".format(path, index)
@@ -389,8 +395,6 @@ def _validate_social(section: Dict[str, Any], path: str) -> None:
         items = _expect_array(platform["items"], platform_path + ".items", maximum=10)
         if platform["status"] == "unavailable" and items:
             raise XaitError("{0}.items 在 unavailable 状态下必须为空".format(platform_path))
-        if platform_id in {"xiaohongshu", "douyin"} and platform["status"] != "unavailable" and len(items) != 10:
-            raise XaitError("{0}.items 可用或沿用快照时必须恰好有 10 项".format(platform_path))
         ranks: Set[int] = set()
         urls: Set[str] = set()
         for item_index, raw_item in enumerate(items):
@@ -410,8 +414,6 @@ def _validate_social(section: Dict[str, Any], path: str) -> None:
                 urls.add(url)
         if ranks and ranks != set(range(1, len(items) + 1)):
             raise XaitError("{0}.items 的 rank 必须从 1 连续编号".format(platform_path))
-    if not {"xiaohongshu", "douyin"}.issubset(platform_ids):
-        raise XaitError("{0}.platforms 必须包含 xiaohongshu 与 douyin".format(path))
 
 
 SECTION_VALIDATORS = {
@@ -555,6 +557,35 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
     if version == 2:
         _validate_editorial(root, source_name)
     return root
+
+
+def source_enabled(source_id: str) -> bool:
+    """Apply source identity policy without deleting ordinary news mentions."""
+    key = re.sub(r"\s+", "", source_id.strip().casefold().replace("_", "-")).removeprefix("social-")
+    key = re.sub(r"[\s-]+", "", key)
+    return key not in DISABLED_SOCIAL_ALIASES
+
+
+def active_social_section(section: Dict[str, Any]) -> Dict[str, Any]:
+    """Return a separate, publishable social section under the current policy."""
+    active = copy.deepcopy(section)
+    active["platforms"] = [platform for platform in active["platforms"] if source_enabled(platform["id"])]
+    if len(active["platforms"]) != len(section["platforms"]) or any(
+        name in active["overview"].lower() for name in ("小红书", "抖音", "xiaohongshu", "douyin", "rednote")
+    ):
+        active["overview"] = SOCIAL_OVERVIEW
+    return active
+
+
+def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
+    """Derive the current public view; never mutate the stored historical issue."""
+    active = copy.deepcopy(issue)
+    active["sections"] = [active_social_section(section) if section["kind"] == "social" else section
+                          for section in active["sections"]]
+    if active.get("schemaVersion") == 2:
+        active["sources"] = [source for source in active["sources"] if source_enabled(source["id"])]
+        active["articles"] = [article for article in active["articles"] if source_enabled(article["sourceId"])]
+    return active
 
 
 def canonical_public_url(url: str) -> str:
@@ -811,6 +842,9 @@ def _render_wechat(section: Dict[str, Any]) -> str:
 
 
 def _render_social(section: Dict[str, Any], compact_empty: bool = False) -> str:
+    section = active_social_section(section)
+    if not section["platforms"]:
+        return ""
     panels: List[str] = []
     for platform in section["platforms"]:
         entries: List[str] = []
@@ -858,6 +892,7 @@ def render_editorial(issue: Dict[str, Any]) -> str:
     """Render the v2 collection ledger and derived daily briefing only."""
     if issue.get("schemaVersion") != 2:
         return ""
+    issue = active_issue(issue)
     status_labels = {"ok": "成功", "empty": "无新增", "unavailable": "不可用", "stale": "沿用旧快照", "not_run": "未运行"}
     counts = {status: sum(source["status"] == status for source in issue["sources"]) for status in status_labels}
     summary = " / ".join("{0} {1}".format(label, counts[status]) for status, label in status_labels.items())
@@ -913,8 +948,11 @@ def render_editorial(issue: Dict[str, Any]) -> str:
 
 
 def _render_sections(issue: Dict[str, Any]) -> str:
+    issue = active_issue(issue)
+    visible_sections = [section for section in issue["sections"]
+                        if section["kind"] != "social" or section["platforms"]]
     chunks: List[str] = []
-    for section in issue["sections"]:
+    for section in visible_sections:
         if issue["schemaVersion"] == 2 and section["kind"] == "social":
             body = _render_social(section, compact_empty=True)
         else:
@@ -940,7 +978,7 @@ def _render_sections(issue: Dict[str, Any]) -> str:
         return source_body
     nav = '<nav class="reading-nav" aria-label="按来源跳转">{0}</nav>'.format("".join(
         '<a href="#{0}">{1}</a>'.format(html.escape(section["id"], quote=True), _escape_text(section["title"]))
-        for section in issue["sections"]
+        for section in visible_sections
     ))
     return render_editorial(issue) + '\n<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2>{0}\n{1}\n</section>'.format(nav, source_body)
 
@@ -1020,7 +1058,7 @@ def _wechat_compat(issue: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _social_compat(issue: Dict[str, Any]) -> Dict[str, Any]:
-    section = _find_section(issue, "social")
+    section = active_social_section(_find_section(issue, "social"))
     return {
         "schemaVersion": 1,
         "date": issue["date"],
@@ -1070,6 +1108,10 @@ def build_site(destination: Path, issues: Optional[List[Dict[str, Any]]] = None)
         raise XaitError("没有可构建的简报", EXIT_INPUT)
     for index, issue in enumerate(issues):
         validate_issue(issue, "issues[{0}]".format(index))
+        _scan_sensitive_text(_canonical_json(issue).decode("utf-8"), "issues[{0}]".format(index))
+    issues = [active_issue(issue) for issue in issues]
+    for index, issue in enumerate(issues):
+        validate_issue(issue, "active issues[{0}]".format(index))
     issues = sorted(issues, key=lambda item: item["date"])
     dates = [issue["date"] for issue in issues]
     latest = issues[-1]
@@ -1338,6 +1380,16 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
     health = _load_json(site_root / "health.json")
     if health.get("status") != "ok" or health.get("latest") != latest or health.get("issueCount") != len(issues):
         raise XaitError("health.json 与构建结果不一致", EXIT_BUILD)
+    expected_hashes = {}
+    for raw_issue in issues:
+        issue = active_issue(raw_issue)
+        issue_date = issue["date"]
+        expected_bytes = _canonical_json(issue)
+        if (site_root / "issues" / (issue_date + ".json")).read_bytes() != expected_bytes:
+            raise XaitError("公开 issue 与启用来源策略不一致：{0}".format(issue_date), EXIT_BUILD)
+        expected_hashes[issue_date] = hashlib.sha256(expected_bytes).hexdigest()
+    if health.get("issueSha256") != expected_hashes:
+        raise XaitError("health.json 的公开 issue 摘要不一致", EXIT_BUILD)
     return {"latest": latest, "issueCount": len(issues), "fileCount": len(actual)}
 
 
