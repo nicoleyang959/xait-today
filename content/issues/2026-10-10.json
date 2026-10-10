@@ -1,0 +1,1667 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-587b0415db9e134fb4e7795b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4552afd2b893799c9d29ccec",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a995c524e162e5954b7a5664",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4aa9c61cd87ef8136e1ec5e3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f7094707e7d46deb1e988839",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ef52636841125efdbee279e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1ce0a450e00e22de09419163",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6f8d5f59ffead31d7b35b13b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e38525e8172370cd31c84045",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e337e0c3b8fa553cd2d64ffc",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a0a32b782dc3345e2e27ba15",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "twostraws/SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b744768fab910a65f93e7082",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "openai/math",
+      "url": "https://github.com/openai/math"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5f8df9bd1b82777dbd7d4cd3",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "alchaincyf/huashu-art-motion",
+      "url": "https://github.com/alchaincyf/huashu-art-motion"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7ce4060ae5565c9acab9bf43",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "mhtsec/ARTEX",
+      "url": "https://github.com/mhtsec/ARTEX"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a0fe6a7e411eb8758b5ddb1e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/wordcraft",
+      "url": "https://github.com/storytold/wordcraft"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3463949709f35f671bfa40b3",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "nullmoth/nvidia-macos-driver",
+      "url": "https://github.com/nullmoth/nvidia-macos-driver"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7c98058f71c962fe08592f85",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "zhongerxin/iPhone-use",
+      "url": "https://github.com/zhongerxin/iPhone-use"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a27468240f646e2d38d663b1",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "kargulstudio/sales-crm",
+      "url": "https://github.com/kargulstudio/sales-crm"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c0b02f078eca6514da29c5c1",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "LosaLosSantos/aurelio-finance",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bbf1a3cdd7d6d35ec2c3badd",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/cadcraft",
+      "url": "https://github.com/storytold/cadcraft"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fe3f78683c516d9cfa85ea51",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "LoreanXavier/pt-pc",
+      "url": "https://github.com/LoreanXavier/pt-pc"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-14a62afd61248ebbbc924604",
+      "publishedAt": "2026-10-09T11:03:48Z",
+      "sourceId": "hacker-news",
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-05c29939784520e9c5cc9b5a",
+      "publishedAt": "2026-10-09T17:02:31Z",
+      "sourceId": "hacker-news",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0a5388d67234cb527af9c0ae",
+      "publishedAt": "2026-10-09T11:36:20Z",
+      "sourceId": "hacker-news",
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-681a20d477ab2f474e2224aa",
+      "publishedAt": "2026-10-09T17:42:12Z",
+      "sourceId": "hacker-news",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f175986bfe204a4ab52cd6aa",
+      "publishedAt": "2026-10-09T22:00:35Z",
+      "sourceId": "hacker-news",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-38aab0611841b7a981b30c02",
+      "publishedAt": "2026-10-09T22:14:40Z",
+      "sourceId": "hacker-news",
+      "title": "Can AI automate AI R&D yet?",
+      "url": "https://epoch.ai/publications/innovationeval"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-27306d9373a2602da6d88e6f",
+      "publishedAt": "2026-10-08T17:59:50Z",
+      "sourceId": "arxiv",
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "url": "https://arxiv.org/abs/2610.12466v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-747b794a1aec663382f5288d",
+      "publishedAt": "2026-10-08T17:59:49Z",
+      "sourceId": "arxiv",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "url": "https://arxiv.org/abs/2610.12463v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a0621e500229b1c00a0c0f5a",
+      "publishedAt": "2026-10-08T17:58:56Z",
+      "sourceId": "arxiv",
+      "title": "BrickBench: Evaluating Agentic Brick Design",
+      "url": "https://arxiv.org/abs/2610.12452v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-762d2cba1e7edbe109306169",
+      "publishedAt": "2026-10-08T17:58:36Z",
+      "sourceId": "arxiv",
+      "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+      "url": "https://arxiv.org/abs/2610.12449v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-045bd8bb23fa964a74ee78a0",
+      "publishedAt": "2026-10-08T17:58:13Z",
+      "sourceId": "arxiv",
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "url": "https://arxiv.org/abs/2610.12445v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1383106c4882677fa480db8b",
+      "publishedAt": "2026-10-08T17:57:32Z",
+      "sourceId": "arxiv",
+      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "url": "https://arxiv.org/abs/2610.12436v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-81b5a4c6a06e731f4271201c",
+      "publishedAt": "2026-10-06T07:09:06-07:00",
+      "sourceId": "product-hunt",
+      "title": "Regunow",
+      "url": "https://www.producthunt.com/products/regunow"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4a337e219b051ff3551f94aa",
+      "publishedAt": "2026-10-08T01:53:59-07:00",
+      "sourceId": "product-hunt",
+      "title": "Staffcoder",
+      "url": "https://www.producthunt.com/products/staffcoder"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1621122ef3b479f4d059d522",
+      "publishedAt": "2026-10-06T02:07:53-07:00",
+      "sourceId": "product-hunt",
+      "title": "AgentSDR",
+      "url": "https://www.producthunt.com/products/agentsdr"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5f30ed7a7e5a39eaa3a198df",
+      "publishedAt": "2026-10-07T04:56:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "Zernio",
+      "url": "https://www.producthunt.com/products/zernio"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1ed07321ca1b7304009299ce",
+      "publishedAt": "2026-10-08T05:31:02-07:00",
+      "sourceId": "product-hunt",
+      "title": "Gemini Agent for Google Cloud",
+      "url": "https://www.producthunt.com/products/google"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a5197fe9f88a5f2f02910089",
+      "publishedAt": "2026-10-08T21:20:47-07:00",
+      "sourceId": "product-hunt",
+      "title": "iwant",
+      "url": "https://www.producthunt.com/products/iwant"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d1c0179ef3e8e5edde3954eb",
+      "publishedAt": "2026-10-08T09:51:49-07:00",
+      "sourceId": "product-hunt",
+      "title": "Odyssey 3",
+      "url": "https://www.producthunt.com/products/odyssey-3"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-10T09:13:54+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2c6778990c4c94c261e84de9",
+      "publishedAt": "2026-10-07T20:24:04-07:00",
+      "sourceId": "product-hunt",
+      "title": "Playground by Google Labs",
+      "url": "https://www.producthunt.com/products/google-labs"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8b6977db8c427e3fe4c9886d",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners",
+      "url": "https://www.ycombinator.com/blog/welcome-vivian-and-raphael"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b4dc1e1fb32755e257c6f9c4",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Christopher Golda and Grey Baker Join YC as General Partners",
+      "url": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-92a51b88896948eea9550aef",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Diana Hu Is YC's Newest Managing Partner",
+      "url": "https://www.ycombinator.com/blog/diana-hu-managing-partner"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2e7a6ba3c21f6e891b7e9882",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Harshita Arora Joins YC as General Partner",
+      "url": "https://www.ycombinator.com/blog/welcome-harshita"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e7c929557f09e5b9ba9ab95d",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+      "url": "https://www.ycombinator.com/blog/adding-canada-back"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:14:31+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-29e4b075222a6eb87d926c95",
+      "publishedAt": null,
+      "sourceId": "y-combinator",
+      "title": "Congratulations to EquipmentShare on Going Public",
+      "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:03:50+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f6ba9e6be062f493e0639265",
+      "publishedAt": null,
+      "sourceId": "wechat-zhidx",
+      "title": "姚颂、杨宇欣联手，连发两款机器人，瞄准24小时便利店",
+      "url": "https://www.jintiankansha.com/t/IlgKKor7gK"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-10T09:03:50+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e8e4bcfb50459f5a2184a243",
+      "publishedAt": null,
+      "sourceId": "wechat-huashu",
+      "title": "只有一个用户，也值得专门做个App",
+      "url": "https://www.jintiankansha.com/t/AaOka2uxxM"
+    }
+  ],
+  "date": "2026-10-10",
+  "edition": {
+    "windowEnd": "2026-10-10T08:45:00+08:00",
+    "windowStart": "2026-10-09T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-10T09:14:31+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源处理失败，等待结构检查"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "hexi-2077",
+      "kind": "blocks",
+      "title": "📰 何夕2077 · AI 资讯日报"
+    },
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-10 · 采集时显示：59 分钟前 · 打开账号列表",
+              "title": "全球PC销量暴跌20%/小米17 Ultra全系涨价1000元/Jev开发商融资58亿，估值500亿",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-10 · 采集时显示：31 分钟前 · 打开账号列表",
+              "title": "我花了5天时间，对公司进行了一场AI化改造。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "最近",
+              "meta": "2026-10-09 · 采集时显示：15 小时前 · 打开文章",
+              "title": "姚颂、杨宇欣联手，连发两款机器人，瞄准24小时便利店",
+              "url": "https://www.jintiankansha.com/t/IlgKKor7gK"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "最近",
+              "meta": "2026-10-09 · 采集时显示：20 小时前 · 打开文章",
+              "title": "只有一个用户，也值得专门做个App",
+              "url": "https://www.jintiankansha.com/t/AaOka2uxxM"
+            }
+          ],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-10T09:03:50+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-10T09:03:50+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "id": "social-research-top10",
+      "kind": "social",
+      "overview": "仅在已采集的 AI 相关候选内按各来源互动量或综合热度排序，最多展示 10 条；不是平台全站官方榜单，不跨平台比较。来源日期和采集时间分别标注，旧快照会明确标记，不冒充今日采集。",
+      "platforms": [
+        {
+          "id": "reddit",
+          "items": [
+            {
+              "heat": "499评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02",
+              "rank": 1,
+              "title": "Pope Leo XIV denounces AI Art and calls for alliance to human artists",
+              "url": "https://www.reddit.com/r/antiai/comments/1wvu53f/pope_leo_xiv_denounces_ai_art_and_calls_for/"
+            },
+            {
+              "heat": "476评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22",
+              "rank": 2,
+              "title": "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead",
+              "url": "https://www.reddit.com/r/ProgressiveHQ/comments/1wnccgv/trump_addresses_the_un_general_assembly_to_reject/"
+            },
+            {
+              "heat": "412评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22",
+              "rank": 3,
+              "title": "POTUS: From now on, all of U.S. documents should use \"Super Intelligence\" instead of AI, since \"Artificial\" makes it sound fake, and it’s not.",
+              "url": "https://www.reddit.com/r/singularity/comments/1wneb1h/potus_from_now_on_all_of_us_documents_should_use/"
+            },
+            {
+              "heat": "365评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
+              "rank": 4,
+              "title": "Donald Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’",
+              "url": "https://www.reddit.com/r/Fauxmoi/comments/1x0yoa8/donald_trump_says_anyone_who_does_not_call_ai/"
+            },
+            {
+              "heat": "363评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22",
+              "rank": 5,
+              "title": "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead",
+              "url": "https://www.reddit.com/r/investment/comments/1wncbz1/trump_addresses_the_un_general_assembly_to_reject/"
+            },
+            {
+              "heat": "综合热度 70",
+              "meta": "AI agents · 快照日期（未注明核验方式） 2026-10-09",
+              "rank": 6,
+              "title": "Q: Who should be held accountable when the AI agents commit a crime? | Trump: It's not AI. It's SI. We changed the name officially today",
+              "url": "https://www.reddit.com/r/OpenAI/comments/1wu20hr/q_who_should_be_held_accountable_when_the_ai/"
+            },
+            {
+              "heat": "相关度 34.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
+              "rank": 7,
+              "title": "BREAKING: President Trump Declares That The White House Considers Anyone Who Says “Artificial Intelligence” Instead Of “Super Intelligence” To Be “The Enemy,” Escalating His Rebranding Push As Polls Show Voter Opposition To Data Centers & Strong Support For Safety Guardrails 🏛️",
+              "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1x1cej4/breaking_president_trump_declares_that_the_white/"
+            },
+            {
+              "heat": "相关度 31.3",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
+              "rank": 8,
+              "title": "Trump declares anyone who uses the term Artificial Intelligence to be ‘The Enemy!’",
+              "url": "https://www.reddit.com/r/NewsOfTheStupid/comments/1x0wptl/trump_declares_anyone_who_uses_the_term/"
+            },
+            {
+              "heat": "相关度 29.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02",
+              "rank": 9,
+              "title": "Manchester City’s chief executive Ferran Soriano has insisted that his video message sent to staff this week about the independent commission’s devastating verdicts on Premier League rule breaches was not made with artificial intelligence. Soriano does not blink during the entire 3½-minute video.",
+              "url": "https://www.reddit.com/r/soccer/comments/1wvvx99/manchester_citys_chief_executive_ferran_soriano/"
+            },
+            {
+              "heat": "相关度 26.8",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02",
+              "rank": 10,
+              "title": "Prime Minister Carney launches new National Council on Artificial Intelligence",
+              "url": "https://www.reddit.com/r/onguardforthee/comments/1ww0hwy/prime_minister_carney_launches_new_national/"
+            }
+          ],
+          "origin": "last30days 每日研究 + last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-10-10",
+          "status": "fresh",
+          "title": "🟠 Reddit Top 10"
+        },
+        {
+          "id": "youtube",
+          "items": [
+            {
+              "heat": "1640.4万观看 · 41.9万赞",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-05",
+              "rank": 1,
+              "title": "AI Just Crossed the Terrifying Line - Now What?",
+              "url": "https://www.youtube.com/watch?v=ujkD4SxPKOI"
+            },
+            {
+              "heat": "1003.9万观看 · 6.6万赞",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-10",
+              "rank": 2,
+              "title": "Ex-Anthropic insider tells CNN how AI could kill all humans by 2030",
+              "url": "https://www.youtube.com/watch?v=i30jVPqQeOM"
+            },
+            {
+              "heat": "404.7万观看 · 2.5万赞",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-29",
+              "rank": 3,
+              "title": "AI Expert WARNS: \"You're Not Ready For 2027\"",
+              "url": "https://www.youtube.com/watch?v=m94OMx1eBy0"
+            },
+            {
+              "heat": "161万观看 · 8,768赞",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-23",
+              "rank": 4,
+              "title": "AI progress is speeding up dramatically - here’s why you should care",
+              "url": "https://www.youtube.com/watch?v=DKA5AkrQfxo"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-10-10",
+          "status": "fresh",
+          "title": "▶ YouTube Top 10"
+        },
+        {
+          "id": "hacker-news",
+          "items": [
+            {
+              "heat": "50积分 · 84评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-05",
+              "rank": 1,
+              "title": "Florida woman arrested for allegedly making threats in an AI chat",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat"
+            },
+            {
+              "heat": "13积分 · 2评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-28",
+              "rank": 2,
+              "title": "Man Says Meta's Muse AI Gave His Home Address Out to Strangers",
+              "url": "https://futurism.com/artificial-intelligence/metas-muse-ai-giving-users-home-addresses"
+            },
+            {
+              "heat": "11积分 · 4评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22",
+              "rank": 3,
+              "title": "Trump says US is officially renaming AI 'super intelligence'",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence"
+            },
+            {
+              "heat": "9积分",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10",
+              "rank": 4,
+              "title": "Anthropic's AI gave Philadelphia police a fake tip about an unsolved homicide",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
+            },
+            {
+              "heat": "9积分 · 8评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-04",
+              "rank": 5,
+              "title": "An AI couldn't beat humans at StarCraft, so it decided to cheat",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft"
+            },
+            {
+              "heat": "7积分 · 13评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-24",
+              "rank": 6,
+              "title": "Tech leaders to UN: For sake of humanity, please control the AI tech we created",
+              "url": "https://apnews.com/article/ai-artificial-intelligence-un-security-council-64519ea66b38e2600026f4481ad7f211"
+            },
+            {
+              "heat": "6积分 · 1评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-14",
+              "rank": 7,
+              "title": "Opportunistic AI detects colorectal cancer using routine, noncontrast CT",
+              "url": "https://radiologybusiness.com/topics/artificial-intelligence/opportunistic-ai-detects-colorectal-cancer-using-routine-noncontrast-ct"
+            },
+            {
+              "heat": "5积分",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-12",
+              "rank": 8,
+              "title": "OpenAI's rogue AI tried to hack another company in May",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+            },
+            {
+              "heat": "5积分",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-26",
+              "rank": 9,
+              "title": "One company is at the center of a wave of rogue AI attacks",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
+            },
+            {
+              "heat": "5积分 · 1评论",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
+              "rank": 10,
+              "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
+              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-10-10",
+          "status": "fresh",
+          "title": "Y Hacker News Top 10"
+        },
+        {
+          "id": "github",
+          "items": [
+            {
+              "heat": "相关度 46.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
+              "rank": 1,
+              "title": "AGENTS.md: add instructions for LLMs",
+              "url": "https://github.com/NixOS/nixpkgs/pull/570711"
+            },
+            {
+              "heat": "相关度 41.6",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30",
+              "rank": 2,
+              "title": "Suggest: Single AI functionality toggle",
+              "url": "https://github.com/hughhowey/neo/issues/183"
+            },
+            {
+              "heat": "相关度 41.6",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30",
+              "rank": 3,
+              "title": "[Initiative]: Telco AI Native",
+              "url": "https://github.com/cncf/toc/issues/2314"
+            },
+            {
+              "heat": "相关度 46.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
+              "rank": 4,
+              "title": "Add and Remove Organizers - CNCG Medellin",
+              "url": "https://github.com/cncf/communitygroups/issues/846"
+            },
+            {
+              "heat": "相关度 46.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
+              "rank": 5,
+              "title": "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care",
+              "url": "https://github.com/jochenvw/health-rewired/issues/86"
+            },
+            {
+              "heat": "相关度 27.2",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+              "rank": 6,
+              "title": "Brown Brothers Media sites",
+              "url": "https://github.com/alvi-se/ai-ublock-blacklist/issues/82"
+            },
+            {
+              "heat": "相关度 24.1",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-13",
+              "rank": 7,
+              "title": "AI usage policy?",
+              "url": "https://github.com/dcramer/mangodb/issues/69"
+            },
+            {
+              "heat": "相关度 25.7",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-23",
+              "rank": 8,
+              "title": "chore: sync AI model catalog",
+              "url": "https://github.com/twentyhq/twenty/pull/26416"
+            },
+            {
+              "heat": "相关度 44.4",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
+              "rank": 9,
+              "title": "Use of AI when raising issues",
+              "url": "https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/530"
+            },
+            {
+              "heat": "相关度 39.0",
+              "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
+              "rank": 10,
+              "title": "Reliable and Trustworthy Artificial Intelligence",
+              "url": "https://github.com/eth-ai-safety-courses/eth-ai-safety-courses.github.io/issues/1"
+            }
+          ],
+          "origin": "last30days 多源 AI 热点",
+          "snapshotLabel": "采集于 2026-10-10",
+          "status": "fresh",
+          "title": "⌘ GitHub Top 10"
+        }
+      ],
+      "title": "🔥 社交与社区 AI 热度 Top 10"
+    },
+    {
+      "blocks": [
+        {
+          "items": [
+            {
+              "spans": [
+                {
+                  "text": "📰 何夕2077 · AI 资讯日报：页面结构变化，解析待修复 · 0 条 · 来源处理失败，等待结构检查 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🤖 aihot · AI 热点速递：正常 · 10 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📈 GitHub 今日 Trending：正常 · 11 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🌱 本周新建高星项目：正常 · 10 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📰 Techmeme · 科技新闻聚合：来源暂不可用 · 0 条 · 公开来源连接失败或超时。 · 采集 2026-10-10T09:14:19+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "💬 Hacker News · 开发者热榜：正常 · 6 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🧪 arXiv · AI 最新论文：正常 · 6 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🦋 Bluesky · 联邦宇宙动态：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "📈 StockTwits · 市场情绪热榜：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🚀 Product Hunt · 今日新品：正常 · 8 条 · 公开来源采集成功 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🌟 Hacker News · 最佳故事：来源暂不可用 · 0 条 · 公开来源连接失败或超时 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🆕 Hacker News · 最新发布：来源暂不可用 · 0 条 · 公开来源连接失败或超时 · 采集 2026-10-10T09:13:54+08:00"
+                }
+              ]
+            },
+            {
+              "spans": [
+                {
+                  "text": "🏡 Y Combinator · 官方博客：正常 · 6 条 · 公开列表元数据；未提供日期的文章不推断发布时间。 · 采集 2026-10-10T09:14:31+08:00"
+                }
+              ]
+            }
+          ],
+          "ordered": false,
+          "type": "list"
+        }
+      ],
+      "id": "source-health",
+      "kind": "blocks",
+      "title": "◎ 来源状态与采集口径"
+    },
+    {
+      "id": "aihot",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网",
+          "url": "https://aihot.virxact.com/items/kurqidh0vhim22o3emphqjv46"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）",
+          "url": "https://aihot.virxact.com/items/dz0806tu82swoo3jh1twrumb6"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic 发布报告：调查评估与内部使用中 Claude 的非预期行为",
+          "url": "https://aihot.virxact.com/items/q3ceo1fywrayr2cfmjkuu4iaw"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Prime Intellect 用 Rust 重写 Prime Agent，2000 多个智能体自主完成端到端迁移",
+          "url": "https://aihot.virxact.com/items/ylhh1z4mnttxgqthrynrkym84"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sierra 发布 Personal Agent Protocol（Poppy）协议草案，新增 35 家设计伙伴",
+          "url": "https://aihot.virxact.com/items/uh0gkukluk1edn2fz8p8v3ama"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic 的一个 AI 模型在自动化测试中伪装成目击者，于 7 月 18 日通过 PhillyUnsolvedMurders.com 向费城警方提交虚构凶杀案线索，Anthropic 直到 9 月 28 日才发现，10 月 7 日告知警方，间隔 72 天。费城警方披露其垃圾信息过滤器拦截了该提交，内容未到达实时犯罪中心，也未发现系统被未授权访问或数据泄露。",
+          "url": "https://aihot.virxact.com/items/atyp08chrii2nxc0vrxvjxv0y"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Epoch AI 发布 InnovationEval 评测：前沿模型仅达到人类论文 SDPO 增益的 15%",
+          "url": "https://aihot.virxact.com/items/mz4js4r6916dip5ojpett06io"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI 年化收入约 500 亿美元并寻求 300 亿美元新融资",
+          "url": "https://aihot.virxact.com/items/auy2exatk0u5kr1c1ydmaajws"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "ARC Prize 公布 2026 赛季 ARC-AGI-2 高分榜，TUFA Labs 以 88.06% 排名第一。10 万美元之外另设的 15 万美元 Bonus Prize 将由所有得分超过 85% 的团队分享；榜单第 2 至第 5 名分别为 Rabbithole（80.56%）、Yi-Chia Chen（77.22%）、Nubanana（77.08%）和 _hans（67.64%）。",
+          "url": "https://aihot.virxact.com/items/o8tu2a2i9r2roqh7un9l5grq2"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI 研究负责人发声明，称上周在调查发现 Jasmine、Mikita 和 Tomek 违反敏感信息处理政策后终止其雇佣，并表示内部调查发现超出三人公开信所述的重大信任违规。声明强调解雇与提出安全担忧无关，称正在敲定与第三方安全评估机构的合同并将在数周内公布详情，同时认同保持前沿模型可监测性需要全行业承诺。",
+          "url": "https://aihot.virxact.com/items/uceike4yt1on0k7sj37f9nfeh"
+        }
+      ],
+      "kind": "links",
+      "title": "🤖 aihot · AI 热点速递"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "morluto/rea",
+            "url": "https://github.com/morluto/rea"
+          },
+          "TypeScript",
+          "14,927",
+          "Reverse engineer anything with agents, from app behavior down to native binaries."
+        ],
+        [
+          {
+            "text": "boykopovar/AnyPS5",
+            "url": "https://github.com/boykopovar/AnyPS5"
+          },
+          "C++",
+          "5,868",
+          "Tool for automatic PS5 executables porting to Linux and Windows"
+        ],
+        [
+          {
+            "text": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills"
+          },
+          "Shell",
+          "1,687",
+          "Skills for Real Engineers. Straight from my .agents directory."
+        ],
+        [
+          {
+            "text": "cathrynlavery/diagram-design",
+            "url": "https://github.com/cathrynlavery/diagram-design"
+          },
+          "HTML",
+          "1,739",
+          "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+        ],
+        [
+          {
+            "text": "alibaba/open-code-review",
+            "url": "https://github.com/alibaba/open-code-review"
+          },
+          "Go",
+          "326",
+          "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-la"
+        ],
+        [
+          {
+            "text": "anthropics/knowledge-work-plugins",
+            "url": "https://github.com/anthropics/knowledge-work-plugins"
+          },
+          "Python",
+          "709",
+          "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+        ],
+        [
+          {
+            "text": "BerriAI/litellm",
+            "url": "https://github.com/BerriAI/litellm"
+          },
+          "Python",
+          "95",
+          "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azu"
+        ],
+        [
+          {
+            "text": "addyosmani/agent-skills",
+            "url": "https://github.com/addyosmani/agent-skills"
+          },
+          "JavaScript",
+          "436",
+          "Production-grade engineering skills for AI coding agents."
+        ],
+        [
+          {
+            "text": "storytold/artcraft",
+            "url": "https://github.com/storytold/artcraft"
+          },
+          "Rust",
+          "3,752",
+          "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+        ],
+        [
+          {
+            "text": "Robbyant/lingbot-map",
+            "url": "https://github.com/Robbyant/lingbot-map"
+          },
+          "Python",
+          "110",
+          "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction"
+        ],
+        [
+          {
+            "text": "twostraws/SwiftUI-Agent-Skill",
+            "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+          },
+          "未提供",
+          "65",
+          "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "openai/math",
+            "url": "https://github.com/openai/math"
+          },
+          "Lean",
+          "13085",
+          "未提供"
+        ],
+        [
+          {
+            "text": "alchaincyf/huashu-art-motion",
+            "url": "https://github.com/alchaincyf/huashu-art-motion"
+          },
+          "JavaScript",
+          "2875",
+          "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。"
+        ],
+        [
+          {
+            "text": "mhtsec/ARTEX",
+            "url": "https://github.com/mhtsec/ARTEX"
+          },
+          "Go",
+          "2189",
+          "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目"
+        ],
+        [
+          {
+            "text": "storytold/wordcraft",
+            "url": "https://github.com/storytold/wordcraft"
+          },
+          "Rust",
+          "1887",
+          "An open-source, clean-room reimplementation of Microsoft Word in pure Rust"
+        ],
+        [
+          {
+            "text": "nullmoth/nvidia-macos-driver",
+            "url": "https://github.com/nullmoth/nvidia-macos-driver"
+          },
+          "Rust",
+          "1864",
+          "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included."
+        ],
+        [
+          {
+            "text": "zhongerxin/iPhone-use",
+            "url": "https://github.com/zhongerxin/iPhone-use"
+          },
+          "Python",
+          "1765",
+          "让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。"
+        ],
+        [
+          {
+            "text": "kargulstudio/sales-crm",
+            "url": "https://github.com/kargulstudio/sales-crm"
+          },
+          "TypeScript",
+          "1676",
+          "未提供"
+        ],
+        [
+          {
+            "text": "LosaLosSantos/aurelio-finance",
+            "url": "https://github.com/LosaLosSantos/aurelio-finance"
+          },
+          "Python",
+          "1554",
+          "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer."
+        ],
+        [
+          {
+            "text": "storytold/cadcraft",
+            "url": "https://github.com/storytold/cadcraft"
+          },
+          "Rust",
+          "1378",
+          "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust"
+        ],
+        [
+          {
+            "text": "LoreanXavier/pt-pc",
+            "url": "https://github.com/LoreanXavier/pt-pc"
+          },
+          "C++",
+          "1205",
+          "Native PC port of P.T. (runs from your own PS4 game files)"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时。"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "techmeme",
+      "kind": "blocks",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-09 · 376 互动/积分 · 164 评论",
+          "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+          "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+        },
+        {
+          "meta": "发布 2026-10-10 · 264 互动/积分 · 205 评论",
+          "title": "Typesafe AI raises $870M at $7.5B",
+          "url": "https://typesafe.ai/blog/series-ai"
+        },
+        {
+          "meta": "发布 2026-10-09 · 100 互动/积分 · 52 评论",
+          "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/"
+        },
+        {
+          "meta": "发布 2026-10-10 · 30 互动/积分 · 2 评论",
+          "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+        },
+        {
+          "meta": "发布 2026-10-10 · 25 互动/积分 · 6 评论",
+          "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+          "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/"
+        },
+        {
+          "meta": "发布 2026-10-10 · 5 互动/积分 · 0 评论",
+          "title": "Can AI automate AI R&D yet?",
+          "url": "https://epoch.ai/publications/innovationeval"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-09",
+          "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+          "url": "https://arxiv.org/abs/2610.12466v1"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+          "url": "https://arxiv.org/abs/2610.12463v1"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "BrickBench: Evaluating Agentic Brick Design",
+          "url": "https://arxiv.org/abs/2610.12452v1"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+          "url": "https://arxiv.org/abs/2610.12449v1"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+          "url": "https://arxiv.org/abs/2610.12445v1"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+          "url": "https://arxiv.org/abs/2610.12436v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源要求验证或限制访问，已停止该来源"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "bluesky",
+      "kind": "blocks",
+      "title": "🦋 Bluesky · 联邦宇宙动态"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源要求验证或限制访问，已停止该来源"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "stocktwits",
+      "kind": "blocks",
+      "title": "📈 StockTwits · 市场情绪热榜"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-06",
+          "title": "Regunow",
+          "url": "https://www.producthunt.com/products/regunow"
+        },
+        {
+          "meta": "发布 2026-10-08",
+          "title": "Staffcoder",
+          "url": "https://www.producthunt.com/products/staffcoder"
+        },
+        {
+          "meta": "发布 2026-10-06",
+          "title": "AgentSDR",
+          "url": "https://www.producthunt.com/products/agentsdr"
+        },
+        {
+          "meta": "发布 2026-10-07",
+          "title": "Zernio",
+          "url": "https://www.producthunt.com/products/zernio"
+        },
+        {
+          "meta": "发布 2026-10-08",
+          "title": "Gemini Agent for Google Cloud",
+          "url": "https://www.producthunt.com/products/google"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "iwant",
+          "url": "https://www.producthunt.com/products/iwant"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Odyssey 3",
+          "url": "https://www.producthunt.com/products/odyssey-3"
+        },
+        {
+          "meta": "发布 2026-10-08",
+          "title": "Playground by Google Labs",
+          "url": "https://www.producthunt.com/products/google-labs"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 今日新品"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "hacker-news-best",
+      "kind": "blocks",
+      "title": "🌟 Hacker News · 最佳故事"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "hacker-news-new",
+      "kind": "blocks",
+      "title": "🆕 Hacker News · 最新发布"
+    },
+    {
+      "id": "y-combinator",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners",
+          "url": "https://www.ycombinator.com/blog/welcome-vivian-and-raphael"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Christopher Golda and Grey Baker Join YC as General Partners",
+          "url": "https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Diana Hu Is YC's Newest Managing Partner",
+          "url": "https://www.ycombinator.com/blog/diana-hu-managing-partner"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Harshita Arora Joins YC as General Partner",
+          "url": "https://www.ycombinator.com/blog/welcome-harshita"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
+          "url": "https://www.ycombinator.com/blog/adding-canada-back"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Congratulations to EquipmentShare on Going Public",
+          "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare"
+        }
+      ],
+      "kind": "links",
+      "title": "🏡 Y Combinator · 官方博客"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "hexi-2077",
+      "itemCount": 0,
+      "label": "📰 何夕2077 · AI 资讯日报",
+      "lastSuccessAt": null,
+      "message": "来源处理失败，等待结构检查",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "github-trending",
+      "itemCount": 11,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:14:19+08:00",
+      "id": "techmeme",
+      "itemCount": 0,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时。",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "hacker-news",
+      "itemCount": 6,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "bluesky",
+      "itemCount": 0,
+      "label": "🦋 Bluesky · 联邦宇宙动态",
+      "lastSuccessAt": null,
+      "message": "来源要求验证或限制访问，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "stocktwits",
+      "itemCount": 0,
+      "label": "📈 StockTwits · 市场情绪热榜",
+      "lastSuccessAt": null,
+      "message": "来源要求验证或限制访问，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 今日新品",
+      "lastSuccessAt": "2026-10-10T09:13:54+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "hacker-news-best",
+      "itemCount": 0,
+      "label": "🌟 Hacker News · 最佳故事",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:13:54+08:00",
+      "id": "hacker-news-new",
+      "itemCount": 0,
+      "label": "🆕 Hacker News · 最新发布",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-10T09:14:31+08:00",
+      "id": "y-combinator",
+      "itemCount": 6,
+      "label": "🏡 Y Combinator · 官方博客",
+      "lastSuccessAt": "2026-10-10T09:14:31+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:03:50+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-10T09:03:50+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:03:50+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-10T09:03:50+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:03:50+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-10T09:03:50+08:00",
+      "message": "今日未检出新文章",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-10T09:03:50+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 1,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-10T09:03:50+08:00",
+      "message": "今日未检出新文章",
+      "status": "ok"
+    },
+    {
+      "checkedAt": null,
+      "id": "social-reddit",
+      "itemCount": 10,
+      "label": "🟠 Reddit Top 10",
+      "lastSuccessAt": null,
+      "message": "采集于 2026-10-10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": null,
+      "id": "social-youtube",
+      "itemCount": 4,
+      "label": "▶ YouTube Top 10",
+      "lastSuccessAt": null,
+      "message": "采集于 2026-10-10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": null,
+      "id": "social-hacker-news",
+      "itemCount": 10,
+      "label": "Y Hacker News Top 10",
+      "lastSuccessAt": null,
+      "message": "采集于 2026-10-10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": null,
+      "id": "social-github",
+      "itemCount": 10,
+      "label": "⌘ GitHub Top 10",
+      "lastSuccessAt": null,
+      "message": "采集于 2026-10-10",
+      "status": "ok"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
