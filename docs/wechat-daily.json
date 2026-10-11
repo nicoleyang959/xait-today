@@ -4,38 +4,38 @@
       "account": "APPSO",
       "items": [
         {
-          "badge": "今日",
-          "meta": "2026-10-10 · 采集时显示：59 分钟前 · 打开账号列表",
-          "title": "全球PC销量暴跌20%/小米17 Ultra全系涨价1000元/Jev开发商融资58亿，估值500亿",
-          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+          "badge": "最近",
+          "meta": "2026-10-10 · 采集时显示：14 小时前 · 打开文章",
+          "title": "Gemini 4 新模型曝光！内部口碑直逼 Opus 5.5，谷歌已实现 RSI？",
+          "url": "https://www.jintiankansha.me/t/AvyDwxF95M"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
       "items": [
         {
-          "badge": "今日",
-          "meta": "2026-10-10 · 采集时显示：31 分钟前 · 打开账号列表",
+          "badge": "最近",
+          "meta": "2026-10-10 · 采集时显示：昨天 · 打开账号列表",
           "title": "我花了5天时间，对公司进行了一场AI化改造。",
           "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "智东西",
       "items": [
         {
           "badge": "最近",
-          "meta": "2026-10-09 · 采集时显示：15 小时前 · 打开文章",
-          "title": "姚颂、杨宇欣联手，连发两款机器人，瞄准24小时便利店",
-          "url": "https://www.jintiankansha.com/t/IlgKKor7gK"
+          "meta": "2026-10-10 · 采集时显示：13 小时前 · 打开文章",
+          "title": "三周估值暴涨37倍，Jev背后公司，融资58.6亿",
+          "url": "https://www.jintiankansha.com/t/Vl5jNNe7ll"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
@@ -47,7 +47,7 @@
       "items": [
         {
           "badge": "最近",
-          "meta": "2026-10-09 · 采集时显示：20 小时前 · 打开文章",
+          "meta": "2026-10-10 · 采集时显示：昨天 · 打开文章",
           "title": "只有一个用户，也值得专门做个App",
           "url": "https://www.jintiankansha.com/t/AaOka2uxxM"
         }
@@ -57,9 +57,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-10T09:03:50+08:00",
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-10T09:14:31+08:00",
+  "capturedAt": "2026-10-11T08:49:15+08:00",
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T08:49:43+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-10T09:03:50+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-11T08:49:15+08:00；相对时间以该采集时刻为准。"
 }
