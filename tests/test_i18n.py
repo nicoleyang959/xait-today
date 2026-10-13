@@ -37,7 +37,10 @@ class LanguageOverlayTests(unittest.TestCase):
         self.addCleanup(self.root_patch.stop)
         self.addCleanup(self.directory_patch.stop)
         self.issue = copy.deepcopy(xait.load_issues()[-1])
-        self.source = self.issue["articles"][0]["title"]
+        self.source = next(
+            article["title"] for article in self.issue["articles"]
+            if xait.source_enabled(article["sourceId"])
+        )
         self.ui = {"schemaVersion": 1, "entries": {"采集概况": {"zh": "采集概况", "en": "Collection overview"}}}
         self.content = {
             "schemaVersion": 1,
@@ -79,7 +82,7 @@ class LanguageOverlayTests(unittest.TestCase):
     def test_missing_content_falls_back_without_changing_source(self) -> None:
         (self.catalog_dir / "content.json").unlink()
         self.assertEqual({}, xait.language_payload(self.issue)["content"])
-        self.assertEqual(self.source, self.issue["articles"][0]["title"])
+        self.assertIn(self.source, {article["title"] for article in self.issue["articles"]})
         (self.catalog_dir / "ui.json").unlink()
         self.assertEqual({"ui": {}, "content": {}}, xait.load_language_catalogs())
         with self.assertRaises(xait.XaitError):
@@ -157,6 +160,29 @@ class LanguageOverlayTests(unittest.TestCase):
         self.content["entries"][source] = content_entry(source, en="Today's essentials")
         self.write_catalogs()
         self.assertIn(source, xait.language_payload(self.issue)["content"])
+
+    def test_generated_language_payload_excludes_retired_source_entries(self) -> None:
+        real_catalog_dir = REPOSITORY / "site" / "i18n"
+        with patch.object(xait, "ROOT", REPOSITORY), patch.object(xait, "I18N_DIR", real_catalog_dir):
+            catalogs = xait.load_language_catalogs(required=True)
+            rendered = xait.render_language_data(self.issue, catalogs)
+        retired_phrases = (
+            "何夕2077", "社交与社区 AI 热度", "小红书", "抖音", "Bluesky", "StockTwits",
+            "Hacker News · 最佳故事", "Hacker News · 最新发布", "Y Combinator",
+            "last30days 多源 AI 热点", "Product Hunt · 今日新品",
+        )
+        serialized_ui = json.dumps(catalogs["ui"], ensure_ascii=False)
+        for phrase in retired_phrases:
+            with self.subTest(phrase=phrase):
+                self.assertNotIn(phrase, serialized_ui)
+        parser = xait._SiteHTMLParser()
+        parser.feed(rendered)
+        payload = json.loads(parser.language_data[0])
+        self.assertEqual(catalogs["ui"], payload["ui"])
+        serialized_payload = json.dumps(payload, ensure_ascii=False)
+        for phrase in retired_phrases:
+            with self.subTest(rendered_phrase=phrase):
+                self.assertNotIn(phrase, serialized_payload)
 
     def test_build_audits_controls_payload_and_keeps_public_json_unchanged(self) -> None:
         template = xait.TEMPLATE_PATH.read_text(encoding="utf-8")

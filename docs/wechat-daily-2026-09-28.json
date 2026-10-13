@@ -30,28 +30,14 @@
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-27 · 采集时显示：昨天 · 打开文章",
-          "title": "深度拆解华为最新报告：物理智能规模化，为什么偏偏卡在“协同”上？",
-          "url": "https://www.jintiankansha.com/t/S5XhCUcc5T"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-26 · 采集时显示：2 天前 · 打开文章",
-          "title": "「闪电.skill」发布！用Anthropic的方法论把你的产品提速3倍！",
-          "url": "https://www.jintiankansha.com/t/0LLgRN87oG"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

@@ -130,8 +130,10 @@
       safeRemove(PREVIOUS_SIDEBAR_KEY);
     }
   }
-  const compactFirstVisit = savedSidebar === null && window.matchMedia("(max-width: 840px)").matches;
-  applySidebar(savedSidebar === "collapsed" || compactFirstVisit);
+  const compactViewport = window.matchMedia("(max-width: 840px)").matches;
+  // A desktop preference must never leave the archive drawer covering a phone
+  // viewport on load. Readers can still open it explicitly with the toggle.
+  applySidebar(compactViewport || savedSidebar === "collapsed");
 
   // Translation is an inert, build-time catalog. Only original text nodes and
   // descriptive attributes are changed: links, numbers, code and source data stay intact.
@@ -166,7 +168,8 @@
     ".brief-empty", ".brief-related summary", ".link-meta", ".wechat-meta", ".wechat-badge",
     ".wechat-state", ".wechat-origin", ".wechat-overview", ".wechat-item-badge", ".wechat-item-copy > span", ".social-meta", ".social-heat", ".social-rank-meta", ".social-rank-heat", ".social-rank-note", ".social-rank-date", ".social-rank-origin", ".social-rank-overview",
     ".social-status", ".social-origin", ".social-overview", ".social-origin-details summary",
-    "#source-health", ".wechat-empty", ".social-empty", ".reading-nav", ".section h2",
+    "#source-health", ".wechat-empty", ".social-empty", ".reading-nav", ".module-nav",
+    ".settings-summary", ".settings-label", ".section h2", ".module-heading", ".module-source h3",
     ".data-table th", ".theme-switcher", ".original-content-toggle", ".translation-notice"
   ].join(",");
   const textRecords = [];

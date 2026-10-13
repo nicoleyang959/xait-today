@@ -68,14 +68,7 @@
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-17 · 采集时显示：4 天前 · 打开文章",
-          "title": "我让 WorkBuddy 删掉55个文件，它竟然…",
-          "url": "https://www.jintiankansha.com/t/xPQ5m6bpTn"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

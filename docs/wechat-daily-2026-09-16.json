@@ -2,56 +2,28 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-15 · 采集时显示：14 小时前 · 打开账号列表",
-          "title": "iOS 27来了，Siri AI终于开窍，但属于我的史诗级更新是调休闹钟",
-          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-15 · 采集时显示：20 小时前 · 打开文章",
-          "title": "国内第一个为团队而生的Agent，果然还是在飞书里面来了。",
-          "url": "https://www.jintiankansha.com/t/Gwrv0ewsmy"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-15 · 采集时显示：12 小时前 · 打开文章",
-          "title": "我国又一科技领域全球领先！国产算力应用爆发",
-          "url": "https://www.jintiankansha.com/t/SV5JNPrtCt"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-15 · 采集时显示：昨天 · 打开文章",
-          "title": "正式开源！比橙皮书skill更强10倍的Huashu-Report来了！",
-          "url": "https://www.jintiankansha.com/t/cmMyijQ523"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

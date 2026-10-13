@@ -2,56 +2,28 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [
-        {
-          "badge": "今日",
-          "meta": "44 分钟前 · 打开账号列表",
-          "title": "iPhone 18 Pro价格曝光，运营商否认/Kimi、MiniMax在天猫开店/「国家反诈AI」...",
-          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "今日",
-          "meta": "39 分钟前 · 打开账号列表",
-          "title": "因为GPT-6 Astra的爆火，我好像看见了时代的断层。",
-          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "20 小时前 · 打开文章",
-          "title": "对话IFA CEO：给中企出海几点建议",
-          "url": "https://www.jintiankansha.com/t/UmMQdwxlFy"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "9 小时前 · 打开文章",
-          "title": "正式开源huashu-mac-use，让任何agent获得接近GPT-6的Computer use能...",
-          "url": "https://www.jintiankansha.com/t/Ov47Du8pn5"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

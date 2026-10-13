@@ -264,7 +264,7 @@ class PortableCommandTests(unittest.TestCase):
                 self.assertNotEqual(0, result.returncode)
                 self.assertEqual(before, tree_digest(repository / "docs"))
 
-    def test_source_health_is_collapsible_and_text_is_escaped(self) -> None:
+    def test_source_health_section_is_hidden_from_public_pages(self) -> None:
         temporary, repository = self.make_checkout()
         self.addCleanup(temporary.cleanup)
         latest = sorted((repository / "content" / "issues").glob("*.json"))[-1]
@@ -277,8 +277,9 @@ class PortableCommandTests(unittest.TestCase):
         latest.write_text(json.dumps(issue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         run_cli(repository, "build")
         page = (repository / "docs" / "index.html").read_text(encoding="utf-8")
-        self.assertIn('<details class="source-health"><summary>', page)
-        self.assertIn("Source A &amp; B", page)
+        self.assertNotIn('id="source-health"', page)
+        self.assertNotIn("Source A &amp; B", page)
+        self.assertEqual(1, page.count('id="collection-status"'))
         run_cli(repository, "check")
 
     def test_commands_work_when_invoked_outside_repository(self) -> None:

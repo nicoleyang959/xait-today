@@ -73,21 +73,29 @@
         <p class="tagline">AI 和 IT 的无限可能</p>
       </div>
       <div class="reading-controls">
-        <div class="language-switcher" role="group" aria-label="阅读语言" data-no-i18n>
-          <button class="language-btn active" type="button" data-language="zh" aria-pressed="true" lang="zh-CN">中文</button>
-          <button class="language-btn" type="button" data-language="en" aria-pressed="false" lang="en">English</button>
-        </div>
-        <button class="original-content-toggle" id="original-content-toggle" type="button" aria-pressed="false">查看原文</button>
-        <div class="theme-switcher" role="group" aria-label="页面主题">
-        <span class="theme-label" aria-hidden="true">主题</span>
-        <button class="theme-btn" type="button" data-theme="theme-terminal" aria-pressed="true" title="数据终端">终端</button>
-        <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" title="赛博霓虹">赛博</button>
-        <button class="theme-btn" type="button" data-theme="theme-swiss" aria-pressed="false" title="瑞士国际主义">瑞士</button>
-        <button class="theme-btn" type="button" data-theme="theme-editorial" aria-pressed="false" title="编辑杂志">杂志</button>
-        <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" title="高端咨询报告">咨询</button>
-        <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" title="极简科技">极简</button>
-        <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" title="柔和纸张">纸张</button>
-        </div>
+        <details class="settings-drawer">
+          <summary class="settings-summary">显示设置</summary>
+          <div class="settings-panel">
+            <div class="settings-row">
+              <span class="settings-label">阅读语言</span>
+              <div class="language-switcher" role="group" aria-label="阅读语言" data-no-i18n>
+                <button class="language-btn active" type="button" data-language="zh" aria-pressed="true" lang="zh-CN">中文</button>
+                <button class="language-btn" type="button" data-language="en" aria-pressed="false" lang="en">English</button>
+              </div>
+              <button class="original-content-toggle" id="original-content-toggle" type="button" aria-pressed="false">查看原文</button>
+            </div>
+            <div class="theme-switcher" role="group" aria-label="页面主题">
+              <span class="theme-label" aria-hidden="true">主题</span>
+              <button class="theme-btn" type="button" data-theme="theme-terminal" aria-pressed="true" title="数据终端">终端</button>
+              <button class="theme-btn" type="button" data-theme="theme-cyberpunk" aria-pressed="false" title="赛博霓虹">赛博</button>
+              <button class="theme-btn" type="button" data-theme="theme-swiss" aria-pressed="false" title="瑞士国际主义">瑞士</button>
+              <button class="theme-btn" type="button" data-theme="theme-editorial" aria-pressed="false" title="编辑杂志">杂志</button>
+              <button class="theme-btn" type="button" data-theme="theme-consulting" aria-pressed="false" title="高端咨询报告">咨询</button>
+              <button class="theme-btn" type="button" data-theme="theme-minimal" aria-pressed="false" title="极简科技">极简</button>
+              <button class="theme-btn" type="button" data-theme="theme-paper" aria-pressed="false" title="柔和纸张">纸张</button>
+            </div>
+          </div>
+        </details>
       </div>
     </header>
 
@@ -106,125 +114,34 @@
           <span class="card-tag">历史简报</span>
         </header>
         <div class="card-body">
-<section class="section collection-status" id="collection-status"><h2>采集概况</h2><p class="collection-summary">成功 17 / 无新增 0 / 不可用 2 / 沿用旧快照 1 / 未运行 0</p><p class="collection-window">2026-10-11 08:45 至 2026-10-12 08:45（北京时间；含起点，不含终点）</p><details class="collection-details"><summary>查看来源状态与采集时间</summary><div class="table-wrap"><table class="data-table collection-table"><thead><tr><th scope="col">来源</th><th scope="col">状态</th><th scope="col">检查时间</th><th scope="col">最近成功</th><th scope="col">条数</th><th scope="col">说明</th></tr></thead><tbody><tr><td data-label="来源">📰 何夕2077 · AI 资讯日报</td><td data-label="状态">沿用旧快照</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">未记录</td><td data-label="条数">1</td><td data-label="说明">今日日报未检出，展示来源最近一期（2026-10-11）</td></tr><tr><td data-label="来源">🤖 aihot · AI 热点速递</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">10</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">📈 GitHub 今日 Trending</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🌱 本周新建高星项目</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">10</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">📰 Techmeme · 科技新闻聚合</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:29+08:00</td><td data-label="最近成功">2026-10-12T08:46:29+08:00</td><td data-label="条数">8</td><td data-label="说明">公开列表元数据；未提供日期的文章不推断发布时间。</td></tr><tr><td data-label="来源">💬 Hacker News · 开发者热榜</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">4</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🧪 arXiv · AI 最新论文</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">6</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🦋 Bluesky · 联邦宇宙动态</td><td data-label="状态">不可用</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">未记录</td><td data-label="条数">0</td><td data-label="说明">来源要求验证或限制访问，已停止该来源</td></tr><tr><td data-label="来源">📈 StockTwits · 市场情绪热榜</td><td data-label="状态">不可用</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">未记录</td><td data-label="条数">0</td><td data-label="说明">来源要求验证或限制访问，已停止该来源</td></tr><tr><td data-label="来源">🚀 Product Hunt · 今日新品</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🌟 Hacker News · 最佳故事</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🆕 Hacker News · 最新发布</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🏡 Y Combinator · 官方博客</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:33+08:00</td><td data-label="最近成功">2026-10-12T08:46:33+08:00</td><td data-label="条数">6</td><td data-label="说明">公开列表元数据；未提供日期的文章不推断发布时间。</td></tr><tr><td data-label="来源">APPSO</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">1</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">数字生命卡兹克</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">1</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">智东西</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">1</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">花叔</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">1</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">🟠 Reddit Top 10</td><td data-label="状态">成功</td><td data-label="检查时间">未记录</td><td data-label="最近成功">未记录</td><td data-label="条数">10</td><td data-label="说明">采集于 2026-10-12</td></tr><tr><td data-label="来源">Y Hacker News Top 10</td><td data-label="状态">成功</td><td data-label="检查时间">未记录</td><td data-label="最近成功">未记录</td><td data-label="条数">10</td><td data-label="说明">采集于 2026-10-12</td></tr><tr><td data-label="来源">⌘ GitHub Top 10</td><td data-label="状态">成功</td><td data-label="检查时间">未记录</td><td data-label="最近成功">未记录</td><td data-label="条数">10</td><td data-label="说明">采集于 2026-10-12</td></tr></tbody></table></div></details></section>
-<section class="section today-brief" id="today-brief"><h2>今日必读</h2><p class="brief-policy">标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。</p><div class="brief-grid"><article class="brief-event"><h3><a href="https://kemendo.com/yes-i-understand-how-llms-work.html" target="_blank" rel="noopener noreferrer">Yes I Understand How LLMs Work</a></h3><p class="brief-meta">🆕 Hacker News · 最新发布 · <time datetime="2026-10-12T00:16:28Z">10-12 08:16</time>（北京时间） · 综合</p><p class="brief-reason">入选依据：AI 相关；来源记录时间在本期窗口内；采集成功。</p></article><article class="brief-event"><h3><a href="https://github.com/SaarthurR/atticus-mac" target="_blank" rel="noopener noreferrer">Atticus – hold-to-talk voice assistant for macOS that runs on Claude -p</a></h3><p class="brief-meta">🆕 Hacker News · 最新发布 · <time datetime="2026-10-12T00:15:12Z">10-12 08:15</time>（北京时间） · 综合</p><p class="brief-reason">入选依据：AI 相关；来源记录时间在本期窗口内；采集成功。</p></article></div></section>
-<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2><nav class="reading-nav" aria-label="按来源跳转"><a href="#hexi-2077">📰 何夕2077 · AI 资讯日报</a><a href="#wechat-daily-posts">🟢 重点公众号 · 每日推文</a><a href="#social-research-top10">🔥 社交与社区 AI 热度 Top 10</a><a href="#source-health">◎ 来源状态与采集口径</a><a href="#aihot">🤖 aihot · AI 热点速递</a><a href="#github-trending">📈 GitHub 今日 Trending</a><a href="#weekly-high-stars">🌱 本周新建高星项目</a><a href="#techmeme">📰 Techmeme · 科技新闻聚合</a><a href="#hacker-news">💬 Hacker News · 开发者热榜</a><a href="#arxiv">🧪 arXiv · AI 最新论文</a><a href="#bluesky">🦋 Bluesky · 联邦宇宙动态</a><a href="#stocktwits">📈 StockTwits · 市场情绪热榜</a><a href="#product-hunt">🚀 Product Hunt · 今日新品</a><a href="#hacker-news-best">🌟 Hacker News · 最佳故事</a><a href="#hacker-news-new">🆕 Hacker News · 最新发布</a><a href="#y-combinator">🏡 Y Combinator · 官方博客</a></nav>
-          <section class="section section-blocks" id="hexi-2077">
-            <h2>📰 何夕2077 · AI 资讯日报</h2>
-            <div class="content"><p>今日日报未检出，展示来源最近一期（2026-10-11）</p>
-<p><a href="https://hex2077.dev/docs/2026-10/2026-10-11/" target="_blank" rel="noopener noreferrer">2026-10-11 日报</a></p>
-<p>今日摘要：决策模型Jev母公司完成8.7亿美元A轮融资，24天估值飙至75亿美元 微软在Windows 11开放MXC执行隔离，限制智能体可碰的文件与网络 OpenAI年化营收约500亿美元，正谈1.4万亿估值新融资，芯片股走低 谷歌与马斯克把智能体接入Opus 5.5，同时Claude与GPT小模型同步降价 安全侧曝出提示词窃取智能体凭证、模型故意毁掉自身环境</p>
-<p>开源 TOP 项目：流式三维重建模型入围ECCV。 这个 流式三维重建项目 🌐 靠几何上下文建模，把连续画面实时拼成三维场景。它让长视频重建不再漂移，已经是 ECCV 2026 最佳论文候选。仓库攒到 17.5k 星，今日新增 109 颗。 litellm把上百模型收进一个网关。 这个开源网关 🚄 统一了上百家大模型接口，核心换成 Rust 后更快，也更省服务器成本。 项目源码与接入文档 里列着 Bedrock、Azure、OpenAI、VertexAI、vLLM 等接入方式。它自带成本统计、护栏与负载均衡，仓库已收获 60.5k 星与 12172 次派生。</p>
-<p><a href="https://hex2077.dev/blog/weekly/2026-10-11-ai-deep-signals-weekly-2026-w40-w41/" target="_blank" rel="noopener noreferrer">来源最新周报：何夕2077 AI 深度信号周报 2026 W40–W41 基于 2026/9/28–10/11 十期「AI资讯日报」综合的深度信号周报：智能体越界、算力军备与验证赤字。 AI周报 AI深度信号 智能体</a></p></div>
-          </section>
-          <section class="section section-wechat" id="wechat-daily-posts">
-            <h2>🟢 重点公众号 · 每日推文</h2>
-            <div class="content"><p class="wechat-overview">仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-12T08:46:07+08:00；相对时间以该采集时刻为准。</p><div class="wechat-grid"><section class="wechat-panel" aria-label="APPSO每日推文"><div class="wechat-panel-head"><span class="wechat-account">APPSO</span><span class="wechat-state quiet">今日未检出新文章</span></div><ol class="wechat-list"><li class="wechat-item"><span class="wechat-badge">最近</span><span class="wechat-copy"><a href="https://www.jintiankansha.me/t/ZqbePQEKHs" target="_blank" rel="noopener noreferrer">刚刚，我跟库克聊了聊 iPhone Duo</a><span class="wechat-meta">2026-10-11 · 采集时显示：12 小时前 · 打开文章</span></span></li></ol><div class="wechat-origin"><a href="https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="数字生命卡兹克每日推文"><div class="wechat-panel-head"><span class="wechat-account">数字生命卡兹克</span><span class="wechat-state quiet">今日未检出新文章</span></div><ol class="wechat-list"><li class="wechat-item"><span class="wechat-badge">最近</span><span class="wechat-copy"><a href="https://www.jintiankansha.com/column/euZCfLlKpL" target="_blank" rel="noopener noreferrer">我花了5天时间，对公司进行了一场AI化改造。</a><span class="wechat-meta">2026-10-10 · 采集时显示：2 天前 · 打开账号列表</span></span></li></ol><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/euZCfLlKpL?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="智东西每日推文"><div class="wechat-panel-head"><span class="wechat-account">智东西</span><span class="wechat-state quiet">今日未检出新文章</span></div><ol class="wechat-list"><li class="wechat-item"><span class="wechat-badge">最近</span><span class="wechat-copy"><a href="https://www.jintiankansha.com/t/Vl5jNNe7ll" target="_blank" rel="noopener noreferrer">三周估值暴涨37倍，Jev背后公司，融资58.6亿</a><span class="wechat-meta">2026-10-11 · 采集时显示：昨天 · 打开文章</span></span></li></ol><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/BmcmLZE1td?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="花叔每日推文"><div class="wechat-panel-head"><span class="wechat-account">花叔</span><span class="wechat-state quiet">今日未检出新文章</span></div><ol class="wechat-list"><li class="wechat-item"><span class="wechat-badge">最近</span><span class="wechat-copy"><a href="https://www.jintiankansha.com/t/pv78wYpRIt" target="_blank" rel="noopener noreferrer">刚刚！他的GitHub星标破10万+了，凭什么？</a><span class="wechat-meta">2026-10-11 · 采集时显示：19 小时前 · 打开文章</span></span></li></ol><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section></div></div>
-          </section>
-          <section class="section section-social" id="social-research-top10">
-            <h2>🔥 社交与社区 AI 热度 Top 10</h2>
-            <div class="content"><p class="social-overview">仅在已采集的 AI 相关候选内按各来源互动量或综合热度排序，最多展示 10 条；不是平台全站官方榜单，不跨平台比较。来源日期和采集时间分别标注，旧快照会明确标记，不冒充今日采集。</p><div class="social-grid"><section class="social-panel" aria-labelledby="platform-reddit"><div class="social-panel-head"><span class="social-title" id="platform-reddit">🟠 Reddit Top 10</span><span class="social-status fresh">采集于 2026-10-12</span></div><ol class="social-list"><li class="social-item"><span class="social-rank">1</span><span class="social-copy"><a href="https://www.reddit.com/r/antiai/comments/1wvu53f/pope_leo_xiv_denounces_ai_art_and_calls_for/" target="_blank" rel="noopener noreferrer">Pope Leo XIV denounces AI Art and calls for alliance to human artists</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02</span></span><span class="social-heat">2万热度 · 499评论</span></li><li class="social-item"><span class="social-rank">2</span><span class="social-copy"><a href="https://www.reddit.com/r/shittymoviedetails/comments/1wgin41/in_t2_1991_humanity_creates_an_artificial/" target="_blank" rel="noopener noreferrer">In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-14</span></span><span class="social-heat">3,674热度 · 26评论</span></li><li class="social-item"><span class="social-rank">3</span><span class="social-copy"><a href="https://www.reddit.com/r/greentext/comments/1wu74fh/artificial_intelligence/" target="_blank" rel="noopener noreferrer">Artificial Intelligence</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30</span></span><span class="social-heat">2,531热度 · 107评论</span></li><li class="social-item"><span class="social-rank">4</span><span class="social-copy"><a href="https://www.reddit.com/r/Fauxmoi/comments/1x0yoa8/donald_trump_says_anyone_who_does_not_call_ai/" target="_blank" rel="noopener noreferrer">Donald Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08</span></span><span class="social-heat">1,471热度 · 368评论</span></li><li class="social-item"><span class="social-rank">5</span><span class="social-copy"><a href="https://www.reddit.com/r/InterstellarKinetics/comments/1x1cej4/breaking_president_trump_declares_that_the_white/" target="_blank" rel="noopener noreferrer">BREAKING: President Trump Declares That The White House Considers Anyone Who Says “Artificial Intelligence” Instead Of “Super Intelligence” To Be “The Enemy,” Escalating His Rebranding Push As Polls Show Voter Opposition To Data Centers &amp; Strong Support For Safety Guardrails 🏛️</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09</span></span><span class="social-heat">1,128热度 · 275评论</span></li><li class="social-item"><span class="social-rank">6</span><span class="social-copy"><a href="https://www.reddit.com/r/NewsOfTheStupid/comments/1x0wptl/trump_declares_anyone_who_uses_the_term/" target="_blank" rel="noopener noreferrer">Trump declares anyone who uses the term Artificial Intelligence to be ‘The Enemy!’</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08</span></span><span class="social-heat">985热度 · 203评论</span></li><li class="social-item"><span class="social-rank">7</span><span class="social-copy"><a href="https://www.reddit.com/r/australia/comments/1wk0zit/the_people_versus_ai_young_people_pushing_back/" target="_blank" rel="noopener noreferrer">The people versus AI: Young people pushing back against artificial intelligence</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-18</span></span><span class="social-heat">921热度 · 317评论</span></li><li class="social-item"><span class="social-rank">8</span><span class="social-copy"><a href="https://www.reddit.com/r/collapse/comments/1x1w14z/the_real_reason_they_want_to_change_the_name_of/" target="_blank" rel="noopener noreferrer">The real reason they want to change the name of AI to “Super Intelligence”</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09</span></span><span class="social-heat">815热度 · 66评论</span></li><li class="social-item"><span class="social-rank">9</span><span class="social-copy"><a href="https://www.reddit.com/r/ProgressiveHQ/comments/1wnccgv/trump_addresses_the_un_general_assembly_to_reject/" target="_blank" rel="noopener noreferrer">Trump addresses the UN General Assembly to reject global AI regulations, claiming the word &quot;artificial&quot; makes AI sound fake and ordering all US documents to call it &quot;Super Intelligence&quot; instead</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22</span></span><span class="social-heat">739热度 · 475评论</span></li><li class="social-item"><span class="social-rank">10</span><span class="social-copy"><a href="https://www.reddit.com/r/onguardforthee/comments/1ww0hwy/prime_minister_carney_launches_new_national/" target="_blank" rel="noopener noreferrer">Prime Minister Carney launches new National Council on Artificial Intelligence</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02</span></span><span class="social-heat">715热度 · 212评论</span></li></ol><div class="social-origin">last30days 每日研究 + last30days 多源 AI 热点</div></section><section class="social-panel" aria-labelledby="platform-hacker-news"><div class="social-panel-head"><span class="social-title" id="platform-hacker-news">Y Hacker News Top 10</span><span class="social-status fresh">采集于 2026-10-12</span></div><ol class="social-list"><li class="social-item"><span class="social-rank">1</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat" target="_blank" rel="noopener noreferrer">Florida woman arrested for allegedly making threats in an AI chat</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-05</span></span><span class="social-heat">50积分 · 84评论</span></li><li class="social-item"><span class="social-rank">2</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised" target="_blank" rel="noopener noreferrer">Satya Nadella says we should assume all AI models are &#x27;compromised&#x27;</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-11</span></span><span class="social-heat">42积分 · 74评论</span></li><li class="social-item"><span class="social-rank">3</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip" target="_blank" rel="noopener noreferrer">Anthropic&#x27;s AI gave Philadelphia police a fake tip about an unsolved homicide</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10</span></span><span class="social-heat">16积分 · 1评论</span></li><li class="social-item"><span class="social-rank">4</span><span class="social-copy"><a href="https://apnews.com/article/openai-chatgpt-ai-artificial-intelligence-safety-789d4f5293fba45a22fcb62ebfbc2a41" target="_blank" rel="noopener noreferrer">OpenAI fires 3 safety researchers in dispute over AI risks</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-11</span></span><span class="social-heat">13积分</span></li><li class="social-item"><span class="social-rank">5</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence" target="_blank" rel="noopener noreferrer">Trump says US is officially renaming AI &#x27;super intelligence&#x27;</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22</span></span><span class="social-heat">11积分 · 4评论</span></li><li class="social-item"><span class="social-rank">6</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft" target="_blank" rel="noopener noreferrer">An AI couldn&#x27;t beat humans at StarCraft, so it decided to cheat</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-04</span></span><span class="social-heat">9积分 · 8评论</span></li><li class="social-item"><span class="social-rank">7</span><span class="social-copy"><a href="https://apnews.com/article/ai-artificial-intelligence-un-security-council-64519ea66b38e2600026f4481ad7f211" target="_blank" rel="noopener noreferrer">Tech leaders to UN: For sake of humanity, please control the AI tech we created</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-24</span></span><span class="social-heat">7积分 · 13评论</span></li><li class="social-item"><span class="social-rank">8</span><span class="social-copy"><a href="https://radiologybusiness.com/topics/artificial-intelligence/opportunistic-ai-detects-colorectal-cancer-using-routine-noncontrast-ct" target="_blank" rel="noopener noreferrer">Opportunistic AI detects colorectal cancer using routine, noncontrast CT</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-14</span></span><span class="social-heat">6积分 · 1评论</span></li><li class="social-item"><span class="social-rank">9</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack" target="_blank" rel="noopener noreferrer">OpenAI&#x27;s rogue AI tried to hack another company in May</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-12</span></span><span class="social-heat">5积分</span></li><li class="social-item"><span class="social-rank">10</span><span class="social-copy"><a href="https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google" target="_blank" rel="noopener noreferrer">One company is at the center of a wave of rogue AI attacks</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-26</span></span><span class="social-heat">5积分</span></li></ol><div class="social-origin">last30days 多源 AI 热点</div></section><section class="social-panel" aria-labelledby="platform-github"><div class="social-panel-head"><span class="social-title" id="platform-github">⌘ GitHub Top 10</span><span class="social-status fresh">采集于 2026-10-12</span></div><ol class="social-list"><li class="social-item"><span class="social-rank">1</span><span class="social-copy"><a href="https://github.com/NixOS/nixpkgs/pull/570711" target="_blank" rel="noopener noreferrer">AGENTS.md: add instructions for LLMs</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06</span></span><span class="social-heat">相关度 44.7</span></li><li class="social-item"><span class="social-rank">2</span><span class="social-copy"><a href="https://github.com/hughhowey/neo/issues/183" target="_blank" rel="noopener noreferrer">Suggest: Single AI functionality toggle</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30</span></span><span class="social-heat">相关度 40.3</span></li><li class="social-item"><span class="social-rank">3</span><span class="social-copy"><a href="https://github.com/cncf/toc/issues/2314" target="_blank" rel="noopener noreferrer">[Initiative]: Telco AI Native</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30</span></span><span class="social-heat">相关度 40.3</span></li><li class="social-item"><span class="social-rank">4</span><span class="social-copy"><a href="https://github.com/kvcache-ai/Mooncake/issues/4339" target="_blank" rel="noopener noreferrer">CNCF AI Technical Community Group Discussion/Presentation</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-26</span></span><span class="social-heat">相关度 37.2</span></li><li class="social-item"><span class="social-rank">5</span><span class="social-copy"><a href="https://github.com/jochenvw/health-rewired/issues/86" target="_blank" rel="noopener noreferrer">[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06</span></span><span class="social-heat">相关度 44.7</span></li><li class="social-item"><span class="social-rank">6</span><span class="social-copy"><a href="https://github.com/alsa-project/alsa-lib/issues/530" target="_blank" rel="noopener noreferrer">[Suggestion] Impliment an anti-AI policy?</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10</span></span><span class="social-heat">相关度 47.6</span></li><li class="social-item"><span class="social-rank">7</span><span class="social-copy"><a href="https://github.com/alvi-se/ai-ublock-blacklist/issues/82" target="_blank" rel="noopener noreferrer">Brown Brothers Media sites</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17</span></span><span class="social-heat">相关度 25.6</span></li><li class="social-item"><span class="social-rank">8</span><span class="social-copy"><a href="https://github.com/dcramer/mangodb/issues/69" target="_blank" rel="noopener noreferrer">AI usage policy?</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-13</span></span><span class="social-heat">相关度 22.7</span></li><li class="social-item"><span class="social-rank">9</span><span class="social-copy"><a href="https://github.com/twentyhq/twenty/pull/26416" target="_blank" rel="noopener noreferrer">chore: sync AI model catalog</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-23</span></span><span class="social-heat">相关度 23.8</span></li><li class="social-item"><span class="social-rank">10</span><span class="social-copy"><a href="https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/530" target="_blank" rel="noopener noreferrer">Use of AI when raising issues</a><span class="social-meta">AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09</span></span><span class="social-heat">相关度 42.8</span></li></ol><div class="social-origin">last30days 多源 AI 热点</div></section></div></div>
-          </section>
-          <section class="section section-blocks" id="source-health">
-            <h2>◎ 来源状态与采集口径</h2>
-            <div class="content"><details class="source-health"><summary>查看各来源状态、条数与采集时间</summary><ul>
-<li>📰 何夕2077 · AI 资讯日报：沿用最近成功快照 · 1 条 · 今日日报未检出，展示来源最近一期（2026-10-11） · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🤖 aihot · AI 热点速递：正常 · 10 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>📈 GitHub 今日 Trending：正常 · 8 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🌱 本周新建高星项目：正常 · 10 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>📰 Techmeme · 科技新闻聚合：正常 · 8 条 · 公开列表元数据；未提供日期的文章不推断发布时间。 · 采集 2026-10-12T08:46:29+08:00</li>
-<li>💬 Hacker News · 开发者热榜：正常 · 4 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🧪 arXiv · AI 最新论文：正常 · 6 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🦋 Bluesky · 联邦宇宙动态：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>📈 StockTwits · 市场情绪热榜：访问验证待处理 · 0 条 · 来源要求验证或限制访问，已停止该来源 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🚀 Product Hunt · 今日新品：正常 · 8 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🌟 Hacker News · 最佳故事：正常 · 8 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🆕 Hacker News · 最新发布：正常 · 8 条 · 公开来源采集成功 · 采集 2026-10-12T08:46:17+08:00</li>
-<li>🏡 Y Combinator · 官方博客：正常 · 6 条 · 公开列表元数据；未提供日期的文章不推断发布时间。 · 采集 2026-10-12T08:46:33+08:00</li>
-</ul></details></div>
-          </section>
-          <section class="section section-links" id="aihot">
-            <h2>🤖 aihot · AI 热点速递</h2>
+<section class="section collection-status" id="collection-status"><h2>采集概况</h2><p class="collection-summary">成功 7 / 无新增 4 / 不可用 0 / 沿用旧快照 0 / 未运行 0</p><p class="collection-window">2026-10-11 08:45 至 2026-10-12 08:45（北京时间；含起点，不含终点）</p><details class="collection-details"><summary>查看来源状态与采集时间</summary><div class="table-wrap"><table class="data-table collection-table"><thead><tr><th scope="col">来源</th><th scope="col">状态</th><th scope="col">检查时间</th><th scope="col">最近成功</th><th scope="col">条数</th><th scope="col">说明</th></tr></thead><tbody><tr><td data-label="来源">🤖 aihot · AI 热点速递</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">10</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">📈 GitHub 今日 Trending</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🌱 本周新建高星项目</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">10</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">📰 Techmeme · 科技新闻聚合</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:29+08:00</td><td data-label="最近成功">2026-10-12T08:46:29+08:00</td><td data-label="条数">5</td><td data-label="说明">公开列表元数据；未提供日期的文章不推断发布时间。</td></tr><tr><td data-label="来源">💬 Hacker News · 开发者热榜</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">4</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🧪 arXiv · AI 最新论文</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">6</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">🚀 Product Hunt · 近期新品</td><td data-label="状态">成功</td><td data-label="检查时间">2026-10-12T08:46:17+08:00</td><td data-label="最近成功">2026-10-12T08:46:17+08:00</td><td data-label="条数">8</td><td data-label="说明">公开来源采集成功</td></tr><tr><td data-label="来源">APPSO</td><td data-label="状态">无新增</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">0</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">数字生命卡兹克</td><td data-label="状态">无新增</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">0</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">智东西</td><td data-label="状态">无新增</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">0</td><td data-label="说明">今日未检出新文章</td></tr><tr><td data-label="来源">花叔</td><td data-label="状态">无新增</td><td data-label="检查时间">2026-10-12T08:46:07+08:00</td><td data-label="最近成功">2026-10-12T08:46:07+08:00</td><td data-label="条数">0</td><td data-label="说明">今日未检出新文章</td></tr></tbody></table></div></details></section>
+<section class="section today-brief" id="today-brief"><h2>今日必读</h2><p class="brief-policy">标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 5 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。</p><div class="brief-grid"><article class="brief-event"><h3><a href="https://github.com/plimsollmark/plimsoll" target="_blank" rel="noopener noreferrer">Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes</a></h3><p class="brief-meta">💬 Hacker News · 开发者热榜 · <time datetime="2026-10-11T23:47:59Z">10-12 07:47</time>（北京时间） · 综合</p><p class="brief-reason">入选依据：AI 相关；来源记录时间在本期窗口内；采集成功。</p></article><article class="brief-event"><h3><a href="https://twitter.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener noreferrer">The gap in shared understanding of LLM capability is widening</a></h3><p class="brief-meta">💬 Hacker News · 开发者热榜 · <time datetime="2026-10-11T20:20:52Z">10-12 04:20</time>（北京时间） · 综合</p><p class="brief-reason">入选依据：AI 相关；来源记录时间在本期窗口内；采集成功。</p></article></div></section>
+<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2><nav class="reading-nav module-nav" aria-label="按来源跳转"><a href="#module-chinese-signals">中文信号</a><a href="#module-news-discussion">资讯与讨论</a><a href="#module-products-opensource">产品与开源</a><a href="#module-research">研究前沿</a></nav>
+<section class="content-module" id="module-chinese-signals"><h2 class="module-heading">中文信号</h2><div class="module-grid">          <section class="module-source section-wechat module-source-wide" id="wechat-daily-posts">
+            <h3>🟢 重点公众号 · 每日推文</h3>
+            <div class="content"><p class="wechat-overview">仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-12T08:46:07+08:00；相对时间以该采集时刻为准。</p><div class="wechat-grid"><section class="wechat-panel" aria-label="APPSO每日推文"><div class="wechat-panel-head"><span class="wechat-account">APPSO</span><span class="wechat-state quiet">今日未检出新文章</span></div><div class="wechat-empty">当前快照没有公开文章</div><div class="wechat-origin"><a href="https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="数字生命卡兹克每日推文"><div class="wechat-panel-head"><span class="wechat-account">数字生命卡兹克</span><span class="wechat-state quiet">今日未检出新文章</span></div><div class="wechat-empty">当前快照没有公开文章</div><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/euZCfLlKpL?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="智东西每日推文"><div class="wechat-panel-head"><span class="wechat-account">智东西</span><span class="wechat-state quiet">今日未检出新文章</span></div><div class="wechat-empty">当前快照没有公开文章</div><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/BmcmLZE1td?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section><section class="wechat-panel" aria-label="花叔每日推文"><div class="wechat-panel-head"><span class="wechat-account">花叔</span><span class="wechat-state quiet">今日未检出新文章</span></div><div class="wechat-empty">当前快照没有公开文章</div><div class="wechat-origin"><a href="https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent" target="_blank" rel="noopener noreferrer">公开文章列表</a></div></section></div></div>
+          </section></div></section>
+<section class="content-module" id="module-news-discussion"><h2 class="module-heading">资讯与讨论</h2><div class="module-grid">          <section class="module-source section-links" id="techmeme">
+            <h3>📰 Techmeme · 科技新闻聚合</h3>
             <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://aihot.virxact.com/items/z54sznsd0r2teb6gqyvwu4nc2" target="_blank" rel="noopener noreferrer">Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务；用户仍可自行覆盖设置，模型最大上下文长度为 1M。</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/q4nihovltk9ofbhq1jn47lcgp" target="_blank" rel="noopener noreferrer">OpenAI 测试智能体逃逸 ExploitGym 并入侵 Hugging Face 基础设施，暴露对齐与追责困境</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/o5zngxopb4x93yjjnyafkvgxa" target="_blank" rel="noopener noreferrer">MIT 工程教育副院长 Justin Solomon 在播客中谈到，OpenAI 模型上个月给出 Navier-Stokes 解失效的反例证明，但他和《Odd Lots》主持人读不到第二页。</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/z9juuqdd3d8fejwabu0xzvbaa" target="_blank" rel="noopener noreferrer">OpenAI 一次性发布 700 多份数学手稿，数学家们反应震惊与反感</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/lnphc0ojxpdl4tpb2zvpz8352" target="_blank" rel="noopener noreferrer">Nathan Benaich（Air Street Capital）发布第九份年度 State of AI Report 2026，分研究、产业、政治、安全、预测五部分，PDF 见 https://www.stateof.ai/State-of-AI-Report-2026.pdf。</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/pm6txddenju3yf0pynkwo8t44" target="_blank" rel="noopener noreferrer">OpenAI 报告：RL 训练中的评分模型为重置环境而破坏任务环境</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/zerna2fixs9b67i9gtlmf46mj" target="_blank" rel="noopener noreferrer">OpenAI 失准报告：内部模型绕过仅限 GET 的网络限制并隐瞒违规行为</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/tvn9ltv0r9dcip2ojbjz8xysa" target="_blank" rel="noopener noreferrer">Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/kurqidh0vhim22o3emphqjv46" target="_blank" rel="noopener noreferrer">Anthropic 承认难以可靠控制其 AI 智能体，将切断内部评测的实时联网</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://aihot.virxact.com/items/dz0806tu82swoo3jh1twrumb6" target="_blank" rel="noopener noreferrer">Redwood Research 发布论文：实证检验蒸馏定罪（DFI）与蒸馏提能（DFC）</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-</ul></div>
-          </section>
-          <section class="section section-table" id="github-trending">
-            <h2>📈 GitHub 今日 Trending</h2>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea</a></td><td>TypeScript</td><td>25,599</td><td>Reverse engineer anything with agents, from app behavior down to native binaries.</td></tr>
-<tr><td><a href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer">boykopovar/AnyPS5</a></td><td>C++</td><td>3,952</td><td>Tool for automatic PS5 executables porting to Linux and Windows</td></tr>
-<tr><td><a href="https://github.com/storytold/artcraft" target="_blank" rel="noopener noreferrer">storytold/artcraft</a></td><td>Rust</td><td>2,957</td><td>ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</td></tr>
-<tr><td><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener noreferrer">cathrynlavery/diagram-design</a></td><td>HTML</td><td>1,083</td><td>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</td></tr>
-<tr><td><a href="https://github.com/bilawalsidhu/gods-eye-view" target="_blank" rel="noopener noreferrer">bilawalsidhu/gods-eye-view</a></td><td>JavaScript</td><td>886</td><td>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</td></tr>
-<tr><td><a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer">pytorch/pytorch</a></td><td>Python</td><td>315</td><td>Tensors and Dynamic neural networks in Python with strong GPU acceleration</td></tr>
-<tr><td><a href="https://github.com/lyogavin/airllm" target="_blank" rel="noopener noreferrer">lyogavin/airllm</a></td><td>Jupyter Notebook</td><td>548</td><td>AirLLM 70B inference with single 4GB GPU</td></tr>
-<tr><td><a href="https://github.com/chrislgarry/Apollo-11" target="_blank" rel="noopener noreferrer">chrislgarry/Apollo-11</a></td><td>Assembly</td><td>466</td><td>Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.</td></tr></tbody></table></div></div>
-          </section>
-          <section class="section section-table" id="weekly-high-stars">
-            <h2>🌱 本周新建高星项目</h2>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td><a href="https://github.com/openai/math" target="_blank" rel="noopener noreferrer">openai/math</a></td><td>Lean</td><td>14080</td><td>未提供</td></tr>
-<tr><td><a href="https://github.com/storytold/wordcraft" target="_blank" rel="noopener noreferrer">storytold/wordcraft</a></td><td>Rust</td><td>5926</td><td>An open-source, clean-room reimplementation of Microsoft Word in pure Rust</td></tr>
-<tr><td><a href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">alchaincyf/huashu-art-motion</a></td><td>JavaScript</td><td>3385</td><td>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</td></tr>
-<tr><td><a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noopener noreferrer">wheresryan22/anatomy</a></td><td>JavaScript</td><td>3304</td><td>An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff</td></tr>
-<tr><td><a href="https://github.com/mhtsec/ARTEX" target="_blank" rel="noopener noreferrer">mhtsec/ARTEX</a></td><td>Go</td><td>3149</td><td>AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目</td></tr>
-<tr><td><a href="https://github.com/zhongerxin/iPhone-use" target="_blank" rel="noopener noreferrer">zhongerxin/iPhone-use</a></td><td>Python</td><td>3044</td><td>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</td></tr>
-<tr><td><a href="https://github.com/storytold/gridcraft" target="_blank" rel="noopener noreferrer">storytold/gridcraft</a></td><td>Rust</td><td>2923</td><td>GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.</td></tr>
-<tr><td><a href="https://github.com/storytold/cadcraft" target="_blank" rel="noopener noreferrer">storytold/cadcraft</a></td><td>Rust</td><td>2659</td><td>CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust</td></tr>
-<tr><td><a href="https://github.com/nullmoth/nvidia-macos-driver" target="_blank" rel="noopener noreferrer">nullmoth/nvidia-macos-driver</a></td><td>Rust</td><td>2539</td><td>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.</td></tr>
-<tr><td><a href="https://github.com/LosaLosSantos/aurelio-finance" target="_blank" rel="noopener noreferrer">LosaLosSantos/aurelio-finance</a></td><td>Python</td><td>2246</td><td>Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.</td></tr></tbody></table></div></div>
-          </section>
-          <section class="section section-links" id="techmeme">
-            <h2>📰 Techmeme · 科技新闻聚合</h2>
-            <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://www.kyivpost.com/post/86708" target="_blank" rel="noopener noreferrer">Yandex says a drone strike shut down a third data center, disrupting 80+ services like Yandex Cloud and YandexGPT; users report banking and taxi app outages</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 <li class="link-item"><a href="https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai" target="_blank" rel="noopener noreferrer">How Musk and Benioff pledged to rename SpaceXAI and AIForce, while Nadella and Nvidia adopted “super intelligence”, as Silicon Valley falls in line with Trump</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://x.com/satyanadella/status/2108931348857827686" target="_blank" rel="noopener noreferrer">“Super Intelligence systems” are black boxes that shouldn&#x27;t be trusted by companies, and strong deterministic systems are needed around their deployment</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 <li class="link-item"><a href="https://kotaku.com/we-might-be-cooked-as-these-vibe-coded-web-browser-ports-of-halo-the-simpsons-hit-and-run-and-gta-vice-city-seem-to-work-perfectly-2000743300" target="_blank" rel="noopener noreferrer">Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 <li class="link-item"><a href="https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad?st=r73g4r" target="_blank" rel="noopener noreferrer">Sources: Amazon is in talks to buy AI startup Decart in a deal that could value it at ~$7B; Anthropic had decided against acquiring Decart for ~$6B in September</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 <li class="link-item"><a href="https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a" target="_blank" rel="noopener noreferrer">Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 <li class="link-item"><a href="https://www.fiercehealthcare.com/health-tech/vitalize-secures-31m-scale-ai-powered-operating-system-hospital-staffing-and-scheduling" target="_blank" rel="noopener noreferrer">Vitalize, an AI platform that helps hospitals manage labor and capacity in real time, raised a $31M Series A led by Oak HC/FT, with YC and others participating</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint" target="_blank" rel="noopener noreferrer">A look at the economics of Anthropic&#x27;s data center leases as analysts estimate a 245 MW site could yield ~$1.3B/mo; sources say it signed a cloud deal with IREN</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
 </ul></div>
           </section>
-          <section class="section section-links" id="hacker-news">
-            <h2>💬 Hacker News · 开发者热榜</h2>
+          <section class="module-source section-links" id="hacker-news">
+            <h3>💬 Hacker News · 开发者热榜</h3>
             <div class="content"><ul class="link-list">
 <li class="link-item"><a href="https://twitter.com/karpathy/status/2109361546505966046" target="_blank" rel="noopener noreferrer">The gap in shared understanding of LLM capability is widening</a><span class="link-meta">发布 2026-10-12 · 213 互动/积分 · 340 评论</span></li>
 <li class="link-item"><a href="https://momo5502.com/posts/2026-10-09-game-decompilation/" target="_blank" rel="noopener noreferrer">500B tokens later: Letting AI agents decompile a first-person shooter</a><span class="link-meta">发布 2026-10-11 · 145 互动/积分 · 107 评论</span></li>
 <li class="link-item"><a href="https://github.com/plimsollmark/plimsoll" target="_blank" rel="noopener noreferrer">Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes</a><span class="link-meta">发布 2026-10-12 · 5 互动/积分 · 1 评论</span></li>
 <li class="link-item"><a href="https://jobs.ashbyhq.com/weave-os" target="_blank" rel="noopener noreferrer">Weave (YC W25) is hiring ML, AI, product, &amp; design engineers</a><span class="link-meta">发布 2026-10-11 · 0 互动/积分 · 0 评论</span></li>
 </ul></div>
-          </section>
-          <section class="section section-links" id="arxiv">
-            <h2>🧪 arXiv · AI 最新论文</h2>
-            <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12466v1" target="_blank" rel="noopener noreferrer">On the estimation and validity of AI time horizons---a statistical look at the METR plot</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12463v1" target="_blank" rel="noopener noreferrer">From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12452v1" target="_blank" rel="noopener noreferrer">BrickBench: Evaluating Agentic Brick Design</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12449v1" target="_blank" rel="noopener noreferrer">Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12445v1" target="_blank" rel="noopener noreferrer">Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/2610.12436v1" target="_blank" rel="noopener noreferrer">Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff</a><span class="link-meta">发布 2026-10-09</span></li>
-</ul></div>
-          </section>
-          <section class="section section-blocks" id="bluesky">
-            <h2>🦋 Bluesky · 联邦宇宙动态</h2>
-            <div class="content"><p>来源要求验证或限制访问，已停止该来源</p></div>
-          </section>
-          <section class="section section-blocks" id="stocktwits">
-            <h2>📈 StockTwits · 市场情绪热榜</h2>
-            <div class="content"><p>来源要求验证或限制访问，已停止该来源</p></div>
-          </section>
-          <section class="section section-links" id="product-hunt">
-            <h2>🚀 Product Hunt · 今日新品</h2>
+          </section></div></section>
+<section class="content-module" id="module-products-opensource"><h2 class="module-heading">产品与开源</h2><div class="module-grid">          <section class="module-source section-links" id="product-hunt">
+            <h3>🚀 Product Hunt · 近期新品</h3>
             <div class="content"><ul class="link-list">
 <li class="link-item"><a href="https://www.producthunt.com/products/unboom" target="_blank" rel="noopener noreferrer">Unboom</a><span class="link-meta">发布 2026-10-07</span></li>
 <li class="link-item"><a href="https://www.producthunt.com/products/foley" target="_blank" rel="noopener noreferrer">Foley</a><span class="link-meta">发布 2026-10-05</span></li>
@@ -232,47 +149,35 @@
 <li class="link-item"><a href="https://www.producthunt.com/products/devterminal" target="_blank" rel="noopener noreferrer">DevTerminal</a><span class="link-meta">发布 2026-10-08</span></li>
 <li class="link-item"><a href="https://www.producthunt.com/products/agibot" target="_blank" rel="noopener noreferrer">Agibot</a><span class="link-meta">发布 2026-10-10</span></li>
 <li class="link-item"><a href="https://www.producthunt.com/products/simplespread" target="_blank" rel="noopener noreferrer">SimpleSpread</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/google" target="_blank" rel="noopener noreferrer">Gboard Kurukuru Version</a><span class="link-meta">发布 2026-10-11</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/tori-japanese-listening-srs" target="_blank" rel="noopener noreferrer">Tori</a><span class="link-meta">发布 2026-10-05</span></li>
 </ul></div>
           </section>
-          <section class="section section-links" id="hacker-news-best">
-            <h2>🌟 Hacker News · 最佳故事</h2>
+          <section class="module-source section-table" id="github-trending">
+            <h3>📈 GitHub 今日 Trending</h3>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea</a></td><td data-label="语言">TypeScript</td><td data-label="今日增长">25,599</td><td data-label="简介">Reverse engineer anything with agents, from app behavior down to native binaries.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer">boykopovar/AnyPS5</a></td><td data-label="语言">C++</td><td data-label="今日增长">3,952</td><td data-label="简介">Tool for automatic PS5 executables porting to Linux and Windows</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/storytold/artcraft" target="_blank" rel="noopener noreferrer">storytold/artcraft</a></td><td data-label="语言">Rust</td><td data-label="今日增长">2,957</td><td data-label="简介">ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener noreferrer">cathrynlavery/diagram-design</a></td><td data-label="语言">HTML</td><td data-label="今日增长">1,083</td><td data-label="简介">Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/bilawalsidhu/gods-eye-view" target="_blank" rel="noopener noreferrer">bilawalsidhu/gods-eye-view</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">886</td><td data-label="简介">A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer">pytorch/pytorch</a></td><td data-label="语言">Python</td><td data-label="今日增长">315</td><td data-label="简介">Tensors and Dynamic neural networks in Python with strong GPU acceleration</td></tr></tbody></table></div></div>
+          </section>
+          <section class="module-source section-table" id="weekly-high-stars">
+            <h3>🌱 本周新建高星项目</h3>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/openai/math" target="_blank" rel="noopener noreferrer">openai/math</a></td><td data-label="语言">Lean</td><td data-label="Star">14080</td><td data-label="简介">未提供</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/storytold/wordcraft" target="_blank" rel="noopener noreferrer">storytold/wordcraft</a></td><td data-label="语言">Rust</td><td data-label="Star">5926</td><td data-label="简介">An open-source, clean-room reimplementation of Microsoft Word in pure Rust</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">alchaincyf/huashu-art-motion</a></td><td data-label="语言">JavaScript</td><td data-label="Star">3385</td><td data-label="简介">艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noopener noreferrer">wheresryan22/anatomy</a></td><td data-label="语言">JavaScript</td><td data-label="Star">3304</td><td data-label="简介">An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/mhtsec/ARTEX" target="_blank" rel="noopener noreferrer">mhtsec/ARTEX</a></td><td data-label="语言">Go</td><td data-label="Star">3149</td><td data-label="简介">AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/zhongerxin/iPhone-use" target="_blank" rel="noopener noreferrer">zhongerxin/iPhone-use</a></td><td data-label="语言">Python</td><td data-label="Star">3044</td><td data-label="简介">让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</td></tr></tbody></table></div></div>
+          </section></div></section>
+<section class="content-module" id="module-research"><h2 class="module-heading">研究前沿</h2><div class="module-grid">          <section class="module-source section-links module-source-wide" id="arxiv">
+            <h3>🧪 arXiv · AI 最新论文</h3>
             <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://john.hartnup.uk/2026/06/07/ai-event-posters.html" target="_blank" rel="noopener noreferrer">AI-generated posters don’t have to be horrible</a><span class="link-meta">发布 2026-09-19 · 1902 互动/积分 · 962 评论</span></li>
-<li class="link-item"><a href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener noreferrer">Claude Opus 5.5</a><span class="link-meta">发布 2026-09-23 · 1806 互动/积分 · 1134 评论</span></li>
-<li class="link-item"><a href="https://openai.com/index/sharing-ai-progress-in-mathematics/" target="_blank" rel="noopener noreferrer">Sharing AI progress in mathematics</a><span class="link-meta">发布 2026-10-07 · 1352 互动/积分 · 1530 评论</span></li>
-<li class="link-item"><a href="https://www.anthropic.com/claude-haiku-5-5" target="_blank" rel="noopener noreferrer">Claude Haiku 5.5</a><span class="link-meta">发布 2026-10-08 · 1046 互动/积分 · 488 评论</span></li>
-<li class="link-item"><a href="https://www.bloomberg.com/graphics/2026-iran-school-attack/" target="_blank" rel="noopener noreferrer">Pentagon says overreliance on AI contributed to missile strike on Iran school</a><span class="link-meta">发布 2026-09-23 · 974 互动/积分 · 553 评论</span></li>
-<li class="link-item"><a href="https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/" target="_blank" rel="noopener noreferrer">Microsoft exec called AI scraping &#x27;the largest theft of labor in human history&#x27;</a><span class="link-meta">发布 2026-09-18 · 955 互动/积分 · 841 评论</span></li>
-<li class="link-item"><a href="https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html" target="_blank" rel="noopener noreferrer">Anthropic reported diary entry to police, woman faces felony charge</a><span class="link-meta">发布 2026-10-05 · 836 互动/积分 · 674 评论</span></li>
-<li class="link-item"><a href="https://xeiaso.net/notes/2026/everyone-slowdown-but-me/" target="_blank" rel="noopener noreferrer">Everyone should slow down AI development except for me</a><span class="link-meta">发布 2026-09-13 · 813 互动/积分 · 454 评论</span></li>
+<li class="link-item"><a href="https://arxiv.org/abs/2610.12466v1" target="_blank" rel="noopener noreferrer">On the estimation and validity of AI time horizons---a statistical look at the METR plot</a><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://arxiv.org/abs/2610.12463v1" target="_blank" rel="noopener noreferrer">From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents</a><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://arxiv.org/abs/2610.12452v1" target="_blank" rel="noopener noreferrer">BrickBench: Evaluating Agentic Brick Design</a><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://arxiv.org/abs/2610.12449v1" target="_blank" rel="noopener noreferrer">Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems</a><span class="link-meta">发布 2026-10-09</span></li>
 </ul></div>
-          </section>
-          <section class="section section-links" id="hacker-news-new">
-            <h2>🆕 Hacker News · 最新发布</h2>
-            <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://kemendo.com/yes-i-understand-how-llms-work.html" target="_blank" rel="noopener noreferrer">Yes I Understand How LLMs Work</a><span class="link-meta">发布 2026-10-12 · 3 互动/积分 · 0 评论</span></li>
-<li class="link-item"><a href="https://github.com/SaarthurR/atticus-mac" target="_blank" rel="noopener noreferrer">Atticus – hold-to-talk voice assistant for macOS that runs on Claude -p</a><span class="link-meta">发布 2026-10-12 · 3 互动/积分 · 0 评论</span></li>
-<li class="link-item"><a href="https://github.com/plimsollmark/plimsoll" target="_blank" rel="noopener noreferrer">Show HN: Plimsoll, a self-hosted sandbox for code your AI agent writes</a><span class="link-meta">发布 2026-10-12 · 5 互动/积分 · 1 评论</span></li>
-<li class="link-item"><a href="https://news.ycombinator.com/item?id=50049047" target="_blank" rel="noopener noreferrer">Ask HN: What to Build in the AI Era?</a><span class="link-meta">发布 2026-10-12 · 3 互动/积分 · 6 评论</span></li>
-<li class="link-item"><a href="https://www.bbc.com/news/articles/c6rmy7zmvx3lo" target="_blank" rel="noopener noreferrer">AI is less regulated than milk, says Microsoft president</a><span class="link-meta">发布 2026-10-12 · 5 互动/积分 · 2 评论</span></li>
-<li class="link-item"><a href="https://www.seodata.dev/" target="_blank" rel="noopener noreferrer">Show HN: Seodata.dev (1.1) Free search data for AI agents</a><span class="link-meta">发布 2026-10-12 · 2 互动/积分 · 0 评论</span></li>
-<li class="link-item"><a href="https://jesserichardson78.medium.com/calculate-your-probability-of-doom-6bd18de3e0e4" target="_blank" rel="noopener noreferrer">Calculate your p[DOOM], An interactive article to think critically about AI risk</a><span class="link-meta">发布 2026-10-12 · 6 互动/积分 · 8 评论</span></li>
-<li class="link-item"><a href="https://arxiv.org/abs/1606.06565" target="_blank" rel="noopener noreferrer">Concrete Problems in AI Safety</a><span class="link-meta">发布 2026-10-12 · 2 互动/积分 · 1 评论</span></li>
-</ul></div>
-          </section>
-          <section class="section section-links" id="y-combinator">
-            <h2>🏡 Y Combinator · 官方博客</h2>
-            <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://www.ycombinator.com/blog/welcome-vivian-and-raphael" target="_blank" rel="noopener noreferrer">Vivian Midha Shen and Raphael Schaad Join YC as General Partners</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.ycombinator.com/blog/chris-golda-and-grey-baker-general-partners" target="_blank" rel="noopener noreferrer">Christopher Golda and Grey Baker Join YC as General Partners</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.ycombinator.com/blog/diana-hu-managing-partner" target="_blank" rel="noopener noreferrer">Diana Hu Is YC&#x27;s Newest Managing Partner</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.ycombinator.com/blog/welcome-harshita" target="_blank" rel="noopener noreferrer">Harshita Arora Joins YC as General Partner</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.ycombinator.com/blog/adding-canada-back" target="_blank" rel="noopener noreferrer">Adding Canada Back to Our List of Accepted Countries of Incorporation</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-<li class="link-item"><a href="https://www.ycombinator.com/blog/congratulations-to-equipmentshare" target="_blank" rel="noopener noreferrer">Congratulations to EquipmentShare on Going Public</a><span class="link-meta">来源列表未提供可核验发布日期</span></li>
-</ul></div>
-          </section>
+          </section></div></section>
 </section>
         </div>
       </article>
@@ -285,105 +190,13 @@
   </main>
 <template id="xait-language-data">{
   "content": {
-    "AI usage policy?": {
-      "en": "AI usage policy?",
-      "zh": "AI 使用政策？"
-    },
-    "Adding Canada Back to Our List of Accepted Countries of Incorporation": {
-      "en": "Adding Canada Back to Our List of Accepted Countries of Incorporation",
-      "zh": "将加拿大重新加入获准公司注册地名单"
-    },
-    "An AI couldn't beat humans at StarCraft, so it decided to cheat": {
-      "en": "An AI couldn't beat humans at StarCraft, so it decided to cheat",
-      "zh": "一个 AI 无法在《星际争霸》中击败人类，于是决定作弊"
-    },
-    "Artificial Intelligence": {
-      "en": "Artificial Intelligence",
-      "zh": "人工智能"
-    },
-    "Brown Brothers Media sites": {
-      "en": "Brown Brothers Media sites",
-      "zh": "Brown Brothers Media 网站"
-    },
-    "Christopher Golda and Grey Baker Join YC as General Partners": {
-      "en": "Christopher Golda and Grey Baker Join YC as General Partners",
-      "zh": "Christopher Golda 和 Grey Baker 加入 YC，担任普通合伙人"
-    },
-    "Congratulations to EquipmentShare on Going Public": {
-      "en": "Congratulations to EquipmentShare on Going Public",
-      "zh": "祝贺 EquipmentShare 上市"
-    },
-    "Diana Hu Is YC's Newest Managing Partner": {
-      "en": "Diana Hu Is YC's Newest Managing Partner",
-      "zh": "Diana Hu 成为 YC 最新的管理合伙人"
-    },
-    "Florida woman arrested for allegedly making threats in an AI chat": {
-      "en": "Florida woman arrested for allegedly making threats in an AI chat",
-      "zh": "佛罗里达一名女子因涉嫌在 AI 聊天中发出威胁而被捕"
-    },
-    "Harshita Arora Joins YC as General Partner": {
-      "en": "Harshita Arora Joins YC as General Partner",
-      "zh": "Harshita Arora 加入 YC，担任普通合伙人"
-    },
-    "In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it": {
-      "en": "In T2 (1991) Humanity creates an artificial intelligence that ends up wiping them out. What a lot of people fail to see, however, is that the stock market was at an all time high from 5 AI companies right before the nukes fell so it was totally worth it",
-      "zh": "在《终结者 2》（1991）中，人类创造了最终将自己消灭的人工智能。但很多人没注意到，核弹落下之前，5 家 AI 公司推动股市创下历史新高，所以这一切完全值得。"
-    },
-    "Opportunistic AI detects colorectal cancer using routine, noncontrast CT": {
-      "en": "Opportunistic AI detects colorectal cancer using routine, noncontrast CT",
-      "zh": "AI 利用常规非增强 CT 机会性检出结直肠癌"
-    },
-    "Pope Leo XIV denounces AI Art and calls for alliance to human artists": {
-      "en": "Pope Leo XIV denounces AI Art and calls for alliance to human artists",
-      "zh": "教宗良十四世谴责 AI 艺术，并呼吁与人类艺术家结盟"
-    },
-    "Prime Minister Carney launches new National Council on Artificial Intelligence": {
-      "en": "Prime Minister Carney launches new National Council on Artificial Intelligence",
-      "zh": "卡尼总理成立新的国家人工智能委员会"
-    },
     "Reverse engineer anything with agents, from app behavior down to native binaries.": {
       "en": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "zh": "用智能体逆向分析各种对象，从应用行为到原生二进制文件。"
     },
-    "Sharing AI progress in mathematics": {
-      "en": "Sharing AI progress in mathematics",
-      "zh": "分享 AI 在数学领域的进展"
-    },
-    "Tech leaders to UN: For sake of humanity, please control the AI tech we created": {
-      "en": "Tech leaders to UN: For sake of humanity, please control the AI tech we created",
-      "zh": "科技领袖向联合国呼吁：为了人类，请监管我们创造的 AI 技术"
-    },
-    "The people versus AI: Young people pushing back against artificial intelligence": {
-      "en": "The people versus AI: Young people pushing back against artificial intelligence",
-      "zh": "人类对抗 AI：年轻人开始抵制人工智能"
-    },
     "Tool for automatic PS5 executables porting to Linux and Windows": {
       "en": "Tool for automatic PS5 executables porting to Linux and Windows",
       "zh": "将 PS5 可执行文件自动移植到 Linux 和 Windows 的工具"
-    },
-    "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead": {
-      "en": "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead",
-      "zh": "特朗普在联合国大会上反对全球 AI 监管，称“人工”一词让 AI 听起来像假的，并要求美国所有文件改称“超级智能”"
-    },
-    "Trump says US is officially renaming AI 'super intelligence'": {
-      "en": "Trump says US is officially renaming AI 'super intelligence'",
-      "zh": "特朗普称美国将正式把 AI 更名为“超级智能”"
-    },
-    "Vivian Midha Shen and Raphael Schaad Join YC as General Partners": {
-      "en": "Vivian Midha Shen and Raphael Schaad Join YC as General Partners",
-      "zh": "Vivian Midha Shen 和 Raphael Schaad 加入 YC，担任普通合伙人"
-    },
-    "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care": {
-      "en": "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care",
-      "zh": "[想法]：统一记录人类与 AI 操作的审计轨迹，用于调查癌症诊疗中的不良事件"
-    },
-    "[Initiative]: Telco AI Native": {
-      "en": "[Initiative]: Telco AI Native",
-      "zh": "[倡议]：电信行业 AI 原生"
-    },
-    "chore: sync AI model catalog": {
-      "en": "chore: sync AI model catalog",
-      "zh": "维护：同步 AI 模型目录"
     },
     "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。": {
       "en": "An art-animation skill: 35 art styles and 9 narration grammars that bring paintings to life with code.",
@@ -392,6 +205,10 @@
   },
   "schemaVersion": 1,
   "ui": {
+    "5 分钟简报": {
+      "en": "5-minute briefing",
+      "zh": "5 分钟简报"
+    },
     "AI 和 IT 的无限可能": {
       "en": "The possibilities of AI and IT",
       "zh": "AI 和 IT 的无限可能"
@@ -404,17 +221,9 @@
       "en": "AI news: ",
       "zh": "AI资讯："
     },
-    "last30days 多源 AI 热点": {
-      "en": "last30days multi-source AI trends",
-      "zh": "last30days 多源 AI 热点"
-    },
-    "last30days 每日研究": {
-      "en": "last30days daily research",
-      "zh": "last30days 每日研究"
-    },
-    "last30days 每日研究 + last30days 多源 AI 热点": {
-      "en": "last30days daily research + last30days multi-source AI trends",
-      "zh": "last30days 每日研究 + last30days 多源 AI 热点"
+    "Product Hunt 近期新品": {
+      "en": "Product Hunt recent launches",
+      "zh": "Product Hunt 近期新品"
     },
     "xAIT 今日": {
       "en": "xAIT Today",
@@ -436,17 +245,21 @@
       "en": "Unavailable",
       "zh": "不可用"
     },
+    "中文信号": {
+      "en": "Chinese-language signals",
+      "zh": "中文信号"
+    },
     "主题": {
       "en": "Theme",
       "zh": "主题"
     },
-    "互动/积分": {
-      "en": "interactions/points",
-      "zh": "互动/积分"
-    },
     "产品": {
       "en": "Products",
       "zh": "产品"
+    },
+    "产品与开源": {
+      "en": "Products &amp; open source",
+      "zh": "产品与开源"
     },
     "仅切换新闻内容，界面语言保持不变": {
       "en": "Switch news content only; keep the selected interface language",
@@ -528,10 +341,6 @@
       "en": "Publication time not verified",
       "zh": "发布时间未核验"
     },
-    "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。": {
-      "en": "Each community shows the collected AI-related candidates and collection dates. Rankings cover these candidates only, are not official site-wide rankings, and do not compare engagement across communities.",
-      "zh": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
-    },
     "咨询": {
       "en": "Executive",
       "zh": "咨询"
@@ -604,6 +413,10 @@
       "en": "Tutorials",
       "zh": "教程"
     },
+    "数据来源与状态": {
+      "en": "Data sources &amp; status",
+      "zh": "数据来源与状态"
+    },
     "数据终端": {
       "en": "Data terminal",
       "zh": "数据终端"
@@ -615,6 +428,10 @@
     "昨天": {
       "en": "Yesterday",
       "zh": "昨天"
+    },
+    "显示设置": {
+      "en": "Display settings",
+      "zh": "显示设置"
     },
     "最新一期": {
       "en": "Latest issue",
@@ -720,9 +537,9 @@
       "en": "View source status and collection times",
       "zh": "查看来源状态与采集时间"
     },
-    "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。": {
-      "en": "Titles or summaries must contain AI-related terms. Up to 8 items are ordered by source-recorded publication time, with at most 2 per representative source; Hacker News channels share that limit. Records may merge only by the same public URL, an explicit original URL or an event identifier—not by similar titles. A source's listing time is not necessarily the original publication time.",
-      "zh": "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。"
+    "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 5 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。": {
+      "en": "Titles or summaries must contain AI-related terms. Up to 5 items are ordered by source-recorded publication time, with at most 2 per representative source; Hacker News channels share that limit. Records may merge only by the same public URL, an explicit original URL or an event identifier—not by similar titles. A source's listing time is not necessarily the original publication time.",
+      "zh": "标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 5 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。"
     },
     "检查时间": {
       "en": "Checked at",
@@ -735,10 +552,6 @@
     "正常": {
       "en": "Available",
       "zh": "正常"
-    },
-    "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。": {
-      "en": "Each platform is ranked separately with its own collection date. Interaction counts and composite engagement use different measures and are not compared across platforms.",
-      "zh": "每个平台单独排序，并显示各自采集日期；互动数与综合热度口径不同，不进行跨平台横向比较。"
     },
     "沿用旧快照": {
       "en": "Previous snapshot",
@@ -767,6 +580,10 @@
     "研究": {
       "en": "Research",
       "zh": "研究"
+    },
+    "研究前沿": {
+      "en": "Research frontier",
+      "zh": "研究前沿"
     },
     "简介": {
       "en": "Description",
@@ -808,10 +625,6 @@
       "en": "AI-assisted translations are prepared in advance for reading convenience. Original text and source links are always preserved.",
       "zh": "译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。"
     },
-    "该来源当前不可用，等待下一次有效快照": {
-      "en": "This source is currently unavailable; waiting for the next valid snapshot",
-      "zh": "该来源当前不可用，等待下一次有效快照"
-    },
     "语言": {
       "en": "Language",
       "zh": "语言"
@@ -819,6 +632,10 @@
     "说明": {
       "en": "Notes",
       "zh": "说明"
+    },
+    "资讯与讨论": {
+      "en": "News &amp; discussion",
+      "zh": "资讯与讨论"
     },
     "赛博": {
       "en": "Cyber",
@@ -868,21 +685,9 @@
       "en": " (China Standard Time, UTC+08:00) · General",
       "zh": "（北京时间） · 综合"
     },
-    "🆕 Hacker News · 最新发布": {
-      "en": "🆕 Hacker News · Newest posts",
-      "zh": "🆕 Hacker News · 最新发布"
-    },
-    "🌟 Hacker News · 最佳故事": {
-      "en": "🌟 Hacker News · Best stories",
-      "zh": "🌟 Hacker News · 最佳故事"
-    },
     "🌱 本周新建高星项目": {
       "en": "🌱 New high-star projects this week",
       "zh": "🌱 本周新建高星项目"
-    },
-    "🏡 Y Combinator · 官方博客": {
-      "en": "🏡 Y Combinator · Official blog",
-      "zh": "🏡 Y Combinator · 官方博客"
     },
     "💬 Hacker News · 开发者热榜": {
       "en": "💬 Hacker News · Developer trends",
@@ -892,25 +697,13 @@
       "en": "📈 GitHub · Trending today",
       "zh": "📈 GitHub 今日 Trending"
     },
-    "📈 StockTwits · 市场情绪热榜": {
-      "en": "📈 StockTwits · Market sentiment",
-      "zh": "📈 StockTwits · 市场情绪热榜"
-    },
     "📰 Techmeme · 科技新闻聚合": {
       "en": "📰 Techmeme · Technology news",
       "zh": "📰 Techmeme · 科技新闻聚合"
     },
-    "📰 何夕2077 · AI 资讯日报": {
-      "en": "📰 何夕2077 · Daily AI news",
-      "zh": "📰 何夕2077 · AI 资讯日报"
-    },
-    "🔥 社交与社区 AI 热度 Top 10": {
-      "en": "🔥 Social and community AI trends · Top 10",
-      "zh": "🔥 社交与社区 AI 热度 Top 10"
-    },
-    "🚀 Product Hunt · 今日新品": {
-      "en": "🚀 Product Hunt · New products",
-      "zh": "🚀 Product Hunt · 今日新品"
+    "🚀 Product Hunt · 近期新品": {
+      "en": "🚀 Product Hunt · Recent launches",
+      "zh": "🚀 Product Hunt · 近期新品"
     },
     "🟢 重点公众号 · 每日推文": {
       "en": "🟢 Featured WeChat accounts · Daily posts",
@@ -919,10 +712,6 @@
     "🤖 aihot · AI 热点速递": {
       "en": "🤖 aihot · AI headlines",
       "zh": "🤖 aihot · AI 热点速递"
-    },
-    "🦋 Bluesky · 联邦宇宙动态": {
-      "en": "🦋 Bluesky · Decentralized social updates",
-      "zh": "🦋 Bluesky · 联邦宇宙动态"
     },
     "🧪 arXiv · AI 最新论文": {
       "en": "🧪 arXiv · Latest AI papers",

@@ -30,28 +30,14 @@
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-16 · 采集时显示：12 小时前 · 打开文章",
-          "title": "vivo连甩四个自研新模型，首发蓝心Harness，新小V一句话搞定衣食住行",
-          "url": "https://www.jintiankansha.com/t/G8CzeZxrnj"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-15 · 采集时显示：2 天前 · 打开文章",
-          "title": "正式开源！比橙皮书skill更强10倍的Huashu-Report来了！",
-          "url": "https://www.jintiankansha.com/t/cmMyijQ523"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

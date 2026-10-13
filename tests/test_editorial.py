@@ -157,7 +157,10 @@ class SchemaAndSelectionTests(unittest.TestCase):
         self.assertIs(issue, xait.validate_issue(issue))
         self.assertEqual([], xait.select_today(issue))
         self.assertEqual("", xait.render_editorial(issue))
-        self.assertNotIn('id="today-brief"', xait._render_sections(issue))
+        rendered = xait._render_sections(issue)
+        self.assertNotIn('id="today-brief"', rendered)
+        self.assertNotIn('class="content-module"', rendered)
+        self.assertIn('class="section section-', rendered)
         issue["articles"] = []
         with self.assertRaises(xait.XaitError):
             xait.validate_issue(issue)
@@ -271,13 +274,14 @@ class SchemaAndSelectionTests(unittest.TestCase):
         ids = [group["representative"]["sourceId"] for group in selected]
         self.assertEqual(3, len(selected))
         self.assertEqual(2, sum(name.startswith("hacker-news") for name in ids))
+        self.assertNotIn("hacker-news-new", ids)
 
     def test_caps_and_source_diversity_are_deterministic(self):
         issue = editorial_issue()
         issue["sources"] = [source("source-" + str(i)) for i in range(6)]
         issue["articles"] = [article("article-{0}-{1}".format(i, j), "source-" + str(i)) for i in range(6) for j in range(5)]
         selected = xait.select_today(issue)
-        self.assertEqual(8, len(selected))
+        self.assertEqual(5, len(selected))
         ids = [group["representative"]["sourceId"] for group in selected]
         self.assertTrue(all(ids.count(source_id) <= 2 for source_id in ids))
         random.Random(17).shuffle(issue["articles"])
@@ -336,20 +340,31 @@ class SchemaAndSelectionTests(unittest.TestCase):
         self.assertIn('class="brief-empty"', rendered)
         self.assertNotIn('class="brief-event"', rendered)
         self.assertIn('id="source-reading"', rendered)
-        self.assertIn('class="reading-nav"', rendered)
-        for section in xait.active_issue(issue)["sections"]:
-            if section["kind"] == "social" and not section["platforms"]:
-                continue
-            self.assertIn('href="#' + section["id"] + '"', rendered)
-            self.assertIn('id="' + section["id"] + '"', rendered)
+        self.assertIn('class="reading-nav module-nav"', rendered)
+        self.assertIn('class="content-module"', rendered)
+        self.assertIn('class="module-heading"', rendered)
+        self.assertIn('class="module-grid"', rendered)
+        self.assertIn('class="module-source ', rendered)
+        self.assertIn('class="module-source section-wechat module-source-wide"', rendered)
+        for module_id, title, section_ids in xait.V2_SOURCE_MODULES:
+            if any(section_id in rendered for section_id in section_ids):
+                self.assertIn('href="#' + module_id + '"', rendered)
+                self.assertIn('id="' + module_id + '"', rendered)
+                self.assertIn(title, rendered)
 
-    def test_social_empty_origin_collapses_only_in_v2(self):
+    def test_retired_social_panel_never_renders(self):
         section = next(s for s in editorial_issue()["sections"] if s["kind"] == "social")
         for platform in section["platforms"]:
             platform["status"] = "unavailable"
             platform["items"] = []
-        self.assertNotIn("social-origin-details", xait._render_social(section))
-        self.assertIn('<details class="social-origin-details">', xait._render_social(section, compact_empty=True))
+        self.assertEqual("", xait._render_social(section))
+        self.assertEqual("", xait._render_social(section, compact_empty=True))
+
+    def test_table_cells_expose_column_labels_for_mobile_cards(self):
+        section = {"columns": ["项目", "热度"], "rows": [["example", {"text": "42", "url": None}]]}
+        rendered = xait._render_table(section)
+        self.assertIn('<td data-label="项目">example</td>', rendered)
+        self.assertIn('<td data-label="热度">42</td>', rendered)
 
     def test_source_statuses_have_labels_and_nulls_are_honest(self):
         issue = editorial_issue()

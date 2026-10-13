@@ -62,8 +62,33 @@ WECHAT_ACCOUNTS = {"APPSO", "数字生命卡兹克", "智东西", "花叔"}
 SOCIAL_STATUS = {"fresh", "stale", "unavailable"}
 # Keep older canonical inputs intact while applying the current source policy
 # consistently to pages, published issue JSON and compatibility snapshots.
-DISABLED_SOCIAL_PLATFORMS = frozenset({"xiaohongshu", "douyin"})
-DISABLED_SOCIAL_ALIASES = DISABLED_SOCIAL_PLATFORMS | frozenset({"xhs", "rednote", "red", "小红书", "抖音"})
+# Direct source ids and social platform ids deliberately use separate policies:
+# ``hacker-news`` is a retained first-party reading source while
+# ``social-hacker-news`` is a retired duplicate research panel.
+RETIRED_DIRECT_SOURCE_IDS = frozenset({
+    "hexi-2077",
+    "bluesky",
+    "stocktwits",
+    "y-combinator",
+    "hacker-news-best",
+    "hacker-news-new",
+})
+RETIRED_SOCIAL_ALIASES = frozenset({
+    "xiaohongshu", "xhs", "rednote", "red", "小红书",
+    "douyin", "抖音",
+    "reddit", "youtube", "hackernews", "github",
+})
+RETIRED_DIRECT_SOCIAL_ALIASES = RETIRED_SOCIAL_ALIASES - {"hackernews"}
+HIDDEN_SECTION_IDS = frozenset({"source-health", "aihot"})
+PRODUCT_HUNT_TITLE = "🚀 Product Hunt · 近期新品"
+SECTION_DISPLAY_LIMITS = {
+    "github-trending": ("rows", 6),
+    "weekly-high-stars": ("rows", 6),
+    "hacker-news": ("items", 5),
+    "techmeme": ("items", 5),
+    "arxiv": ("items", 4),
+    "product-hunt": ("items", 6),
+}
 SOCIAL_OVERVIEW = "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
 WECHAT_TONES = {"fresh", "quiet", "stale"}
 SENSITIVE_QUERY_KEYS = {
@@ -102,6 +127,12 @@ AI_RE = re.compile(
     r"artificial intelligence|machine learning|deep learning|neural network|generative|agentic)\b|"
     r"人工智能|大模型|语言模型|智能体|机器学习|深度学习|生成式|神经网络|多模态|扩散模型)"
 )
+
+# Techmeme is a broad technology feed, so its active reading panel must not
+# simply publish the first five records.  Search only declared public item
+# metadata (including the public URL path) with the same bilingual, explicit
+# AI vocabulary used by the editorial selector, then apply the display cap.
+TECHMEME_AI_FIELDS = ("title", "meta", "summary", "description", "category", "tags", "url")
 
 
 class XaitError(Exception):
@@ -554,24 +585,69 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
                 if any(item["badge"] == "今日" for account in raw_section["accounts"] for item in account["items"]):
                     raise XaitError("{0} 的旧快照不得标记今日推文".format(section_path))
         kind_counts[kind] = kind_counts.get(kind, 0) + 1
-    if kind_counts.get("wechat") != 1 or kind_counts.get("social") != 1:
-        raise XaitError("{0} 必须恰好包含一个 wechat 和一个 social 章节".format(source_name))
+    if kind_counts.get("wechat") != 1 or kind_counts.get("social", 0) > 1:
+        raise XaitError("{0} 必须恰好包含一个 wechat，并且最多一个 social 章节".format(source_name))
     if version == 2:
         _validate_editorial(root, source_name)
     return root
 
 
+def _source_tokens(source_id: str) -> Tuple[str, str]:
+    """Return hyphenated and compact ids without touching ordinary text."""
+    hyphenated = re.sub(r"\s+", "", str(source_id).strip().casefold().replace("_", "-"))
+    hyphenated = re.sub(r"-+", "-", hyphenated)
+    return hyphenated, re.sub(r"-+", "", hyphenated)
+
+
+def social_platform_enabled(platform_id: str) -> bool:
+    """All legacy social research panels are retired from the public view."""
+    # The explicit aliases document the compatibility spellings we have seen.
+    # Unknown social platform ids are also disabled: re-enabling a platform must
+    # be an intentional policy change, not an accidental data-shape expansion.
+    return False
+
+
 def source_enabled(source_id: str) -> bool:
     """Apply source identity policy without deleting ordinary news mentions."""
-    key = re.sub(r"\s+", "", source_id.strip().casefold().replace("_", "-")).removeprefix("social-")
-    key = re.sub(r"[\s-]+", "", key)
-    return key not in DISABLED_SOCIAL_ALIASES
+    hyphenated, compact = _source_tokens(source_id)
+    if hyphenated.startswith("social-"):
+        return social_platform_enabled(hyphenated.removeprefix("social-"))
+    retired = {
+        _source_tokens(item)[1]
+        for item in RETIRED_DIRECT_SOURCE_IDS | RETIRED_DIRECT_SOCIAL_ALIASES
+    }
+    return compact not in retired
+
+
+def section_enabled(section_id: str) -> bool:
+    hyphenated, compact = _source_tokens(section_id)
+    if hyphenated in HIDDEN_SECTION_IDS:
+        return False
+    retired = {
+        _source_tokens(item)[1]
+        for item in RETIRED_DIRECT_SOURCE_IDS | RETIRED_DIRECT_SOCIAL_ALIASES
+    }
+    return compact not in retired
+
+
+def techmeme_item_is_ai(item: Dict[str, Any]) -> bool:
+    """Return whether a Techmeme item has explicit AI evidence in public metadata."""
+    evidence: List[str] = []
+    for field in TECHMEME_AI_FIELDS:
+        value = item.get(field)
+        if isinstance(value, str):
+            evidence.append(value)
+        elif isinstance(value, list):
+            evidence.extend(entry for entry in value if isinstance(entry, str))
+    return AI_RE.search(" ".join(evidence)) is not None
 
 
 def active_social_section(section: Dict[str, Any]) -> Dict[str, Any]:
     """Return a separate, publishable social section under the current policy."""
     active = copy.deepcopy(section)
-    active["platforms"] = [platform for platform in active["platforms"] if source_enabled(platform["id"])]
+    active["platforms"] = [
+        platform for platform in active["platforms"] if social_platform_enabled(platform["id"])
+    ]
     if len(active["platforms"]) != len(section["platforms"]) or any(
         name in active["overview"].lower() for name in ("小红书", "抖音", "xiaohongshu", "douyin", "rednote")
     ):
@@ -582,11 +658,78 @@ def active_social_section(section: Dict[str, Any]) -> Dict[str, Any]:
 def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
     """Derive the current public view; never mutate the stored historical issue."""
     active = copy.deepcopy(issue)
-    active["sections"] = [active_social_section(section) if section["kind"] == "social" else section
-                          for section in active["sections"]]
+    sections = []
+    for section in active["sections"]:
+        if section["kind"] == "social":
+            # Retired social panels stay only in canonical historical inputs.
+            # The compatibility JSON is generated separately as an empty payload.
+            social = active_social_section(section)
+            if social["platforms"]:
+                sections.append(social)
+        elif section_enabled(section["id"]):
+            if section["kind"] == "wechat":
+                for account in section["accounts"]:
+                    account["items"] = [
+                        item for item in account["items"]
+                        if item["badge"] == "今日" and item["meta"].startswith(active["date"])
+                    ]
+                    if not account["items"] and account["statusTone"] != "stale":
+                        account["status"] = "今日未检出新文章"
+                        account["statusTone"] = "quiet"
+            if section["id"] == "product-hunt":
+                section["title"] = PRODUCT_HUNT_TITLE
+            if section["id"] == "techmeme" and "items" in section:
+                section["items"] = [item for item in section["items"] if techmeme_item_is_ai(item)]
+            limit = SECTION_DISPLAY_LIMITS.get(section["id"])
+            if limit:
+                field, maximum = limit
+                if field in section:
+                    section[field] = section[field][:maximum]
+            if section["id"] == "techmeme" and not section.get("items"):
+                # A zero-item links section is invalid by schema and would only
+                # create an empty card.  Its source record stays in the ledger.
+                continue
+            sections.append(section)
+    active["sections"] = sections
     if active.get("schemaVersion") == 2:
         active["sources"] = [source for source in active["sources"] if source_enabled(source["id"])]
-        active["articles"] = [article for article in active["articles"] if source_enabled(article["sourceId"])]
+        wechat_section = next((section for section in sections if section["kind"] == "wechat"), None)
+        wechat_accounts = {
+            account["name"]: account for account in wechat_section["accounts"]
+        } if wechat_section else {}
+        for source in active["sources"]:
+            if source["id"] == "product-hunt":
+                source["label"] = PRODUCT_HUNT_TITLE
+            if source["id"] == "techmeme":
+                techmeme = next((section for section in sections if section["id"] == "techmeme"), None)
+                count = len(techmeme.get("items", [])) if techmeme else 0
+                source["itemCount"] = count
+                if count == 0 and source["status"] == "ok":
+                    source["status"] = "empty"
+                    source["message"] = "未检出符合条件的内容"
+            account = wechat_accounts.get(source["label"])
+            if account is not None:
+                source["itemCount"] = len(account["items"])
+                source["message"] = account["status"]
+                if not account["items"]:
+                    source["status"] = "stale" if account["statusTone"] == "stale" else "empty"
+        source_labels = {source["id"]: source["label"] for source in active["sources"]}
+        current_wechat_items = {
+            (account["name"], item["title"], item.get("url", ""))
+            for account in wechat_accounts.values() for item in account["items"]
+        }
+        active["articles"] = [
+            article for article in active["articles"]
+            if source_enabled(article["sourceId"])
+            and (
+                not article["sourceId"].startswith("wechat-")
+                or (
+                    source_labels.get(article["sourceId"], ""),
+                    article["title"],
+                    article["url"],
+                ) in current_wechat_items
+            )
+        ]
     return active
 
 
@@ -681,7 +824,7 @@ def _brief_source_allowed(article: Dict[str, Any]) -> bool:
 
 
 def select_today(issue: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """Select up to eight distinct, evidenced AI events from the stored edition.
+    """Select up to five distinct, evidenced AI events from the active edition.
 
     No clock/network access and no factual summary generation. Exact published
     times determine newest-first ordering; ties use stable article identity.
@@ -690,6 +833,7 @@ def select_today(issue: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     if issue.get("schemaVersion") != 2:
         return []
+    issue = active_issue(issue)
     start = _strict_datetime(issue["edition"]["windowStart"], "edition.windowStart")
     end = _strict_datetime(issue["edition"]["windowEnd"], "edition.windowEnd")
     sources = {source["id"]: source for source in issue["sources"]}
@@ -719,7 +863,7 @@ def select_today(issue: Dict[str, Any]) -> List[Dict[str, Any]]:
         if len(group["articles"]) > 1:
             group["reason"] += " 已按相同公开链接、明确原文链接或事件标识合并 {0} 条记录。".format(len(group["articles"]))
         selected.append(group)
-        if len(selected) == 8:
+        if len(selected) == 5:
             break
     return selected
 
@@ -911,18 +1055,22 @@ def _render_links(section: Dict[str, Any]) -> str:
     return '<ul class="link-list">\n{0}\n</ul>'.format("\n".join(items))
 
 
-def _render_table_cell(cell: Any, tag: str) -> str:
+def _render_table_cell(cell: Any, tag: str, label: Optional[str] = None) -> str:
     if isinstance(cell, str):
         body = _escape_text(cell)
     else:
         body = _link(cell["url"], cell["text"]) if cell.get("url") else _escape_text(cell["text"])
-    return "<{0}>{1}</{0}>".format(tag, body)
+    data_label = ' data-label="{0}"'.format(html.escape(label, quote=True)) if tag == "td" and label else ""
+    return "<{0}{1}>{2}</{0}>".format(tag, data_label, body)
 
 
 def _render_table(section: Dict[str, Any]) -> str:
     head = "".join(_render_table_cell(column, "th") for column in section["columns"])
     rows = "\n".join(
-        "<tr>{0}</tr>".format("".join(_render_table_cell(cell, "td") for cell in row))
+        "<tr>{0}</tr>".format("".join(
+            _render_table_cell(cell, "td", column)
+            for column, cell in zip(section["columns"], row)
+        ))
         for row in section["rows"]
     )
     return (
@@ -1007,6 +1155,17 @@ SECTION_RENDERERS = {
     "social": _render_social,
 }
 
+V2_SOURCE_MODULES = (
+    ("module-chinese-signals", "中文信号", ("wechat-daily-posts",)),
+    ("module-news-discussion", "资讯与讨论", ("techmeme", "hacker-news")),
+    (
+        "module-products-opensource",
+        "产品与开源",
+        ("product-hunt", "github-trending", "weekly-high-stars"),
+    ),
+    ("module-research", "研究前沿", ("arxiv",)),
+)
+
 
 def render_editorial(issue: Dict[str, Any]) -> str:
     """Render the v2 collection ledger and derived daily briefing only."""
@@ -1062,45 +1221,92 @@ def render_editorial(issue: Dict[str, Any]) -> str:
     )
     briefing = (
         '<section class="section today-brief" id="today-brief"><h2>今日必读</h2>'
-        '<p class="brief-policy">标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 8 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。</p>{0}</section>'
+        '<p class="brief-policy">标题或摘要含 AI 相关词，按来源记录的发布时间排序，最多 5 条；每个代表来源最多 2 条，Hacker News 各频道共用额度。相同公开链接、明确原文链接或事件标识可合并；不按相似标题合并。来源收录时间不等同于原文首发时间。</p>{0}</section>'
     ).format(brief_body)
     return collection + "\n" + briefing
 
 
+def _section_visible(issue: Dict[str, Any], section: Dict[str, Any]) -> bool:
+    if section["kind"] == "social":
+        return bool(section["platforms"])
+    if issue.get("schemaVersion") != 2:
+        return True
+    if section["id"] == "techmeme" and not section.get("items"):
+        return False
+    source = next((item for item in issue["sources"] if item["id"] == section["id"]), None)
+    return source is None or source["status"] not in {"empty", "unavailable", "not_run"}
+
+
+def _render_source_section(
+    section: Dict[str, Any], heading: str = "h2", module: bool = False, wide: bool = False,
+) -> str:
+    body = SECTION_RENDERERS[section["kind"]](section)
+    classes = (
+        "module-source section-{0}{1}".format(section["kind"], " module-source-wide" if wide else "")
+        if module else "section section-{0}".format(section["kind"])
+    )
+    return (
+        '          <section class="{0}" id="{1}">\n'
+        "            <{2}>{3}</{2}>\n"
+        '            <div class="content">{4}</div>\n'
+        "          </section>"
+    ).format(
+        classes,
+        html.escape(section["id"], quote=True),
+        heading,
+        _escape_text(section["title"]),
+        body,
+    )
+
+
 def _render_sections(issue: Dict[str, Any]) -> str:
     issue = active_issue(issue)
-    visible_sections = [section for section in issue["sections"]
-                        if section["kind"] != "social" or section["platforms"]]
-    chunks: List[str] = []
-    for section in visible_sections:
-        if issue["schemaVersion"] == 2 and section["kind"] == "social":
-            body = _render_social(section, compact_empty=True)
-        else:
-            body = SECTION_RENDERERS[section["kind"]](section)
-        if section["id"] == "source-health":
-            body = (
-                '<details class="source-health"><summary>查看各来源状态、条数与采集时间</summary>'
-                + body + "</details>"
-            )
-        chunks.append(
-            '          <section class="section section-{0}" id="{1}">\n'
-            "            <h2>{2}</h2>\n"
-            '            <div class="content">{3}</div>\n'
-            "          </section>".format(
-                section["kind"],
-                html.escape(section["id"], quote=True),
-                _escape_text(section["title"]),
-                body,
+    visible_sections = [section for section in issue["sections"] if _section_visible(issue, section)]
+    if issue["schemaVersion"] == 1:
+        return "\n".join(_render_source_section(section) for section in visible_sections)
+
+    by_id = {section["id"]: section for section in visible_sections}
+    modules = []
+    module_nav = []
+    claimed: Set[str] = set()
+    for module_id, title, section_ids in V2_SOURCE_MODULES:
+        members = [by_id[section_id] for section_id in section_ids if section_id in by_id]
+        if not members:
+            continue
+        claimed.update(section["id"] for section in members)
+        module_nav.append('<a href="#{0}">{1}</a>'.format(module_id, _escape_text(title)))
+        modules.append(
+            '<section class="content-module" id="{0}"><h2 class="module-heading">{1}</h2>'
+            '<div class="module-grid">{2}</div></section>'.format(
+                module_id,
+                _escape_text(title),
+                "\n".join(
+                    _render_source_section(section, "h3", module=True, wide=len(members) == 1)
+                    for section in members
+                ),
             )
         )
-    source_body = "\n".join(chunks)
-    if issue["schemaVersion"] == 1:
-        return source_body
-    nav = '<nav class="reading-nav" aria-label="按来源跳转">{0}</nav>'.format("".join(
-        '<a href="#{0}">{1}</a>'.format(html.escape(section["id"], quote=True), _escape_text(section["title"]))
-        for section in visible_sections
-    ))
-    return render_editorial(issue) + '\n<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2>{0}\n{1}\n</section>'.format(nav, source_body)
+    remainder = [section for section in visible_sections if section["id"] not in claimed]
+    if remainder:
+        module_id, title = "module-other", "来源"
+        module_nav.append('<a href="#{0}">{1}</a>'.format(module_id, _escape_text(title)))
+        modules.append(
+            '<section class="content-module" id="{0}"><h2 class="module-heading">{1}</h2>'
+            '<div class="module-grid">{2}</div></section>'.format(
+                module_id,
+                _escape_text(title),
+                "\n".join(
+                    _render_source_section(section, "h3", module=True, wide=len(remainder) == 1)
+                    for section in remainder
+                ),
+            )
+        )
+    nav = '<nav class="reading-nav module-nav" aria-label="按来源跳转">{0}</nav>'.format("".join(module_nav))
+    return (
+        render_editorial(issue)
+        + '\n<section class="section source-reading" id="source-reading"><h2>按来源阅读</h2>'
+        + nav + "\n" + "\n".join(modules) + "\n</section>"
+    )
 
 
 def _render_history_links(dates: Sequence[str], selected: str, prefix: str) -> str:
@@ -1182,7 +1388,16 @@ def _wechat_compat(issue: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def _social_compat(issue: Dict[str, Any]) -> Dict[str, Any]:
-    section = active_social_section(_find_section(issue, "social"))
+    raw_section = next((section for section in issue["sections"] if section["kind"] == "social"), None)
+    if raw_section is None:
+        return {
+            "schemaVersion": 1,
+            "date": issue["date"],
+            "generatedAt": issue["generatedAt"],
+            "rankingPolicy": SOCIAL_OVERVIEW,
+            "platforms": [],
+        }
+    section = active_social_section(raw_section)
     return {
         "schemaVersion": 1,
         "date": issue["date"],

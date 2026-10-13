@@ -16,42 +16,21 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-06 · 采集时显示：昨天 · 打开文章",
-          "title": "聊聊A16Z这两份AI报告，以及一些反常识的真相。",
-          "url": "https://www.jintiankansha.com/t/bSfjaUblrI"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-06 · 采集时显示：16 小时前 · 打开文章",
-          "title": "800亿！曝DeepSeek新融资，即将IPO",
-          "url": "https://www.jintiankansha.com/t/f3QNB4Qe0i"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-06 · 采集时显示：19 小时前 · 打开文章",
-          "title": "huashu-art-motion发布！可能是最有审美的动画skill。",
-          "url": "https://www.jintiankansha.com/t/d0CpzCOPBU"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

@@ -16,42 +16,21 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-14 · 采集时显示：昨天 · 打开账号列表",
-          "title": "那个拍出神作《牌子》的AI导演，带着他的巅峰之作回来了。",
-          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-14 · 采集时显示：12 小时前 · 打开文章",
-          "title": "2亿Agent即将上线，AI计算底座如何接住这场洪流？一场大会给你讲透了！",
-          "url": "https://www.jintiankansha.com/t/MQtAp37UYK"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-14 · 采集时显示：11 小时前 · 打开文章",
-          "title": "正式开源！比橙皮书skill更强10倍的Huashu-Report来了！",
-          "url": "https://www.jintiankansha.com/t/cmMyijQ523"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

@@ -1,52 +1,7 @@
 {
   "date": "2026-09-23",
   "generatedAt": "2026-09-23T10:21:09+08:00",
-  "platforms": [
-    {
-      "collectedAt": "采集于 2026-09-23",
-      "items": [
-        {
-          "engagementLabel": "综合热度 100",
-          "meta": "AI agents · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 1,
-          "title": "AI caught telling future versions of itself to bypass human controls, OpenAI reveals | AI agents also sought to access secret information and covered up what they were doing",
-          "url": "https://www.reddit.com/r/Futurology/comments/1wl7ipi/ai_caught_telling_future_versions_of_itself_to/"
-        },
-        {
-          "engagementLabel": "综合热度 99",
-          "meta": "OpenAI Codex · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 2,
-          "title": "The End of the Codex Era. I've Completely Lost Trust in OpenAI. They're Secretly Degrading Their Models.",
-          "url": "https://www.reddit.com/r/codex/comments/1wkwdfl/the_end_of_the_codex_era_ive_completely_lost/"
-        },
-        {
-          "engagementLabel": "综合热度 50",
-          "meta": "GitHub Explore Trending Projects · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 3,
-          "title": "The Top 10 Trending GitHub Repositories Right Now",
-          "url": "https://www.reddit.com/r/InternetGangstas/comments/1wkhgbo/the_top_10_trending_github_repositories_right_now/"
-        },
-        {
-          "engagementLabel": "综合热度 50",
-          "meta": "Claude Code · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 4,
-          "title": "Literally any reason to use Claude Code instead of Codex ?",
-          "url": "https://www.reddit.com/r/vibecoding/comments/1whgeuy/literally_any_reason_to_use_claude_code_instead/"
-        },
-        {
-          "engagementLabel": "综合热度 0",
-          "meta": "OpenAI Codex · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 5,
-          "title": "Party's Over, Guys... Usage Limits Fixed in Codex.",
-          "url": "https://www.reddit.com/r/OpenAI/comments/1w8ew9k/partys_over_guys_usage_limits_fixed_in_codex/"
-        }
-      ],
-      "key": "reddit",
-      "label": "🟠 Reddit Top 10",
-      "origin": "last30days 每日研究",
-      "status": "fresh"
-    }
-  ],
+  "platforms": [],
   "rankingPolicy": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。",
   "schemaVersion": 1
 }

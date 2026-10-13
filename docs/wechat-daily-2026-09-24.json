@@ -16,42 +16,21 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-23 · 采集时显示：昨天 · 打开账号列表",
-          "title": "一夜三连发，Claude Opus 5.5、GPT-6 Sol和Luna全部都来了。",
-          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-23 · 采集时显示：10 小时前 · 打开文章",
-          "title": "阿里一口气上新5款千问模型！价格最高降95%",
-          "url": "https://www.jintiankansha.com/t/iNFQKSXY2u"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-23 · 采集时显示：昨天 · 打开文章",
-          "title": "一夜之间！Opus5.5、GPT-6 sol、GPT-6 luna全特么来了！！",
-          "url": "https://www.jintiankansha.com/t/DDFV2el7vx"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

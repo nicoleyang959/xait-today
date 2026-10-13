@@ -16,14 +16,7 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-06 · 采集时显示：2 天前 · 打开文章",
-          "title": "聊聊A16Z这两份AI报告，以及一些反常识的真相。",
-          "url": "https://www.jintiankansha.com/t/bSfjaUblrI"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
@@ -44,14 +37,7 @@
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-07 · 采集时显示：17 小时前 · 打开文章",
-          "title": "第一批用上huashu-art-motion的人，已经开始拿到结果了！",
-          "url": "https://www.jintiankansha.com/t/RV21zaK2dr"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

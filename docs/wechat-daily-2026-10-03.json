@@ -16,42 +16,21 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-30 · 采集时显示：3 天前 · 打开文章",
-          "title": "帮大家总结了一下凌晨的OpenAI 2026开发者大会。",
-          "url": "https://www.jintiankansha.com/t/FJp3rRXkiH"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-02 · 采集时显示：昨天 · 打开文章",
-          "title": "顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片",
-          "url": "https://www.jintiankansha.com/t/f6hO2vN8uj"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-01 · 采集时显示：2 天前 · 打开文章",
-          "title": "0基础速通！手把手教你用WorkBuddy开发出自己的第一个微信小程序",
-          "url": "https://www.jintiankansha.com/t/L1bFC8v5Pv"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

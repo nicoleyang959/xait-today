@@ -2,56 +2,28 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-03 · 采集时显示：18 小时前 · 打开文章",
-          "title": "Hinton 联合 20 多位 AI 大牛警告：「智能爆炸」时代要来了",
-          "url": "https://www.jintiankansha.me/t/GSL7l5G1MP"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-30 · 采集时显示：4 天前 · 打开文章",
-          "title": "帮大家总结了一下凌晨的OpenAI 2026开发者大会。",
-          "url": "https://www.jintiankansha.com/t/FJp3rRXkiH"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-03 · 采集时显示：13 小时前 · 打开文章",
-          "title": "颠覆刻板印象！Flash模型卷前端，效果硬刚Opus 5.5",
-          "url": "https://www.jintiankansha.com/t/DzrndjQG4p"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-03 · 采集时显示：17 小时前 · 打开文章",
-          "title": "如何用好AI？从Andrej Karpathy的提示词策略讲起！",
-          "url": "https://www.jintiankansha.com/t/I8UMfizzB8"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

@@ -2,56 +2,28 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-19 · 采集时显示：17 小时前 · 打开文章",
-          "title": "Anthropic 大瓜被扒出：「AI 灭世」背后，居然是一门生意？",
-          "url": "https://www.jintiankansha.me/t/9LXzfsjssC"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-18 · 采集时显示：2 天前 · 打开文章",
-          "title": "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。",
-          "url": "https://www.jintiankansha.com/t/p0NuJr0JG4"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-19 · 采集时显示：20 小时前 · 打开文章",
-          "title": "通信墙不破，AI Agent算力不立！华为超节点“黑科技”详解",
-          "url": "https://www.jintiankansha.com/t/DifBiYkTpW"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-18 · 采集时显示：2 天前 · 打开文章",
-          "title": "我让 WorkBuddy 删掉55个文件，它竟然…",
-          "url": "https://www.jintiankansha.com/t/xPQ5m6bpTn"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

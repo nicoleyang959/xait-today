@@ -22,14 +22,7 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-21 · 采集时显示：22 小时前 · 打开文章",
-          "title": "汉化组，可能是世界上最不怕AI冲击的一群人。",
-          "url": "https://www.jintiankansha.com/t/ZHHmljnPZZ"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
@@ -56,14 +49,7 @@
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-21 · 采集时显示：9 小时前 · 打开文章",
-          "title": "我的一人公司品牌部又又又升级：这次我雇了个演员和一个导演（LibTV 1.5）",
-          "url": "https://www.jintiankansha.com/t/qzmoRe9LqI"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

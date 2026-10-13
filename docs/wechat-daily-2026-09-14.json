@@ -30,28 +30,14 @@
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-13 · 采集时显示：13 小时前 · 打开文章",
-          "title": "335亿！智谱拿下新融资，押注RSI",
-          "url": "https://www.jintiankansha.com/t/EZityz2Oxd"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-09-12 · 采集时显示：2 天前 · 打开文章",
-          "title": "H3实时生成游戏第一次上直播：今晚B站这场，视频是你投完票才生成的",
-          "url": "https://www.jintiankansha.com/t/XWiHPbrYan"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

@@ -22,42 +22,21 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-12 · 采集时显示：昨天 · 打开文章",
-          "title": "AI开始逆向一切，你电脑里的每个软件都要被迫开源了。",
-          "url": "https://www.jintiankansha.com/t/7VjspCVcPb"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-12 · 采集时显示：13 小时前 · 打开文章",
-          "title": "0.6B起！Jev对手模型来了，开源多模态，登上全球测评榜一",
-          "url": "https://www.jintiankansha.com/t/lshJQuZc79"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"
     },
     {
       "account": "花叔",
-      "items": [
-        {
-          "badge": "最近",
-          "meta": "2026-10-12 · 采集时显示：16 小时前 · 打开文章",
-          "title": "当AI可以逆向一切的时候，我们还剩下些什么？",
-          "url": "https://www.jintiankansha.com/t/MDTAY0Cj8N"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
       "status": "今日未检出新文章",
       "statusTone": "quiet"

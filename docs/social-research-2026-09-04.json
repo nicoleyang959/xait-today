@@ -1,24 +1,7 @@
 {
   "date": "2026-09-04",
   "generatedAt": "2026-09-04T19:20:00+08:00",
-  "platforms": [
-    {
-      "collectedAt": "采集于 2026-09-04 · 今日",
-      "items": [
-        {
-          "engagementLabel": "综合热度 25",
-          "meta": "AI agents · 2026-09-03",
-          "rank": 1,
-          "title": "What is your most unique use of AI agents?",
-          "url": "https://www.reddit.com/r/AI_Agents/comments/1vyjoxi/what_is_your_most_unique_use_of_ai_agents/"
-        }
-      ],
-      "key": "reddit",
-      "label": "🟠 Reddit Top 10",
-      "origin": "last30days 每日研究",
-      "status": "fresh"
-    }
-  ],
+  "platforms": [],
   "rankingPolicy": "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。",
   "schemaVersion": 1
 }
