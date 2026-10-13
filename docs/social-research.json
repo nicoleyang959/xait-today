@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-12",
-  "generatedAt": "2026-10-12T08:46:33+08:00",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T08:46:41+08:00",
   "platforms": [
     {
-      "collectedAt": "采集于 2026-10-12",
+      "collectedAt": "采集于 2026-10-13",
       "items": [
         {
           "engagementLabel": "2万热度 · 499评论",
@@ -27,53 +27,53 @@
           "url": "https://www.reddit.com/r/greentext/comments/1wu74fh/artificial_intelligence/"
         },
         {
-          "engagementLabel": "1,471热度 · 368评论",
+          "engagementLabel": "1,471热度 · 369评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
           "rank": 4,
           "title": "Donald Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’",
           "url": "https://www.reddit.com/r/Fauxmoi/comments/1x0yoa8/donald_trump_says_anyone_who_does_not_call_ai/"
         },
         {
-          "engagementLabel": "1,128热度 · 275评论",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
+          "engagementLabel": "1,396热度 · 241评论",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-11",
           "rank": 5,
+          "title": "'We don't work for AI': Greens vow to regulate artificial intelligence",
+          "url": "https://www.reddit.com/r/newzealand/comments/1x3n62t/we_dont_work_for_ai_greens_vow_to_regulate/"
+        },
+        {
+          "engagementLabel": "1,128热度 · 273评论",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
+          "rank": 6,
           "title": "BREAKING: President Trump Declares That The White House Considers Anyone Who Says “Artificial Intelligence” Instead Of “Super Intelligence” To Be “The Enemy,” Escalating His Rebranding Push As Polls Show Voter Opposition To Data Centers & Strong Support For Safety Guardrails 🏛️",
           "url": "https://www.reddit.com/r/InterstellarKinetics/comments/1x1cej4/breaking_president_trump_declares_that_the_white/"
         },
         {
-          "engagementLabel": "985热度 · 203评论",
+          "engagementLabel": "985热度 · 200评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
-          "rank": 6,
+          "rank": 7,
           "title": "Trump declares anyone who uses the term Artificial Intelligence to be ‘The Enemy!’",
           "url": "https://www.reddit.com/r/NewsOfTheStupid/comments/1x0wptl/trump_declares_anyone_who_uses_the_term/"
         },
         {
           "engagementLabel": "921热度 · 317评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-18",
-          "rank": 7,
+          "rank": 8,
           "title": "The people versus AI: Young people pushing back against artificial intelligence",
           "url": "https://www.reddit.com/r/australia/comments/1wk0zit/the_people_versus_ai_young_people_pushing_back/"
         },
         {
-          "engagementLabel": "815热度 · 66评论",
+          "engagementLabel": "885热度 · 78评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
-          "rank": 8,
+          "rank": 9,
           "title": "The real reason they want to change the name of AI to “Super Intelligence”",
           "url": "https://www.reddit.com/r/collapse/comments/1x1w14z/the_real_reason_they_want_to_change_the_name_of/"
         },
         {
           "engagementLabel": "739热度 · 475评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-22",
-          "rank": 9,
+          "rank": 10,
           "title": "Trump addresses the UN General Assembly to reject global AI regulations, claiming the word \"artificial\" makes AI sound fake and ordering all US documents to call it \"Super Intelligence\" instead",
           "url": "https://www.reddit.com/r/ProgressiveHQ/comments/1wnccgv/trump_addresses_the_un_general_assembly_to_reject/"
-        },
-        {
-          "engagementLabel": "715热度 · 212评论",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-02",
-          "rank": 10,
-          "title": "Prime Minister Carney launches new National Council on Artificial Intelligence",
-          "url": "https://www.reddit.com/r/onguardforthee/comments/1ww0hwy/prime_minister_carney_launches_new_national/"
         }
       ],
       "key": "reddit",
@@ -82,7 +82,23 @@
       "status": "fresh"
     },
     {
-      "collectedAt": "采集于 2026-10-12",
+      "collectedAt": "采集于 2026-10-13",
+      "items": [
+        {
+          "engagementLabel": "572.9万观看 · 6.9万赞",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+          "rank": 1,
+          "title": "AI Experts Debate: The AI Labs Are Lying To Everyone, Is There A 99% Chance Of Human Extinction?",
+          "url": "https://www.youtube.com/watch?v=OhOmLqR5nN4"
+        }
+      ],
+      "key": "youtube",
+      "label": "▶ YouTube Top 10",
+      "origin": "last30days 多源 AI 热点",
+      "status": "fresh"
+    },
+    {
+      "collectedAt": "采集于 2026-10-13",
       "items": [
         {
           "engagementLabel": "50积分 · 84评论",
@@ -92,7 +108,7 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat"
         },
         {
-          "engagementLabel": "42积分 · 74评论",
+          "engagementLabel": "42积分 · 79评论",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-11",
           "rank": 2,
           "title": "Satya Nadella says we should assume all AI models are 'compromised'",
@@ -106,7 +122,7 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip"
         },
         {
-          "engagementLabel": "13积分",
+          "engagementLabel": "15积分",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-11",
           "rank": 4,
           "title": "OpenAI fires 3 safety researchers in dispute over AI risks",
@@ -142,17 +158,17 @@
         },
         {
           "engagementLabel": "5积分",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-12",
-          "rank": 9,
-          "title": "OpenAI's rogue AI tried to hack another company in May",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
-        },
-        {
-          "engagementLabel": "5积分",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-26",
-          "rank": 10,
+          "rank": 9,
           "title": "One company is at the center of a wave of rogue AI attacks",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google"
+        },
+        {
+          "engagementLabel": "5积分 · 1评论",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-08",
+          "rank": 10,
+          "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours"
         }
       ],
       "key": "hacker-news",
@@ -161,77 +177,77 @@
       "status": "fresh"
     },
     {
-      "collectedAt": "采集于 2026-10-12",
+      "collectedAt": "采集于 2026-10-13",
       "items": [
         {
-          "engagementLabel": "相关度 44.7",
+          "engagementLabel": "相关度 43.9",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
           "rank": 1,
           "title": "AGENTS.md: add instructions for LLMs",
           "url": "https://github.com/NixOS/nixpkgs/pull/570711"
         },
         {
-          "engagementLabel": "相关度 40.3",
+          "engagementLabel": "相关度 39.4",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30",
           "rank": 2,
           "title": "Suggest: Single AI functionality toggle",
           "url": "https://github.com/hughhowey/neo/issues/183"
         },
         {
-          "engagementLabel": "相关度 40.3",
+          "engagementLabel": "相关度 39.4",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-30",
           "rank": 3,
           "title": "[Initiative]: Telco AI Native",
           "url": "https://github.com/cncf/toc/issues/2314"
         },
         {
-          "engagementLabel": "相关度 37.2",
+          "engagementLabel": "相关度 36.5",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-26",
           "rank": 4,
           "title": "CNCF AI Technical Community Group Discussion/Presentation",
           "url": "https://github.com/kvcache-ai/Mooncake/issues/4339"
         },
         {
-          "engagementLabel": "相关度 44.7",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
-          "rank": 5,
-          "title": "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care",
-          "url": "https://github.com/jochenvw/health-rewired/issues/86"
-        },
-        {
-          "engagementLabel": "相关度 47.6",
+          "engagementLabel": "相关度 46.9",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10",
-          "rank": 6,
+          "rank": 5,
           "title": "[Suggestion] Impliment an anti-AI policy?",
           "url": "https://github.com/alsa-project/alsa-lib/issues/530"
         },
         {
-          "engagementLabel": "相关度 25.6",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+          "engagementLabel": "相关度 43.8",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-06",
+          "rank": 6,
+          "title": "[Idea] One audit trail of human and AI actions for investigating adverse events in cancer care",
+          "url": "https://github.com/jochenvw/health-rewired/issues/86"
+        },
+        {
+          "engagementLabel": "相关度 39.0",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10",
           "rank": 7,
+          "title": "Potential for an anti-AI policy?",
+          "url": "https://github.com/Stuff7/force-dark-mode/issues/1"
+        },
+        {
+          "engagementLabel": "相关度 46.9",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-10",
+          "rank": 8,
+          "title": "Possible anti-AI policy?",
+          "url": "https://github.com/allkern/iris/issues/56"
+        },
+        {
+          "engagementLabel": "相关度 24.9",
+          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-17",
+          "rank": 9,
           "title": "Brown Brothers Media sites",
           "url": "https://github.com/alvi-se/ai-ublock-blacklist/issues/82"
         },
         {
-          "engagementLabel": "相关度 22.7",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-13",
-          "rank": 8,
-          "title": "AI usage policy?",
-          "url": "https://github.com/dcramer/mangodb/issues/69"
-        },
-        {
-          "engagementLabel": "相关度 23.8",
+          "engagementLabel": "相关度 23.2",
           "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-09-23",
-          "rank": 9,
+          "rank": 10,
           "title": "chore: sync AI model catalog",
           "url": "https://github.com/twentyhq/twenty/pull/26416"
-        },
-        {
-          "engagementLabel": "相关度 42.8",
-          "meta": "AI artificial intelligence · 快照日期（未注明核验方式） 2026-10-09",
-          "rank": 10,
-          "title": "Use of AI when raising issues",
-          "url": "https://github.com/ConnectingEurope/eInvoicing-EN16931/issues/530"
         }
       ],
       "key": "github",
