@@ -189,6 +189,27 @@ class LanguageOverlayTests(unittest.TestCase):
             with self.subTest(rendered_phrase=phrase):
                 self.assertNotIn(phrase, serialized_payload)
 
+    def test_x_signal_ui_contract_has_complete_chinese_and_english_labels(self) -> None:
+        real_catalog_dir = REPOSITORY / "site" / "i18n"
+        with patch.object(xait, "ROOT", REPOSITORY), patch.object(xait, "I18N_DIR", real_catalog_dir):
+            catalog = xait.load_language_catalogs(required=True)["ui"]
+        expected = {
+            xait.X_SIGNAL_TITLE,
+            xait.X_SIGNAL_DISCLAIMER,
+            "一线信号",
+            "部分可用",
+            *xait.X_SIGNAL_LABELS,
+        }
+        for source in expected:
+            with self.subTest(source=source):
+                self.assertEqual({"zh", "en"}, set(catalog[source]))
+                self.assertTrue(catalog[source]["zh"])
+                self.assertTrue(catalog[source]["en"])
+        javascript = (REPOSITORY / "site" / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("#x-ai-signals .link-item", javascript)
+        self.assertIn("本期第", javascript)
+        self.assertIn("部分可用", javascript)
+
     def test_build_audits_controls_payload_and_keeps_public_json_unchanged(self) -> None:
         template = xait.TEMPLATE_PATH.read_text(encoding="utf-8")
         if "{{LANGUAGE_DATA}}" not in template:

@@ -165,7 +165,7 @@
   const metadataSelector = [
     ".meta", ".tagline", ".issue-header", ".card-header", ".site-footer",
     ".sidebar", ".collection-status", ".brief-meta", ".brief-reason", ".brief-policy",
-    ".brief-empty", ".brief-related summary", ".link-meta", ".wechat-meta", ".wechat-badge",
+    ".brief-empty", ".brief-related summary", ".link-meta", "#x-ai-signals .link-item", ".x-signal-disclaimer", ".wechat-meta", ".wechat-badge",
     ".wechat-state", ".wechat-origin", ".wechat-overview", ".wechat-item-badge", ".wechat-item-copy > span", ".social-meta", ".social-heat", ".social-rank-meta", ".social-rank-heat", ".social-rank-note", ".social-rank-date", ".social-rank-origin", ".social-rank-overview",
     ".social-status", ".social-origin", ".social-overview", ".social-origin-details summary",
     "#source-health", ".wechat-empty", ".social-empty", ".reading-nav", ".module-nav",
@@ -197,6 +197,7 @@
     // These anchored formats describe UI metadata, never news prose or identifiers.
     const replacements = [
       [/^xAIT 今日( · \d{4}-\d{2}-\d{2})?$/, (_, suffix = "") => `xAIT Today${suffix}`],
+      [/^本期第 (\d+) 位$/, (_, rank) => `Issue rank #${rank}`],
       [/^今日 (\d+) 篇$/, (_, count) => `${count} article${count === "1" ? "" : "s"} today`],
       [/^相关报道（(\d+)）$/, (_, count) => `Related coverage (${count})`],
       [/^（北京时间） · (模型|产品|研究|教程|行业|开源|综合)$/, (_, category) => ` (China Standard Time, UTC+08:00) · ${uiText(category)}`],
@@ -221,6 +222,7 @@
     phrases.forEach(([text, entry]) => { result = result.split(text).join(entry.en); });
     result = result
       .replace(/成功 (\d+)/g, "Success $1")
+      .replace(/部分可用 (\d+)/g, "Partial $1")
       .replace(/无新增 (\d+)/g, "No new items $1")
       .replace(/不可用 (\d+)/g, "Unavailable $1")
       .replace(/沿用旧快照 (\d+)/g, "Previous snapshot $1")

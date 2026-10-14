@@ -392,6 +392,18 @@ html[lang="en"] .wechat-state, html[lang="en"] .social-status { max-width: 52%; 
 
 #module-products-opensource > .module-grid { grid-template-columns: minmax(0, 1fr); }
 #product-hunt .link-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+#module-frontline-signals > .module-grid { grid-template-columns: minmax(0, 1fr); }
+#x-ai-signals .x-signal-disclaimer {
+  margin-bottom: 13px;
+  padding: 9px 11px;
+  color: var(--muted);
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  font-size: .82rem;
+}
+#x-ai-signals .link-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+#x-ai-signals .link-item { min-width: 0; }
+#x-ai-signals .link-item a { overflow-wrap: anywhere; }
 #github-trending .data-table,
 #weekly-high-stars .data-table { min-width: 0; }
 
@@ -753,6 +765,7 @@ body.theme-paper .section h2 { border-bottom: 1px solid var(--border); padding-b
   .module-grid { grid-template-columns: 1fr; }
   .module-source-wide { grid-column: auto; }
   #product-hunt .link-list { grid-template-columns: 1fr; }
+  #x-ai-signals .link-list { grid-template-columns: 1fr; }
   .brief-grid { grid-template-columns: 1fr; }
   .collection-status { padding: 10px 12px; }
   .collection-status .data-table th, .collection-status .data-table td { padding: 7px 5px; }

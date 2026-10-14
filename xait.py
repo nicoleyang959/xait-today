@@ -88,6 +88,32 @@ SECTION_DISPLAY_LIMITS = {
     "techmeme": ("items", 5),
     "arxiv": ("items", 4),
     "product-hunt": ("items", 6),
+    "x-ai-signals": ("items", 10),
+}
+X_SIGNAL_SOURCE_ID = "x-ai-signals"
+X_SIGNAL_TITLE = "𝕏 · AI 观察信号 Top 10"
+X_SIGNAL_DISCLAIMER = "按本机采集时的 AI 相关性与互动信号排序，非 X 官方热门榜；本站不复制原文或公开互动数。"
+X_SIGNAL_LABELS = frozenset({
+    "模型发布信号",
+    "产品发布信号",
+    "AI 编程信号",
+    "智能体信号",
+    "开源信号",
+    "研究信号",
+    "行业信号",
+    "综合信号",
+})
+X_SIGNAL_MESSAGES = {
+    "ok": frozenset({"公开信号采集成功"}),
+    "partial": frozenset({"部分查询未完成"}),
+    "empty": frozenset({"本次未检出符合条件的公开内容"}),
+    "unavailable": frozenset({
+        "来源暂不可用",
+        "访问验证待处理",
+        "来源要求验证或限制访问，已停止该来源",
+        "公开来源连接失败或超时",
+    }),
+    "not_run": frozenset({"本期未运行 X 采集"}),
 }
 SOCIAL_OVERVIEW = "各社区分别展示已采集的 AI 相关候选与采集日期；榜单仅覆盖已有候选，不代表全站官方排名，不进行跨社区热度比较。"
 WECHAT_TONES = {"fresh", "quiet", "stale"}
@@ -114,7 +140,7 @@ MARKDOWN_BLOCK_RE = re.compile(r"(?m)^\s*(?:#{1,6}\s+|```|~~~|>\s+)")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]\n]+\]\(\s*(?:https?://|/)[^)]+\)")
 RFC3339_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$")
 CST = timezone(timedelta(hours=8))
-SOURCE_STATUS = {"ok", "empty", "unavailable", "stale", "not_run"}
+SOURCE_STATUS = {"ok", "partial", "empty", "unavailable", "stale", "not_run"}
 ARTICLE_CATEGORIES = {"models", "products", "research", "tutorials", "industry", "opensource", "other"}
 TRACKING_QUERY_KEYS = {
     "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id",
@@ -328,14 +354,35 @@ def _validate_blocks(section: Dict[str, Any], path: str) -> None:
 def _validate_links(section: Dict[str, Any], path: str) -> None:
     _expect_object(section, path, {"kind", "id", "title", "items"})
     items = _expect_array(section["items"], path + ".items", minimum=1)
+    x_post_ids: Set[str] = set()
+    if section["id"] == X_SIGNAL_SOURCE_ID and section["title"] != X_SIGNAL_TITLE:
+        raise XaitError("{0}.title 必须使用固定的 X 观察模块标题".format(path))
     for index, raw_item in enumerate(items):
         item_path = "{0}.items[{1}]".format(path, index)
         item = _expect_object(raw_item, item_path, {"title"}, {"url", "meta"})
-        _expect_string(item["title"], item_path + ".title")
+        title = _expect_string(item["title"], item_path + ".title")
         if "url" in item:
-            _validate_public_url(item["url"], item_path + ".url")
+            url = _validate_public_url(item["url"], item_path + ".url")
         if "meta" in item:
-            _expect_string(item["meta"], item_path + ".meta", allow_empty=True)
+            meta = _expect_string(item["meta"], item_path + ".meta", allow_empty=True)
+        if section["id"] == X_SIGNAL_SOURCE_ID:
+            if title not in X_SIGNAL_LABELS:
+                raise XaitError("{0}.title 只允许项目声明的 X 信号分类".format(item_path))
+            expected_meta = "本期第 {0} 位".format(index + 1)
+            if item.get("meta") != expected_meta:
+                raise XaitError("{0}.meta 必须为 {1}".format(item_path, expected_meta))
+            if "url" not in item:
+                raise XaitError("{0}.url 必须提供 X Post ID 链接".format(item_path))
+            match = re.fullmatch(r"https://x\.com/i/status/([1-9][0-9]{0,19})", url)
+            if match is None:
+                raise XaitError(
+                    "{0}.url 必须为 https://x.com/i/status/<数字 Post ID>".format(item_path),
+                    EXIT_SECURITY,
+                )
+            post_id = match.group(1)
+            if post_id in x_post_ids:
+                raise XaitError("{0}.url 的 X Post ID 重复".format(item_path))
+            x_post_ids.add(post_id)
 
 
 def _validate_table_cell(value: Any, path: str) -> None:
@@ -512,8 +559,11 @@ def _validate_editorial(root: Dict[str, Any], path: str) -> None:
         if article_id in article_ids:
             raise XaitError("{0}.id 重复".format(item_path))
         article_ids.add(article_id)
-        if _expect_id(article["sourceId"], item_path + ".sourceId") not in source_ids:
+        article_source_id = _expect_id(article["sourceId"], item_path + ".sourceId")
+        if article_source_id not in source_ids:
             raise XaitError("{0}.sourceId 未声明".format(item_path))
+        if article_source_id == X_SIGNAL_SOURCE_ID:
+            raise XaitError("{0}.sourceId 不允许将 X 观察信号加入今日必读".format(item_path))
         _expect_string(article["title"], item_path + ".title")
         _validate_public_url(article["url"], item_path + ".url")
         evidence = article["dateEvidence"]
@@ -535,6 +585,27 @@ def _validate_editorial(root: Dict[str, Any], path: str) -> None:
         for field in ("eventKey", "summary"):
             if field in article:
                 _expect_string(article[field], item_path + "." + field)
+
+    x_sources = [source for source in sources if source["id"] == X_SIGNAL_SOURCE_ID]
+    x_sections = [section for section in root["sections"] if section["id"] == X_SIGNAL_SOURCE_ID]
+    if x_sections and not x_sources:
+        raise XaitError("{0} 的 X 观察模块缺少来源状态".format(path))
+    if x_sources:
+        source = x_sources[0]
+        status = source["status"]
+        if source["label"] != X_SIGNAL_TITLE:
+            raise XaitError("{0} 的 X 来源 label 必须使用固定标题".format(path))
+        if status not in X_SIGNAL_MESSAGES:
+            raise XaitError("{0} 的 X 来源不允许旧快照状态".format(path))
+        if source["message"] not in X_SIGNAL_MESSAGES[status]:
+            raise XaitError("{0} 的 X 来源 message 必须使用声明的公开状态文案".format(path))
+        if status in {"ok", "partial"}:
+            if len(x_sections) != 1:
+                raise XaitError("{0} 的 X 来源成功或部分成功时必须有一个观察模块".format(path))
+            if source["itemCount"] != len(x_sections[0]["items"]):
+                raise XaitError("{0} 的 X 来源 itemCount 与模块条数不一致".format(path))
+        elif x_sections or source["itemCount"] != 0:
+            raise XaitError("{0} 的 X 来源无内容时不得携带模块或条目".format(path))
 
 
 def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
@@ -658,6 +729,10 @@ def active_social_section(section: Dict[str, Any]) -> Dict[str, Any]:
 def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
     """Derive the current public view; never mutate the stored historical issue."""
     active = copy.deepcopy(issue)
+    source_by_id = {
+        source["id"]: source for source in active.get("sources", [])
+        if isinstance(source, dict) and isinstance(source.get("id"), str)
+    }
     sections = []
     for section in active["sections"]:
         if section["kind"] == "social":
@@ -667,6 +742,12 @@ def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
             if social["platforms"]:
                 sections.append(social)
         elif section_enabled(section["id"]):
+            if section["id"] == X_SIGNAL_SOURCE_ID:
+                source = source_by_id.get(X_SIGNAL_SOURCE_ID)
+                if source is None or source.get("status") not in {"ok", "partial"}:
+                    # No stale or failed X body is ever published.  The source
+                    # ledger remains available below through ``sources``.
+                    continue
             if section["kind"] == "wechat":
                 for account in section["accounts"]:
                     account["items"] = [
@@ -707,6 +788,9 @@ def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
                 if count == 0 and source["status"] == "ok":
                     source["status"] = "empty"
                     source["message"] = "未检出符合条件的内容"
+            if source["id"] == X_SIGNAL_SOURCE_ID:
+                x_section = next((section for section in sections if section["id"] == X_SIGNAL_SOURCE_ID), None)
+                source["itemCount"] = len(x_section["items"]) if x_section else 0
             account = wechat_accounts.get(source["label"])
             if account is not None:
                 source["itemCount"] = len(account["items"])
@@ -811,7 +895,7 @@ def group_articles(articles: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def _brief_source_allowed(article: Dict[str, Any]) -> bool:
     source = article["sourceId"].lower()
-    if "aihot" in source or any(source == prefix or source.startswith(prefix + "-")
+    if source == X_SIGNAL_SOURCE_ID or "aihot" in source or any(source == prefix or source.startswith(prefix + "-")
                                 for prefix in ("wechat", "social", "xiaohongshu", "douyin", "weibo")):
         return False
     social_hosts = {"mp.weixin.qq.com", "weibo.com", "weibo.cn", "douyin.com", "xiaohongshu.com"}
@@ -1164,6 +1248,7 @@ V2_SOURCE_MODULES = (
         ("product-hunt", "github-trending", "weekly-high-stars"),
     ),
     ("module-research", "研究前沿", ("arxiv",)),
+    ("module-frontline-signals", "一线信号", (X_SIGNAL_SOURCE_ID,)),
 )
 
 
@@ -1172,7 +1257,7 @@ def render_editorial(issue: Dict[str, Any]) -> str:
     if issue.get("schemaVersion") != 2:
         return ""
     issue = active_issue(issue)
-    status_labels = {"ok": "成功", "empty": "无新增", "unavailable": "不可用", "stale": "沿用旧快照", "not_run": "未运行"}
+    status_labels = {"ok": "成功", "partial": "部分可用", "empty": "无新增", "unavailable": "不可用", "stale": "沿用旧快照", "not_run": "未运行"}
     counts = {status: sum(source["status"] == status for source in issue["sources"]) for status in status_labels}
     summary = " / ".join("{0} {1}".format(label, counts[status]) for status, label in status_labels.items())
     headings = ("来源", "状态", "检查时间", "最近成功", "条数", "说明")
@@ -1241,6 +1326,10 @@ def _render_source_section(
     section: Dict[str, Any], heading: str = "h2", module: bool = False, wide: bool = False,
 ) -> str:
     body = SECTION_RENDERERS[section["kind"]](section)
+    if section["id"] == X_SIGNAL_SOURCE_ID:
+        body = '<p class="x-signal-disclaimer">{0}</p>{1}'.format(
+            _escape_text(X_SIGNAL_DISCLAIMER), body
+        )
     classes = (
         "module-source section-{0}{1}".format(section["kind"], " module-source-wide" if wide else "")
         if module else "section section-{0}".format(section["kind"])

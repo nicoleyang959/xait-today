@@ -40,7 +40,7 @@
       "properties": {
         "id": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
         "label": {"$ref": "issue-v1.schema.json#/$defs/text"},
-        "status": {"enum": ["ok", "empty", "unavailable", "stale", "not_run"]},
+        "status": {"enum": ["ok", "partial", "empty", "unavailable", "stale", "not_run"]},
         "checkedAt": {"$ref": "#/$defs/nullableTimestamp"},
         "lastSuccessAt": {"$ref": "#/$defs/nullableTimestamp"},
         "itemCount": {"type": "integer", "minimum": 0},
