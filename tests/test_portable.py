@@ -104,6 +104,19 @@ class PortableCommandTests(unittest.TestCase):
         temporary = tempfile.TemporaryDirectory(prefix="xait-portable-test-")
         return temporary, copy_repository(Path(temporary.name))
 
+    def test_product_tables_use_compact_full_width_layout(self) -> None:
+        stylesheet = (REPOSITORY / "site" / "assets" / "app.css").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("align-items: start", stylesheet)
+        self.assertIn(
+            "#module-products-opensource > .module-grid { grid-template-columns: minmax(0, 1fr); }",
+            stylesheet,
+        )
+        self.assertIn("#github-trending .data-table", stylesheet)
+        self.assertIn("#weekly-high-stars .data-table", stylesheet)
+        self.assertIn("#product-hunt .link-list { grid-template-columns: 1fr; }", stylesheet)
+
     def test_check_and_build_are_deterministic(self) -> None:
         temporary, repository = self.make_checkout()
         self.addCleanup(temporary.cleanup)

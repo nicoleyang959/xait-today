@@ -148,9 +148,14 @@ class LanguageOverlayTests(unittest.TestCase):
                 xait.load_language_catalogs()
 
     def test_removed_source_translations_are_not_embedded(self) -> None:
-        section = next(section for section in self.issue["sections"] if section["kind"] == "social")
         title = "Retired-source-only example"
-        section["platforms"].append({"id": "douyin", "title": title})
+        self.issue["sections"].append({
+            "id": "retired-social-fixture",
+            "title": title,
+            "kind": "social",
+            "overview": "",
+            "platforms": [{"id": "douyin", "title": title}],
+        })
         self.content["entries"][title] = content_entry(title, zh="停用来源")
         self.write_catalogs()
         self.assertNotIn(title, xait.language_payload(self.issue)["content"])
