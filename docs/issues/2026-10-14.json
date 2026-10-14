@@ -1,0 +1,905 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-587b0415db9e134fb4e7795b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0a57ef792023ea60ff5ac79e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-169450903edabaadf56739fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4aa9c61cd87ef8136e1ec5e3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-be797cc9aa543ac12b3d8fb4",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8af2a8dceb177d1ad9550cf6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e38525e8172370cd31c84045",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2e58ebb5b3cc8b9845a6431b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c591eb7d5226fce8acfe152a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wheresryan22/anatomy",
+      "url": "https://github.com/wheresryan22/anatomy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7ce4060ae5565c9acab9bf43",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "mhtsec/ARTEX",
+      "url": "https://github.com/mhtsec/ARTEX"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4a2f882b9cfd538bf2f9497e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "t4t5/omdrop-owl",
+      "url": "https://github.com/t4t5/omdrop-owl"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-56b271974dbf40b475540e6c",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ARahim3/DigUp",
+      "url": "https://github.com/ARahim3/DigUp"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-13b38cf66c1096281fef6e33",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/craft-launcher",
+      "url": "https://github.com/storytold/craft-launcher"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a31255de65e02b158eb41cbf",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d98d5e95416bf05aad1c3a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "noahdunnagan/fsearch",
+      "url": "https://github.com/noahdunnagan/fsearch"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-15abe39a5c0768279bbbf801",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-014d8a7fa3ffd7d7a345b10e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "NVIDIA-Omniverse/usd-brep",
+      "url": "https://github.com/NVIDIA-Omniverse/usd-brep"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7bf5470b42bb6a2079d155a7",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "trhhubsd/ARTEXX",
+      "url": "https://github.com/trhhubsd/ARTEXX"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6977518af7a756c8bfb601fb",
+      "publishedAt": "2026-10-13T07:28:34Z",
+      "sourceId": "hacker-news",
+      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5c869de3711973f1c5024883",
+      "publishedAt": "2026-10-13T15:25:50Z",
+      "sourceId": "hacker-news",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-69fb328c6e58c14dcddb80a3",
+      "publishedAt": "2026-10-13T14:14:23Z",
+      "sourceId": "hacker-news",
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-093ad193c725a1913b354dc0",
+      "publishedAt": "2026-10-13T19:50:31Z",
+      "sourceId": "hacker-news",
+      "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+      "url": "https://parsimony.lasu.dev/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5e178e30b07e2570591c8e5a",
+      "publishedAt": "2026-10-13T23:13:23Z",
+      "sourceId": "hacker-news",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://pulseos.finance"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f78ac4a822469e9272b2e003",
+      "publishedAt": "2026-10-13T21:01:12Z",
+      "sourceId": "hacker-news",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6c633af81e26e355211c1157",
+      "publishedAt": "2026-10-09T17:59:56Z",
+      "sourceId": "arxiv",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "url": "https://arxiv.org/abs/2610.13948v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c9f896e3bd5efe7313da3351",
+      "publishedAt": "2026-10-09T17:56:59Z",
+      "sourceId": "arxiv",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "url": "https://arxiv.org/abs/2610.13935v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-32ec3fe0a5f8ec823719bf5c",
+      "publishedAt": "2026-10-09T17:50:30Z",
+      "sourceId": "arxiv",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "url": "https://arxiv.org/abs/2610.13912v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-8a6e68387bc766c0799e0951",
+      "publishedAt": "2026-10-09T17:50:03Z",
+      "sourceId": "arxiv",
+      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+      "url": "https://arxiv.org/abs/2610.13910v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-83ce03edea9fba1e6a07a15b",
+      "publishedAt": "2026-10-09T17:49:32Z",
+      "sourceId": "arxiv",
+      "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+      "url": "https://arxiv.org/abs/2610.13909v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5fce7a33d03972a086fe4c14",
+      "publishedAt": "2026-10-09T17:42:14Z",
+      "sourceId": "arxiv",
+      "title": "Structural Automata for Neural Semantic Parsing",
+      "url": "https://arxiv.org/abs/2610.13896v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b37357562458709329d4368f",
+      "publishedAt": "2026-10-12T09:59:33-07:00",
+      "sourceId": "product-hunt",
+      "title": "Muse Wonder",
+      "url": "https://www.producthunt.com/products/meta-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-19e3120fb1525289bc76ef4c",
+      "publishedAt": "2026-10-02T04:57:48-07:00",
+      "sourceId": "product-hunt",
+      "title": "Articos MCP",
+      "url": "https://www.producthunt.com/products/articos"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6084a663e861a8d78e577136",
+      "publishedAt": "2026-09-22T12:45:38-07:00",
+      "sourceId": "product-hunt",
+      "title": "Mi Speaks 2.0",
+      "url": "https://www.producthunt.com/products/mi-speaks"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0734d06b0709280e9a6744de",
+      "publishedAt": "2026-10-05T23:13:08-07:00",
+      "sourceId": "product-hunt",
+      "title": "MentionBird",
+      "url": "https://www.producthunt.com/products/mentionbird"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-08b1ab63ffc35053c63c456e",
+      "publishedAt": "2026-09-18T08:27:41-07:00",
+      "sourceId": "product-hunt",
+      "title": "Fina Business",
+      "url": "https://www.producthunt.com/products/fina"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3bac90fa5c25c941d4fba65a",
+      "publishedAt": "2026-10-05T17:56:41-07:00",
+      "sourceId": "product-hunt",
+      "title": "OpenWhispr for iOS",
+      "url": "https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b0f57f7e67316ee70a260782",
+      "publishedAt": "2026-10-08T15:18:54-07:00",
+      "sourceId": "product-hunt",
+      "title": "Genchi",
+      "url": "https://www.producthunt.com/products/genchi"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-14T08:50:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-df45d249737d061099692c84",
+      "publishedAt": "2026-10-12T09:19:58-07:00",
+      "sourceId": "product-hunt",
+      "title": "Google Fitbit Edge",
+      "url": "https://www.producthunt.com/products/google-fit-2"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4fc75f27225607ef9c331cce",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "OpenAI says the FBI arrested one of its staffers after the company found a hidden recording device in its offices and used its models to understand the device",
+      "url": "https://x.com/openainewsroom/status/2110095403198849132"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-46fa14965f5a0c3f1e48ba0f",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Federal prosecutors say a Saudi national was arrested over bugging an OpenAI executive conference room; OpenAI found the audio recorder around September 30",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9c293cec355065b8a81e0daa",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7d937e8bdcbb21358a8ab297",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Google rolls out Gemini 4 Argon globally in the Gemini API paid tier, to AI Pro and Ultra users in the Gemini app and AI Mode, and to Ultra users in Antigravity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-19ca71dc06dbcdd1b6d84b3a",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple unveils the $299 Apple HomeView, a 7\" smart display with an A18 chip, tabletop and wall-mounted versions, and “HomeView software”, shipping November 13",
+      "url": "https://www.wired.com/story/apple-homeview-smart-display/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-022eac296a4f91c5eb0c63ad",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple HomeView demo: a square screen with a personalized, iPhone-like experience based on facial recognition, up to six users, Siri AI, and a closed ecosystem",
+      "url": "https://www.wsj.com/tech/personal-tech/my-first-impressions-of-apples-new-smart-home-display-615ac94c?st=GH8ig1&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c433217fd78c1cc573b887c3",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple unveils the Apple Home Collection, a lineup of smart home accessories made with LG and Schneider, including cameras, thermostats, a doorbell, and a lock",
+      "url": "https://www.apple.com/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-14T08:50:37+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a4ed326d58a992d28c37362d",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple says HomeView's facial recognition works only if users have a “registered personal device” with Apple Intelligence and Siri AI on the same Wi-Fi network",
+      "url": "https://daringfireball.net/linked/2026/10/13/homeview"
+    }
+  ],
+  "date": "2026-10-14",
+  "edition": {
+    "windowEnd": "2026-10-14T08:45:00+08:00",
+    "windowStart": "2026-10-13T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-14T08:50:37+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-14 · 采集时显示：50 分钟前 · 打开账号列表",
+              "title": "苹果发布HomeView，暂无国行版/老干妈用AI赚54亿冲上热搜/Gemini 4杀回AI御三家",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-14 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-14 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-14T08:50:12+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-14T08:50:12+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "morluto/rea",
+            "url": "https://github.com/morluto/rea"
+          },
+          "TypeScript",
+          "54,679",
+          "Reverse engineer anything with agents, from app behavior down to native binaries."
+        ],
+        [
+          {
+            "text": "bilawalsidhu/gods-eye-view",
+            "url": "https://github.com/bilawalsidhu/gods-eye-view"
+          },
+          "JavaScript",
+          "1,961",
+          "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
+        ],
+        [
+          {
+            "text": "debpalash/VoiceStudio",
+            "url": "https://github.com/debpalash/VoiceStudio"
+          },
+          "Python",
+          "1,748",
+          "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        ],
+        [
+          {
+            "text": "mksglu/context-mode",
+            "url": "https://github.com/mksglu/context-mode"
+          },
+          "TypeScript",
+          "969",
+          "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        ],
+        [
+          {
+            "text": "cathrynlavery/diagram-design",
+            "url": "https://github.com/cathrynlavery/diagram-design"
+          },
+          "HTML",
+          "1,815",
+          "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+        ],
+        [
+          {
+            "text": "vercel-labs/skills",
+            "url": "https://github.com/vercel-labs/skills"
+          },
+          "TypeScript",
+          "190",
+          "The open agent skills tool - npx skills"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "wheresryan22/anatomy",
+            "url": "https://github.com/wheresryan22/anatomy"
+          },
+          "JavaScript",
+          "8213",
+          "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff"
+        ],
+        [
+          {
+            "text": "mhtsec/ARTEX",
+            "url": "https://github.com/mhtsec/ARTEX"
+          },
+          "Go",
+          "3872",
+          "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目"
+        ],
+        [
+          {
+            "text": "t4t5/omdrop-owl",
+            "url": "https://github.com/t4t5/omdrop-owl"
+          },
+          "Shell",
+          "2587",
+          "airdrop for non-apple devices"
+        ],
+        [
+          {
+            "text": "ARahim3/DigUp",
+            "url": "https://github.com/ARahim3/DigUp"
+          },
+          "Swift",
+          "2397",
+          "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2."
+        ],
+        [
+          {
+            "text": "storytold/craft-launcher",
+            "url": "https://github.com/storytold/craft-launcher"
+          },
+          "Rust",
+          "2302",
+          "The Craft App Launcher"
+        ],
+        [
+          {
+            "text": "liseami/CCBaga",
+            "url": "https://github.com/liseami/CCBaga"
+          },
+          "Rust",
+          "2051",
+          "未提供"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-13 · 281 互动/积分 · 264 评论",
+          "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+          "url": "https://blog.character.ai/an-update-on-character-ai/"
+        },
+        {
+          "meta": "发布 2026-10-13 · 236 互动/积分 · 145 评论",
+          "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+          "url": "https://www.sammystraus.com/"
+        },
+        {
+          "meta": "发布 2026-10-13 · 126 互动/积分 · 58 评论",
+          "title": "How to engineer an AI harness for game development",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code"
+        },
+        {
+          "meta": "发布 2026-10-14 · 39 互动/积分 · 3 评论",
+          "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+          "url": "https://parsimony.lasu.dev/"
+        },
+        {
+          "meta": "发布 2026-10-14 · 26 互动/积分 · 13 评论",
+          "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+          "url": "https://pulseos.finance"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-10",
+          "title": "Can Language Models Play the Wikipedia Game?",
+          "url": "https://arxiv.org/abs/2610.13948v1"
+        },
+        {
+          "meta": "发布 2026-10-10",
+          "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+          "url": "https://arxiv.org/abs/2610.13935v1"
+        },
+        {
+          "meta": "发布 2026-10-10",
+          "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+          "url": "https://arxiv.org/abs/2610.13912v1"
+        },
+        {
+          "meta": "发布 2026-10-10",
+          "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+          "url": "https://arxiv.org/abs/2610.13910v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-13",
+          "title": "Muse Wonder",
+          "url": "https://www.producthunt.com/products/meta-ai"
+        },
+        {
+          "meta": "发布 2026-10-02",
+          "title": "Articos MCP",
+          "url": "https://www.producthunt.com/products/articos"
+        },
+        {
+          "meta": "发布 2026-09-23",
+          "title": "Mi Speaks 2.0",
+          "url": "https://www.producthunt.com/products/mi-speaks"
+        },
+        {
+          "meta": "发布 2026-10-06",
+          "title": "MentionBird",
+          "url": "https://www.producthunt.com/products/mentionbird"
+        },
+        {
+          "meta": "发布 2026-09-18",
+          "title": "Fina Business",
+          "url": "https://www.producthunt.com/products/fina"
+        },
+        {
+          "meta": "发布 2026-10-06",
+          "title": "OpenWhispr for iOS",
+          "url": "https://www.producthunt.com/products/openwispr-open-source-ai-speech-to-text"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI says the FBI arrested one of its staffers after the company found a hidden recording device in its offices and used its models to understand the device",
+          "url": "https://x.com/openainewsroom/status/2110095403198849132"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Federal prosecutors say a Saudi national was arrested over bugging an OpenAI executive conference room; OpenAI found the audio recorder around September 30",
+          "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Filing: Abdulrahman Alfozan, the OpenAI staffer charged with bugging a conference room, used a Seeed Xiao ESP32-S3 Sense dev board; a website sells it for $14",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google rolls out Gemini 4 Argon globally in the Gemini API paid tier, to AI Pro and Ultra users in the Gemini app and AI Mode, and to Ultra users in Antigravity",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Apple HomeView demo: a square screen with a personalized, iPhone-like experience based on facial recognition, up to six users, Siri AI, and a closed ecosystem",
+          "url": "https://www.wsj.com/tech/personal-tech/my-first-impressions-of-apples-new-smart-home-display-615ac94c?st=GH8ig1&reflink=desktopwebshare_permalink"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "github-trending",
+      "itemCount": 9,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "hacker-news",
+      "itemCount": 6,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:22+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-14T08:50:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:37+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-14T08:50:37+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:12+08:00",
+      "id": "wechat-appso",
+      "itemCount": 2,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-14T08:50:12+08:00",
+      "message": "今日 2 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:12+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-14T08:50:12+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:12+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-14T08:50:12+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-14T08:50:12+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-14T08:50:12+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}

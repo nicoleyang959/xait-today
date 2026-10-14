@@ -5,14 +5,14 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-13 · 采集时显示：35 分钟前 · 打开账号列表",
-          "title": "马斯克想邀「中国版马斯克」跳舞/全球手机出货创2012年来新低/王兴兴：最大的错误是对AI相信得还不...",
+          "meta": "2026-10-14 · 采集时显示：50 分钟前 · 打开账号列表",
+          "title": "苹果发布HomeView，暂无国行版/老干妈用AI赚54亿冲上热搜/Gemini 4杀回AI御三家",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         },
         {
           "badge": "今日",
-          "meta": "2026-10-13 · 采集时显示：1小时前 · 打开账号列表",
-          "title": "刚刚，小扎发布神秘「西瓜」模型，跑分媲美 Opus 5.5，口碑却一言难尽",
+          "meta": "2026-10-14 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "刚刚，Gemini 4 发布！性价比「斩杀」GPT-6 和 Opus 5.5，重回御三家",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         }
       ],
@@ -22,10 +22,17 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [],
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-14 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "实测Gemini 4 Argon - Google这跌跌撞撞的背水一战。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日未检出新文章",
-      "statusTone": "quiet"
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
     },
     {
       "account": "智东西",
@@ -42,9 +49,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-13T08:46:21+08:00",
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T08:46:41+08:00",
+  "capturedAt": "2026-10-14T08:50:12+08:00",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T08:50:37+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-13T08:46:21+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-14T08:50:12+08:00；相对时间以该采集时刻为准。"
 }
