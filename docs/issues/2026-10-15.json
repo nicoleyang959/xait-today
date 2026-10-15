@@ -1,0 +1,911 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-587b0415db9e134fb4e7795b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-169450903edabaadf56739fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7b055a93e9c4202dea5713e1",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4bb811a3cfb014ab2022f949",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-68d891c5e16280755a65f87c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9fc2dc53640989c775a923a1",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f7aef697266f934869930848",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-35c0cb54f4a2ba2e870dc0b8",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2e58ebb5b3cc8b9845a6431b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4102ea0f801bbd88fd471141",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ntdevlabs/tiny11builder",
+      "url": "https://github.com/ntdevlabs/tiny11builder"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0d30da72fea7fd92fa28457e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-13b38cf66c1096281fef6e33",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/craft-launcher",
+      "url": "https://github.com/storytold/craft-launcher"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a31255de65e02b158eb41cbf",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3c610cf7edf68334c19a0ac4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-15abe39a5c0768279bbbf801",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-770d0d1f61ee56f282cd652d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2c06dc89f3250607c91ab2c8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "shaongitbd/doory",
+      "url": "https://github.com/shaongitbd/doory"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c831f2950865ba951e83067d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "opengeos/RustGIS",
+      "url": "https://github.com/opengeos/RustGIS"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a6c311e023007bcf88af57cc",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "rociiu/talorys",
+      "url": "https://github.com/rociiu/talorys"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b54e26eaa6820f1d347048b8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2d61bf6821caa865b63018e1",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "marclou/mailcheap",
+      "url": "https://github.com/marclou/mailcheap"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-52e6be2762f6f915942af7bb",
+      "publishedAt": "2026-10-14T17:45:23Z",
+      "sourceId": "hacker-news",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-27305070419cbc082d51eef5",
+      "publishedAt": "2026-10-14T18:32:52Z",
+      "sourceId": "hacker-news",
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4252bcecac705f51a5a7fd18",
+      "publishedAt": "2026-10-14T16:52:42Z",
+      "sourceId": "hacker-news",
+      "title": "Has AI tells",
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7ca302ccb875613ff91d9fa3",
+      "publishedAt": "2026-10-13T05:54:01Z",
+      "sourceId": "hacker-news",
+      "title": "Ask HN: CAD for wood working with LLM support?",
+      "url": "https://news.ycombinator.com/item?id=50067325"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7bb23465e7b3763d7b5d585f",
+      "publishedAt": "2026-10-13T17:59:57Z",
+      "sourceId": "arxiv",
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "url": "https://arxiv.org/abs/2610.18874v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b2534b0136dc55619824c9e6",
+      "publishedAt": "2026-10-13T17:59:52Z",
+      "sourceId": "arxiv",
+      "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+      "url": "https://arxiv.org/abs/2610.18869v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-dd0354c8c096496aa3ee0c76",
+      "publishedAt": "2026-10-13T17:59:51Z",
+      "sourceId": "arxiv",
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "url": "https://arxiv.org/abs/2610.18868v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-eb859a09f24226b9e1bada7d",
+      "publishedAt": "2026-10-13T17:59:32Z",
+      "sourceId": "arxiv",
+      "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+      "url": "https://arxiv.org/abs/2610.18862v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a3f0611e7902951962da14ea",
+      "publishedAt": "2026-10-13T17:59:31Z",
+      "sourceId": "arxiv",
+      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+      "url": "https://arxiv.org/abs/2610.18860v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-607bd6595f816e27d63cacbe",
+      "publishedAt": "2026-10-13T17:59:31Z",
+      "sourceId": "arxiv",
+      "title": "Hybrid Reasoning Agents",
+      "url": "https://arxiv.org/abs/2610.18861v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-677be50557211bf16ee6ed79",
+      "publishedAt": "2026-10-12T07:15:03-07:00",
+      "sourceId": "product-hunt",
+      "title": "Confidence by Spotify",
+      "url": "https://www.producthunt.com/products/spotify"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b3bfcc0c93a8ee0221e253c3",
+      "publishedAt": "2026-10-13T10:35:59-07:00",
+      "sourceId": "product-hunt",
+      "title": "AURORA Lifeline",
+      "url": "https://www.producthunt.com/products/aurora-lifeline"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a2c6b3c97a499bc634b417cf",
+      "publishedAt": "2026-10-13T00:51:30-07:00",
+      "sourceId": "product-hunt",
+      "title": "AdAnt 2.0",
+      "url": "https://www.producthunt.com/products/adant-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-987112438c0fe72358451bbf",
+      "publishedAt": "2026-10-13T00:53:49-07:00",
+      "sourceId": "product-hunt",
+      "title": "EditUI",
+      "url": "https://www.producthunt.com/products/editui"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-40cb805e664b864a5bd33463",
+      "publishedAt": "2026-10-12T12:47:37-07:00",
+      "sourceId": "product-hunt",
+      "title": "CraveLens",
+      "url": "https://www.producthunt.com/products/cravelens"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ab5323f361becfea71020bc9",
+      "publishedAt": "2026-10-13T02:40:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "Exodus for Google Cloud Run",
+      "url": "https://www.producthunt.com/products/exodus-by-elim-io"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6d27a71b78a0696188c0744a",
+      "publishedAt": "2026-10-09T10:06:22-07:00",
+      "sourceId": "product-hunt",
+      "title": "Tiden",
+      "url": "https://www.producthunt.com/products/tiden"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-15T08:45:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e82f197535df1707922f374f",
+      "publishedAt": "2026-09-29T14:16:03-07:00",
+      "sourceId": "product-hunt",
+      "title": "Inferock",
+      "url": "https://www.producthunt.com/products/inferock"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-04993afa488e7b2c09d940b2",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Anthropic told investors that its revenue jumped to $16.8B in Q3, up from $11.5B in Q2, and that the company was profitable on an adjusted basis in Q3",
+      "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9e8e757357130f45f2be2ef2",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Ukraine says SpaceX has stopped Starshield, its military-grade Starlink service, from working at speeds above 100mph with no warning, disrupting drone missions",
+      "url": "https://www.reuters.com/world/europe/spacex-limits-starlink-operations-ukraine-disrupting-military-missions-2026-10-14/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f360846d01382cbd289077cf",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Elon Musk says the US government owns and controls Starshield systems and “any limits on speed or usage are decided by the US military and ultimately POTUS”",
+      "url": "https://x.com/elonmusk/status/2110445577184133456"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fa508567dab7f176899301f3",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Memo: Netflix is cutting 6% of its staff, or ~1,000 jobs globally across product, tech, legal, and HR, its biggest layoffs since 2022, amid slowing growth",
+      "url": "https://www.wsj.com/business/media/netflix-eliminates-about-6-of-staff-in-biggest-cuts-since-2022-0a2d8ec3?st=NtEg5v&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7325c36b2edbe9c69d3d5016",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "CoreWeave closed down 15.5% as yields on its bonds near 15% amid concern over tech companies' heavy AI borrowing; Oracle dropped 8.8%, Nebius 10%, Dell 11.3%",
+      "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4d686a199879b37cb139fce2",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "CoreWeave says it is targeting insurers' “unlimited” capital, as the AI cloud provider seeks cheaper ways to fund the tens of billions it is spending on chips",
+      "url": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-38daa3ffb403e0885b584a1b",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Filing: OpenAI says a staffer who joined Apple sent 100+ files to a personal account and made a presentation about an unreleased product to Apple leadership",
+      "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-15T08:45:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7db7338bab998dfaf1016692",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "SpaceXSI debuts Grok Voice 3.0, saying it tops Artificial Analysis' speech-to-speech index, responds in under a second, and costs less than rivals, at $0.08/min",
+      "url": "https://x.ai/news/grok-voice-3"
+    }
+  ],
+  "date": "2026-10-15",
+  "edition": {
+    "windowEnd": "2026-10-15T08:45:00+08:00",
+    "windowStart": "2026-10-14T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-15T08:45:40+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-15 · 采集时显示：34 分钟前 · 打开账号列表",
+              "title": "国行苹果AI有望12月上线/微信淘宝等超150款应用拒绝接入豆包手机助手/腾讯上线《绿泡泡短剧》",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-15 · 采集时显示：19 分钟前 · 打开账号列表",
+              "title": "分享一个最近很惊艳的开源Skill，一句话让AI搓出任何原理的科普视频。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-15 · 采集时显示：8 小时前 · 打开账号列表",
+              "title": "千问办公推电商版，给企业Agent打了个样",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-15T08:45:18+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-15T08:45:18+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "morluto/rea",
+            "url": "https://github.com/morluto/rea"
+          },
+          "TypeScript",
+          "41,034",
+          "Reverse engineer anything with agents, from app behavior down to native binaries."
+        ],
+        [
+          {
+            "text": "debpalash/VoiceStudio",
+            "url": "https://github.com/debpalash/VoiceStudio"
+          },
+          "Python",
+          "3,538",
+          "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        ],
+        [
+          {
+            "text": "mksglu/context-mode",
+            "url": "https://github.com/mksglu/context-mode"
+          },
+          "TypeScript",
+          "947",
+          "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        ],
+        [
+          {
+            "text": "nvm-sh/nvm",
+            "url": "https://github.com/nvm-sh/nvm"
+          },
+          "Shell",
+          "52",
+          "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions."
+        ],
+        [
+          {
+            "text": "K-Dense-AI/scientific-agent-skills",
+            "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+          },
+          "Python",
+          "163",
+          "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific datab"
+        ],
+        [
+          {
+            "text": "HKUDS/CLI-Anything",
+            "url": "https://github.com/HKUDS/CLI-Anything"
+          },
+          "Python",
+          "103",
+          "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "storytold/craft-launcher",
+            "url": "https://github.com/storytold/craft-launcher"
+          },
+          "Rust",
+          "2650",
+          "The Craft App Launcher"
+        ],
+        [
+          {
+            "text": "liseami/CCBaga",
+            "url": "https://github.com/liseami/CCBaga"
+          },
+          "Rust",
+          "2250",
+          "未提供"
+        ],
+        [
+          {
+            "text": "jhaizhou-ops/d2r-mobile",
+            "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+          },
+          "C",
+          "2123",
+          "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full to"
+        ],
+        [
+          {
+            "text": "onehumanbeing/esp32-iphone-agent",
+            "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+          },
+          "Python",
+          "2079",
+          "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
+        ],
+        [
+          {
+            "text": "Arekejoker/qwen21-nsfw-pose-skill",
+            "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+          },
+          "Python",
+          "1250",
+          "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
+        ],
+        [
+          {
+            "text": "shaongitbd/doory",
+            "url": "https://github.com/shaongitbd/doory"
+          },
+          "TypeScript",
+          "1201",
+          "Open source canva alternative"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-15 · 821 互动/积分 · 442 评论",
+          "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+        },
+        {
+          "meta": "发布 2026-10-15 · 264 互动/积分 · 207 评论",
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
+        },
+        {
+          "meta": "发布 2026-10-15 · 70 互动/积分 · 72 评论",
+          "title": "Has AI tells",
+          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
+        },
+        {
+          "meta": "发布 2026-10-13 · 15 互动/积分 · 9 评论",
+          "title": "Ask HN: CAD for wood working with LLM support?",
+          "url": "https://news.ycombinator.com/item?id=50067325"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-14",
+          "title": "ChunkAct: Action Chunking for Agentic Robotics",
+          "url": "https://arxiv.org/abs/2610.18874v1"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+          "url": "https://arxiv.org/abs/2610.18869v1"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+          "url": "https://arxiv.org/abs/2610.18868v1"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+          "url": "https://arxiv.org/abs/2610.18862v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-12",
+          "title": "Confidence by Spotify",
+          "url": "https://www.producthunt.com/products/spotify"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "AURORA Lifeline",
+          "url": "https://www.producthunt.com/products/aurora-lifeline"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "AdAnt 2.0",
+          "url": "https://www.producthunt.com/products/adant-ai"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "EditUI",
+          "url": "https://www.producthunt.com/products/editui"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "CraveLens",
+          "url": "https://www.producthunt.com/products/cravelens"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "Exodus for Google Cloud Run",
+          "url": "https://www.producthunt.com/products/exodus-by-elim-io"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Anthropic told investors that its revenue jumped to $16.8B in Q3, up from $11.5B in Q2, and that the company was profitable on an adjusted basis in Q3",
+          "url": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "CoreWeave closed down 15.5% as yields on its bonds near 15% amid concern over tech companies' heavy AI borrowing; Oracle dropped 8.8%, Nebius 10%, Dell 11.3%",
+          "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "CoreWeave says it is targeting insurers' “unlimited” capital, as the AI cloud provider seeks cheaper ways to fund the tens of billions it is spending on chips",
+          "url": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Filing: OpenAI says a staffer who joined Apple sent 100+ files to a personal account and made a presentation about an unreleased product to Apple leadership",
+          "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "SpaceXSI debuts Grok Voice 3.0, saying it tops Artificial Analysis' speech-to-speech index, responds in under a second, and costs less than rivals, at $0.08/min",
+          "url": "https://x.ai/news/grok-voice-3"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "hacker-news",
+      "itemCount": 4,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:26+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-15T08:45:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:40+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-15T08:45:40+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:18+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-15T08:45:18+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:18+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-15T08:45:18+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:18+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-15T08:45:18+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-15T08:45:18+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-15T08:45:18+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
