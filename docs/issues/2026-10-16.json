@@ -1,0 +1,675 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-587b0415db9e134fb4e7795b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "morluto/rea",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a33255e840769a6e8558c9cf",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4bb811a3cfb014ab2022f949",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f706122b3b65a8e8c54fd2f0",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-77cbe1d03f2d725c73b7b494",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a78b05653527b8a85ea0f1df",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-169450903edabaadf56739fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0d30da72fea7fd92fa28457e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1ee7f958927399e5287f56c5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a22c2e64b7f88fe0071a96a5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "lightseekorg/tokenspeed",
+      "url": "https://github.com/lightseekorg/tokenspeed"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b1bca1742a89d229cbb5dc2d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "xerj-org/xerj",
+      "url": "https://github.com/xerj-org/xerj"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3c610cf7edf68334c19a0ac4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-15abe39a5c0768279bbbf801",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a31255de65e02b158eb41cbf",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-770d0d1f61ee56f282cd652d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b5716bc7f5a32b4cd6397f1a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "HeyPuter/everything",
+      "url": "https://github.com/HeyPuter/everything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2c06dc89f3250607c91ab2c8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "shaongitbd/doory",
+      "url": "https://github.com/shaongitbd/doory"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c831f2950865ba951e83067d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "opengeos/RustGIS",
+      "url": "https://github.com/opengeos/RustGIS"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c3542f8a92f8b7669e5c7fe2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ahwootech/BRUTAL",
+      "url": "https://github.com/ahwootech/BRUTAL"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a6c311e023007bcf88af57cc",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "rociiu/talorys",
+      "url": "https://github.com/rociiu/talorys"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-318b8429a812af0510ca302a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "chenglou/handwired",
+      "url": "https://github.com/chenglou/handwired"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-db2a90491fbc21b6906d4d9f",
+      "publishedAt": "2026-10-14T14:14:44-07:00",
+      "sourceId": "product-hunt",
+      "title": "Atticus",
+      "url": "https://www.producthunt.com/products/atticus"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d12eb771ec24475d93450090",
+      "publishedAt": "2026-10-13T11:40:39-07:00",
+      "sourceId": "product-hunt",
+      "title": "Nostaliga",
+      "url": "https://www.producthunt.com/products/nostaliga"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f50a8a36955e77a705ea788f",
+      "publishedAt": "2026-10-05T02:43:13-07:00",
+      "sourceId": "product-hunt",
+      "title": "Afterparty",
+      "url": "https://www.producthunt.com/products/afterparty"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-791adc3b2a7f5c5214c52c1b",
+      "publishedAt": "2026-10-03T12:44:01-07:00",
+      "sourceId": "product-hunt",
+      "title": "SaidTrace",
+      "url": "https://www.producthunt.com/products/saidtrace"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4a518aa3d02b320378ed0e6d",
+      "publishedAt": "2026-10-13T08:53:16-07:00",
+      "sourceId": "product-hunt",
+      "title": "Lleverage",
+      "url": "https://www.producthunt.com/products/lleverage"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2ccfdc6f28d80634beb59521",
+      "publishedAt": "2026-10-12T19:12:58-07:00",
+      "sourceId": "product-hunt",
+      "title": "CodeCrab",
+      "url": "https://www.producthunt.com/products/codecrab"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-93c862bc52cf5ef7000dc10c",
+      "publishedAt": "2026-10-11T23:24:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "Audimate",
+      "url": "https://www.producthunt.com/products/audimate"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-16T09:11:11+08:00",
+      "dateEvidence": "exact",
+      "id": "article-81f8c82b39d3140dca62a2e0",
+      "publishedAt": "2026-10-13T12:04:38-07:00",
+      "sourceId": "product-hunt",
+      "title": "Polylane Impact Analysis",
+      "url": "https://www.producthunt.com/products/polylane"
+    }
+  ],
+  "date": "2026-10-16",
+  "edition": {
+    "windowEnd": "2026-10-16T08:45:00+08:00",
+    "windowStart": "2026-10-15T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-16T09:11:43+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-16 · 采集时显示：56 分钟前 · 打开账号列表",
+              "title": "iPhone Duo维修价格，换内屏7998元/DeepSeek宕机后给用户「送钱」/国行苹果AI将...",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-16 · 采集时显示：38 分钟前 · 打开账号列表",
+              "title": "刚刚，可灵4.0深夜上线，支持30秒一镜到底，熟悉的可灵回来了。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-16 · 采集时显示：8 分钟前 · 打开账号列表",
+              "title": "刚刚，美国最强开源模型发布！放中国只能排第六？",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-16T08:56:06+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-16T08:56:06+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "morluto/rea",
+            "url": "https://github.com/morluto/rea"
+          },
+          "TypeScript",
+          "32,314",
+          "Reverse engineer anything with agents, from app behavior down to native binaries."
+        ],
+        [
+          {
+            "text": "anthropics/claude-plugins-official",
+            "url": "https://github.com/anthropics/claude-plugins-official"
+          },
+          "Python",
+          "307",
+          "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+        ],
+        [
+          {
+            "text": "K-Dense-AI/scientific-agent-skills",
+            "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+          },
+          "Python",
+          "1,091",
+          "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific datab"
+        ],
+        [
+          {
+            "text": "JuliusBrussee/caveman",
+            "url": "https://github.com/JuliusBrussee/caveman"
+          },
+          "Go",
+          "433",
+          "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman."
+        ],
+        [
+          {
+            "text": "debpalash/VoiceStudio",
+            "url": "https://github.com/debpalash/VoiceStudio"
+          },
+          "Python",
+          "3,024",
+          "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        ],
+        [
+          {
+            "text": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers"
+          },
+          "Shell",
+          "582",
+          "An agentic skills framework & software development methodology that works."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "jhaizhou-ops/d2r-mobile",
+            "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+          },
+          "C",
+          "3130",
+          "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full to"
+        ],
+        [
+          {
+            "text": "onehumanbeing/esp32-iphone-agent",
+            "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+          },
+          "C",
+          "2459",
+          "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
+        ],
+        [
+          {
+            "text": "liseami/CCBaga",
+            "url": "https://github.com/liseami/CCBaga"
+          },
+          "Rust",
+          "2340",
+          "未提供"
+        ],
+        [
+          {
+            "text": "Arekejoker/qwen21-nsfw-pose-skill",
+            "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+          },
+          "Python",
+          "2049",
+          "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
+        ],
+        [
+          {
+            "text": "HeyPuter/everything",
+            "url": "https://github.com/HeyPuter/everything"
+          },
+          "JavaScript",
+          "1316",
+          "We're rebuilding and open-sourcing the world’s software from scratch."
+        ],
+        [
+          {
+            "text": "shaongitbd/doory",
+            "url": "https://github.com/shaongitbd/doory"
+          },
+          "TypeScript",
+          "1308",
+          "Open source canva alternative"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "hacker-news",
+      "kind": "blocks",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "arxiv",
+      "kind": "blocks",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-15",
+          "title": "Atticus",
+          "url": "https://www.producthunt.com/products/atticus"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "Nostaliga",
+          "url": "https://www.producthunt.com/products/nostaliga"
+        },
+        {
+          "meta": "发布 2026-10-05",
+          "title": "Afterparty",
+          "url": "https://www.producthunt.com/products/afterparty"
+        },
+        {
+          "meta": "发布 2026-10-04",
+          "title": "SaidTrace",
+          "url": "https://www.producthunt.com/products/saidtrace"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "Lleverage",
+          "url": "https://www.producthunt.com/products/lleverage"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "CodeCrab",
+          "url": "https://www.producthunt.com/products/codecrab"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-16T09:11:11+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-16T09:11:11+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "hacker-news",
+      "itemCount": 0,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "arxiv",
+      "itemCount": 0,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-16T09:11:11+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:11+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-16T09:11:11+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T09:11:43+08:00",
+      "id": "techmeme",
+      "itemCount": 0,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时。",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-16T08:56:06+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-16T08:56:06+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T08:56:06+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-16T08:56:06+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T08:56:06+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-16T08:56:06+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-16T08:56:06+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-16T08:56:06+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
