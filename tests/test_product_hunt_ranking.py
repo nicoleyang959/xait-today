@@ -198,6 +198,21 @@ class ProductHuntRankingTests(unittest.TestCase):
             self.assertIn("minmax(0, 1fr)", css)
             self.assertIn(".ph-ranking-points { grid-column: 2; }", css)
 
+    def test_browser_failure_is_bilingual_and_has_no_ranking_body(self):
+        message = "正常浏览器暂时无法访问官方榜单，已停止该来源"
+        issue = ranking_issue(status="unavailable")
+        issue["sources"][-1]["message"] = message
+        xait.validate_issue(issue)
+        with tempfile.TemporaryDirectory(prefix="xait-ranking-browser-test-") as temporary:
+            target = Path(temporary) / "site"
+            xait.build_site(target, [issue])
+            page = (target / "index.html").read_text(encoding="utf-8")
+            self.assertIn(message, page)
+            self.assertIn("The browser could not access the official leaderboard; collection stopped", page)
+            self.assertNotIn('id="product-hunt-ranking"', page)
+            public = json.loads((target / "issues" / (issue["date"] + ".json")).read_text(encoding="utf-8"))
+            self.assertFalse(any(section["id"] == xait.PRODUCT_HUNT_RANKING_ID for section in public["sections"]))
+
 
 if __name__ == "__main__":
     unittest.main()
