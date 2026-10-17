@@ -1,0 +1,932 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a33255e840769a6e8558c9cf",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4bb811a3cfb014ab2022f949",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1ee7f958927399e5287f56c5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-68d891c5e16280755a65f87c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-169450903edabaadf56739fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a78b05653527b8a85ea0f1df",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-65e8d8a5d1385f860424eec6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "android/skills",
+      "url": "https://github.com/android/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-77cbe1d03f2d725c73b7b494",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-da82b4caee88e06f7977de05",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c2534d0883e5be7bb12a3390",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-899848bcb02e14a9bbd1ac32",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3c610cf7edf68334c19a0ac4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-15abe39a5c0768279bbbf801",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-770d0d1f61ee56f282cd652d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a31255de65e02b158eb41cbf",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "liseami/CCBaga",
+      "url": "https://github.com/liseami/CCBaga"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b5716bc7f5a32b4cd6397f1a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "HeyPuter/everything",
+      "url": "https://github.com/HeyPuter/everything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c3542f8a92f8b7669e5c7fe2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ahwootech/BRUTAL",
+      "url": "https://github.com/ahwootech/BRUTAL"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-318b8429a812af0510ca302a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "chenglou/handwired",
+      "url": "https://github.com/chenglou/handwired"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bb3e5c4f2d63b87308179460",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "deeplethe/solid-glass",
+      "url": "https://github.com/deeplethe/solid-glass"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b54e26eaa6820f1d347048b8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0cd1d4c68819fad627583c9d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-95ecdbcef43bc371ab3435fd",
+      "publishedAt": "2026-10-16T18:55:59Z",
+      "sourceId": "hacker-news",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d1881f8bc92e326c4ca95576",
+      "publishedAt": "2026-10-16T17:08:38Z",
+      "sourceId": "hacker-news",
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7a483656a3fbc2e3649b76a7",
+      "publishedAt": "2026-10-16T19:04:47Z",
+      "sourceId": "hacker-news",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-df90835cf6b6d972885b6c41",
+      "publishedAt": "2026-10-16T18:11:42Z",
+      "sourceId": "hacker-news",
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-67e3f061719847ca8206f10a",
+      "publishedAt": "2026-10-16T14:18:44Z",
+      "sourceId": "hacker-news",
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "url": "https://starskirmish.com/bench/v0-2/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-344749283695bcc3ea63b4bf",
+      "publishedAt": "2026-10-16T18:32:35Z",
+      "sourceId": "hacker-news",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "url": "https://github.com/cobanov/PS5LM"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c9eff2217ce1a809fd63e5fc",
+      "publishedAt": "2026-10-16T18:00:18Z",
+      "sourceId": "hacker-news",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c8cb28a9f55f567bf6d025e4",
+      "publishedAt": "2026-10-15T17:59:59Z",
+      "sourceId": "arxiv",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2610.22372v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0420b4ce6a7805d3b8617da9",
+      "publishedAt": "2026-10-15T17:59:20Z",
+      "sourceId": "arxiv",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "url": "https://arxiv.org/abs/2610.22367v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3c8fb6bf7b3aac3409ff7fc3",
+      "publishedAt": "2026-10-15T17:59:11Z",
+      "sourceId": "arxiv",
+      "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+      "url": "https://arxiv.org/abs/2610.22364v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-674968aaf5f5ecb9698e2586",
+      "publishedAt": "2026-10-15T17:59:02Z",
+      "sourceId": "arxiv",
+      "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+      "url": "https://arxiv.org/abs/2610.22362v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4f82f9673e461860856b524e",
+      "publishedAt": "2026-10-15T17:58:04Z",
+      "sourceId": "arxiv",
+      "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+      "url": "https://arxiv.org/abs/2610.22355v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-767a8f585ddef5aafe105364",
+      "publishedAt": "2026-10-15T17:58:02Z",
+      "sourceId": "arxiv",
+      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2610.22353v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-236691a7602f9093c4f22bde",
+      "publishedAt": "2026-10-10T17:10:42-07:00",
+      "sourceId": "product-hunt",
+      "title": "Palomino",
+      "url": "https://www.producthunt.com/products/palomino"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b46004781ddab4c0adf4e208",
+      "publishedAt": "2026-10-15T00:10:19-07:00",
+      "sourceId": "product-hunt",
+      "title": "DOYT",
+      "url": "https://www.producthunt.com/products/doyt"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-bdfbd2e87173d5f31d73d489",
+      "publishedAt": "2026-10-15T12:25:02-07:00",
+      "sourceId": "product-hunt",
+      "title": "Parallax",
+      "url": "https://www.producthunt.com/products/parallax-5"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-eb11dee629f9eb37247b78f4",
+      "publishedAt": "2026-10-15T08:27:13-07:00",
+      "sourceId": "product-hunt",
+      "title": "Nemotron 3.5 Super VL",
+      "url": "https://www.producthunt.com/products/nvidia"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1dcaeda1454d91e0f59e5360",
+      "publishedAt": "2026-10-14T06:16:56-07:00",
+      "sourceId": "product-hunt",
+      "title": "Lovable Growth Tools",
+      "url": "https://www.producthunt.com/products/lovable"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-19459833b364a519867a098d",
+      "publishedAt": "2026-10-14T11:39:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "Memory Chess",
+      "url": "https://www.producthunt.com/products/memory-chess"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-69cf5af73a7841e98af2dc56",
+      "publishedAt": "2026-10-13T00:41:17-07:00",
+      "sourceId": "product-hunt",
+      "title": "Firefox Enterprise",
+      "url": "https://www.producthunt.com/products/mozilla"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-17T08:48:20+08:00",
+      "dateEvidence": "exact",
+      "id": "article-152a87ce961cdc1d4255535d",
+      "publishedAt": "2026-10-13T17:37:36-07:00",
+      "sourceId": "product-hunt",
+      "title": "Fish Audio Drama 3",
+      "url": "https://www.producthunt.com/products/fish-speech"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b9bbac308153f504a8c2dfd3",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "China is considering adding 23 AI technologies to its export control list, including LLMs and chip designs, to keep closer control over homegrown advancements",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e40ff39bed9f3350b3cc1b47",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-dbb357f02ce09dfae9329a65",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Elon Musk approached Trump with the idea of slowing down Starshield in Ukraine; source: Trump agreed, paving the way for DOD to execute the slowdown",
+      "url": "https://www.telegraph.co.uk/world-news/2026/10/16/musk-approached-trump-slow-down-starlink-help-ukraine/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f6998b8b39bf9a9192585fcc",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Reflection AI releases Apache 2.0-licensed weights for Beam, a 501B-parameter model, trained with RL that penalized unnecessary tokens",
+      "url": "https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71c8e01b5ff129b9d82b6989",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple says demand for iPhone Duo has been “nothing short of extraordinary”; deliveries slipped to late January within hours of preorders opening",
+      "url": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-72f737c75e4500f4e24e6a1c",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review",
+      "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2ac3582288fe0dcb631432b7",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-ai-task-force-to-commission-report-on-technology-s-risks"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-17T08:48:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-027e5a607d7fe3e4b00752ef",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Microsoft Surface Laptop Ultra review: powerful, useful Magnetic Connect port, bright screen, but heavy, loud, and Windows doesn't take advantage of RTX Spark",
+      "url": "https://www.tomshardware.com/tablets/microsoft-surface/microsoft-surface-laptop-ultra-rtx-spark-review"
+    }
+  ],
+  "date": "2026-10-17",
+  "edition": {
+    "windowEnd": "2026-10-17T08:45:00+08:00",
+    "windowStart": "2026-10-16T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-17T08:48:26+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-17 · 采集时显示：27 分钟前 · 打开账号列表",
+              "title": "iPhone Duo发货已排到明年/李斌谈特斯拉会飞：这个我们真没有/美国肯德基换用可口可乐",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-17T08:48:08+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-17T08:48:08+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "anthropics/claude-plugins-official",
+            "url": "https://github.com/anthropics/claude-plugins-official"
+          },
+          "Python",
+          "1,552",
+          "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+        ],
+        [
+          {
+            "text": "K-Dense-AI/scientific-agent-skills",
+            "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+          },
+          "Python",
+          "1,158",
+          "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific datab"
+        ],
+        [
+          {
+            "text": "affaan-m/ECC",
+            "url": "https://github.com/affaan-m/ECC"
+          },
+          "JavaScript",
+          "1,057",
+          "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        ],
+        [
+          {
+            "text": "HKUDS/CLI-Anything",
+            "url": "https://github.com/HKUDS/CLI-Anything"
+          },
+          "Python",
+          "281",
+          "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+        ],
+        [
+          {
+            "text": "mksglu/context-mode",
+            "url": "https://github.com/mksglu/context-mode"
+          },
+          "TypeScript",
+          "449",
+          "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        ],
+        [
+          {
+            "text": "ruvnet/ruflo",
+            "url": "https://github.com/ruvnet/ruflo"
+          },
+          "TypeScript",
+          "672",
+          "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning "
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "jhaizhou-ops/d2r-mobile",
+            "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+          },
+          "C",
+          "3532",
+          "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full to"
+        ],
+        [
+          {
+            "text": "onehumanbeing/esp32-iphone-agent",
+            "url": "https://github.com/onehumanbeing/esp32-iphone-agent"
+          },
+          "C",
+          "2857",
+          "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak."
+        ],
+        [
+          {
+            "text": "Arekejoker/qwen21-nsfw-pose-skill",
+            "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+          },
+          "Python",
+          "2517",
+          "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
+        ],
+        [
+          {
+            "text": "liseami/CCBaga",
+            "url": "https://github.com/liseami/CCBaga"
+          },
+          "Rust",
+          "2402",
+          "未提供"
+        ],
+        [
+          {
+            "text": "HeyPuter/everything",
+            "url": "https://github.com/HeyPuter/everything"
+          },
+          "JavaScript",
+          "1728",
+          "We're rebuilding and open-sourcing the world’s software from scratch."
+        ],
+        [
+          {
+            "text": "ahwootech/BRUTAL",
+            "url": "https://github.com/ahwootech/BRUTAL"
+          },
+          "C#",
+          "1561",
+          "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under "
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-17 · 637 互动/积分 · 262 评论",
+          "title": "Claude reveals ECDSA curve origins",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+        },
+        {
+          "meta": "发布 2026-10-17 · 384 互动/积分 · 324 评论",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
+        },
+        {
+          "meta": "发布 2026-10-17 · 218 互动/积分 · 203 评论",
+          "title": "How the Claude Code team does code review",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        },
+        {
+          "meta": "发布 2026-10-17 · 205 互动/积分 · 62 评论",
+          "title": "Anthropic assigned highest junk credit rating in June",
+          "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d"
+        },
+        {
+          "meta": "发布 2026-10-16 · 182 互动/积分 · 87 评论",
+          "title": "Show HN: Gemini 4 Argon plays StarCraft",
+          "url": "https://starskirmish.com/bench/v0-2/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-16",
+          "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+          "url": "https://arxiv.org/abs/2610.22372v1"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "Discovering state-of-the-art quantum circuits with large language models",
+          "url": "https://arxiv.org/abs/2610.22367v1"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+          "url": "https://arxiv.org/abs/2610.22364v1"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+          "url": "https://arxiv.org/abs/2610.22362v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-11",
+          "title": "Palomino",
+          "url": "https://www.producthunt.com/products/palomino"
+        },
+        {
+          "meta": "发布 2026-10-15",
+          "title": "DOYT",
+          "url": "https://www.producthunt.com/products/doyt"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "Parallax",
+          "url": "https://www.producthunt.com/products/parallax-5"
+        },
+        {
+          "meta": "发布 2026-10-15",
+          "title": "Nemotron 3.5 Super VL",
+          "url": "https://www.producthunt.com/products/nvidia"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "Lovable Growth Tools",
+          "url": "https://www.producthunt.com/products/lovable"
+        },
+        {
+          "meta": "发布 2026-10-15",
+          "title": "Memory Chess",
+          "url": "https://www.producthunt.com/products/memory-chess"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "China is considering adding 23 AI technologies to its export control list, including LLMs and chip designs, to keep closer control over homegrown advancements",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic says Claude traced NIST's ECDSA curve seeds to a pseudorandom number generator, challenging decades-old suspicions of an NSA backdoor in the algorithm",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Reflection AI releases Apache 2.0-licensed weights for Beam, a 501B-parameter model, trained with RL that penalized unnecessary tokens",
+          "url": "https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review",
+          "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "In its first meeting, Trump's Super Intelligence Force says it plans to commission a report on AI risks and develop protocols for labs to provide early warnings",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-16/trump-s-ai-task-force-to-commission-report-on-technology-s-risks"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "hacker-news",
+      "itemCount": 7,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:20+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-17T08:48:20+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:26+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-17T08:48:26+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:08+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-17T08:48:08+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:08+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-17T08:48:08+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:08+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-17T08:48:08+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-17T08:48:08+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-17T08:48:08+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
