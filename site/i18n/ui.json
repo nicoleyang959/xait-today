@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "entries": {
+    "人工核验于：": {"zh": "人工核验于：", "en": "Manually verified at: "},
     "xAIT 今日": {"zh": "xAIT 今日", "en": "xAIT Today"},
     "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接": {"zh": "xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接", "en": "xAIT Today — essential AI news from public sources, with publication windows, source status and original links."},
     "AI 和 IT 的无限可能": {"zh": "AI 和 IT 的无限可能", "en": "The possibilities of AI and IT"},
@@ -143,6 +144,13 @@
     "💬 Hacker News · 开发者热榜": {"zh": "💬 Hacker News · 开发者热榜", "en": "💬 Hacker News · Developer trends"},
     "🧪 arXiv · AI 最新论文": {"zh": "🧪 arXiv · AI 最新论文", "en": "🧪 arXiv · Latest AI papers"},
     "Product Hunt 近期新品": {"zh": "Product Hunt 近期新品", "en": "Product Hunt recent launches"},
-    "🚀 Product Hunt · 近期新品": {"zh": "🚀 Product Hunt · 近期新品", "en": "🚀 Product Hunt · Recent launches"}
+    "🚀 Product Hunt · 近期新品": {"zh": "🚀 Product Hunt · 近期新品", "en": "🚀 Product Hunt · Recent launches"},
+    "🏆 Product Hunt · 热门产品 Top 10": {"zh": "🏆 Product Hunt · 热门产品 Top 10", "en": "🏆 Product Hunt · Top 10 products"},
+    "榜单日期：": {"zh": "榜单日期：", "en": "Leaderboard date: "},
+    "（太平洋时间）": {"zh": "（太平洋时间）", "en": " (Pacific Time)"},
+    "截至采集时间：": {"zh": "截至采集时间：", "en": "As of collection: "},
+    "查看官方日榜": {"zh": "查看官方日榜", "en": "View official daily leaderboard"},
+    "积分": {"zh": "积分", "en": "Points"},
+    "官方精选日榜，保留来源名次；积分为 Product Hunt 综合互动积分，不等同于点赞数。榜单日期不是产品发布日期。": {"zh": "官方精选日榜，保留来源名次；积分为 Product Hunt 综合互动积分，不等同于点赞数。榜单日期不是产品发布日期。", "en": "Official featured daily leaderboard with source ranks preserved. Points are Product Hunt's combined engagement score, not upvotes. The leaderboard date is not a product publication date."}
   }
 }

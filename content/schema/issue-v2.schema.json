@@ -3,7 +3,7 @@
   "$id": "https://raw.githubusercontent.com/nicoleyang959/xait-today/main/content/schema/issue-v2.schema.json",
   "title": "xAIT Today issue v2",
   "description": "Sanitized public source ledger and article evidence. The daily briefing is derived deterministically; no v1 section is promoted automatically.",
-  "$comment": "xait.py also enforces source/article ID uniqueness, sourceId references, safe public URLs and text, the fixed previous-day 08:45 to issue-day 08:45 +08:00 edition, generatedAt date consistency, and the existing v1 section semantics. Selection uses [windowStart, windowEnd), exact dates only, successful sources, AI-related terms, no restricted/social sources, a maximum of 8 events and 2 per representative source. Title similarity is never a grouping key.",
+  "$comment": "xait.py also enforces source/article ID uniqueness, sourceId references, safe public URLs and text, the fixed previous-day 08:45 to issue-day 08:45 +08:00 edition, generatedAt date consistency, and the existing v1 section semantics. Selection uses [windowStart, windowEnd), exact dates only, successful sources, AI-related terms, no restricted/social sources, a maximum of 5 events and 2 per representative source. Product Hunt rankings and X signals cannot become articles. Product Hunt ranking dates match their official dated URL; ranks are continuous 1..N, URLs unique, capture is on the issue date and source itemCount equals N. Failed ranking sources have no section. Title similarity is never a grouping key.",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "date", "generatedAt", "title", "tagline", "sections", "edition", "sources", "articles"],
@@ -13,7 +13,13 @@
     "generatedAt": {"$ref": "#/$defs/timestamp"},
     "title": {"$ref": "issue-v1.schema.json#/$defs/text"},
     "tagline": {"$ref": "issue-v1.schema.json#/$defs/text"},
-    "sections": {"$ref": "issue-v1.schema.json#/properties/sections"},
+    "sections": {
+      "type": "array", "minItems": 1,
+      "items": {"oneOf": [
+        {"$ref": "issue-v1.schema.json#/properties/sections/items"},
+        {"$ref": "#/$defs/productHuntRanking"}
+      ]}
+    },
     "edition": {
       "type": "object",
       "additionalProperties": false,
@@ -27,6 +33,41 @@
     "articles": {"type": "array", "items": {"$ref": "#/$defs/article"}}
   },
   "$defs": {
+    "productHuntRanking": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "id", "title", "items", "ranking"],
+      "properties": {
+        "kind": {"const": "links"},
+        "id": {"const": "product-hunt-ranking"},
+        "title": {"const": "🏆 Product Hunt · 热门产品 Top 10"},
+        "ranking": {
+          "type": "object", "additionalProperties": false,
+          "required": ["date", "timezone", "url", "capturedAt", "scope"],
+          "properties": {
+            "date": {"type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+            "timezone": {"const": "America/Los_Angeles"},
+            "url": {"type": "string", "pattern": "^https://(?:www\\.)?producthunt\\.com/leaderboard/daily/\\d{4}/\\d{2}/\\d{2}/?$"},
+            "capturedAt": {"$ref": "#/$defs/timestamp"},
+            "scope": {"const": "featured"},
+            "captureMethod": {"enum": ["public-page", "manual-review"]}
+          }
+        },
+        "items": {
+          "type": "array", "minItems": 1, "maxItems": 10,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["title", "rank", "description"],
+            "properties": {
+              "title": {"$ref": "issue-v1.schema.json#/$defs/text"},
+              "description": {"$ref": "issue-v1.schema.json#/$defs/optionalText"},
+              "url": {"type": "string", "pattern": "^https://(?:www\\.)?producthunt\\.com/(?:posts|products)/[A-Za-z0-9][A-Za-z0-9_-]*(?:/launches/[A-Za-z0-9][A-Za-z0-9_-]*)?/?$"},
+              "rank": {"type": "integer", "minimum": 1, "maximum": 10},
+              "points": {"type": "integer", "minimum": 0}
+            }
+          }
+        }
+      }
+    },
     "timestamp": {
       "type": "string",
       "format": "date-time",
@@ -53,7 +94,7 @@
       "required": ["id", "sourceId", "title", "url", "publishedAt", "dateEvidence", "collectedAt", "category"],
       "properties": {
         "id": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
-        "sourceId": {"$ref": "issue-v1.schema.json#/$defs/sectionId"},
+        "sourceId": {"allOf": [{"$ref": "issue-v1.schema.json#/$defs/sectionId"}, {"not": {"enum": ["x-ai-signals", "product-hunt-ranking"]}}]},
         "title": {"$ref": "issue-v1.schema.json#/$defs/text"},
         "url": {"$ref": "issue-v1.schema.json#/$defs/publicUrl"},
         "originalUrl": {"$ref": "issue-v1.schema.json#/$defs/publicUrl"},

@@ -165,7 +165,7 @@
   const metadataSelector = [
     ".meta", ".tagline", ".issue-header", ".card-header", ".site-footer",
     ".sidebar", ".collection-status", ".brief-meta", ".brief-reason", ".brief-policy",
-    ".brief-empty", ".brief-related summary", ".link-meta", "#x-ai-signals .link-item", ".x-signal-disclaimer", ".wechat-meta", ".wechat-badge",
+    ".brief-empty", ".brief-related summary", ".link-meta", "#x-ai-signals .link-item", ".x-signal-disclaimer", ".ph-ranking-meta", ".ph-ranking-note", ".ph-ranking-rank", ".ph-ranking-points", ".wechat-meta", ".wechat-badge",
     ".wechat-state", ".wechat-origin", ".wechat-overview", ".wechat-item-badge", ".wechat-item-copy > span", ".social-meta", ".social-heat", ".social-rank-meta", ".social-rank-heat", ".social-rank-note", ".social-rank-date", ".social-rank-origin", ".social-rank-overview",
     ".social-status", ".social-origin", ".social-overview", ".social-origin-details summary",
     "#source-health", ".wechat-empty", ".social-empty", ".reading-nav", ".module-nav",
@@ -294,7 +294,7 @@
     } else element.appendChild(badge);
     fallbackRecords.push({ element, badge, section });
   };
-  document.querySelectorAll(".brief-event, .wechat-copy, .wechat-item-copy, .social-copy, .social-rank-copy, .link-item, .section-table .data-table tbody tr td:last-child").forEach((element) => appendFallback(element, false));
+  document.querySelectorAll(".brief-event, .wechat-copy, .wechat-item-copy, .social-copy, .social-rank-copy, .link-item, .ph-ranking-item, .section-table .data-table tbody tr td:last-child").forEach((element) => appendFallback(element, false));
   document.querySelectorAll(".section-blocks:not(#source-health)").forEach((element) => appendFallback(element, true));
 
   const updateLanguage = (selected, updateUrl = false) => {

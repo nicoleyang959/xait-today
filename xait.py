@@ -81,6 +81,9 @@ RETIRED_SOCIAL_ALIASES = frozenset({
 RETIRED_DIRECT_SOCIAL_ALIASES = RETIRED_SOCIAL_ALIASES - {"hackernews"}
 HIDDEN_SECTION_IDS = frozenset({"source-health", "aihot"})
 PRODUCT_HUNT_TITLE = "🚀 Product Hunt · 近期新品"
+PRODUCT_HUNT_RANKING_ID = "product-hunt-ranking"
+PRODUCT_HUNT_RANKING_TITLE = "🏆 Product Hunt · 热门产品 Top 10"
+PRODUCT_HUNT_RANKING_NOTE = "官方精选日榜，保留来源名次；积分为 Product Hunt 综合互动积分，不等同于点赞数。榜单日期不是产品发布日期。"
 SECTION_DISPLAY_LIMITS = {
     "github-trending": ("rows", 6),
     "weekly-high-stars": ("rows", 6),
@@ -88,6 +91,7 @@ SECTION_DISPLAY_LIMITS = {
     "techmeme": ("items", 5),
     "arxiv": ("items", 4),
     "product-hunt": ("items", 6),
+    "product-hunt-ranking": ("items", 10),
     "x-ai-signals": ("items", 10),
 }
 X_SIGNAL_SOURCE_ID = "x-ai-signals"
@@ -352,6 +356,9 @@ def _validate_blocks(section: Dict[str, Any], path: str) -> None:
 
 
 def _validate_links(section: Dict[str, Any], path: str) -> None:
+    if section["id"] == PRODUCT_HUNT_RANKING_ID:
+        _validate_product_hunt_ranking(section, path)
+        return
     _expect_object(section, path, {"kind", "id", "title", "items"})
     items = _expect_array(section["items"], path + ".items", minimum=1)
     x_post_ids: Set[str] = set()
@@ -383,6 +390,52 @@ def _validate_links(section: Dict[str, Any], path: str) -> None:
             if post_id in x_post_ids:
                 raise XaitError("{0}.url 的 X Post ID 重复".format(item_path))
             x_post_ids.add(post_id)
+
+
+def _validate_product_hunt_ranking(section: Dict[str, Any], path: str) -> None:
+    """Validate the official dated leaderboard independently of launch feeds."""
+    _expect_object(section, path, {"kind", "id", "title", "items", "ranking"})
+    if section["title"] != PRODUCT_HUNT_RANKING_TITLE:
+        raise XaitError("{0}.title 必须使用固定的 Product Hunt 日榜标题".format(path))
+    ranking = _expect_object(section["ranking"], path + ".ranking", {
+        "date", "timezone", "url", "capturedAt", "scope",
+    }, {"captureMethod"})
+    if ranking.get("captureMethod", "public-page") not in {"public-page", "manual-review"}:
+        raise XaitError("{0}.ranking.captureMethod 无效".format(path))
+    ranking_date = _expect_date(ranking["date"], path + ".ranking.date")
+    if ranking["timezone"] != "America/Los_Angeles" or ranking["scope"] != "featured":
+        raise XaitError("{0}.ranking 必须标注太平洋时间的官方精选日榜".format(path))
+    leaderboard = _validate_public_url(ranking["url"], path + ".ranking.url")
+    parts = urlsplit(leaderboard)
+    expected_path = "/leaderboard/daily/" + ranking_date.replace("-", "/")
+    if (parts.scheme != "https" or parts.netloc not in {"www.producthunt.com", "producthunt.com"}
+            or parts.path.rstrip("/") != expected_path or parts.query or parts.fragment):
+        raise XaitError("{0}.ranking.url 必须指向对应日期的 Product Hunt 官方日榜".format(path), EXIT_SECURITY)
+    _strict_datetime(ranking["capturedAt"], path + ".ranking.capturedAt")
+    items = _expect_array(section["items"], path + ".items", minimum=1, maximum=10)
+    urls: Set[str] = set()
+    for index, raw_item in enumerate(items):
+        item_path = "{0}.items[{1}]".format(path, index)
+        item = _expect_object(raw_item, item_path, {"title", "rank", "description"}, {"url", "points"})
+        _expect_string(item["title"], item_path + ".title")
+        _expect_string(item["description"], item_path + ".description", allow_empty=True)
+        rank = _expect_integer(item["rank"], item_path + ".rank", minimum=1)
+        if rank != index + 1:
+            raise XaitError("{0}.rank 必须按官方名次从 1 连续升序，最多 10 条".format(item_path))
+        if "url" in item:
+            url = _validate_public_url(item["url"], item_path + ".url")
+            product_parts = urlsplit(url)
+            if (product_parts.scheme != "https"
+                    or product_parts.netloc not in {"www.producthunt.com", "producthunt.com"}
+                    or not re.fullmatch(r"/(?:posts|products)/[A-Za-z0-9][A-Za-z0-9_-]*(?:/launches/[A-Za-z0-9][A-Za-z0-9_-]*)?/?", product_parts.path)
+                    or product_parts.query or product_parts.fragment):
+                raise XaitError("{0}.url 必须是 Product Hunt 官方产品或发布页".format(item_path), EXIT_SECURITY)
+            identity = product_parts.path.rstrip("/")
+            if identity in urls:
+                raise XaitError("{0}.url 的产品链接重复".format(item_path))
+            urls.add(identity)
+        if "points" in item:
+            _expect_integer(item["points"], item_path + ".points", minimum=0)
 
 
 def _validate_table_cell(value: Any, path: str) -> None:
@@ -562,8 +615,8 @@ def _validate_editorial(root: Dict[str, Any], path: str) -> None:
         article_source_id = _expect_id(article["sourceId"], item_path + ".sourceId")
         if article_source_id not in source_ids:
             raise XaitError("{0}.sourceId 未声明".format(item_path))
-        if article_source_id == X_SIGNAL_SOURCE_ID:
-            raise XaitError("{0}.sourceId 不允许将 X 观察信号加入今日必读".format(item_path))
+        if article_source_id in {X_SIGNAL_SOURCE_ID, PRODUCT_HUNT_RANKING_ID}:
+            raise XaitError("{0}.sourceId 不允许将观察榜单加入今日必读".format(item_path))
         _expect_string(article["title"], item_path + ".title")
         _validate_public_url(article["url"], item_path + ".url")
         evidence = article["dateEvidence"]
@@ -607,6 +660,29 @@ def _validate_editorial(root: Dict[str, Any], path: str) -> None:
         elif x_sections or source["itemCount"] != 0:
             raise XaitError("{0} 的 X 来源无内容时不得携带模块或条目".format(path))
 
+    ph_sources = [source for source in sources if source["id"] == PRODUCT_HUNT_RANKING_ID]
+    ph_sections = [section for section in root["sections"] if section["id"] == PRODUCT_HUNT_RANKING_ID]
+    if ph_sections and not ph_sources:
+        raise XaitError("{0} 的 Product Hunt 日榜缺少来源状态".format(path))
+    if ph_sources:
+        source = ph_sources[0]
+        if source["label"] != PRODUCT_HUNT_RANKING_TITLE or source["status"] == "stale":
+            raise XaitError("{0} 的 Product Hunt 日榜标题或状态无效，不得沿用旧榜".format(path))
+        if source["status"] in {"ok", "partial"}:
+            if len(ph_sections) != 1 or source["itemCount"] != len(ph_sections[0]["items"]):
+                raise XaitError("{0} 的 Product Hunt 日榜来源条数与正文不一致".format(path))
+            captured = _strict_datetime(ph_sections[0]["ranking"]["capturedAt"], path + ".ranking.capturedAt")
+            if captured > generated or captured.astimezone(CST).date().isoformat() != root["date"]:
+                raise XaitError("{0} 的 Product Hunt 日榜必须于本期当天采集且不得晚于生成时间".format(path))
+            # At 08:45 CST (00:45 UTC), Los Angeles is on the previous
+            # calendar date in both PST and PDT. Its last completed day is
+            # therefore exactly two calendar days before the issue date.
+            expected_ranking_day = (Date.fromisoformat(root["date"]) - timedelta(days=2)).isoformat()
+            if ph_sections[0]["ranking"]["date"] != expected_ranking_day:
+                raise XaitError("{0} 的 Product Hunt 日榜必须为本期截止时间对应的最近完整日榜".format(path))
+        elif ph_sections or source["itemCount"] != 0:
+            raise XaitError("{0} 的 Product Hunt 日榜无结果或失败时不得包含正文".format(path))
+
 
 def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
     version = issue.get("schemaVersion") if isinstance(issue, dict) else None
@@ -637,6 +713,8 @@ def validate_issue(issue: Any, source_name: str = "issue") -> Dict[str, Any]:
         if kind not in SECTION_KINDS:
             raise XaitError("{0}.kind 无效".format(section_path))
         section_id = _expect_id(raw_section.get("id"), section_path + ".id")
+        if section_id == PRODUCT_HUNT_RANKING_ID and (version != 2 or kind != "links"):
+            raise XaitError("{0} 的 Product Hunt 日榜只允许 v2 links 章节".format(section_path))
         if section_id in ids:
             raise XaitError("{0}.id 重复".format(section_path))
         if version == 2 and section_id in {"collection-status", "today-brief", "source-reading"}:
@@ -742,8 +820,8 @@ def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
             if social["platforms"]:
                 sections.append(social)
         elif section_enabled(section["id"]):
-            if section["id"] == X_SIGNAL_SOURCE_ID:
-                source = source_by_id.get(X_SIGNAL_SOURCE_ID)
+            if section["id"] in {X_SIGNAL_SOURCE_ID, PRODUCT_HUNT_RANKING_ID}:
+                source = source_by_id.get(section["id"])
                 if source is None or source.get("status") not in {"ok", "partial"}:
                     # No stale or failed X body is ever published.  The source
                     # ledger remains available below through ``sources``.
@@ -791,6 +869,9 @@ def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
             if source["id"] == X_SIGNAL_SOURCE_ID:
                 x_section = next((section for section in sections if section["id"] == X_SIGNAL_SOURCE_ID), None)
                 source["itemCount"] = len(x_section["items"]) if x_section else 0
+            if source["id"] == PRODUCT_HUNT_RANKING_ID:
+                ph_section = next((section for section in sections if section["id"] == PRODUCT_HUNT_RANKING_ID), None)
+                source["itemCount"] = len(ph_section["items"]) if ph_section else 0
             account = wechat_accounts.get(source["label"])
             if account is not None:
                 source["itemCount"] = len(account["items"])
@@ -805,6 +886,7 @@ def active_issue(issue: Dict[str, Any]) -> Dict[str, Any]:
         active["articles"] = [
             article for article in active["articles"]
             if source_enabled(article["sourceId"])
+            and article["sourceId"] != PRODUCT_HUNT_RANKING_ID
             and (
                 not article["sourceId"].startswith("wechat-")
                 or (
@@ -895,7 +977,7 @@ def group_articles(articles: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def _brief_source_allowed(article: Dict[str, Any]) -> bool:
     source = article["sourceId"].lower()
-    if source == X_SIGNAL_SOURCE_ID or "aihot" in source or any(source == prefix or source.startswith(prefix + "-")
+    if source in {X_SIGNAL_SOURCE_ID, PRODUCT_HUNT_RANKING_ID} or "aihot" in source or any(source == prefix or source.startswith(prefix + "-")
                                 for prefix in ("wechat", "social", "xiaohongshu", "douyin", "weibo")):
         return False
     social_hosts = {"mp.weixin.qq.com", "weibo.com", "weibo.cn", "douyin.com", "xiaohongshu.com"}
@@ -1131,12 +1213,39 @@ def _render_blocks(section: Dict[str, Any]) -> str:
 
 
 def _render_links(section: Dict[str, Any]) -> str:
+    if section["id"] == PRODUCT_HUNT_RANKING_ID:
+        return _render_product_hunt_ranking(section)
     items: List[str] = []
     for item in section["items"]:
         title = _link(item["url"], item["title"]) if item.get("url") else "<span>{0}</span>".format(_escape_text(item["title"]))
         meta = '<span class="link-meta">{0}</span>'.format(_escape_text(item["meta"])) if item.get("meta") else ""
         items.append('<li class="link-item">{0}{1}</li>'.format(title, meta))
     return '<ul class="link-list">\n{0}\n</ul>'.format("\n".join(items))
+
+
+def _render_product_hunt_ranking(section: Dict[str, Any]) -> str:
+    ranking = section["ranking"]
+    captured_label = "人工核验于：" if ranking.get("captureMethod") == "manual-review" else "截至采集时间："
+    header = (
+        '<p class="ph-ranking-meta"><span>榜单日期：</span>'
+        '<time datetime="{0}">{0}</time><span>（太平洋时间）</span>'
+        ' · <span>{4}</span><time datetime="{1}">{1}</time>'
+        ' · {2}</p><p class="ph-ranking-note">{3}</p>'
+    ).format(html.escape(ranking["date"], quote=True), html.escape(ranking["capturedAt"], quote=True),
+             _link(ranking["url"], "查看官方日榜"), _escape_text(PRODUCT_HUNT_RANKING_NOTE), captured_label)
+    rows = []
+    for item in section["items"]:
+        name = _link(item["url"], item["title"]) if item.get("url") else _escape_text(item["title"])
+        points = ('<span class="ph-ranking-points"><span>积分</span> {0:,}</span>'.format(item["points"])
+                  if "points" in item else "")
+        rows.append(
+            '<li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="{0}">{1}</span>'
+            '<div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n>{2}</div>'
+            '<p class="ph-ranking-description">{3}</p></div>{4}</li>'.format(
+                "#{0}".format(item["rank"]), item["rank"], name, _escape_text(item["description"]), points,
+            )
+        )
+    return header + '<ol class="ph-ranking-list">{0}</ol>'.format("".join(rows))
 
 
 def _render_table_cell(cell: Any, tag: str, label: Optional[str] = None) -> str:
@@ -1245,7 +1354,7 @@ V2_SOURCE_MODULES = (
     (
         "module-products-opensource",
         "产品与开源",
-        ("product-hunt", "github-trending", "weekly-high-stars"),
+        (PRODUCT_HUNT_RANKING_ID, "product-hunt", "github-trending", "weekly-high-stars"),
     ),
     ("module-research", "研究前沿", ("arxiv",)),
     ("module-frontline-signals", "一线信号", (X_SIGNAL_SOURCE_ID,)),
@@ -1370,7 +1479,8 @@ def _render_sections(issue: Dict[str, Any]) -> str:
                 module_id,
                 _escape_text(title),
                 "\n".join(
-                    _render_source_section(section, "h3", module=True, wide=len(members) == 1)
+                    _render_source_section(section, "h3", module=True,
+                                           wide=len(members) == 1 or section["id"] == PRODUCT_HUNT_RANKING_ID)
                     for section in members
                 ),
             )

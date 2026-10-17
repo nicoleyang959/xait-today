@@ -516,7 +516,7 @@
     "windowEnd": "2026-10-17T08:45:00+08:00",
     "windowStart": "2026-10-16T08:45:00+08:00"
   },
-  "generatedAt": "2026-10-17T08:48:26+08:00",
+  "generatedAt": "2026-10-17T15:49:43+08:00",
   "schemaVersion": 2,
   "sections": [
     {
@@ -562,6 +562,81 @@
       "kind": "wechat",
       "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-17T08:48:08+08:00；相对时间以该采集时刻为准。",
       "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "用聊天式界面处理邮件。",
+          "points": 328,
+          "rank": 1,
+          "title": "Talanoa"
+        },
+        {
+          "description": "追踪并约束 AI 智能体支出。",
+          "points": 251,
+          "rank": 2,
+          "title": "Navige"
+        },
+        {
+          "description": "集中管理家庭联络与设备。",
+          "points": 214,
+          "rank": 3,
+          "title": "Apple HomeView"
+        },
+        {
+          "description": "辅助合同审阅与合规检查。",
+          "points": 201,
+          "rank": 4,
+          "title": "GLM-Legal"
+        },
+        {
+          "description": "可自托管的开源个人助手。",
+          "points": 184,
+          "rank": 5,
+          "title": "OpenMuse"
+        },
+        {
+          "description": "为父亲整理每周家庭简报。",
+          "points": 129,
+          "rank": 6,
+          "title": "Daddy Issues"
+        },
+        {
+          "description": "分析代码合并请求的潜在影响。",
+          "points": 116,
+          "rank": 7,
+          "title": "Polylane Impact Analysis"
+        },
+        {
+          "description": "为智能体操作加入人工审批。",
+          "points": 108,
+          "rank": 8,
+          "title": "withHuman"
+        },
+        {
+          "description": "更新桌面组件的 Linux 发行版。",
+          "points": 98,
+          "rank": 9,
+          "title": "Ubuntu 26.10 (Stonking Stingray)"
+        },
+        {
+          "description": "通过 MCP 协助处理客服工单。",
+          "points": 103,
+          "rank": 10,
+          "title": "Chatway MCP"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "manual-review",
+        "capturedAt": "2026-10-17T15:49:43+08:00",
+        "date": "2026-10-15",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/15"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
     },
     {
       "columns": [
@@ -925,6 +1000,15 @@
       "lastSuccessAt": "2026-10-17T08:48:08+08:00",
       "message": "今日未检出新文章",
       "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-17T15:49:43+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-17T15:49:43+08:00",
+      "message": "人工核验官方公开榜单；本机自动采集当前受限。",
+      "status": "partial"
     }
   ],
   "tagline": "AI 和 IT 的无限可能",

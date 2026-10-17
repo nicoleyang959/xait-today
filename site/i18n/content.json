@@ -540,6 +540,61 @@
       "sourceSha256": "12012b3fb44c1247140fdcc49421baf3c52bbe8e4fa1f9b83fd54d10ef4b5163",
       "zh": "来源最新周报：何夕2077 AI 深度信号周报 2026 W39 2026 W39 深度信号周报：推理成本坍塌、个人智能体抢入口、越权事故常态化。基于 9/21–9/27 共 7… AI周报 AI Deep Signals W39",
       "en": "Latest weekly report from the source: Hexi2077 AI Deep Signals, 2026 W39. Inference costs collapse, personal agents compete for entry points, and unauthorized-access incidents become commonplace. Based on 7… from September 21–27. AI Weekly / AI Deep Signals W39."
+    },
+    "用聊天式界面处理邮件。": {
+      "sourceSha256": "e544f33c707656b3e368c16e3d760a80725ec67615de9d7393f92c7ac349ec8c",
+      "zh": "用聊天式界面处理邮件。",
+      "en": "Handle email through a chat-style interface."
+    },
+    "追踪并约束 AI 智能体支出。": {
+      "sourceSha256": "dd64f00a05da53169c15b0d406e03cab1149757efb80d1cf48a624c931613cdf",
+      "zh": "追踪并约束 AI 智能体支出。",
+      "en": "Track and limit AI agent spending."
+    },
+    "集中管理家庭联络与设备。": {
+      "sourceSha256": "960903c67f784c7f8d997c7f9e64258c262b8fe8e91e9523e5eeaa54c4ee392f",
+      "zh": "集中管理家庭联络与设备。",
+      "en": "Manage home connections and devices."
+    },
+    "辅助合同审阅与合规检查。": {
+      "sourceSha256": "d98c99b8f3ef140b3a7c50e3d535a343668063a64193b8b03b312ec742da5a5a",
+      "zh": "辅助合同审阅与合规检查。",
+      "en": "Assist with contract review and compliance."
+    },
+    "可自托管的开源个人助手。": {
+      "sourceSha256": "60255d32c1c4dede9dd954269e1414d1e7ee05e667e0697ebd192d51841788f5",
+      "zh": "可自托管的开源个人助手。",
+      "en": "An open personal assistant for self-hosting."
+    },
+    "为父亲整理每周家庭简报。": {
+      "sourceSha256": "5b67e6fc88fbd2330c5633e9a9c4bf26dc306dd7f822668266ea56fc93dab4ff",
+      "zh": "为父亲整理每周家庭简报。",
+      "en": "Weekly family planning briefs for dads."
+    },
+    "分析代码合并请求的潜在影响。": {
+      "sourceSha256": "f859b264fe19b60febaf66ed68d28dc3500c89b68bd38fcd1342db6b6628cac0",
+      "zh": "分析代码合并请求的潜在影响。",
+      "en": "Assess the impact of code changes."
+    },
+    "为智能体操作加入人工审批。": {
+      "sourceSha256": "b76ee418dfc6e6c7dc2874dc92e60d0f9068ca4e6170071737beb8dc86efc9cb",
+      "zh": "为智能体操作加入人工审批。",
+      "en": "Add human approval to agent actions."
+    },
+    "更新桌面组件的 Linux 发行版。": {
+      "sourceSha256": "312fcc1cc03189103b16923c9afb3d05fdf5641b14f4153a017fe2d6ed179853",
+      "zh": "更新桌面组件的 Linux 发行版。",
+      "en": "A Linux release with refreshed desktop components."
+    },
+    "通过 MCP 协助处理客服工单。": {
+      "sourceSha256": "99c551f866310af71c2a9341d75fd9e66d0bff4b2c6f826ccfdfab45bbafdb34",
+      "zh": "通过 MCP 协助处理客服工单。",
+      "en": "Handle support tickets through MCP."
+    },
+    "人工核验官方公开榜单；本机自动采集当前受限。": {
+      "sourceSha256": "1b505e2b88261a40aa51fde4814def10f7ae0c3cab72896d75d37dd5063104c2",
+      "zh": "人工核验官方公开榜单；本机自动采集当前受限。",
+      "en": "Manually verified against the public leaderboard; local automated access is currently restricted."
     }
   }
 }

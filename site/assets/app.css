@@ -392,6 +392,29 @@ html[lang="en"] .wechat-state, html[lang="en"] .social-status { max-width: 52%; 
 
 #module-products-opensource > .module-grid { grid-template-columns: minmax(0, 1fr); }
 #product-hunt .link-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+.content .ph-ranking-meta,
+.content .ph-ranking-note { margin: 0 0 8px; color: var(--muted); font-size: .78rem; line-height: 1.55; overflow-wrap: anywhere; }
+.content .ph-ranking-note { padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.content .ph-ranking-list { margin: 0; padding: 0; list-style: none; }
+.content .ph-ranking-item {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr) auto;
+  align-items: start;
+  column-gap: 12px;
+  row-gap: 4px;
+  min-width: 0;
+  margin: 0;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--border);
+}
+.ph-ranking-item:last-child { border-bottom: 0; padding-bottom: 0; }
+.ph-ranking-rank { color: var(--accent); font: 700 1rem/1.5 var(--font-mono); text-align: center; }
+.ph-ranking-copy { min-width: 0; }
+.ph-ranking-name { color: var(--text); font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.ph-ranking-name a { color: var(--text); }
+.content .ph-ranking-description { margin: 3px 0 0; color: var(--text-soft); font-size: .86rem; line-height: 1.5; overflow-wrap: anywhere; }
+.ph-ranking-points { color: var(--muted); font: .75rem/1.8 var(--font-mono); white-space: nowrap; }
+.ph-ranking-item > .translation-unavailable { grid-column: 2 / -1; justify-self: start; }
 #module-frontline-signals > .module-grid { grid-template-columns: minmax(0, 1fr); }
 #x-ai-signals .x-signal-disclaimer {
   margin-bottom: 13px;
@@ -765,6 +788,8 @@ body.theme-paper .section h2 { border-bottom: 1px solid var(--border); padding-b
   .module-grid { grid-template-columns: 1fr; }
   .module-source-wide { grid-column: auto; }
   #product-hunt .link-list { grid-template-columns: 1fr; }
+  .content .ph-ranking-item { grid-template-columns: 1.6rem minmax(0, 1fr); column-gap: 9px; }
+  .ph-ranking-points { grid-column: 2; }
   #x-ai-signals .link-list { grid-template-columns: 1fr; }
   .brief-grid { grid-template-columns: 1fr; }
   .collection-status { padding: 10px 12px; }
