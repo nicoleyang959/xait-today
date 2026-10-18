@@ -2,17 +2,10 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [
-        {
-          "badge": "今日",
-          "meta": "2026-10-17 · 采集时显示：27 分钟前 · 打开账号列表",
-          "title": "iPhone Duo发货已排到明年/李斌谈特斯拉会飞：这个我们真没有/美国肯德基换用可口可乐",
-          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "数字生命卡兹克",
@@ -36,9 +29,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-17T08:48:08+08:00",
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T17:07:59+08:00",
+  "capturedAt": "2026-10-18T08:45:35+08:00",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T08:47:51+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-17T08:48:08+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-18T08:45:35+08:00；相对时间以该采集时刻为准。"
 }
