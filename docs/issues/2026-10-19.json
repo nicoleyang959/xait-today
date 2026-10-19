@@ -1,0 +1,1028 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c2534d0883e5be7bb12a3390",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a33255e840769a6e8558c9cf",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-98ad8ea0dc0023c499e9d58a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-da82b4caee88e06f7977de05",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a78b05653527b8a85ea0f1df",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5505de903d218a15bbf0d1fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4e530bbec2d05ac767d1e066",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "YuJunZhiXue/dsh-purge",
+      "url": "https://github.com/YuJunZhiXue/dsh-purge"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b14726734ac3dbee819c47e8",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-68d891c5e16280755a65f87c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-65e8d8a5d1385f860424eec6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "android/skills",
+      "url": "https://github.com/android/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ec45acbc8c8275622c91dc68",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mlabonne/llm-course",
+      "url": "https://github.com/mlabonne/llm-course"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-770d0d1f61ee56f282cd652d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Arekejoker/qwen21-nsfw-pose-skill",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ea144f13b0511fc77aaed65d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Gathin23/tv-vibehack",
+      "url": "https://github.com/Gathin23/tv-vibehack"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0cd1d4c68819fad627583c9d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b5716bc7f5a32b4cd6397f1a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "HeyPuter/everything",
+      "url": "https://github.com/HeyPuter/everything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c3542f8a92f8b7669e5c7fe2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ahwootech/BRUTAL",
+      "url": "https://github.com/ahwootech/BRUTAL"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-318b8429a812af0510ca302a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "chenglou/handwired",
+      "url": "https://github.com/chenglou/handwired"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3834c5e010155468cd4e5d9b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Supermedo/uncharted_pc",
+      "url": "https://github.com/Supermedo/uncharted_pc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7042850b3a2a99e72c844ead",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Caho1/open-claude-ui",
+      "url": "https://github.com/Caho1/open-claude-ui"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ec0dd3f92c5e75de956da14",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-513fb3fbd65eca43ebca7119",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b28348b026b93d959ca32488",
+      "publishedAt": "2026-10-18T20:48:14Z",
+      "sourceId": "hacker-news",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e85a168ef89d20e33fe76758",
+      "publishedAt": "2026-10-17T22:26:47Z",
+      "sourceId": "hacker-news",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c08ff1674b2d88dc07d5c39c",
+      "publishedAt": "2026-10-18T21:09:12Z",
+      "sourceId": "hacker-news",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d7b61e91bd474d6096dddf9e",
+      "publishedAt": "2026-10-19T04:41:46Z",
+      "sourceId": "hacker-news",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b9a3e56271c1144beda20912",
+      "publishedAt": "2026-10-19T05:55:31Z",
+      "sourceId": "hacker-news",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6a2195daf5dd5703cd759c70",
+      "publishedAt": "2026-10-16T17:59:30Z",
+      "sourceId": "arxiv",
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2610.23854v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b5b2f76410e4b0475e6b8dc6",
+      "publishedAt": "2026-10-16T17:58:08Z",
+      "sourceId": "arxiv",
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "url": "https://arxiv.org/abs/2610.23847v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2bcbb5ed703c9eb6de49ce55",
+      "publishedAt": "2026-10-16T17:57:55Z",
+      "sourceId": "arxiv",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.23845v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-57cb7a94310622bd7d92270d",
+      "publishedAt": "2026-10-16T17:56:35Z",
+      "sourceId": "arxiv",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "url": "https://arxiv.org/abs/2610.23839v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-17e118729f5bf8c26d982ef9",
+      "publishedAt": "2026-10-16T17:52:58Z",
+      "sourceId": "arxiv",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2610.23831v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f3ec1358f2b43259f7230d16",
+      "publishedAt": "2026-10-16T17:48:29Z",
+      "sourceId": "arxiv",
+      "title": "Self-Building Labs",
+      "url": "https://arxiv.org/abs/2610.23826v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6a61807255397d247d2ff820",
+      "publishedAt": "2026-10-18T16:11:35-07:00",
+      "sourceId": "product-hunt",
+      "title": "Umbra Mail",
+      "url": "https://www.producthunt.com/products/umbra-mail"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cb303804b6230ffbbfe07595",
+      "publishedAt": "2026-10-12T02:37:41-07:00",
+      "sourceId": "product-hunt",
+      "title": "Kai Resolve by Gleap",
+      "url": "https://www.producthunt.com/products/gleap"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e570af138151b8ce417a90fc",
+      "publishedAt": "2026-10-16T14:44:53-07:00",
+      "sourceId": "product-hunt",
+      "title": "Wally by Willow",
+      "url": "https://www.producthunt.com/products/willow-voice"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-612ea3ff5acc5258fa83dbd8",
+      "publishedAt": "2026-10-17T14:25:08-07:00",
+      "sourceId": "product-hunt",
+      "title": "walkai-talkai",
+      "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d47a79cd329774a77e5e7077",
+      "publishedAt": "2026-09-23T13:15:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "face2social",
+      "url": "https://www.producthunt.com/products/face2social"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-03723ae705cb563fd0f1a734",
+      "publishedAt": "2026-10-18T12:22:44-07:00",
+      "sourceId": "product-hunt",
+      "title": "AutoChart.eu",
+      "url": "https://www.producthunt.com/products/autochart-eu"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3f8fd43572a33e924343a50f",
+      "publishedAt": "2026-10-14T09:47:59-07:00",
+      "sourceId": "product-hunt",
+      "title": "buddylist",
+      "url": "https://www.producthunt.com/products/buddylist-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-19T16:38:57+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3564c7aaea3c02570b1bd392",
+      "publishedAt": "2026-10-18T21:20:15-07:00",
+      "sourceId": "product-hunt",
+      "title": "croft",
+      "url": "https://www.producthunt.com/products/croft-2"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-266844fd2445b310f4506657",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic says it is committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1675e212e837b1f57ee199c9",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: industry execs expect only 7-10 of hundreds of neoclouds to survive, as Nvidia supports them with easier credit terms, site finding, and $20B in leases",
+      "url": "https://www.theinformation.com/articles/neocloud-shakeout-looms-nvidia-lot-lose"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2d62412c2d4899106b0454cf",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-69952c8841583c2c16ff6fef",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s",
+      "url": "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-15d846da84eac01e46cc8184",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sam Altman's World launches a World ID verification suite for banks, bundling tools to verify human and agent identities, its first industry-specific offering",
+      "url": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-08767f69ca778670a3f7d7ec",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Intel unveils its GPU D-series for data centers, featuring up to 480GB of LPDDR5X memory, an unusually large capacity to support demanding inference workloads",
+      "url": "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-be96fb668fbb0ca01672e57b",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Stripe Link data shows agentic transactions increased by 38x and volume of payments by 20x in September, with retail leading in both, and a ~$100 average spend",
+      "url": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-19T16:39:05+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-91e602697bda7f4afa0ec621",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Abby Care, which runs a clinically led, AI-powered platform to train and certify family caregivers, raised an $82M Series C led by Transformation Capital",
+      "url": "https://fortune.com/2026/10/15/startup-abby-care-raises-82-million-to-turn-family-members-into-paid-caregivers/"
+    }
+  ],
+  "date": "2026-10-19",
+  "edition": {
+    "windowEnd": "2026-10-19T08:45:00+08:00",
+    "windowStart": "2026-10-18T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-19T16:39:05+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：31 分钟前 · 打开账号列表",
+              "title": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：5 小时前 · 打开账号列表",
+              "title": "实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：8 小时前 · 打开账号列表",
+              "title": "iPhone Duo溢价一夜缩水超五成/英伟达否认RTX 5090停产/Deepseek公布API网...",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 3 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：5 分钟前 · 打开账号列表",
+              "title": "超13亿！广西Token工厂拿下大单",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：5 分钟前 · 打开账号列表",
+              "title": "华人00后做“本地Muse”，被硅谷AI圈疯抢，a16z和Anthropic都投了",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-19 · 采集时显示：6 小时前 · 打开账号列表",
+              "title": "Lovart 2.0上线个人设计Agent Arti：我给一人公司招了个设计总监",
+              "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+            }
+          ],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        }
+      ],
+      "capturedAt": "2026-10-19T16:37:43+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-19T16:37:43+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "MadsLorentzen/ai-job-search",
+            "url": "https://github.com/MadsLorentzen/ai-job-search"
+          },
+          "Python",
+          "2,232",
+          "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it"
+        ],
+        [
+          {
+            "text": "anthropics/claude-plugins-official",
+            "url": "https://github.com/anthropics/claude-plugins-official"
+          },
+          "Python",
+          "1,175",
+          "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+        ],
+        [
+          {
+            "text": "anomalyco/opencode",
+            "url": "https://github.com/anomalyco/opencode"
+          },
+          "TypeScript",
+          "1,414",
+          "The open source coding agent."
+        ],
+        [
+          {
+            "text": "cursor/plugins",
+            "url": "https://github.com/cursor/plugins"
+          },
+          "TypeScript",
+          "350",
+          "Cursor plugin specification and official plugins"
+        ],
+        [
+          {
+            "text": "ruvnet/ruflo",
+            "url": "https://github.com/ruvnet/ruflo"
+          },
+          "TypeScript",
+          "513",
+          "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning "
+        ],
+        [
+          {
+            "text": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory"
+          },
+          "Rust",
+          "512",
+          "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "Arekejoker/qwen21-nsfw-pose-skill",
+            "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill"
+          },
+          "Python",
+          "3211",
+          "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
+        ],
+        [
+          {
+            "text": "Gathin23/tv-vibehack",
+            "url": "https://github.com/Gathin23/tv-vibehack"
+          },
+          "Java",
+          "2907",
+          "Your TV, minus the ads. Debloat any Android TV or Google TV over Wi-Fi and swap the ad-filled home screen for a clean Apple TV-style launcher. No root, fully reversible."
+        ],
+        [
+          {
+            "text": "feder-cr/git-ai",
+            "url": "https://github.com/feder-cr/git-ai"
+          },
+          "Go",
+          "2338",
+          "Git designed for AI agents."
+        ],
+        [
+          {
+            "text": "HeyPuter/everything",
+            "url": "https://github.com/HeyPuter/everything"
+          },
+          "JavaScript",
+          "2261",
+          "We're rebuilding and open-sourcing the world’s software from scratch."
+        ],
+        [
+          {
+            "text": "ahwootech/BRUTAL",
+            "url": "https://github.com/ahwootech/BRUTAL"
+          },
+          "C#",
+          "1935",
+          "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under "
+        ],
+        [
+          {
+            "text": "chenglou/handwired",
+            "url": "https://github.com/chenglou/handwired"
+          },
+          "TypeScript",
+          "1758",
+          "Turn your regular JavaScript code into a neural net."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-19 · 379 互动/积分 · 184 评论",
+          "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+          "url": "https://arxiv.org/abs/2610.18861"
+        },
+        {
+          "meta": "发布 2026-10-18 · 174 互动/积分 · 122 评论",
+          "title": "I built a programming language that LLMs can't use",
+          "url": "https://blog.picheta.me/post/killswitch-lang/"
+        },
+        {
+          "meta": "发布 2026-10-19 · 151 互动/积分 · 95 评论",
+          "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+          "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+        },
+        {
+          "meta": "发布 2026-10-19 · 127 互动/积分 · 42 评论",
+          "title": "DeepSeek V4.1 Flash 1017 (Max)",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+        },
+        {
+          "meta": "发布 2026-10-19 · 13 互动/积分 · 3 评论",
+          "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+          "url": "https://crystl.dev/guides/tmux-for-ai-agents/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+          "url": "https://arxiv.org/abs/2610.23854v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+          "url": "https://arxiv.org/abs/2610.23847v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+          "url": "https://arxiv.org/abs/2610.23845v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+          "url": "https://arxiv.org/abs/2610.23839v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-19",
+          "title": "Umbra Mail",
+          "url": "https://www.producthunt.com/products/umbra-mail"
+        },
+        {
+          "meta": "发布 2026-10-12",
+          "title": "Kai Resolve by Gleap",
+          "url": "https://www.producthunt.com/products/gleap"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Wally by Willow",
+          "url": "https://www.producthunt.com/products/willow-voice"
+        },
+        {
+          "meta": "发布 2026-10-18",
+          "title": "walkai-talkai",
+          "url": "https://www.producthunt.com/products/walkai-talkai"
+        },
+        {
+          "meta": "发布 2026-09-24",
+          "title": "face2social",
+          "url": "https://www.producthunt.com/products/face2social"
+        },
+        {
+          "meta": "发布 2026-10-19",
+          "title": "AutoChart.eu",
+          "url": "https://www.producthunt.com/products/autochart-eu"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic says it is committing 5% of its shares to a Public Benefit Fund, for a total of ~20% with co-founder and staff pledges, plus 2% per 50% valuation rise",
+          "url": "https://www.anthropic.com/news/public-benefit-fund"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Nscale faces investor pushback on its ~$30B IPO valuation, with some urging a lower valuation of $16B to $19B, as Microsoft exits a UK data center deal",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Microsoft cancels its deal to be the anchor tenant and rent 23K Nvidia AI chips at Nscale's Essex, UK, data center, which may not get grid power until the 2030s",
+          "url": "https://www.telegraph.co.uk/business/2026/10/18/microsoft-axes-ai-deal-setback-uk-data-centre-pioneer/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Intel unveils its GPU D-series for data centers, featuring up to 480GB of LPDDR5X memory, an unusually large capacity to support demanding inference workloads",
+          "url": "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Stripe Link data shows agentic transactions increased by 38x and volume of payments by 20x in September, with retail leading in both, and a ~$100 average spend",
+          "url": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "Build, test, and deploy MCP servers in one place",
+          "rank": 1,
+          "title": "NitroStack",
+          "url": "https://www.producthunt.com/products/nitrostack"
+        },
+        {
+          "description": "Your Obsidian vault as a living profile and linked garden",
+          "rank": 2,
+          "title": "Caldera",
+          "url": "https://www.producthunt.com/products/caldera"
+        },
+        {
+          "description": "Switch AI agents without re-explaining your work",
+          "rank": 3,
+          "title": "Notion: Context for your agents",
+          "url": "https://www.producthunt.com/products/notion"
+        },
+        {
+          "description": "Voice journal to understand yourself through art and science",
+          "rank": 4,
+          "title": "Emochi",
+          "url": "https://www.producthunt.com/products/emochi-2"
+        },
+        {
+          "description": "A personal trainer powered by Apple Intelligence",
+          "rank": 5,
+          "title": "Train with Pasta",
+          "url": "https://www.producthunt.com/products/train-with-pasta"
+        },
+        {
+          "description": "Find public restrooms fast",
+          "rank": 6,
+          "title": "LooGo",
+          "url": "https://www.producthunt.com/products/loogo"
+        },
+        {
+          "description": "The world's most powerful agents, with the UX they deserve",
+          "rank": 7,
+          "title": "Craft Agents",
+          "url": "https://www.producthunt.com/products/craft-agents"
+        },
+        {
+          "description": "Compare GPU rental prices across cloud providers",
+          "rank": 8,
+          "title": "GPU Terminal by Context.dev",
+          "url": "https://www.producthunt.com/products/context-dev"
+        },
+        {
+          "description": "The linter and formatter for agentic development",
+          "rank": 9,
+          "title": "Ultracite v8",
+          "url": "https://www.producthunt.com/products/ultracite"
+        },
+        {
+          "description": "Land for sale that actually borders public land",
+          "rank": 10,
+          "title": "Unfenced",
+          "url": "https://www.producthunt.com/products/unfenced"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-19T16:38:57+08:00",
+        "date": "2026-10-17",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/17"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "hacker-news",
+      "itemCount": 5,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:39:05+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-19T16:39:05+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:38:57+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-19T16:38:57+08:00",
+      "message": "已核验官方公开日榜 Top 10，部分产品链接或积分未展示",
+      "status": "partial"
+    },
+    {
+      "checkedAt": "2026-10-19T16:37:43+08:00",
+      "id": "wechat-appso",
+      "itemCount": 3,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-19T16:37:43+08:00",
+      "message": "今日 3 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:37:43+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-19T16:37:43+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-19T16:37:43+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 2,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-19T16:37:43+08:00",
+      "message": "今日 2 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-19T16:37:43+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 1,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-19T16:37:43+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}

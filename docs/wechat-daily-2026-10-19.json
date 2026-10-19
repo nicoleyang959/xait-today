@@ -1,0 +1,76 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：31 分钟前 · 打开账号列表",
+          "title": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：5 小时前 · 打开账号列表",
+          "title": "实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：8 小时前 · 打开账号列表",
+          "title": "iPhone Duo溢价一夜缩水超五成/英伟达否认RTX 5090停产/Deepseek公布API网...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 3 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：5 分钟前 · 打开账号列表",
+          "title": "超13亿！广西Token工厂拿下大单",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：5 分钟前 · 打开账号列表",
+          "title": "华人00后做“本地Muse”，被硅谷AI圈疯抢，a16z和Anthropic都投了",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日 2 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-19 · 采集时显示：6 小时前 · 打开账号列表",
+          "title": "Lovart 2.0上线个人设计Agent Arti：我给一人公司招了个设计总监",
+          "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    }
+  ],
+  "capturedAt": "2026-10-19T16:37:43+08:00",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T16:39:05+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-19T16:37:43+08:00；相对时间以该采集时刻为准。"
+}
