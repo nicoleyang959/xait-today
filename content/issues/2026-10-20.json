@@ -1,0 +1,943 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c2534d0883e5be7bb12a3390",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-98ad8ea0dc0023c499e9d58a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5505de903d218a15bbf0d1fe",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a21097d0477b2e9669cc46f2",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a78b05653527b8a85ea0f1df",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b14726734ac3dbee819c47e8",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6d03f867fb256a790ce32a7a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-582e0dad2f7bb849ade4da2d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "withmarbleapp/os-taxonomy",
+      "url": "https://github.com/withmarbleapp/os-taxonomy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b021719b5aabcffbea1ed223",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-68d891c5e16280755a65f87c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2d6f7a113a10c5e28a67add2",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5be4f564bf7d4ff472782375",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c4f15f66fa1847bd5822eade",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0cd1d4c68819fad627583c9d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c3542f8a92f8b7669e5c7fe2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ahwootech/BRUTAL",
+      "url": "https://github.com/ahwootech/BRUTAL"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-318b8429a812af0510ca302a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "chenglou/handwired",
+      "url": "https://github.com/chenglou/handwired"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ec0dd3f92c5e75de956da14",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3834c5e010155468cd4e5d9b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Supermedo/uncharted_pc",
+      "url": "https://github.com/Supermedo/uncharted_pc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-513fb3fbd65eca43ebca7119",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7042850b3a2a99e72c844ead",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Caho1/open-claude-ui",
+      "url": "https://github.com/Caho1/open-claude-ui"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-46aa5e44727a246cb1d226aa",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "xscreensaver-official/xscreensaver",
+      "url": "https://github.com/xscreensaver-official/xscreensaver"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d7cea7c97d1c2f1bc900d38f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "aicodeking/leanrea",
+      "url": "https://github.com/aicodeking/leanrea"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-fadd5a1c306615626820c465",
+      "publishedAt": "2026-10-19T11:24:34Z",
+      "sourceId": "hacker-news",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6a2195daf5dd5703cd759c70",
+      "publishedAt": "2026-10-16T17:59:30Z",
+      "sourceId": "arxiv",
+      "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2610.23854v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b5b2f76410e4b0475e6b8dc6",
+      "publishedAt": "2026-10-16T17:58:08Z",
+      "sourceId": "arxiv",
+      "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+      "url": "https://arxiv.org/abs/2610.23847v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2bcbb5ed703c9eb6de49ce55",
+      "publishedAt": "2026-10-16T17:57:55Z",
+      "sourceId": "arxiv",
+      "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.23845v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-57cb7a94310622bd7d92270d",
+      "publishedAt": "2026-10-16T17:56:35Z",
+      "sourceId": "arxiv",
+      "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+      "url": "https://arxiv.org/abs/2610.23839v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-17e118729f5bf8c26d982ef9",
+      "publishedAt": "2026-10-16T17:52:58Z",
+      "sourceId": "arxiv",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2610.23831v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f3ec1358f2b43259f7230d16",
+      "publishedAt": "2026-10-16T17:48:29Z",
+      "sourceId": "arxiv",
+      "title": "Self-Building Labs",
+      "url": "https://arxiv.org/abs/2610.23826v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-40d934efa865bdf184fbefc1",
+      "publishedAt": "2026-10-16T17:44:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "Lookout (for Slack)",
+      "url": "https://www.producthunt.com/products/lookout-for-slack"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-612ea3ff5acc5258fa83dbd8",
+      "publishedAt": "2026-10-17T14:25:08-07:00",
+      "sourceId": "product-hunt",
+      "title": "walkai-talkai",
+      "url": "https://www.producthunt.com/products/walkai-talkai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e75c93b12a3b48f4d3db11fb",
+      "publishedAt": "2026-10-16T00:06:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "DoOne",
+      "url": "https://www.producthunt.com/products/doone-focus-tasks-with-integration"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-40e996a96f281067b21ac586",
+      "publishedAt": "2026-10-17T00:14:53-07:00",
+      "sourceId": "product-hunt",
+      "title": "Starkomand",
+      "url": "https://www.producthunt.com/products/starkomand"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-9ec584fae2ce47c70e8a2ce7",
+      "publishedAt": "2026-10-18T06:59:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "Triwarden",
+      "url": "https://www.producthunt.com/products/triwarden"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-03723ae705cb563fd0f1a734",
+      "publishedAt": "2026-10-18T12:22:44-07:00",
+      "sourceId": "product-hunt",
+      "title": "AutoChart.eu",
+      "url": "https://www.producthunt.com/products/autochart-eu"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-fc7296d2009b040a4db2b6ab",
+      "publishedAt": "2026-10-18T20:21:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "Figma Specs",
+      "url": "https://www.producthunt.com/products/figma"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-20T08:47:40+08:00",
+      "dateEvidence": "exact",
+      "id": "article-53c736e7aae19c4b1dac6b52",
+      "publishedAt": "2026-10-18T17:12:27-07:00",
+      "sourceId": "product-hunt",
+      "title": "Point and Yap",
+      "url": "https://www.producthunt.com/products/point-and-yap"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b6f7084f0ec119e04b1982fe",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "The US DHS orders all federal civilian agencies to remove DeepSeek's tech from their IT systems and prohibits future procurement of its products and services",
+      "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d?st=m6DV2n&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-63df216bc1362adcd9c82850",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple announces a “Pro and tell” event on October 28 at 10am PT in LA, where its first touchscreen MacBook, a 14-inch MacBook Pro with M6, and more are expected",
+      "url": "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a25d3d5774e45d7b158d3d45",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "MiniMax launches M3.1 Flash, saying it delivers “a generational leap” in agentic tasks, coding, computer use, and cybersecurity, with weights due October 23",
+      "url": "https://www.minimax.io/blog/minimax-m31f"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-128cbdb059a9d900d9142e8c",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments",
+      "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-684bc3b88c0a64c31f629c78",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Deutsche Telekom, Orange, Telefónica, and Vodafone agree to explore a joint bid to offer “direct-to-device” satellite service in Europe, challenging Starlink",
+      "url": "https://www.ft.com/content/555bbf91-4c38-43ce-94b6-90f7fc04e82c"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8e4c0c191b8fdb7c4d2df3a7",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, like Deere and SharkNinja, spending ~$5,000 in tokens",
+      "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6f832fa9aff6c40545d6ceba",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Waymo aims to expand its fleet to 8K by the end of this year, up from 4K today, and to 20K by the end of 2027, after raising $5B in debt this month",
+      "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-20T08:47:47+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d261c8bedade5c24937a4129",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June",
+      "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/"
+    }
+  ],
+  "date": "2026-10-20",
+  "edition": {
+    "windowEnd": "2026-10-20T08:45:00+08:00",
+    "windowStart": "2026-10-19T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-20T08:47:50+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-20 · 采集时显示：45 分钟前 · 打开账号列表",
+              "title": "苹果首款触屏MacBook Pro或下周发布/豆包辟谣「国内过半算力造爽剧」/马斯克：明年向美国每名...",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-20 · 采集时显示：45 分钟前 · 打开账号列表",
+              "title": "免费两周！我让Step 5 Preview在WorkBuddy里干了6个活，最难的是一台机器人膝关节",
+              "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+            }
+          ],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        }
+      ],
+      "capturedAt": "2026-10-20T08:46:56+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-20T08:46:56+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "MadsLorentzen/ai-job-search",
+            "url": "https://github.com/MadsLorentzen/ai-job-search"
+          },
+          "Python",
+          "3,856",
+          "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it"
+        ],
+        [
+          {
+            "text": "anomalyco/opencode",
+            "url": "https://github.com/anomalyco/opencode"
+          },
+          "TypeScript",
+          "1,311",
+          "The open source coding agent."
+        ],
+        [
+          {
+            "text": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory"
+          },
+          "Rust",
+          "666",
+          "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors"
+        ],
+        [
+          {
+            "text": "Comfy-Org/ComfyUI",
+            "url": "https://github.com/Comfy-Org/ComfyUI"
+          },
+          "Python",
+          "1,011",
+          "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+        ],
+        [
+          {
+            "text": "ruvnet/ruflo",
+            "url": "https://github.com/ruvnet/ruflo"
+          },
+          "TypeScript",
+          "564",
+          "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning "
+        ],
+        [
+          {
+            "text": "stablyai/orca",
+            "url": "https://github.com/stablyai/orca"
+          },
+          "TypeScript",
+          "1,590",
+          "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "Gathin23/cleanyourtv",
+            "url": "https://github.com/Gathin23/cleanyourtv"
+          },
+          "Java",
+          "5285",
+          "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
+        ],
+        [
+          {
+            "text": "feder-cr/git-ai",
+            "url": "https://github.com/feder-cr/git-ai"
+          },
+          "Go",
+          "2453",
+          "Git designed for AI agents."
+        ],
+        [
+          {
+            "text": "ahwootech/BRUTAL",
+            "url": "https://github.com/ahwootech/BRUTAL"
+          },
+          "C#",
+          "1992",
+          "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under "
+        ],
+        [
+          {
+            "text": "chenglou/handwired",
+            "url": "https://github.com/chenglou/handwired"
+          },
+          "TypeScript",
+          "1810",
+          "Turn your regular JavaScript code into a neural net."
+        ],
+        [
+          {
+            "text": "ly05010419/MacNativeGames",
+            "url": "https://github.com/ly05010419/MacNativeGames"
+          },
+          "C",
+          "1730",
+          "未提供"
+        ],
+        [
+          {
+            "text": "Supermedo/uncharted_pc",
+            "url": "https://github.com/Supermedo/uncharted_pc"
+          },
+          "C++",
+          "1583",
+          "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-19 · 242 互动/积分 · 382 评论",
+          "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+          "url": "https://news.ycombinator.com/item?id=50151036"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+          "url": "https://arxiv.org/abs/2610.23854v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models",
+          "url": "https://arxiv.org/abs/2610.23847v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+          "url": "https://arxiv.org/abs/2610.23845v1"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "DiscoveryRSI: Recursively Learning to Discover Valuable Hypotheses",
+          "url": "https://arxiv.org/abs/2610.23839v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Lookout (for Slack)",
+          "url": "https://www.producthunt.com/products/lookout-for-slack"
+        },
+        {
+          "meta": "发布 2026-10-18",
+          "title": "walkai-talkai",
+          "url": "https://www.producthunt.com/products/walkai-talkai"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "DoOne",
+          "url": "https://www.producthunt.com/products/doone-focus-tasks-with-integration"
+        },
+        {
+          "meta": "发布 2026-10-17",
+          "title": "Starkomand",
+          "url": "https://www.producthunt.com/products/starkomand"
+        },
+        {
+          "meta": "发布 2026-10-18",
+          "title": "Triwarden",
+          "url": "https://www.producthunt.com/products/triwarden"
+        },
+        {
+          "meta": "发布 2026-10-19",
+          "title": "AutoChart.eu",
+          "url": "https://www.producthunt.com/products/autochart-eu"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "The US DHS orders all federal civilian agencies to remove DeepSeek's tech from their IT systems and prohibits future procurement of its products and services",
+          "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d?st=m6DV2n&reflink=desktopwebshare_permalink"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "MiniMax launches M3.1 Flash, saying it delivers “a generational leap” in agentic tasks, coding, computer use, and cybersecurity, with weights due October 23",
+          "url": "https://www.minimax.io/blog/minimax-m31f"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Microsoft debuts new security tools in Microsoft 365 E7 and its Project Perception system that treat AI agents as potential insider threats via risk assessments",
+          "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Researcher: a Chinese-speaking hacker used AI agents to target 1,200+ websites and breach 100+ entities, like Deere and SharkNinja, spending ~$5,000 in tokens",
+          "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Town, which develops enterprise AI assistants, raised a $108M Series B at a $1B valuation, after announcing a $55M Series A in June",
+          "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "Open-source Superhuman alternative",
+          "rank": 1,
+          "title": "Inbox Zero",
+          "url": "https://www.producthunt.com/products/inbox-zero-2"
+        },
+        {
+          "description": "1-1 Live Presentations at Scale with AI.",
+          "rank": 2,
+          "title": "MyLens",
+          "url": "https://www.producthunt.com/products/mylens-ai"
+        },
+        {
+          "description": "See what your coding agent sends. Mask what you can.",
+          "rank": 3,
+          "title": "shim-cli",
+          "url": "https://www.producthunt.com/products/shim-cli"
+        },
+        {
+          "description": "The most powerful Git client with a better CLI experience",
+          "rank": 4,
+          "title": "Tower 18 for Mac",
+          "url": "https://www.producthunt.com/products/tower"
+        },
+        {
+          "description": "Instant meetings from your mac menu bar",
+          "rank": 5,
+          "title": "MeetPaw",
+          "url": "https://www.producthunt.com/products/meetpaw"
+        },
+        {
+          "description": "Pocket-sized wireless gamepad with all 18 inputs",
+          "rank": 6,
+          "title": "XBOX Nano Controller",
+          "url": "https://www.producthunt.com/products/microsoft-xbox-series-s"
+        },
+        {
+          "description": "Production incidents: investigated, proven, fixed",
+          "rank": 7,
+          "title": "3AM Super Intelligence",
+          "url": "https://www.producthunt.com/products/3am-super-intelligence"
+        },
+        {
+          "description": "Ask anything. Then play it, Duolingo-style.",
+          "rank": 8,
+          "title": "Tomo for ChatGPT",
+          "url": "https://www.producthunt.com/products/tomo-for-chatgpt"
+        },
+        {
+          "description": "Amazon's personal AI memory, now on your wrist or phone",
+          "rank": 9,
+          "title": "Bee Frontier and Bee Eclipse",
+          "url": "https://www.producthunt.com/products/bee-frontier-and-bee-eclipse"
+        },
+        {
+          "description": "Lightweight AI dictation for Mac that sounds like you",
+          "rank": 10,
+          "title": "Openbroca",
+          "url": "https://www.producthunt.com/products/openbroca"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-20T08:47:40+08:00",
+        "date": "2026-10-18",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/18"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "hacker-news",
+      "itemCount": 1,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:47+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-20T08:47:47+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:47:40+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-20T08:47:40+08:00",
+      "message": "已核验官方公开日榜 Top 10，部分产品链接或积分未展示",
+      "status": "partial"
+    },
+    {
+      "checkedAt": "2026-10-20T08:46:56+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-20T08:46:56+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-20T08:46:56+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-20T08:46:56+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-20T08:46:56+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-20T08:46:56+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-20T08:46:56+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 1,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-20T08:46:56+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
