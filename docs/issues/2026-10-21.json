@@ -1,0 +1,640 @@
+{
+  "articles": [
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a4f9af6b248bb19d6e9d0f46",
+      "publishedAt": "2026-10-20T09:08:54Z",
+      "sourceId": "hacker-news",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cc51ba5e24fb00d83e895ec4",
+      "publishedAt": "2026-10-20T15:09:29Z",
+      "sourceId": "hacker-news",
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-043b2715d77f13ab135d439e",
+      "publishedAt": "2026-10-20T17:10:31Z",
+      "sourceId": "hacker-news",
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "url": "https://research.poh.org/bot-benchmarking-2026/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-944ad79a2da0d3d6cf7753e5",
+      "publishedAt": "2026-10-21T00:11:30Z",
+      "sourceId": "hacker-news",
+      "title": "Microagi: Accelerating Embodied AGI",
+      "url": "https://www.microagi.ai/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-afb324348073426f7cb7e857",
+      "publishedAt": "2026-10-19T17:59:58Z",
+      "sourceId": "arxiv",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "url": "https://arxiv.org/abs/2610.26860v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-fd883dd962ff50ed6f341df7",
+      "publishedAt": "2026-10-19T17:59:58Z",
+      "sourceId": "arxiv",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "url": "https://arxiv.org/abs/2610.26861v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e515cbe1a5419f6f20245b6f",
+      "publishedAt": "2026-10-19T17:59:56Z",
+      "sourceId": "arxiv",
+      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.26856v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2929dd4fad094a1784669a8a",
+      "publishedAt": "2026-10-19T17:59:49Z",
+      "sourceId": "arxiv",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "url": "https://arxiv.org/abs/2610.26852v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-018409f13c32871c01909090",
+      "publishedAt": "2026-10-19T17:59:30Z",
+      "sourceId": "arxiv",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "url": "https://arxiv.org/abs/2610.26848v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-71aada6dc65ffd0378a95e22",
+      "publishedAt": "2026-10-19T17:59:19Z",
+      "sourceId": "arxiv",
+      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+      "url": "https://arxiv.org/abs/2610.26847v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-aa5d6cba777c1ad7c2dbdb6b",
+      "publishedAt": "2026-10-18T20:42:11-07:00",
+      "sourceId": "product-hunt",
+      "title": "Stella",
+      "url": "https://www.producthunt.com/products/stella-5"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-445c3e174ecf469f02aa0a0c",
+      "publishedAt": "2026-10-19T10:51:17-07:00",
+      "sourceId": "product-hunt",
+      "title": "Kling 4.0",
+      "url": "https://www.producthunt.com/products/kling-4-0-4"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-dd1f90054ea9786d92c27738",
+      "publishedAt": "2026-10-19T11:29:25-07:00",
+      "sourceId": "product-hunt",
+      "title": "Mintlify Autopilot",
+      "url": "https://www.producthunt.com/products/mintlify"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4dbf354a45e63385a13eef5f",
+      "publishedAt": "2026-10-19T16:12:51-07:00",
+      "sourceId": "product-hunt",
+      "title": "RunInfra",
+      "url": "https://www.producthunt.com/products/runinfra"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c0a638b0bc1fc46b1248db73",
+      "publishedAt": "2026-10-19T10:02:56-07:00",
+      "sourceId": "product-hunt",
+      "title": "reception",
+      "url": "https://www.producthunt.com/products/reception"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cf9e5453ac9b2754453b3918",
+      "publishedAt": "2026-10-19T05:27:05-07:00",
+      "sourceId": "product-hunt",
+      "title": "/dev/null",
+      "url": "https://www.producthunt.com/products/dev-null"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-310c27b27aa91be990532514",
+      "publishedAt": "2026-10-19T12:43:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "Harness²",
+      "url": "https://www.producthunt.com/products/harness-104"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e2b7fad36e0e70bda7c087ff",
+      "publishedAt": "2026-10-19T01:26:58-07:00",
+      "sourceId": "product-hunt",
+      "title": "OpenShip Cloud",
+      "url": "https://www.producthunt.com/products/openship-2"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b6fecf4fc4cda79912863b96",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1?st=YKUo1r"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-82ee451aaf241d3cc69e7d6a",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Report: Anthropic's draft S-1 shows it spent ~$9B on compute and infrastructure in H1, up from $2.3B a year earlier, and could spend $750B in the coming years",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-63c3d3d7bf18fef7b611bec6",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Eight intermediate TLS certificates from eMudhra with private key sizes of just 3 to 8 bits were compromised; browser makers and major apps have blocked them",
+      "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0da899d08669ea14394c7a67",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger and calls the possibility of a Tesla-SpaceX merger a “good idea”",
+      "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2b45b0e013d3311c7ff92370",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "SpaceX reports Q3 revenue up 161% YoY to $14.58B, vs. $12.72B est., AI revenue up 830% to $7.56B, and AI operating income of $431M, up from a loss of $1.7B",
+      "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-90ebddb468a1c23ffa230c5d",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "SpaceX reports Q3 capex of $19.6B, up from $6.9B a year earlier, and Q3 connectivity revenue, which includes Starlink, up 69% YoY to $5.2B",
+      "url": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d?st=eQFqUL&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f9044620ea99e8b927e67047",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "PHP development team plans to release updates tomorrow to address two vulnerabilities, each rated 9.2; security researchers at watchTowr say they are RCE flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71c9e27714aff5a91c054f39",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Elon Musk ordered Starshield slowdown in Ukraine and discussed it with Trump after the issue became public; some US officials say he acted unilaterally",
+      "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?st=SfFvsh&reflink=desktopwebshare_permalink"
+    }
+  ],
+  "date": "2026-10-21",
+  "edition": {
+    "windowEnd": "2026-10-21T08:45:00+08:00",
+    "windowStart": "2026-10-20T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-21T08:51:44+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-21T08:46:09+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-21T08:46:09+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "github-trending",
+      "kind": "blocks",
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接失败或超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "weekly-high-stars",
+      "kind": "blocks",
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-20 · 2115 互动/积分 · 827 评论",
+          "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+          "url": "https://github.com/deepseek-ai/DeepInfer"
+        },
+        {
+          "meta": "发布 2026-10-20 · 43 互动/积分 · 16 评论",
+          "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+          "url": "https://news.ycombinator.com/item?id=50167583"
+        },
+        {
+          "meta": "发布 2026-10-21 · 21 互动/积分 · 0 评论",
+          "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+          "url": "https://research.poh.org/bot-benchmarking-2026/"
+        },
+        {
+          "meta": "发布 2026-10-21 · 4 互动/积分 · 0 评论",
+          "title": "Microagi: Accelerating Embodied AGI",
+          "url": "https://www.microagi.ai/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-20",
+          "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+          "url": "https://arxiv.org/abs/2610.26860v1"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+          "url": "https://arxiv.org/abs/2610.26861v1"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+          "url": "https://arxiv.org/abs/2610.26856v1"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+          "url": "https://arxiv.org/abs/2610.26852v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-19",
+          "title": "Stella",
+          "url": "https://www.producthunt.com/products/stella-5"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "Kling 4.0",
+          "url": "https://www.producthunt.com/products/kling-4-0-4"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "Mintlify Autopilot",
+          "url": "https://www.producthunt.com/products/mintlify"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "RunInfra",
+          "url": "https://www.producthunt.com/products/runinfra"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "reception",
+          "url": "https://www.producthunt.com/products/reception"
+        },
+        {
+          "meta": "发布 2026-10-19",
+          "title": "/dev/null",
+          "url": "https://www.producthunt.com/products/dev-null"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges",
+          "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1?st=YKUo1r"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Report: Anthropic's draft S-1 shows it spent ~$9B on compute and infrastructure in H1, up from $2.3B a year earlier, and could spend $750B in the coming years",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "SpaceX reports Q3 revenue up 161% YoY to $14.58B, vs. $12.72B est., AI revenue up 830% to $7.56B, and AI operating income of $431M, up from a loss of $1.7B",
+          "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "Run AI agents on one Mac and use its windows on another",
+          "rank": 1,
+          "title": "Beam.win",
+          "url": "https://www.producthunt.com/products/beam-win"
+        },
+        {
+          "description": "A container for your context that lives on the Figma canvas",
+          "rank": 2,
+          "title": "Figma Specs",
+          "url": "https://www.producthunt.com/products/figma"
+        },
+        {
+          "description": "The senior personal assistant that works inside WhatsApp",
+          "rank": 3,
+          "title": "readywhen",
+          "url": "https://www.producthunt.com/products/readywhen"
+        },
+        {
+          "description": "Talk to your AI coding agent over a walkie-talkie",
+          "rank": 4,
+          "title": "walkai-talkai",
+          "url": "https://www.producthunt.com/products/walkai-talkai"
+        },
+        {
+          "description": "Support that does the digging for you.",
+          "rank": 5,
+          "title": "Kai Resolve by Gleap",
+          "url": "https://www.producthunt.com/products/gleap"
+        },
+        {
+          "description": "Your Scribe agent that learns how you write",
+          "rank": 6,
+          "title": "Wally by Willow",
+          "url": "https://www.producthunt.com/products/willow-voice"
+        },
+        {
+          "description": "Highly efficient agentic 501B parameter open model",
+          "rank": 7,
+          "title": "Beam",
+          "url": "https://www.producthunt.com/products/beam-13"
+        },
+        {
+          "description": "Chat with your coding agents like it's 2005",
+          "rank": 8,
+          "title": "buddylist",
+          "url": "https://www.producthunt.com/products/buddylist-2"
+        },
+        {
+          "description": "Open-source code-first video for AGI era",
+          "rank": 9,
+          "title": "Framefields",
+          "url": "https://www.producthunt.com/products/framefields"
+        },
+        {
+          "description": "A keyboard-driven home for your AWS resources",
+          "rank": 10,
+          "title": "Lazy AWS",
+          "url": "https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-21T08:51:08+08:00",
+        "date": "2026-10-19",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/19"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "github-trending",
+      "itemCount": 0,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 0,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": null,
+      "message": "公开来源连接失败或超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "hacker-news",
+      "itemCount": 4,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:44+08:00",
+      "id": "techmeme",
+      "itemCount": 3,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-21T08:51:44+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "message": "已核验官方公开日榜 Top 10，部分产品链接或积分未展示",
+      "status": "partial"
+    },
+    {
+      "checkedAt": "2026-10-21T08:46:09+08:00",
+      "id": "wechat-appso",
+      "itemCount": 0,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-21T08:46:09+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-21T08:46:09+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-21T08:46:09+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-21T08:46:09+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-21T08:46:09+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-21T08:46:09+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-21T08:46:09+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
