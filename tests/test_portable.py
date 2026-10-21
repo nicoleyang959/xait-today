@@ -252,6 +252,25 @@ class PortableCommandTests(unittest.TestCase):
         from datetime import date, timedelta
         previous = (date.fromisoformat(original["date"]) - timedelta(days=1)).isoformat()
 
+        # This validator test needs one old article, regardless of whether the
+        # latest real issue happens to contain any WeChat posts.  The fixture
+        # exists only in the temporary checkout, never in published content.
+        wechat_fixture = next(
+            section for section in original["sections"] if section["kind"] == "wechat"
+        )
+        for account in wechat_fixture["accounts"]:
+            account["items"] = []
+        wechat_fixture["accounts"][0]["items"] = [{
+            "badge": "最近", "title": "Offline WeChat metadata fixture",
+            "meta": previous + " · fixture",
+            "url": "https://example.org/wechat-fixture",
+        }]
+        if original.get("schemaVersion") == 2:
+            original["articles"] = [
+                article for article in original["articles"]
+                if not article["sourceId"].startswith("wechat-")
+            ]
+
         for mode in ("stale", "fresh", "today-badge", "future"):
             issue = json.loads(json.dumps(original))
             wechat = next(section for section in issue["sections"] if section["kind"] == "wechat")
@@ -276,6 +295,44 @@ class PortableCommandTests(unittest.TestCase):
             else:
                 self.assertNotEqual(0, result.returncode)
                 self.assertEqual(before, tree_digest(repository / "docs"))
+
+    def test_empty_wechat_metadata_builds_without_inventing_posts(self) -> None:
+        temporary, repository = self.make_checkout()
+        self.addCleanup(temporary.cleanup)
+        latest = sorted((repository / "content" / "issues").glob("*.json"))[-1]
+        original = json.loads(latest.read_text(encoding="utf-8"))
+        from datetime import date, timedelta
+        previous = (date.fromisoformat(original["date"]) - timedelta(days=1)).isoformat()
+
+        for stale in (False, True):
+            with self.subTest(stale=stale):
+                issue = json.loads(json.dumps(original))
+                wechat = next(section for section in issue["sections"] if section["kind"] == "wechat")
+                captured_day = previous if stale else issue["date"]
+                wechat["capturedAt"] = captured_day + "T08:45:00+08:00"
+                for account in wechat["accounts"]:
+                    account.update(
+                        items=[], statusTone="stale" if stale else "quiet",
+                        status=("沿用 " + previous + " 快照") if stale else "今日未检出新文章",
+                    )
+                latest.write_text(json.dumps(issue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                input_digest = tree_digest(repository / "content")
+                run_cli(repository, "build")
+                run_cli(repository, "check")
+                self.assertEqual(input_digest, tree_digest(repository / "content"))
+                public_issue = json.loads((repository / "docs" / "issues" / latest.name).read_text(encoding="utf-8"))
+                public_wechat = next(section for section in public_issue["sections"] if section["kind"] == "wechat")
+                self.assertEqual(4, len(public_wechat["accounts"]))
+                self.assertTrue(all(not account["items"] for account in public_wechat["accounts"]))
+                if public_issue.get("schemaVersion") == 2:
+                    self.assertFalse(any(article["sourceId"].startswith("wechat-") for article in public_issue["articles"]))
+                    wechat_sources = [source for source in public_issue["sources"] if source["id"].startswith("wechat-")]
+                    self.assertEqual(4, len(wechat_sources))
+                    self.assertTrue(all(
+                        source["itemCount"] == 0
+                        and source["status"] == ("stale" if stale else "empty")
+                        for source in wechat_sources
+                    ))
 
     def test_source_health_section_is_hidden_from_public_pages(self) -> None:
         temporary, repository = self.make_checkout()

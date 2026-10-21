@@ -29,6 +29,38 @@ def latest_v2_issue():
     raise AssertionError("Keep at least one v2 issue for source policy tests")
 
 
+GITHUB_SOURCE_IDS = ("github-trending", "weekly-high-stars")
+
+
+def with_github_source_state(status):
+    """Explicit offline fixtures, independent of today's network availability."""
+    issue = latest_v2_issue()
+    issue["sections"] = [section for section in issue["sections"] if section["id"] not in GITHUB_SOURCE_IDS]
+    issue["articles"] = [article for article in issue["articles"] if article["sourceId"] not in GITHUB_SOURCE_IDS]
+    for source_id in GITHUB_SOURCE_IDS:
+        source = next(source for source in issue["sources"] if source["id"] == source_id)
+        maximum = xait.SECTION_DISPLAY_LIMITS[source_id][1]
+        source.update(
+            status=status, itemCount=maximum + 3 if status == "ok" else 0,
+            checkedAt=issue["generatedAt"],
+            lastSuccessAt=issue["generatedAt"] if status == "ok" else None,
+            message="Offline source fixture: " + status,
+        )
+        section = {"id": source_id, "title": source["label"]}
+        if status == "ok":
+            section.update(kind="table", columns=["Repository"], rows=[
+                [{"text": "AI repository fixture " + str(index),
+                  "url": "https://example.org/" + source_id + "/" + str(index)}]
+                for index in range(maximum + 3)
+            ])
+        else:
+            section.update(kind="blocks", blocks=[{
+                "type": "paragraph", "spans": [{"text": "Offline source fixture: " + status}],
+            }])
+        issue["sections"].append(section)
+    return issue
+
+
 def with_x_signals(status="ok", count=10):
     issue = latest_v2_issue()
     checked_at = issue["generatedAt"]
@@ -105,6 +137,7 @@ class ActiveSourcePolicyTests(unittest.TestCase):
 
     def test_active_issue_filters_and_caps_without_mutating_canonical_input(self):
         issue = latest_v2_issue()
+        xait.validate_issue(issue)
         original = copy.deepcopy(issue)
         active = xait.active_issue(issue)
         self.assertEqual(original, issue)
@@ -149,7 +182,23 @@ class ActiveSourcePolicyTests(unittest.TestCase):
             source_section = next((section for section in issue["sections"] if section["id"] == section_id), None)
             if source_section is None:
                 continue
-            active_section = next(section for section in active["sections"] if section["id"] == section_id)
+            active_section = next((section for section in active["sections"] if section["id"] == section_id), None)
+            if source_section["kind"] == "blocks":
+                # A failed/empty collector emits a status block, not a table
+                # with fabricated rows.  Verify that fallback contract rather
+                # than silently treating any missing field as an empty list.
+                source = next(source for source in active["sources"] if source["id"] == section_id)
+                self.assertIn(source["status"], {"empty", "unavailable", "not_run"})
+                self.assertEqual(0, source["itemCount"])
+                self.assertNotIn(field, source_section)
+                if section_id == "techmeme":
+                    self.assertIsNone(active_section)
+                else:
+                    self.assertEqual(source_section, active_section)
+                self.assertNotIn('id="' + section_id + '"', xait._render_sections(issue))
+                continue
+            self.assertIsNotNone(active_section)
+            self.assertIn(field, source_section)
             expected = source_section[field]
             if section_id == "techmeme":
                 expected = [item for item in expected if xait.techmeme_item_is_ai(item)]
@@ -159,6 +208,45 @@ class ActiveSourcePolicyTests(unittest.TestCase):
         self.assertEqual(xait.PRODUCT_HUNT_TITLE, product["title"])
         product_source = next(source for source in active["sources"] if source["id"] == "product-hunt")
         self.assertEqual(xait.PRODUCT_HUNT_TITLE, product_source["label"])
+
+    def test_healthy_github_fixtures_are_capped_without_mutating_input(self):
+        issue = with_github_source_state("ok")
+        original = copy.deepcopy(issue)
+        xait.validate_issue(issue)
+        active = xait.active_issue(issue)
+        self.assertEqual(original, issue)
+        self.assertEqual(active, xait.active_issue(active))
+        for source_id in GITHUB_SOURCE_IDS:
+            with self.subTest(source_id=source_id):
+                maximum = xait.SECTION_DISPLAY_LIMITS[source_id][1]
+                before = next(section for section in issue["sections"] if section["id"] == source_id)
+                after = next(section for section in active["sections"] if section["id"] == source_id)
+                self.assertGreater(len(before["rows"]), maximum)
+                self.assertEqual(before["rows"][:maximum], after["rows"])
+                self.assertEqual(maximum, len(after["rows"]))
+
+    def test_empty_or_unavailable_github_fixtures_have_status_only(self):
+        for status in ("empty", "unavailable", "not_run"):
+            with self.subTest(status=status):
+                issue = with_github_source_state(status)
+                original = copy.deepcopy(issue)
+                xait.validate_issue(issue)
+                active = xait.active_issue(issue)
+                xait.validate_issue(active)
+                self.assertEqual(original, issue)
+                self.assertEqual(active, xait.active_issue(active))
+                rendered = xait._render_sections(issue)
+                self.assertEqual(1, rendered.count('id="collection-status"'))
+                self.assertFalse(any(article["sourceId"] in GITHUB_SOURCE_IDS for article in active["articles"]))
+                for source_id in GITHUB_SOURCE_IDS:
+                    source = next(source for source in active["sources"] if source["id"] == source_id)
+                    section = next(section for section in active["sections"] if section["id"] == source_id)
+                    self.assertEqual(status, source["status"])
+                    self.assertEqual(0, source["itemCount"])
+                    self.assertEqual("blocks", section["kind"])
+                    self.assertNotIn("rows", section)
+                    self.assertNotIn('id="' + source_id + '"', rendered)
+                    self.assertEqual(1, rendered.count(source["label"]))
 
     def test_x_signals_are_capped_wide_and_observation_only(self):
         issue = with_x_signals(count=12)
