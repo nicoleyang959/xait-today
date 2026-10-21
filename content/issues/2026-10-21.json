@@ -1,8 +1,228 @@
 {
   "articles": [
     {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c2534d0883e5be7bb12a3390",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c30b2952319d5f284fa99516",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b14726734ac3dbee819c47e8",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-311c1f3b46e6aede7f1f7c6f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a21097d0477b2e9669cc46f2",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a78b05653527b8a85ea0f1df",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-19effddc2377f720a2ad8b19",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-98ad8ea0dc0023c499e9d58a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bdc95b1e85552fe4e34c3f9b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6d03f867fb256a790ce32a7a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ef52636841125efdbee279e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3d74acc7fd3d69612040ff36",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-798b3d0bd1bc50093ed57c04",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c4f15f66fa1847bd5822eade",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ec0dd3f92c5e75de956da14",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-628eb57f7e2991982a5d8d46",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-513fb3fbd65eca43ebca7119",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-318b8429a812af0510ca302a",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "chenglou/handwired",
+      "url": "https://github.com/chenglou/handwired"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0d45be527a39a7bbd7a5a4d5",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "xiaoyang111222/cn-math-taxonomy",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3834c5e010155468cd4e5d9b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Supermedo/uncharted_pc",
+      "url": "https://github.com/Supermedo/uncharted_pc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c416155a741f9311f3e4733d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0cd1d4c68819fad627583c9d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai"
+    },
+    {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
       "dateEvidence": "exact",
       "id": "article-a4f9af6b248bb19d6e9d0f46",
       "publishedAt": "2026-10-20T09:08:54Z",
@@ -12,197 +232,117 @@
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
       "dateEvidence": "exact",
-      "id": "article-cc51ba5e24fb00d83e895ec4",
-      "publishedAt": "2026-10-20T15:09:29Z",
+      "id": "article-c5518ca9e08a37b3c2d29ed6",
+      "publishedAt": "2026-10-21T03:36:43Z",
       "sourceId": "hacker-news",
-      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-      "url": "https://news.ycombinator.com/item?id=50167583"
+      "title": "Using Claude to reduce the attack surface of code",
+      "url": "https://www.anthropic.com/research/attack-surface-reduction"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-fe2dd84309622cfecb29a2f9",
+      "publishedAt": "2026-10-08T08:02:57-07:00",
+      "sourceId": "product-hunt",
+      "title": "NativeShip",
+      "url": "https://www.producthunt.com/products/nativeship"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-30c4785c0e2d491638a9b0e4",
+      "publishedAt": "2026-10-12T14:02:39-07:00",
+      "sourceId": "product-hunt",
+      "title": "BAND for Developers",
+      "url": "https://www.producthunt.com/products/band"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6811dff3b16e3f7f43b59263",
+      "publishedAt": "2026-10-08T19:20:42-07:00",
+      "sourceId": "product-hunt",
+      "title": "Flyweel",
+      "url": "https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6551cc3bc6f91f3e0c1a0fd5",
+      "publishedAt": "2026-10-09T00:45:28-07:00",
+      "sourceId": "product-hunt",
+      "title": "Needle",
+      "url": "https://www.producthunt.com/products/needle-3"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b9a62f56712d3bbdfb1369f8",
+      "publishedAt": "2026-10-20T11:01:39-07:00",
+      "sourceId": "product-hunt",
+      "title": "Notion Auto",
+      "url": "https://www.producthunt.com/products/notion-99"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-39ba58835223c3f3f5f77d67",
+      "publishedAt": "2026-10-20T08:36:39-07:00",
+      "sourceId": "product-hunt",
+      "title": "Hotly",
+      "url": "https://www.producthunt.com/products/hotly"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cb9cbfd2fa064e3a02d975a7",
+      "publishedAt": "2026-10-17T06:25:23-07:00",
+      "sourceId": "product-hunt",
+      "title": "iglass",
+      "url": "https://www.producthunt.com/products/iglass"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-21T16:01:14+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e69363c92d91d2559bc8e14d",
+      "publishedAt": "2026-10-20T02:27:15-07:00",
+      "sourceId": "product-hunt",
+      "title": "Woven Video",
+      "url": "https://www.producthunt.com/products/woven-video"
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-043b2715d77f13ab135d439e",
-      "publishedAt": "2026-10-20T17:10:31Z",
-      "sourceId": "hacker-news",
-      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-      "url": "https://research.poh.org/bot-benchmarking-2026/"
-    },
-    {
-      "category": "other",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-944ad79a2da0d3d6cf7753e5",
-      "publishedAt": "2026-10-21T00:11:30Z",
-      "sourceId": "hacker-news",
-      "title": "Microagi: Accelerating Embodied AGI",
-      "url": "https://www.microagi.ai/"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-afb324348073426f7cb7e857",
-      "publishedAt": "2026-10-19T17:59:58Z",
-      "sourceId": "arxiv",
-      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-      "url": "https://arxiv.org/abs/2610.26860v1"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-fd883dd962ff50ed6f341df7",
-      "publishedAt": "2026-10-19T17:59:58Z",
-      "sourceId": "arxiv",
-      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
-      "url": "https://arxiv.org/abs/2610.26861v1"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-e515cbe1a5419f6f20245b6f",
-      "publishedAt": "2026-10-19T17:59:56Z",
-      "sourceId": "arxiv",
-      "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
-      "url": "https://arxiv.org/abs/2610.26856v1"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-2929dd4fad094a1784669a8a",
-      "publishedAt": "2026-10-19T17:59:49Z",
-      "sourceId": "arxiv",
-      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
-      "url": "https://arxiv.org/abs/2610.26852v1"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-018409f13c32871c01909090",
-      "publishedAt": "2026-10-19T17:59:30Z",
-      "sourceId": "arxiv",
-      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
-      "url": "https://arxiv.org/abs/2610.26848v1"
-    },
-    {
-      "category": "research",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-71aada6dc65ffd0378a95e22",
-      "publishedAt": "2026-10-19T17:59:19Z",
-      "sourceId": "arxiv",
-      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
-      "url": "https://arxiv.org/abs/2610.26847v1"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-aa5d6cba777c1ad7c2dbdb6b",
-      "publishedAt": "2026-10-18T20:42:11-07:00",
-      "sourceId": "product-hunt",
-      "title": "Stella",
-      "url": "https://www.producthunt.com/products/stella-5"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-445c3e174ecf469f02aa0a0c",
-      "publishedAt": "2026-10-19T10:51:17-07:00",
-      "sourceId": "product-hunt",
-      "title": "Kling 4.0",
-      "url": "https://www.producthunt.com/products/kling-4-0-4"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-dd1f90054ea9786d92c27738",
-      "publishedAt": "2026-10-19T11:29:25-07:00",
-      "sourceId": "product-hunt",
-      "title": "Mintlify Autopilot",
-      "url": "https://www.producthunt.com/products/mintlify"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-4dbf354a45e63385a13eef5f",
-      "publishedAt": "2026-10-19T16:12:51-07:00",
-      "sourceId": "product-hunt",
-      "title": "RunInfra",
-      "url": "https://www.producthunt.com/products/runinfra"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-c0a638b0bc1fc46b1248db73",
-      "publishedAt": "2026-10-19T10:02:56-07:00",
-      "sourceId": "product-hunt",
-      "title": "reception",
-      "url": "https://www.producthunt.com/products/reception"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-cf9e5453ac9b2754453b3918",
-      "publishedAt": "2026-10-19T05:27:05-07:00",
-      "sourceId": "product-hunt",
-      "title": "/dev/null",
-      "url": "https://www.producthunt.com/products/dev-null"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-310c27b27aa91be990532514",
-      "publishedAt": "2026-10-19T12:43:26-07:00",
-      "sourceId": "product-hunt",
-      "title": "Harness²",
-      "url": "https://www.producthunt.com/products/harness-104"
-    },
-    {
-      "category": "products",
-      "collectedAt": "2026-10-21T08:51:08+08:00",
-      "dateEvidence": "exact",
-      "id": "article-e2b7fad36e0e70bda7c087ff",
-      "publishedAt": "2026-10-19T01:26:58-07:00",
-      "sourceId": "product-hunt",
-      "title": "OpenShip Cloud",
-      "url": "https://www.producthunt.com/products/openship-2"
-    },
-    {
-      "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
-      "id": "article-b6fecf4fc4cda79912863b96",
+      "id": "article-f9044620ea99e8b927e67047",
       "publishedAt": null,
       "sourceId": "techmeme",
-      "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges",
-      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1?st=YKUo1r"
+      "title": "PHP's development team plans to release updates on Wednesday to address two vulnerabilities, each rated 9.2; researchers at watchTowr say they are RCE flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
-      "id": "article-82ee451aaf241d3cc69e7d6a",
+      "id": "article-d94d904540900088249d741b",
       "publishedAt": null,
       "sourceId": "techmeme",
-      "title": "Report: Anthropic's draft S-1 shows it spent ~$9B on compute and infrastructure in H1, up from $2.3B a year earlier, and could spend $750B in the coming years",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says"
+      "title": "An unconfirmed report claims PHP2Shell enables RCE on PHP sites; watchTowr says the exploit allegedly affects all versions since PHP 5, released in 2004",
+      "url": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/"
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
       "id": "article-63c3d3d7bf18fef7b611bec6",
       "publishedAt": null,
@@ -212,17 +352,37 @@
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b6fecf4fc4cda79912863b96",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic's IPO prospectus: H1 2026 revenue of $16.3B, ~20% from two customers, vs. $1.1B in H1 2025, and an $80.7B net loss driven by accounting charges",
+      "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1?st=YKUo1r"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-82ee451aaf241d3cc69e7d6a",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Report: Anthropic's draft S-1 shows it spent ~$9B on compute and infrastructure in H1, up from $2.3B a year earlier, and could spend $750B in the coming years",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
       "id": "article-0da899d08669ea14394c7a67",
       "publishedAt": null,
       "sourceId": "techmeme",
-      "title": "Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger and calls the possibility of a Tesla-SpaceX merger a “good idea”",
+      "title": "Elon Musk says Tesla and SpaceX have formed special committees to discuss a possible merger; SPCX is up 8%+ after hours, while TSLA is up 1.8%",
       "url": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees"
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
       "id": "article-2b45b0e013d3311c7ff92370",
       "publishedAt": null,
@@ -232,33 +392,13 @@
     },
     {
       "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
+      "collectedAt": "2026-10-21T16:01:23+08:00",
       "dateEvidence": "unknown",
       "id": "article-90ebddb468a1c23ffa230c5d",
       "publishedAt": null,
       "sourceId": "techmeme",
       "title": "SpaceX reports Q3 capex of $19.6B, up from $6.9B a year earlier, and Q3 connectivity revenue, which includes Starlink, up 69% YoY to $5.2B",
       "url": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d?st=eQFqUL&reflink=desktopwebshare_permalink"
-    },
-    {
-      "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
-      "dateEvidence": "unknown",
-      "id": "article-f9044620ea99e8b927e67047",
-      "publishedAt": null,
-      "sourceId": "techmeme",
-      "title": "PHP development team plans to release updates tomorrow to address two vulnerabilities, each rated 9.2; security researchers at watchTowr say they are RCE flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/"
-    },
-    {
-      "category": "other",
-      "collectedAt": "2026-10-21T08:51:44+08:00",
-      "dateEvidence": "unknown",
-      "id": "article-71c9e27714aff5a91c054f39",
-      "publishedAt": null,
-      "sourceId": "techmeme",
-      "title": "Sources: Elon Musk ordered Starshield slowdown in Ukraine and discussed it with Trump after the issue became public; some US officials say he acted unilaterally",
-      "url": "https://www.wsj.com/world/ukraine-starlink-elon-musk-trump-dbc49193?st=SfFvsh&reflink=desktopwebshare_permalink"
     }
   ],
   "date": "2026-10-21",
@@ -266,7 +406,7 @@
     "windowEnd": "2026-10-21T08:45:00+08:00",
     "windowStart": "2026-10-20T08:45:00+08:00"
   },
-  "generatedAt": "2026-10-21T08:51:44+08:00",
+  "generatedAt": "2026-10-21T16:01:43+08:00",
   "schemaVersion": 2,
   "sections": [
     {
@@ -307,121 +447,203 @@
       "title": "🟢 重点公众号 · 每日推文"
     },
     {
-      "blocks": [
-        {
-          "spans": [
-            {
-              "text": "公开来源连接失败或超时"
-            }
-          ],
-          "type": "paragraph"
-        }
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
       ],
       "id": "github-trending",
-      "kind": "blocks",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "MadsLorentzen/ai-job-search",
+            "url": "https://github.com/MadsLorentzen/ai-job-search"
+          },
+          "Python",
+          "3,861",
+          "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it"
+        ],
+        [
+          {
+            "text": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill"
+          },
+          "JavaScript",
+          "1,712",
+          "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        ],
+        [
+          {
+            "text": "stablyai/orca",
+            "url": "https://github.com/stablyai/orca"
+          },
+          "TypeScript",
+          "1,565",
+          "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime."
+        ],
+        [
+          {
+            "text": "DietrichGebert/ponytail",
+            "url": "https://github.com/DietrichGebert/ponytail"
+          },
+          "JavaScript",
+          "1,208",
+          "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+        ],
+        [
+          {
+            "text": "Comfy-Org/ComfyUI",
+            "url": "https://github.com/Comfy-Org/ComfyUI"
+          },
+          "Python",
+          "1,206",
+          "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world."
+        ],
+        [
+          {
+            "text": "ruvnet/ruflo",
+            "url": "https://github.com/ruvnet/ruflo"
+          },
+          "TypeScript",
+          "684",
+          "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning "
+        ]
+      ],
       "title": "📈 GitHub 今日 Trending"
     },
     {
-      "blocks": [
-        {
-          "spans": [
-            {
-              "text": "公开来源连接失败或超时"
-            }
-          ],
-          "type": "paragraph"
-        }
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
       ],
       "id": "weekly-high-stars",
-      "kind": "blocks",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "deepseek-ai/DeepInfer",
+            "url": "https://github.com/deepseek-ai/DeepInfer"
+          },
+          "Python",
+          "15710",
+          "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+        ],
+        [
+          {
+            "text": "Gathin23/cleanyourtv",
+            "url": "https://github.com/Gathin23/cleanyourtv"
+          },
+          "Java",
+          "14301",
+          "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
+        ],
+        [
+          {
+            "text": "ly05010419/MacNativeGames",
+            "url": "https://github.com/ly05010419/MacNativeGames"
+          },
+          "C",
+          "3189",
+          "未提供"
+        ],
+        [
+          {
+            "text": "simbasjungles/free-my-tv",
+            "url": "https://github.com/simbasjungles/free-my-tv"
+          },
+          "Java",
+          "2120",
+          "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
+        ],
+        [
+          {
+            "text": "Leonxlnx/earshot",
+            "url": "https://github.com/Leonxlnx/earshot"
+          },
+          "Python",
+          "2006",
+          "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+        ],
+        [
+          {
+            "text": "chenglou/handwired",
+            "url": "https://github.com/chenglou/handwired"
+          },
+          "TypeScript",
+          "1863",
+          "Turn your regular JavaScript code into a neural net."
+        ]
+      ],
       "title": "🌱 本周新建高星项目"
     },
     {
       "id": "hacker-news",
       "items": [
         {
-          "meta": "发布 2026-10-20 · 2115 互动/积分 · 827 评论",
+          "meta": "发布 2026-10-20 · 2230 互动/积分 · 853 评论",
           "title": "DeepInfer: High-performance inference framework for DeepSeek models",
           "url": "https://github.com/deepseek-ai/DeepInfer"
         },
         {
-          "meta": "发布 2026-10-20 · 43 互动/积分 · 16 评论",
-          "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
-          "url": "https://news.ycombinator.com/item?id=50167583"
-        },
-        {
-          "meta": "发布 2026-10-21 · 21 互动/积分 · 0 评论",
-          "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-          "url": "https://research.poh.org/bot-benchmarking-2026/"
-        },
-        {
-          "meta": "发布 2026-10-21 · 4 互动/积分 · 0 评论",
-          "title": "Microagi: Accelerating Embodied AGI",
-          "url": "https://www.microagi.ai/"
+          "meta": "发布 2026-10-21 · 24 互动/积分 · 5 评论",
+          "title": "Using Claude to reduce the attack surface of code",
+          "url": "https://www.anthropic.com/research/attack-surface-reduction"
         }
       ],
       "kind": "links",
       "title": "💬 Hacker News · 开发者热榜"
     },
     {
-      "id": "arxiv",
-      "items": [
+      "blocks": [
         {
-          "meta": "发布 2026-10-20",
-          "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-          "url": "https://arxiv.org/abs/2610.26860v1"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
-          "url": "https://arxiv.org/abs/2610.26861v1"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
-          "url": "https://arxiv.org/abs/2610.26856v1"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
-          "url": "https://arxiv.org/abs/2610.26852v1"
+          "spans": [
+            {
+              "text": "公开来源连接超时"
+            }
+          ],
+          "type": "paragraph"
         }
       ],
-      "kind": "links",
+      "id": "arxiv",
+      "kind": "blocks",
       "title": "🧪 arXiv · AI 最新论文"
     },
     {
       "id": "product-hunt",
       "items": [
         {
-          "meta": "发布 2026-10-19",
-          "title": "Stella",
-          "url": "https://www.producthunt.com/products/stella-5"
+          "meta": "发布 2026-10-08",
+          "title": "NativeShip",
+          "url": "https://www.producthunt.com/products/nativeship"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "BAND for Developers",
+          "url": "https://www.producthunt.com/products/band"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Flyweel",
+          "url": "https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel"
+        },
+        {
+          "meta": "发布 2026-10-09",
+          "title": "Needle",
+          "url": "https://www.producthunt.com/products/needle-3"
+        },
+        {
+          "meta": "发布 2026-10-21",
+          "title": "Notion Auto",
+          "url": "https://www.producthunt.com/products/notion-99"
         },
         {
           "meta": "发布 2026-10-20",
-          "title": "Kling 4.0",
-          "url": "https://www.producthunt.com/products/kling-4-0-4"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "Mintlify Autopilot",
-          "url": "https://www.producthunt.com/products/mintlify"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "RunInfra",
-          "url": "https://www.producthunt.com/products/runinfra"
-        },
-        {
-          "meta": "发布 2026-10-20",
-          "title": "reception",
-          "url": "https://www.producthunt.com/products/reception"
-        },
-        {
-          "meta": "发布 2026-10-19",
-          "title": "/dev/null",
-          "url": "https://www.producthunt.com/products/dev-null"
+          "title": "Hotly",
+          "url": "https://www.producthunt.com/products/hotly"
         }
       ],
       "kind": "links",
@@ -527,65 +749,65 @@
   ],
   "sources": [
     {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "checkedAt": "2026-10-21T16:01:14+08:00",
       "id": "github-trending",
-      "itemCount": 0,
+      "itemCount": 12,
       "label": "📈 GitHub 今日 Trending",
-      "lastSuccessAt": null,
-      "message": "公开来源连接失败或超时",
-      "status": "unavailable"
+      "lastSuccessAt": "2026-10-21T16:01:14+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
     },
     {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "checkedAt": "2026-10-21T16:01:14+08:00",
       "id": "weekly-high-stars",
-      "itemCount": 0,
+      "itemCount": 10,
       "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-21T16:01:14+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T16:01:14+08:00",
+      "id": "hacker-news",
+      "itemCount": 2,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-21T16:01:14+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-21T16:01:14+08:00",
+      "id": "arxiv",
+      "itemCount": 0,
+      "label": "🧪 arXiv · AI 最新论文",
       "lastSuccessAt": null,
-      "message": "公开来源连接失败或超时",
+      "message": "公开来源连接超时",
       "status": "unavailable"
     },
     {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
-      "id": "hacker-news",
-      "itemCount": 4,
-      "label": "💬 Hacker News · 开发者热榜",
-      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
-      "message": "公开来源采集成功",
-      "status": "ok"
-    },
-    {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
-      "id": "arxiv",
-      "itemCount": 6,
-      "label": "🧪 arXiv · AI 最新论文",
-      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
-      "message": "公开来源采集成功",
-      "status": "ok"
-    },
-    {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "checkedAt": "2026-10-21T16:01:14+08:00",
       "id": "product-hunt",
       "itemCount": 8,
       "label": "🚀 Product Hunt · 近期新品",
-      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "lastSuccessAt": "2026-10-21T16:01:14+08:00",
       "message": "公开来源采集成功",
       "status": "ok"
     },
     {
-      "checkedAt": "2026-10-21T08:51:08+08:00",
+      "checkedAt": "2026-10-21T16:01:14+08:00",
       "id": "aihot",
       "itemCount": 10,
       "label": "🤖 aihot · AI 热点速递",
-      "lastSuccessAt": "2026-10-21T08:51:08+08:00",
+      "lastSuccessAt": "2026-10-21T16:01:14+08:00",
       "message": "公开来源采集成功",
       "status": "ok"
     },
     {
-      "checkedAt": "2026-10-21T08:51:44+08:00",
+      "checkedAt": "2026-10-21T16:01:23+08:00",
       "id": "techmeme",
       "itemCount": 3,
       "label": "📰 Techmeme · 科技新闻聚合",
-      "lastSuccessAt": "2026-10-21T08:51:44+08:00",
+      "lastSuccessAt": "2026-10-21T16:01:23+08:00",
       "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
       "status": "ok"
     },
