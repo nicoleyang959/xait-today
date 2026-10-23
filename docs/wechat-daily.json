@@ -5,8 +5,8 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-22 · 采集时显示：38 分钟前 · 打开账号列表",
-          "title": "曝DeepSeek近千亿融资接近完成/宝马员工挤崩离职系统，补偿最高487万/iPhone Duo全...",
+          "meta": "2026-10-23 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "微信回应未适配iPhone Duo/王兴兴：物理AI已经有被击穿的苗头/曝OpenAI接近敲定300...",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         }
       ],
@@ -19,8 +19,8 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-22 · 采集时显示：43 分钟前 · 打开账号列表",
-          "title": "AI挖出藏了十几年的底层PHP漏洞，网络安全也回不去那个旧时代了。",
+          "meta": "2026-10-23 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "我好像陷入了某种，AI时代的虚无主义。",
           "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
         }
       ],
@@ -30,17 +30,10 @@
     },
     {
       "account": "智东西",
-      "items": [
-        {
-          "badge": "今日",
-          "meta": "2026-10-22 · 采集时显示：1小时前 · 打开账号列表",
-          "title": "刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot",
-          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "花叔",
@@ -50,9 +43,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-22T08:49:38+08:00",
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T08:53:39+08:00",
+  "capturedAt": "2026-10-23T09:45:35+08:00",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T09:49:18+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-22T08:49:38+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-23T09:45:35+08:00；相对时间以该采集时刻为准。"
 }

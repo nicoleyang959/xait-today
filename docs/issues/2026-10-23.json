@@ -1,0 +1,891 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-40e10c59695708b8ce99649a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "php/php-src",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ef52636841125efdbee279e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-311c1f3b46e6aede7f1f7c6f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c30b2952319d5f284fa99516",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-19effddc2377f720a2ad8b19",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b6dbf4dcfc7561bc81dbd1f4",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c94677bc1fbe95adcc551916",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-44ffb5704aca5c2ec9fd8f2e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-853dfa2549fa1a14f601b042",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Meloong-Git/PCL",
+      "url": "https://github.com/Meloong-Git/PCL"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c4f15f66fa1847bd5822eade",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Gathin23/cleanyourtv",
+      "url": "https://github.com/Gathin23/cleanyourtv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9ec0dd3f92c5e75de956da14",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-628eb57f7e2991982a5d8d46",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c416155a741f9311f3e4733d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0d45be527a39a7bbd7a5a4d5",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "xiaoyang111222/cn-math-taxonomy",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-52dc9dbbaec1f67e188fbafa",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "tek-sys-hub/Rubix-lang",
+      "url": "https://github.com/tek-sys-hub/Rubix-lang"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-37fa9c7e7230cc2c4cd1942d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ikow/php2shell-poc",
+      "url": "https://github.com/ikow/php2shell-poc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6fc15c325faf50e891186077",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "JoasASantos/REA-Prompts",
+      "url": "https://github.com/JoasASantos/REA-Prompts"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-62b35df1ecf0051d44670d1e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "alchaincyf/huashu-motion",
+      "url": "https://github.com/alchaincyf/huashu-motion"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d7cea7c97d1c2f1bc900d38f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "aicodeking/leanrea",
+      "url": "https://github.com/aicodeking/leanrea"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d22e8ed94abc7bccc00fdb3e",
+      "publishedAt": "2026-10-22T17:44:06Z",
+      "sourceId": "hacker-news",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d6d301ba208387675497404e",
+      "publishedAt": "2026-10-22T16:08:00Z",
+      "sourceId": "hacker-news",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c846930c212df787547e6996",
+      "publishedAt": "2026-10-22T18:28:16Z",
+      "sourceId": "hacker-news",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "url": "https://arxiv.org/abs/2610.27251"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e5954f2f9e4b425257de5d32",
+      "publishedAt": "2026-10-22T22:54:43Z",
+      "sourceId": "hacker-news",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-756e33799b7a363c544cd7cf",
+      "publishedAt": "2026-10-22T23:45:16Z",
+      "sourceId": "hacker-news",
+      "title": "AI compute is the new oil–and needs a new market",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-95e8d9c34cfa6923bfa1e1ff",
+      "publishedAt": "2026-10-21T13:56:53-07:00",
+      "sourceId": "product-hunt",
+      "title": "Teclo",
+      "url": "https://www.producthunt.com/products/teclo"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-78f342f69ab8b6e876c46057",
+      "publishedAt": "2026-10-21T16:31:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "Sponkly",
+      "url": "https://www.producthunt.com/products/sponkly"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cf4d7cd77ecaab0a0879a7d4",
+      "publishedAt": "2026-10-20T06:15:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "Voxelo 3.0",
+      "url": "https://www.producthunt.com/products/voxelo-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1ebcaef10b8c13209982089a",
+      "publishedAt": "2026-10-09T20:52:57-07:00",
+      "sourceId": "product-hunt",
+      "title": "CutBay",
+      "url": "https://www.producthunt.com/products/cutbay"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f3fb6842f1b012522f4b60bc",
+      "publishedAt": "2026-10-21T13:59:15-07:00",
+      "sourceId": "product-hunt",
+      "title": "Bits",
+      "url": "https://www.producthunt.com/products/bits-4"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-24c15b1f7a4540dd8357b010",
+      "publishedAt": "2026-10-14T21:55:03-07:00",
+      "sourceId": "product-hunt",
+      "title": "Fastlane 2.0",
+      "url": "https://www.producthunt.com/products/fastlane-3"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b3fd94abb32a40e3dfe692d4",
+      "publishedAt": "2026-10-21T12:16:09-07:00",
+      "sourceId": "product-hunt",
+      "title": "Archivist",
+      "url": "https://www.producthunt.com/products/archivist"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-23T09:48:51+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d2b630c5f86aad4bcd578ce9",
+      "publishedAt": "2026-10-12T03:56:22-07:00",
+      "sourceId": "product-hunt",
+      "title": "Playad",
+      "url": "https://www.producthunt.com/products/playad"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0e1be48b4fe9b72cd5e68b74",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: OpenAI nears an up to $30B round led by investors from the UAE and Coatue at a $1.25T pre-money valuation, as an “opportunistic” bridge ahead of an IPO",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c0a9d694bfdd28548b0cea9c",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors",
+      "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0f73cb0424dca9db9bb17dbb",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Cloudflare's Matthew Prince says PHP2Shell exploit attempts on its network rose from thousands in the 10 hours before the disclosure to millions afterward",
+      "url": "https://x.com/eastdakota/status/2113079352682570051"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c6cbff45b7028b1dabea2fa5",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "An interview with Ondřej Surý, a volunteer who maintains PHP and automates its patches, about his role in fixing two critical PHP security vulnerabilities",
+      "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/?gift=iWa_iB9lkw4UuiWbIbrWGX0S2EScp28jU-louXZfg5I"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-54c70927e16ba49fabcf5d64",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "The PHP Foundation says its patches for the RCE vulnerabilities are limited to PHP 8.2 and newer, leaving legacy deployments dependent on third-party vendors",
+      "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6d4fd257d8e7ecbff7c4674e",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "AWS analysts say that at least one actor attempted to exploit the PHP2Shell vulnerabilities on October 17, four days before their public disclosure and patching",
+      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f1faa98500777a3b20665be8",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: US banks are restricting third-party AI agents from accessing customer accounts, after some agents appeared to act independently of users' instructions",
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-23T09:48:58+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1de64946e1b580001ad1a959",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Elon Musk has invested ~$1B in Ellisons' Skydance; in 2022, David Ellison's father, Larry Ellison, invested $1B in Musk's deal to take Twitter private",
+      "url": "https://www.semafor.com/article/10/22/2026/elon-musk-makes-1-billion-investment-in-ellisons-skydance"
+    }
+  ],
+  "date": "2026-10-23",
+  "edition": {
+    "windowEnd": "2026-10-23T08:45:00+08:00",
+    "windowStart": "2026-10-22T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-23T09:49:18+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-23 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "微信回应未适配iPhone Duo/王兴兴：物理AI已经有被击穿的苗头/曝OpenAI接近敲定300...",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-23 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "我好像陷入了某种，AI时代的虚无主义。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-23T09:45:35+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-23T09:45:35+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "php/php-src",
+            "url": "https://github.com/php/php-src"
+          },
+          "C",
+          "287",
+          "The PHP Interpreter"
+        ],
+        [
+          {
+            "text": "anthropics/knowledge-work-plugins",
+            "url": "https://github.com/anthropics/knowledge-work-plugins"
+          },
+          "Python",
+          "303",
+          "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+        ],
+        [
+          {
+            "text": "DietrichGebert/ponytail",
+            "url": "https://github.com/DietrichGebert/ponytail"
+          },
+          "JavaScript",
+          "1,948",
+          "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+        ],
+        [
+          {
+            "text": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill"
+          },
+          "JavaScript",
+          "2,979",
+          "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        ],
+        [
+          {
+            "text": "Graphify-Labs/graphify",
+            "url": "https://github.com/Graphify-Labs/graphify"
+          },
+          "Python",
+          "1,408",
+          "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local determin"
+        ],
+        [
+          {
+            "text": "supabase/supabase",
+            "url": "https://github.com/supabase/supabase"
+          },
+          "TypeScript",
+          "693",
+          "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "Gathin23/cleanyourtv",
+            "url": "https://github.com/Gathin23/cleanyourtv"
+          },
+          "Java",
+          "24247",
+          "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
+        ],
+        [
+          {
+            "text": "ly05010419/MacNativeGames",
+            "url": "https://github.com/ly05010419/MacNativeGames"
+          },
+          "C",
+          "4500",
+          "未提供"
+        ],
+        [
+          {
+            "text": "simbasjungles/free-my-tv",
+            "url": "https://github.com/simbasjungles/free-my-tv"
+          },
+          "Java",
+          "3467",
+          "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
+        ],
+        [
+          {
+            "text": "pengchujin/aerial-tv",
+            "url": "https://github.com/pengchujin/aerial-tv"
+          },
+          "Kotlin",
+          "3151",
+          "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+        ],
+        [
+          {
+            "text": "xiaoyang111222/cn-math-taxonomy",
+            "url": "https://github.com/xiaoyang111222/cn-math-taxonomy"
+          },
+          "Python",
+          "2209",
+          "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
+        ],
+        [
+          {
+            "text": "tek-sys-hub/Rubix-lang",
+            "url": "https://github.com/tek-sys-hub/Rubix-lang"
+          },
+          "Assembly",
+          "1902",
+          "The 100% Pure x86-64 Assembly Systems Language"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-23 · 300 互动/积分 · 160 评论",
+          "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "meta": "发布 2026-10-23 · 243 互动/积分 · 308 评论",
+          "title": "Every AI model has the same \"controversial\" take on humans",
+          "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
+        },
+        {
+          "meta": "发布 2026-10-23 · 113 互动/积分 · 66 评论",
+          "title": "AI and the Enclosure of the Scientific Commons",
+          "url": "https://arxiv.org/abs/2610.27251"
+        },
+        {
+          "meta": "发布 2026-10-23 · 110 互动/积分 · 54 评论",
+          "title": "LLMs are making formal software verification feasible at a much larger scale",
+          "url": "https://www.anthropic.com/research/formal-verification"
+        },
+        {
+          "meta": "发布 2026-10-23 · 16 互动/积分 · 8 评论",
+          "title": "AI compute is the new oil–and needs a new market",
+          "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "arxiv",
+      "kind": "blocks",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-22",
+          "title": "Teclo",
+          "url": "https://www.producthunt.com/products/teclo"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "Sponkly",
+          "url": "https://www.producthunt.com/products/sponkly"
+        },
+        {
+          "meta": "发布 2026-10-20",
+          "title": "Voxelo 3.0",
+          "url": "https://www.producthunt.com/products/voxelo-ai"
+        },
+        {
+          "meta": "发布 2026-10-10",
+          "title": "CutBay",
+          "url": "https://www.producthunt.com/products/cutbay"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "Bits",
+          "url": "https://www.producthunt.com/products/bits-4"
+        },
+        {
+          "meta": "发布 2026-10-15",
+          "title": "Fastlane 2.0",
+          "url": "https://www.producthunt.com/products/fastlane-3"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: OpenAI nears an up to $30B round led by investors from the UAE and Coatue at a $1.25T pre-money valuation, as an “opportunistic” bridge ahead of an IPO",
+          "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors",
+          "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: US banks are restricting third-party AI agents from accessing customer accounts, after some agents appeared to act independently of users' instructions",
+          "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "Your AI design agent for real, editable project files.",
+          "rank": 1,
+          "title": "UseIt Studio",
+          "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery"
+        },
+        {
+          "description": "Coding agents, meet teamwork",
+          "rank": 2,
+          "title": "BAND for Developers",
+          "url": "https://www.producthunt.com/products/band"
+        },
+        {
+          "description": "The agent-native outbound engine",
+          "rank": 3,
+          "title": "Needle",
+          "url": "https://www.producthunt.com/products/needle-3"
+        },
+        {
+          "description": "Your business context organized by queries",
+          "rank": 4,
+          "title": "The Library",
+          "url": "https://www.producthunt.com/products/querri"
+        },
+        {
+          "description": "Transcribe meetings and dictate anywhere on Mac & Windows",
+          "rank": 5,
+          "title": "TwinMind for Desktop",
+          "url": "https://www.producthunt.com/products/twinmind"
+        },
+        {
+          "description": "Open-source skills that turn your Claude into an AI CMO",
+          "rank": 6,
+          "title": "SuperCMO AI",
+          "url": "https://www.producthunt.com/products/supercmo-ai"
+        },
+        {
+          "description": "Notion’s rebuilt Agents run for hours and cost far less",
+          "rank": 7,
+          "title": "Notion Auto",
+          "url": "https://www.producthunt.com/products/notion-99"
+        },
+        {
+          "description": "The easy way to launch your n8n native integration",
+          "rank": 8,
+          "title": "NativeShip",
+          "url": "https://www.producthunt.com/products/nativeship"
+        },
+        {
+          "description": "Founders and investors as MCP servers, every answer cited",
+          "rank": 9,
+          "title": "The Brains",
+          "url": "https://www.producthunt.com/products/the-brains"
+        },
+        {
+          "description": "Open-source A/B testing built on your feature flags",
+          "rank": 10,
+          "title": "Flagsmith Experiments",
+          "url": "https://www.producthunt.com/products/flagsmith"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-23T09:48:16+08:00",
+        "date": "2026-10-21",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/21"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "github-trending",
+      "itemCount": 9,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-23T09:48:51+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-23T09:48:51+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "hacker-news",
+      "itemCount": 5,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-23T09:48:51+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "arxiv",
+      "itemCount": 0,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": null,
+      "message": "公开来源连接超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-23T09:48:51+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:51+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-23T09:48:51+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:58+08:00",
+      "id": "techmeme",
+      "itemCount": 3,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-23T09:48:58+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:48:16+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-23T09:48:16+08:00",
+      "message": "已核验官方公开日榜 Top 10，部分产品链接或积分未展示",
+      "status": "partial"
+    },
+    {
+      "checkedAt": "2026-10-23T09:45:35+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-23T09:45:35+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:45:35+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-23T09:45:35+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-23T09:45:35+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-23T09:45:35+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-23T09:45:35+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-23T09:45:35+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
