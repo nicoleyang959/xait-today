@@ -1,0 +1,849 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c30b2952319d5f284fa99516",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-db2a8841f7a4336f9a361ba0",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4d19adbf5b68a98be7388c52",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-078c0d35bad1b3fd8e9b87b3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-44ffb5704aca5c2ec9fd8f2e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71a5dfb3a8a8a658cef20d9e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e3a58a907aa9609da9e1fb5e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d7877f3761df83fcdec356d0",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "jbiaojerry/ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3b0abc2e4d3291ea1628e7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c416155a741f9311f3e4733d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-628eb57f7e2991982a5d8d46",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "simbasjungles/free-my-tv",
+      "url": "https://github.com/simbasjungles/free-my-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6fc15c325faf50e891186077",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "JoasASantos/REA-Prompts",
+      "url": "https://github.com/JoasASantos/REA-Prompts"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7edbb6029ceb56657806c636",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "EthanArbuckle/fairplay-decrypt",
+      "url": "https://github.com/EthanArbuckle/fairplay-decrypt"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-37fa9c7e7230cc2c4cd1942d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ikow/php2shell-poc",
+      "url": "https://github.com/ikow/php2shell-poc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8724ed2f40e13be0e089cc39",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "xevrion/hatchzip",
+      "url": "https://github.com/xevrion/hatchzip"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2937c460efbf0e5e86da37e7",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wesbos/3d-model-anything",
+      "url": "https://github.com/wesbos/3d-model-anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-457e15bcb634ae5de402b321",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "9bie/php2shell-bypass-aslr-exp",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e388e74e0f91f527ff6a08ba",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "openai/php2shell-checker",
+      "url": "https://github.com/openai/php2shell-checker"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ba1c4a80d4239cf9b91380e4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "oosexgang/hackios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-31c33f5f6516301be59e9e5b",
+      "publishedAt": "2026-10-24T19:47:19Z",
+      "sourceId": "hacker-news",
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1c736547c6339529f3f60564",
+      "publishedAt": "2026-10-24T23:11:54Z",
+      "sourceId": "hacker-news",
+      "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-19f7e08ae3cea68a85f3034e",
+      "publishedAt": "2026-10-22T17:59:48Z",
+      "sourceId": "arxiv",
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "url": "https://arxiv.org/abs/2610.31667v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e0aca48c7d8715a17edf729e",
+      "publishedAt": "2026-10-22T17:58:52Z",
+      "sourceId": "arxiv",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "url": "https://arxiv.org/abs/2610.31657v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-908f021f1880b460646396ca",
+      "publishedAt": "2026-10-22T17:58:27Z",
+      "sourceId": "arxiv",
+      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.31656v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-555676e413d4a4047921b943",
+      "publishedAt": "2026-10-22T17:57:04Z",
+      "sourceId": "arxiv",
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "url": "https://arxiv.org/abs/2610.31650v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5a99b3540c0f5478b8733efc",
+      "publishedAt": "2026-10-22T17:56:13Z",
+      "sourceId": "arxiv",
+      "title": "Low-Bit N-Gram Embeddings for Language Models",
+      "url": "https://arxiv.org/abs/2610.31646v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d8df872d8a05563eda3d9188",
+      "publishedAt": "2026-10-22T17:52:56Z",
+      "sourceId": "arxiv",
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "url": "https://arxiv.org/abs/2610.31639v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3fc252b54b198a9e93411a9c",
+      "publishedAt": "2026-10-23T10:51:50-07:00",
+      "sourceId": "product-hunt",
+      "title": "Basedash Scheduled CSV Exports",
+      "url": "https://www.producthunt.com/products/basedash"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-bcea4a0a6694d978a74043a7",
+      "publishedAt": "2026-10-21T21:20:49-07:00",
+      "sourceId": "product-hunt",
+      "title": "Penta",
+      "url": "https://www.producthunt.com/products/penta-cd-player-changer"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f1c25f70f687aaf115352141",
+      "publishedAt": "2026-10-14T14:47:26-07:00",
+      "sourceId": "product-hunt",
+      "title": "LinkIntel",
+      "url": "https://www.producthunt.com/products/linkintel"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e3f7ec05345bcddeea765344",
+      "publishedAt": "2026-10-15T10:34:35-07:00",
+      "sourceId": "product-hunt",
+      "title": "myPip",
+      "url": "https://www.producthunt.com/products/mypip-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2ba5309e4d408a8aea3a1151",
+      "publishedAt": "2026-10-22T10:23:21-07:00",
+      "sourceId": "product-hunt",
+      "title": "River Writer",
+      "url": "https://www.producthunt.com/products/river-writer"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-82429302dca1f9ac172be4e8",
+      "publishedAt": "2026-10-23T01:41:59-07:00",
+      "sourceId": "product-hunt",
+      "title": "Canva Craft",
+      "url": "https://www.producthunt.com/products/canva"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-68b7cf6e017884731d338514",
+      "publishedAt": "2026-10-15T08:16:27-07:00",
+      "sourceId": "product-hunt",
+      "title": "zCAD AI",
+      "url": "https://www.producthunt.com/products/zcad-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-25T08:45:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1a23628c242a87f6e3d6bfa3",
+      "publishedAt": "2026-10-23T06:28:40-07:00",
+      "sourceId": "product-hunt",
+      "title": "sideOS.ai",
+      "url": "https://www.producthunt.com/products/sideos-ai"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2292b9d86481fc3561f020f3",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8f2e9c0e6811a7b5d9b8ced7",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Ukraine says Starshield was working normally again on Saturday morning; US officials said Trump asked Elon Musk to restore the service",
+      "url": "https://www.wsj.com/world/europe/ukraines-military-starlink-is-working-again-kyiv-says-7ad2617d?st=P1m4FP"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-699abb08a55769e05eb0d310",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
+      "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fc9749eca069ebbff715de78",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-222097a2103f7cdf4f8853a9",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Google updates its privacy policy to clarify it could use data shared via Personal Intelligence from connected apps, including Gmail and Photos, to target ads",
+      "url": "https://www.androidauthority.com/google-personal-intelligence-privacy-3727111/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c9de2ce1c64fdfa280f2aa5a",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "OpenAI says it built an “offline world” from cached web content to train isolated frontier models to browse, search for information, and use web apps",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-506ea334b685a1d4e3c0c0e9",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-25T08:45:13+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b780c55d783b5a92146d1d49",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "The PHP Foundation, which coordinated fixes for two critical PHP flaws, operates on a shoestring budget with one full-time staff member and 14 contractors",
+      "url": "https://www.reuters.com/technology/php-foundation-under-funded-with-one-full-time-staff-member-director-says-2026-10-23/"
+    }
+  ],
+  "date": "2026-10-25",
+  "edition": {
+    "windowEnd": "2026-10-25T08:45:00+08:00",
+    "windowStart": "2026-10-24T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-25T08:45:13+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-25T08:41:44+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-25T08:41:44+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill"
+          },
+          "JavaScript",
+          "2,264",
+          "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        ],
+        [
+          {
+            "text": "NVIDIA/OpenShell",
+            "url": "https://github.com/NVIDIA/OpenShell"
+          },
+          "Rust",
+          "896",
+          "OpenShell is the safe, private runtime for autonomous AI agents."
+        ],
+        [
+          {
+            "text": "aws/agent-toolkit-for-aws",
+            "url": "https://github.com/aws/agent-toolkit-for-aws"
+          },
+          "Python",
+          "13",
+          "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+        ],
+        [
+          {
+            "text": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark"
+          },
+          "CSS",
+          "455",
+          "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        ],
+        [
+          {
+            "text": "luongnv89/claude-howto",
+            "url": "https://github.com/luongnv89/claude-howto"
+          },
+          "Python",
+          "392",
+          "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value."
+        ],
+        [
+          {
+            "text": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable"
+          },
+          "Rust",
+          "619",
+          "The design language that makes your AI harness better at design."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "pengchujin/aerial-tv",
+            "url": "https://github.com/pengchujin/aerial-tv"
+          },
+          "Kotlin",
+          "4369",
+          "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+        ],
+        [
+          {
+            "text": "simbasjungles/free-my-tv",
+            "url": "https://github.com/simbasjungles/free-my-tv"
+          },
+          "Java",
+          "4294",
+          "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
+        ],
+        [
+          {
+            "text": "JoasASantos/REA-Prompts",
+            "url": "https://github.com/JoasASantos/REA-Prompts"
+          },
+          "未提供",
+          "2090",
+          "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
+        ],
+        [
+          {
+            "text": "EthanArbuckle/fairplay-decrypt",
+            "url": "https://github.com/EthanArbuckle/fairplay-decrypt"
+          },
+          "C",
+          "1959",
+          "Offline FairPlay App Store IPA decryption with independent key derivation"
+        ],
+        [
+          {
+            "text": "ikow/php2shell-poc",
+            "url": "https://github.com/ikow/php2shell-poc"
+          },
+          "Python",
+          "1754",
+          "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
+        ],
+        [
+          {
+            "text": "xevrion/hatchzip",
+            "url": "https://github.com/xevrion/hatchzip"
+          },
+          "Rust",
+          "1703",
+          "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-25 · 461 互动/积分 · 445 评论",
+          "title": "No signs of AI payoff outside the tech sector",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        },
+        {
+          "meta": "发布 2026-10-25 · 74 互动/积分 · 40 评论",
+          "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+          "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+          "url": "https://arxiv.org/abs/2610.31667v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+          "url": "https://arxiv.org/abs/2610.31657v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2610.31656v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+          "url": "https://arxiv.org/abs/2610.31650v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-24",
+          "title": "Basedash Scheduled CSV Exports",
+          "url": "https://www.producthunt.com/products/basedash"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "Penta",
+          "url": "https://www.producthunt.com/products/penta-cd-player-changer"
+        },
+        {
+          "meta": "发布 2026-10-15",
+          "title": "LinkIntel",
+          "url": "https://www.producthunt.com/products/linkintel"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "myPip",
+          "url": "https://www.producthunt.com/products/mypip-2"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "River Writer",
+          "url": "https://www.producthunt.com/products/river-writer"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Canva Craft",
+          "url": "https://www.producthunt.com/products/canva"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Block unveils Dessa, a “true speech-to-speech” AI model trained on “nothing but human conversation” that it says runs locally on a MacBook Pro M4 Max or newer",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
+          "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI says it built an “offline world” from cached web content to train isolated frontier models to browse, search for information, and use web apps",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "github-trending",
+      "itemCount": 10,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "hacker-news",
+      "itemCount": 2,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:08+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-25T08:45:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:45:13+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-25T08:45:13+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-25T08:42:56+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-25T08:41:44+08:00",
+      "id": "wechat-appso",
+      "itemCount": 0,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-25T08:41:44+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-25T08:41:44+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-25T08:41:44+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-25T08:41:44+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-25T08:41:44+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-25T08:41:44+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-25T08:41:44+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
