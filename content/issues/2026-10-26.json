@@ -1,0 +1,876 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3b0abc2e4d3291ea1628e7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-078c0d35bad1b3fd8e9b87b3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71a5dfb3a8a8a658cef20d9e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0465a1559e5b9411a780169c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a2c8f1b37643554b53e8b655",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ad016608c6567ea33c421975",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0359cc04f7fe76a762600803",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c30b2952319d5f284fa99516",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2afef9f969a2a1f5048fb49d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c416155a741f9311f3e4733d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "pengchujin/aerial-tv",
+      "url": "https://github.com/pengchujin/aerial-tv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6de510b74f76682d10dc30fa",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8724ed2f40e13be0e089cc39",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "xevrion/hatchzip",
+      "url": "https://github.com/xevrion/hatchzip"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2937c460efbf0e5e86da37e7",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wesbos/3d-model-anything",
+      "url": "https://github.com/wesbos/3d-model-anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-37fa9c7e7230cc2c4cd1942d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ikow/php2shell-poc",
+      "url": "https://github.com/ikow/php2shell-poc"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-233875c8c5192c1781a02261",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Jakeschincariol/day-trader-skill",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ba1c4a80d4239cf9b91380e4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "oosexgang/hackios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-457e15bcb634ae5de402b321",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "9bie/php2shell-bypass-aslr-exp",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e388e74e0f91f527ff6a08ba",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "openai/php2shell-checker",
+      "url": "https://github.com/openai/php2shell-checker"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-acbc06b01a6beef74f448abb",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "colinhacks/reylo",
+      "url": "https://github.com/colinhacks/reylo"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-58bca009bf8bf04e71603a08",
+      "publishedAt": "2026-10-25T17:15:38Z",
+      "sourceId": "hacker-news",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-98e676d332a2faf8a4b358f0",
+      "publishedAt": "2026-10-25T16:28:26Z",
+      "sourceId": "hacker-news",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-70aa55e7e2a08113f938e354",
+      "publishedAt": "2026-10-25T21:11:31Z",
+      "sourceId": "hacker-news",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-19f7e08ae3cea68a85f3034e",
+      "publishedAt": "2026-10-22T17:59:48Z",
+      "sourceId": "arxiv",
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "url": "https://arxiv.org/abs/2610.31667v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e0aca48c7d8715a17edf729e",
+      "publishedAt": "2026-10-22T17:58:52Z",
+      "sourceId": "arxiv",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "url": "https://arxiv.org/abs/2610.31657v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-908f021f1880b460646396ca",
+      "publishedAt": "2026-10-22T17:58:27Z",
+      "sourceId": "arxiv",
+      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.31656v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-555676e413d4a4047921b943",
+      "publishedAt": "2026-10-22T17:57:04Z",
+      "sourceId": "arxiv",
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "url": "https://arxiv.org/abs/2610.31650v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5a99b3540c0f5478b8733efc",
+      "publishedAt": "2026-10-22T17:56:13Z",
+      "sourceId": "arxiv",
+      "title": "Low-Bit N-Gram Embeddings for Language Models",
+      "url": "https://arxiv.org/abs/2610.31646v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d8df872d8a05563eda3d9188",
+      "publishedAt": "2026-10-22T17:52:56Z",
+      "sourceId": "arxiv",
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "url": "https://arxiv.org/abs/2610.31639v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a9c29f907791f02b5b2e4d39",
+      "publishedAt": "2026-10-24T07:42:59-07:00",
+      "sourceId": "product-hunt",
+      "title": "Yourcast 2.0",
+      "url": "https://www.producthunt.com/products/yourcast"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d123bb3830419643bdcb2634",
+      "publishedAt": "2026-10-17T09:42:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "Clips by Plastic",
+      "url": "https://www.producthunt.com/products/clips-by-plastic"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f7d45a04af8b902a06e30cbc",
+      "publishedAt": "2026-10-12T23:39:58-07:00",
+      "sourceId": "product-hunt",
+      "title": "Moli by Lexmount",
+      "url": "https://www.producthunt.com/products/lexmount-browser"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4ccbf7f1bf394cfe3be5555b",
+      "publishedAt": "2026-10-22T04:47:53-07:00",
+      "sourceId": "product-hunt",
+      "title": "MRRaudit",
+      "url": "https://www.producthunt.com/products/mrraudit"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-dd74684f8e7c6a26ce6b288d",
+      "publishedAt": "2026-10-08T03:03:51-07:00",
+      "sourceId": "product-hunt",
+      "title": "Badgey",
+      "url": "https://www.producthunt.com/products/badgey"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-bf5af9631983ec70a68a059f",
+      "publishedAt": "2026-10-19T06:39:44-07:00",
+      "sourceId": "product-hunt",
+      "title": "git-flow-next",
+      "url": "https://www.producthunt.com/products/tower"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0d720e34970e51ceb9eafa32",
+      "publishedAt": "2026-10-17T08:11:58-07:00",
+      "sourceId": "product-hunt",
+      "title": "Openstatus Incident Management",
+      "url": "https://www.producthunt.com/products/openstatus-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-26T08:50:44+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0bb0ba7d8c6ca2b0d35936a1",
+      "publishedAt": "2026-10-23T19:40:27-07:00",
+      "sourceId": "product-hunt",
+      "title": "Llama Windows",
+      "url": "https://www.producthunt.com/products/llama-windows"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-76d88798303aa7e60af20be8",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "iPhone Duo teardown: 5/10 repairability, a foldable record, but some screens crack along the fold, possibly because a hinge support bar fails to drop far enough",
+      "url": "https://www.ifixit.com/News/119895/iphone-duo-teardown"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fc9749eca069ebbff715de78",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-19a00d3fee607c8bd935d3a0",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face “death and consolidation”",
+      "url": "https://x.com/elonmusk/status/2114434646914068862"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f6eba992b3cc9dd97e54ad2f",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
+      "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-699abb08a55769e05eb0d310",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
+      "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9d3d508ce30a0b4325b576d2",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Kimi K3.1 Pro's debut draws scrutiny over allegations that influencers were asked to promote the model without disclosing a commercial relationship to Moonshot",
+      "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-213562bbc413cbd85273cf96",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Instagram launches an Apple TV app for watching Reels, longer videos, and live shows; the app previously launched on Fire TV, Google TV, and Samsung smart TVs",
+      "url": "https://www.macrumors.com/2026/10/25/instagram-launches-apple-tv-app/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-26T08:50:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3ee0fbfa6f5915f0c01b46b0",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Data center tenants now demand $5M+ a day in late-delivery fees, up from $1M this spring, spawning new “delay-in-delivery” coverage from brokers like Marsh",
+      "url": "https://www.theinformation.com/articles/data-center-late-fees-hit-5-million-per-day-spawning-new-insurance"
+    }
+  ],
+  "date": "2026-10-26",
+  "edition": {
+    "windowEnd": "2026-10-26T08:45:00+08:00",
+    "windowStart": "2026-10-25T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-26T08:50:48+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-26 · 采集时显示：38 分钟前 · 打开账号列表",
+              "title": "iPhone Duo价格破发/国产大模型均价翻倍/企业微信回应耐克等账号发送涉黄引流信息",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-26T08:50:15+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-26T08:50:15+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "makecindy/cindy",
+            "url": "https://github.com/makecindy/cindy"
+          },
+          "TypeScript",
+          "675",
+          "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+        ],
+        [
+          {
+            "text": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark"
+          },
+          "CSS",
+          "1,317",
+          "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        ],
+        [
+          {
+            "text": "debpalash/VoiceStudio",
+            "url": "https://github.com/debpalash/VoiceStudio"
+          },
+          "Python",
+          "1,592",
+          "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        ],
+        [
+          {
+            "text": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable"
+          },
+          "Rust",
+          "1,092",
+          "The design language that makes your AI harness better at design."
+        ],
+        [
+          {
+            "text": "pollen-robotics/microduck",
+            "url": "https://github.com/pollen-robotics/microduck"
+          },
+          "Rust",
+          "647",
+          "A Tiny biped duck robot 🦆"
+        ],
+        [
+          {
+            "text": "TauricResearch/TradingAgents",
+            "url": "https://github.com/TauricResearch/TradingAgents"
+          },
+          "Python",
+          "381",
+          "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "pengchujin/aerial-tv",
+            "url": "https://github.com/pengchujin/aerial-tv"
+          },
+          "Kotlin",
+          "5000",
+          "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
+        ],
+        [
+          {
+            "text": "JustAResearcher/gpu-unlock-ada",
+            "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+          },
+          "C",
+          "2619",
+          "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
+        ],
+        [
+          {
+            "text": "xevrion/hatchzip",
+            "url": "https://github.com/xevrion/hatchzip"
+          },
+          "Rust",
+          "1937",
+          "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted"
+        ],
+        [
+          {
+            "text": "wesbos/3d-model-anything",
+            "url": "https://github.com/wesbos/3d-model-anything"
+          },
+          "Swift",
+          "1917",
+          "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
+        ],
+        [
+          {
+            "text": "ikow/php2shell-poc",
+            "url": "https://github.com/ikow/php2shell-poc"
+          },
+          "Python",
+          "1790",
+          "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research."
+        ],
+        [
+          {
+            "text": "Jakeschincariol/day-trader-skill",
+            "url": "https://github.com/Jakeschincariol/day-trader-skill"
+          },
+          "Python",
+          "1616",
+          "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-26 · 409 互动/积分 · 198 评论",
+          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+          "url": "https://lynchlab.net/llm-skin-cancer"
+        },
+        {
+          "meta": "发布 2026-10-26 · 195 互动/积分 · 276 评论",
+          "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+          "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html"
+        },
+        {
+          "meta": "发布 2026-10-26 · 113 互动/积分 · 133 评论",
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "url": "https://minimaxir.com/2026/10/cheap-llms/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+          "url": "https://arxiv.org/abs/2610.31667v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+          "url": "https://arxiv.org/abs/2610.31657v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2610.31656v1"
+        },
+        {
+          "meta": "发布 2026-10-23",
+          "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+          "url": "https://arxiv.org/abs/2610.31650v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-24",
+          "title": "Yourcast 2.0",
+          "url": "https://www.producthunt.com/products/yourcast"
+        },
+        {
+          "meta": "发布 2026-10-18",
+          "title": "Clips by Plastic",
+          "url": "https://www.producthunt.com/products/clips-by-plastic"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "Moli by Lexmount",
+          "url": "https://www.producthunt.com/products/lexmount-browser"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "MRRaudit",
+          "url": "https://www.producthunt.com/products/mrraudit"
+        },
+        {
+          "meta": "发布 2026-10-08",
+          "title": "Badgey",
+          "url": "https://www.producthunt.com/products/badgey"
+        },
+        {
+          "meta": "发布 2026-10-19",
+          "title": "git-flow-next",
+          "url": "https://www.producthunt.com/products/tower"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Elon Musk says SpaceX closed $40B in GPU debt, debt markets have shut off credit for AI data center firms, and 200+ neoclouds face “death and consolidation”",
+          "url": "https://x.com/elonmusk/status/2114434646914068862"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Lawmakers and Hill staffers in both parties say AI leaders are becoming a political liability as they swing between claims of prosperity and existential dangers",
+          "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Source: Replit recently moved most AI spend from Anthropic to OpenAI, which gave 30%+ off in a deal worth $100M+/year, after Anthropic discontinued its discount",
+          "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "github-trending",
+      "itemCount": 11,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "hacker-news",
+      "itemCount": 3,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-26T08:50:44+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:48+08:00",
+      "id": "techmeme",
+      "itemCount": 4,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-26T08:50:48+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:44+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:15+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-26T08:50:15+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:15+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-26T08:50:15+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:15+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-26T08:50:15+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-26T08:50:15+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-26T08:50:15+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}

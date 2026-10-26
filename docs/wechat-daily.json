@@ -2,10 +2,17 @@
   "accounts": [
     {
       "account": "APPSO",
-      "items": [],
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-26 · 采集时显示：38 分钟前 · 打开账号列表",
+          "title": "iPhone Duo价格破发/国产大模型均价翻倍/企业微信回应耐克等账号发送涉黄引流信息",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日未检出新文章",
-      "statusTone": "quiet"
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
     },
     {
       "account": "数字生命卡兹克",
@@ -29,9 +36,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-25T08:41:44+08:00",
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T08:45:13+08:00",
+  "capturedAt": "2026-10-26T08:50:15+08:00",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T08:50:48+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-25T08:41:44+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-26T08:50:15+08:00；相对时间以该采集时刻为准。"
 }
