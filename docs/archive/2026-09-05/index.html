@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="xAIT 今日 · 2026-09-05">
   <meta property="og:description" content="AI 资讯 · IT 热点 · 每日精选">
@@ -13,7 +13,11 @@
   <title>xAIT 今日 · 2026-09-05</title>
   <link rel="canonical" href="https://nicoleyang959.github.io/xait-today/archive/2026-09-05/">
   <link rel="stylesheet" href="../../assets/app.css">
+  <link rel="stylesheet" href="../../assets/records.css">
   <script src="../../assets/app.js" defer></script>
+
+  <script src="../../assets/records-core.js" defer></script>
+  <script src="../../assets/records-ui.js" defer></script>
 </head>
 <body class="theme-terminal">
   <a class="skip-link" href="#main-content">跳到简报正文</a>
@@ -86,6 +90,7 @@
         <p class="tagline">AI 资讯 · IT 热点 · 每日精选</p>
       </div>
       <div class="reading-controls">
+        <a class="saved-open" id="saved-open" href="#saved" data-no-i18n>我的项目</a>
         <details class="settings-drawer">
           <summary class="settings-summary">显示设置</summary>
           <div class="settings-panel">
@@ -113,6 +118,8 @@
     </header>
 
     <div class="container">
+      <p id="public-offline-notice" class="translation-notice" hidden data-no-i18n role="status"></p>
+      <div id="briefing-view">
       <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
       <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
@@ -133,12 +140,12 @@
           </section>
           <section class="section section-table" id="github-trending">
             <h2>📈 GitHub 今日 Trending</h2>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">mattpocock/skills</a></td><td data-label="语言">Shell</td><td data-label="今日增长">+2,758</td><td data-label="简介">真正工程师的技能。直接来自我的 .agents 目录。</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">+1,679</td><td data-label="简介">让你的人工智能代理像房间里最懒的高级开发人员一样思考。这</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/fmtlib/fmt" target="_blank" rel="noopener noreferrer">fmtlib/fmt</a></td><td data-label="语言">C++</td><td data-label="今日增长">+688</td><td data-label="简介">A modern formatting library</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">+1,135</td><td data-label="简介">代理利用性能优化系统。技能、本能、</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener noreferrer">anthropics/skills</a></td><td data-label="语言">Python</td><td data-label="今日增长">+511</td><td data-label="简介">代理技能的公共存储库</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/blader/humanizer" target="_blank" rel="noopener noreferrer">blader/humanizer</a></td><td data-label="语言">Python</td><td data-label="今日增长">+1,130</td><td data-label="简介">Agent skill that removes signs of AI-generated writing from text</td></tr></tbody></table></div></div>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/mattpocock/skills" target="_blank" rel="noopener noreferrer">mattpocock/skills</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="mattpocock/skills" data-project-url="https://github.com/mattpocock/skills" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Shell</td><td data-label="今日增长">+2,758</td><td data-label="简介">真正工程师的技能。直接来自我的 .agents 目录。</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="DietrichGebert/ponytail" data-project-url="https://github.com/DietrichGebert/ponytail" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="今日增长">+1,679</td><td data-label="简介">让你的人工智能代理像房间里最懒的高级开发人员一样思考。这</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/fmtlib/fmt" target="_blank" rel="noopener noreferrer">fmtlib/fmt</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="fmtlib/fmt" data-project-url="https://github.com/fmtlib/fmt" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">C++</td><td data-label="今日增长">+688</td><td data-label="简介">A modern formatting library</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener noreferrer">affaan-m/ECC</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="affaan-m/ECC" data-project-url="https://github.com/affaan-m/ECC" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="今日增长">+1,135</td><td data-label="简介">代理利用性能优化系统。技能、本能、</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener noreferrer">anthropics/skills</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="anthropics/skills" data-project-url="https://github.com/anthropics/skills" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="今日增长">+511</td><td data-label="简介">代理技能的公共存储库</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/blader/humanizer" target="_blank" rel="noopener noreferrer">blader/humanizer</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="blader/humanizer" data-project-url="https://github.com/blader/humanizer" data-project-source="github-trending" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="今日增长">+1,130</td><td data-label="简介">Agent skill that removes signs of AI-generated writing from text</td></tr></tbody></table></div></div>
           </section>
           <section class="section section-links" id="hacker-news">
             <h2>💬 Hacker News · 开发者热榜</h2>
@@ -162,12 +169,12 @@
           <section class="section section-links" id="product-hunt">
             <h2>🚀 Product Hunt · 近期新品</h2>
             <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://www.producthunt.com/products/openai" target="_blank" rel="noopener noreferrer">GPT-6 Astra</a></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/omarchy-3" target="_blank" rel="noopener noreferrer">Omarchy</a></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/twelvelabs" target="_blank" rel="noopener noreferrer">Compliance by TwelveLabs</a></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/clockwork-5" target="_blank" rel="noopener noreferrer">Clockwork</a></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/chalked" target="_blank" rel="noopener noreferrer">Chalked for Mac</a></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/offline-js-playground" target="_blank" rel="noopener noreferrer">Offline JS Playground</a></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/openai" target="_blank" rel="noopener noreferrer">GPT-6 Astra</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="GPT-6 Astra" data-project-url="https://www.producthunt.com/products/openai" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/omarchy-3" target="_blank" rel="noopener noreferrer">Omarchy</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Omarchy" data-project-url="https://www.producthunt.com/products/omarchy-3" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/twelvelabs" target="_blank" rel="noopener noreferrer">Compliance by TwelveLabs</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Compliance by TwelveLabs" data-project-url="https://www.producthunt.com/products/twelvelabs" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/clockwork-5" target="_blank" rel="noopener noreferrer">Clockwork</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Clockwork" data-project-url="https://www.producthunt.com/products/clockwork-5" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/chalked" target="_blank" rel="noopener noreferrer">Chalked for Mac</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Chalked for Mac" data-project-url="https://www.producthunt.com/products/chalked" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/offline-js-playground" target="_blank" rel="noopener noreferrer">Offline JS Playground</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Offline JS Playground" data-project-url="https://www.producthunt.com/products/offline-js-playground" data-project-source="product-hunt" data-project-issue="2026-09-05" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></li>
 </ul></div>
           </section>
         </div>
@@ -177,6 +184,92 @@
         <span>公开快照生成于 2026-09-05T08:54:39+08:00</span>
         <a href="../../health.json">构建状态</a>
       </footer>
+      </div>
+      <section id="saved-projects" class="saved-projects" hidden aria-labelledby="records-heading" data-no-i18n>
+        <header class="records-header">
+          <div>
+            <h2 id="records-heading" tabindex="-1" data-records-text="heading">我的项目</h2>
+            <p class="records-intro" data-records-text="intro">把值得研究的项目留下来，笔记只对你的账号可见。</p>
+          </div>
+          <a class="records-button records-back" id="records-back" href="#main-content" data-records-text="back">返回日报</a>
+        </header>
+
+        <div class="records-feedback" id="records-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+        <div class="records-gate" id="records-gate">
+          <h3 id="records-gate-heading" data-records-text="unconfiguredHeading">云收藏尚未启用</h3>
+          <p id="records-gate-message" data-records-text="unconfigured">站点尚未配置私人同步服务。你仍可正常阅读日报，配置完成后再登录收藏。</p>
+          <button class="records-button records-primary" id="records-login" type="button" hidden data-records-text="login">用 GitHub 登录</button>
+          <p class="records-privacy" data-records-text="privacy">收藏与笔记保存在本机和站点配置的 Supabase 服务中，不会写进公开日报或 GitHub 仓库。首次登录需要联网。</p>
+        </div>
+
+        <div id="records-workspace" hidden>
+          <div class="records-account-bar">
+            <span id="records-account" class="records-account"></span>
+            <span id="records-sync-state" class="records-sync-state" role="status" aria-live="polite"></span>
+            <button class="records-button" id="records-sync" type="button" data-records-text="sync">立即同步</button>
+            <button class="records-button" id="records-signout" type="button" data-records-text="signout">退出账号</button>
+          </div>
+
+          <div class="records-tools">
+            <label class="records-search-label" for="records-search">
+              <span data-records-text="searchLabel">搜索项目</span>
+              <input id="records-search" type="search" maxlength="200" autocomplete="off" data-records-placeholder="searchPlaceholder" placeholder="名称、链接或笔记">
+            </label>
+            <label for="records-filter">
+              <span data-records-text="filterLabel">跟进状态</span>
+              <select id="records-filter">
+                <option value="all" data-records-text="all">全部状态</option>
+                <option value="to_research" data-records-text="to_research">待研究</option>
+                <option value="tried" data-records-text="tried">已体验</option>
+                <option value="watching" data-records-text="watching">重点关注</option>
+              </select>
+            </label>
+          </div>
+
+          <details class="records-add" id="records-add">
+            <summary data-records-text="manualAdd">手动添加项目</summary>
+            <form id="records-manual-form" class="records-form">
+              <label for="records-manual-title"><span data-records-text="projectName">项目名称</span><input id="records-manual-title" name="title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-manual-url"><span data-records-text="projectUrl">项目链接</span><input id="records-manual-url" name="url" type="url" required maxlength="2048" autocomplete="off" inputmode="url"></label>
+              <p class="records-help" data-records-text="manualHelp">只保存你输入的链接，不访问目标网站或自动抓取内容。</p>
+              <button class="records-button records-primary" type="submit" data-records-text="saveProject">收藏项目</button>
+            </form>
+          </details>
+
+          <div class="records-backup-tools" role="group" aria-label="项目备份" data-records-aria="backupLabel">
+            <button class="records-button" id="records-export-json" type="button" data-records-text="exportJson">导出 JSON 备份</button>
+            <button class="records-button" id="records-export-markdown" type="button" data-records-text="exportMarkdown">导出 Markdown</button>
+            <button class="records-button" id="records-import" type="button" data-records-text="importJson">导入 JSON 备份</button>
+            <input id="records-import-file" type="file" accept="application/json,.json" hidden aria-label="选择 JSON 备份" data-records-aria="chooseBackup">
+          </div>
+
+          <p id="records-count" class="records-count"></p>
+          <p id="records-empty" class="records-empty" data-records-text="empty">还没有收藏项目。在日报里点击“收藏”，或手动添加一个项目链接。</p>
+          <ul id="records-list" class="records-list" aria-label="已收藏项目" data-records-aria="savedList"></ul>
+
+          <section id="records-editor" class="records-editor" hidden aria-labelledby="records-editor-heading">
+            <h3 id="records-editor-heading" tabindex="-1" data-records-text="editHeading">项目笔记</h3>
+            <form id="records-edit-form" class="records-form">
+              <input id="records-edit-id" type="hidden">
+              <label for="records-edit-title"><span data-records-text="projectName">项目名称</span><input id="records-edit-title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-edit-status"><span data-records-text="filterLabel">跟进状态</span><select id="records-edit-status"><option value="to_research" data-records-text="to_research">待研究</option><option value="tried" data-records-text="tried">已体验</option><option value="watching" data-records-text="watching">重点关注</option></select></label>
+              <label class="records-notes-label" for="records-edit-notes"><span data-records-text="notes">为什么值得关注？</span><textarea id="records-edit-notes" rows="7" maxlength="5000" data-records-placeholder="notesPlaceholder" placeholder="记下用途、想试的功能，或你自己的判断。" data-no-i18n></textarea></label>
+              <p class="records-help" data-records-text="noteHelp">最多 5,000 字。笔记保留你输入的语言，不会自动翻译。</p>
+              <div class="records-edit-actions"><button class="records-button records-primary" type="submit" data-records-text="saveNotes">保存笔记</button><button class="records-button" id="records-editor-close" type="button" data-records-text="closeEditor">收起编辑</button></div>
+            </form>
+          </section>
+        </div>
+      </section>
+      <dialog id="records-dialog" class="records-dialog" aria-labelledby="records-dialog-title" aria-describedby="records-dialog-message" data-no-i18n>
+        <form method="dialog">
+          <h2 id="records-dialog-title"></h2>
+          <p id="records-dialog-message"></p>
+          <div id="records-dialog-detail" class="records-dialog-detail"></div>
+          <div id="records-dialog-actions" class="records-dialog-actions"></div>
+        </form>
+      </dialog>
+      <div id="records-toast" class="records-toast" role="status" aria-live="polite" aria-atomic="true" hidden data-no-i18n></div>
+
     </div>
   </main>
 <template id="xait-language-data">{
@@ -836,6 +929,13 @@
       "zh": "🧪 arXiv · AI 最新论文"
     }
   }
+}
+</template>
+<template id="xait-records-config">{
+  "enabled": false,
+  "publishableKey": "",
+  "redirectUrl": "",
+  "supabaseUrl": ""
 }
 </template>
 </body>

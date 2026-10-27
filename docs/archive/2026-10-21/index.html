@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="xAIT 今日 · 2026-10-21">
   <meta property="og:description" content="AI 和 IT 的无限可能">
@@ -13,7 +13,11 @@
   <title>xAIT 今日 · 2026-10-21</title>
   <link rel="canonical" href="https://nicoleyang959.github.io/xait-today/archive/2026-10-21/">
   <link rel="stylesheet" href="../../assets/app.css">
+  <link rel="stylesheet" href="../../assets/records.css">
   <script src="../../assets/app.js" defer></script>
+
+  <script src="../../assets/records-core.js" defer></script>
+  <script src="../../assets/records-ui.js" defer></script>
 </head>
 <body class="theme-terminal">
   <a class="skip-link" href="#main-content">跳到简报正文</a>
@@ -86,6 +90,7 @@
         <p class="tagline">AI 和 IT 的无限可能</p>
       </div>
       <div class="reading-controls">
+        <a class="saved-open" id="saved-open" href="#saved" data-no-i18n>我的项目</a>
         <details class="settings-drawer">
           <summary class="settings-summary">显示设置</summary>
           <div class="settings-panel">
@@ -113,6 +118,8 @@
     </header>
 
     <div class="container">
+      <p id="public-offline-notice" class="translation-notice" hidden data-no-i18n role="status"></p>
+      <div id="briefing-view">
       <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
       <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
@@ -151,36 +158,36 @@
           </section></div></section>
 <section class="content-module" id="module-products-opensource"><h2 class="module-heading">产品与开源</h2><div class="module-grid">          <section class="module-source section-links module-source-wide" id="product-hunt-ranking">
             <h3>🏆 Product Hunt · 热门产品 Top 10</h3>
-            <div class="content"><p class="ph-ranking-meta"><span>榜单日期：</span><time datetime="2026-10-19">2026-10-19</time><span>（太平洋时间）</span> · <span>截至采集时间：</span><time datetime="2026-10-21T08:51:08+08:00">2026-10-21T08:51:08+08:00</time> · <a href="https://www.producthunt.com/leaderboard/daily/2026/10/19" target="_blank" rel="noopener noreferrer">查看官方日榜</a></p><p class="ph-ranking-note">官方精选日榜，保留来源名次；积分为 Product Hunt 综合互动积分，不等同于点赞数。榜单日期不是产品发布日期。</p><ol class="ph-ranking-list"><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#1">1</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/beam-win" target="_blank" rel="noopener noreferrer">Beam.win</a></div><p class="ph-ranking-description">Run AI agents on one Mac and use its windows on another</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#2">2</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/figma" target="_blank" rel="noopener noreferrer">Figma Specs</a></div><p class="ph-ranking-description">A container for your context that lives on the Figma canvas</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#3">3</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/readywhen" target="_blank" rel="noopener noreferrer">readywhen</a></div><p class="ph-ranking-description">The senior personal assistant that works inside WhatsApp</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#4">4</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/walkai-talkai" target="_blank" rel="noopener noreferrer">walkai-talkai</a></div><p class="ph-ranking-description">Talk to your AI coding agent over a walkie-talkie</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#5">5</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/gleap" target="_blank" rel="noopener noreferrer">Kai Resolve by Gleap</a></div><p class="ph-ranking-description">Support that does the digging for you.</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#6">6</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/willow-voice" target="_blank" rel="noopener noreferrer">Wally by Willow</a></div><p class="ph-ranking-description">Your Scribe agent that learns how you write</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#7">7</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/beam-13" target="_blank" rel="noopener noreferrer">Beam</a></div><p class="ph-ranking-description">Highly efficient agentic 501B parameter open model</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#8">8</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/buddylist-2" target="_blank" rel="noopener noreferrer">buddylist</a></div><p class="ph-ranking-description">Chat with your coding agents like it&#x27;s 2005</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#9">9</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/framefields" target="_blank" rel="noopener noreferrer">Framefields</a></div><p class="ph-ranking-description">Open-source code-first video for AGI era</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#10">10</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal" target="_blank" rel="noopener noreferrer">Lazy AWS</a></div><p class="ph-ranking-description">A keyboard-driven home for your AWS resources</p></div></li></ol></div>
+            <div class="content"><p class="ph-ranking-meta"><span>榜单日期：</span><time datetime="2026-10-19">2026-10-19</time><span>（太平洋时间）</span> · <span>截至采集时间：</span><time datetime="2026-10-21T08:51:08+08:00">2026-10-21T08:51:08+08:00</time> · <a href="https://www.producthunt.com/leaderboard/daily/2026/10/19" target="_blank" rel="noopener noreferrer">查看官方日榜</a></p><p class="ph-ranking-note">官方精选日榜，保留来源名次；积分为 Product Hunt 综合互动积分，不等同于点赞数。榜单日期不是产品发布日期。</p><ol class="ph-ranking-list"><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#1">1</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/beam-win" target="_blank" rel="noopener noreferrer">Beam.win</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Beam.win" data-project-url="https://www.producthunt.com/products/beam-win" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Run AI agents on one Mac and use its windows on another</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#2">2</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/figma" target="_blank" rel="noopener noreferrer">Figma Specs</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Figma Specs" data-project-url="https://www.producthunt.com/products/figma" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">A container for your context that lives on the Figma canvas</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#3">3</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/readywhen" target="_blank" rel="noopener noreferrer">readywhen</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="readywhen" data-project-url="https://www.producthunt.com/products/readywhen" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">The senior personal assistant that works inside WhatsApp</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#4">4</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/walkai-talkai" target="_blank" rel="noopener noreferrer">walkai-talkai</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="walkai-talkai" data-project-url="https://www.producthunt.com/products/walkai-talkai" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Talk to your AI coding agent over a walkie-talkie</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#5">5</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/gleap" target="_blank" rel="noopener noreferrer">Kai Resolve by Gleap</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Kai Resolve by Gleap" data-project-url="https://www.producthunt.com/products/gleap" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Support that does the digging for you.</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#6">6</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/willow-voice" target="_blank" rel="noopener noreferrer">Wally by Willow</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Wally by Willow" data-project-url="https://www.producthunt.com/products/willow-voice" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Your Scribe agent that learns how you write</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#7">7</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/beam-13" target="_blank" rel="noopener noreferrer">Beam</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Beam" data-project-url="https://www.producthunt.com/products/beam-13" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Highly efficient agentic 501B parameter open model</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#8">8</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/buddylist-2" target="_blank" rel="noopener noreferrer">buddylist</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="buddylist" data-project-url="https://www.producthunt.com/products/buddylist-2" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Chat with your coding agents like it&#x27;s 2005</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#9">9</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/framefields" target="_blank" rel="noopener noreferrer">Framefields</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Framefields" data-project-url="https://www.producthunt.com/products/framefields" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">Open-source code-first video for AGI era</p></div></li><li class="ph-ranking-item"><span class="ph-ranking-rank" aria-label="#10">10</span><div class="ph-ranking-copy"><div class="ph-ranking-name" data-no-i18n><a href="https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal" target="_blank" rel="noopener noreferrer">Lazy AWS</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Lazy AWS" data-project-url="https://www.producthunt.com/products/lazy-aws-your-cloud-your-terminal" data-project-source="product-hunt-ranking" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></div><p class="ph-ranking-description">A keyboard-driven home for your AWS resources</p></div></li></ol></div>
           </section>
           <section class="module-source section-links" id="product-hunt">
             <h3>🚀 Product Hunt · 近期新品</h3>
             <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://www.producthunt.com/products/nativeship" target="_blank" rel="noopener noreferrer">NativeShip</a><span class="link-meta">发布 2026-10-08</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/band" target="_blank" rel="noopener noreferrer">BAND for Developers</a><span class="link-meta">发布 2026-10-13</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel" target="_blank" rel="noopener noreferrer">Flyweel</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/needle-3" target="_blank" rel="noopener noreferrer">Needle</a><span class="link-meta">发布 2026-10-09</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/notion-99" target="_blank" rel="noopener noreferrer">Notion Auto</a><span class="link-meta">发布 2026-10-21</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/hotly" target="_blank" rel="noopener noreferrer">Hotly</a><span class="link-meta">发布 2026-10-20</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/nativeship" target="_blank" rel="noopener noreferrer">NativeShip</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="NativeShip" data-project-url="https://www.producthunt.com/products/nativeship" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-08</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/band" target="_blank" rel="noopener noreferrer">BAND for Developers</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="BAND for Developers" data-project-url="https://www.producthunt.com/products/band" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-13</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel" target="_blank" rel="noopener noreferrer">Flyweel</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Flyweel" data-project-url="https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/needle-3" target="_blank" rel="noopener noreferrer">Needle</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Needle" data-project-url="https://www.producthunt.com/products/needle-3" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/notion-99" target="_blank" rel="noopener noreferrer">Notion Auto</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Notion Auto" data-project-url="https://www.producthunt.com/products/notion-99" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-21</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/hotly" target="_blank" rel="noopener noreferrer">Hotly</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Hotly" data-project-url="https://www.producthunt.com/products/hotly" data-project-source="product-hunt" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-20</span></li>
 </ul></div>
           </section>
           <section class="module-source section-table" id="github-trending">
             <h3>📈 GitHub 今日 Trending</h3>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" rel="noopener noreferrer">MadsLorentzen/ai-job-search</a></td><td data-label="语言">Python</td><td data-label="今日增长">3,861</td><td data-label="简介">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">1,712</td><td data-label="简介">A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a></td><td data-label="语言">TypeScript</td><td data-label="今日增长">1,565</td><td data-label="简介">Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">1,208</td><td data-label="简介">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener noreferrer">Comfy-Org/ComfyUI</a></td><td data-label="语言">Python</td><td data-label="今日增长">1,206</td><td data-label="简介">The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener noreferrer">ruvnet/ruflo</a></td><td data-label="语言">TypeScript</td><td data-label="今日增长">684</td><td data-label="简介">🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning </td></tr></tbody></table></div></div>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/MadsLorentzen/ai-job-search" target="_blank" rel="noopener noreferrer">MadsLorentzen/ai-job-search</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="MadsLorentzen/ai-job-search" data-project-url="https://github.com/MadsLorentzen/ai-job-search" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="今日增长">3,861</td><td data-label="简介">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/cloudflare/security-audit-skill" target="_blank" rel="noopener noreferrer">cloudflare/security-audit-skill</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="cloudflare/security-audit-skill" data-project-url="https://github.com/cloudflare/security-audit-skill" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="今日增长">1,712</td><td data-label="简介">A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">stablyai/orca</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="stablyai/orca" data-project-url="https://github.com/stablyai/orca" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">TypeScript</td><td data-label="今日增长">1,565</td><td data-label="简介">Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener noreferrer">DietrichGebert/ponytail</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="DietrichGebert/ponytail" data-project-url="https://github.com/DietrichGebert/ponytail" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="今日增长">1,208</td><td data-label="简介">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener noreferrer">Comfy-Org/ComfyUI</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Comfy-Org/ComfyUI" data-project-url="https://github.com/Comfy-Org/ComfyUI" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="今日增长">1,206</td><td data-label="简介">The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/ruvnet/ruflo" target="_blank" rel="noopener noreferrer">ruvnet/ruflo</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="ruvnet/ruflo" data-project-url="https://github.com/ruvnet/ruflo" data-project-source="github-trending" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">TypeScript</td><td data-label="今日增长">684</td><td data-label="简介">🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning </td></tr></tbody></table></div></div>
           </section>
           <section class="module-source section-table" id="weekly-high-stars">
             <h3>🌱 本周新建高星项目</h3>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepInfer</a></td><td data-label="语言">Python</td><td data-label="Star">15710</td><td data-label="简介">DeepInfer: High-performance, large-scale inference framework for DeepSeek models</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer">Gathin23/cleanyourtv</a></td><td data-label="语言">Java</td><td data-label="Star">14301</td><td data-label="简介">Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/ly05010419/MacNativeGames" target="_blank" rel="noopener noreferrer">ly05010419/MacNativeGames</a></td><td data-label="语言">C</td><td data-label="Star">3189</td><td data-label="简介">未提供</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/simbasjungles/free-my-tv" target="_blank" rel="noopener noreferrer">simbasjungles/free-my-tv</a></td><td data-label="语言">Java</td><td data-label="Star">2120</td><td data-label="简介">A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/Leonxlnx/earshot" target="_blank" rel="noopener noreferrer">Leonxlnx/earshot</a></td><td data-label="语言">Python</td><td data-label="Star">2006</td><td data-label="简介">Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/chenglou/handwired" target="_blank" rel="noopener noreferrer">chenglou/handwired</a></td><td data-label="语言">TypeScript</td><td data-label="Star">1863</td><td data-label="简介">Turn your regular JavaScript code into a neural net.</td></tr></tbody></table></div></div>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepInfer</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="deepseek-ai/DeepInfer" data-project-url="https://github.com/deepseek-ai/DeepInfer" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="Star">15710</td><td data-label="简介">DeepInfer: High-performance, large-scale inference framework for DeepSeek models</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/Gathin23/cleanyourtv" target="_blank" rel="noopener noreferrer">Gathin23/cleanyourtv</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Gathin23/cleanyourtv" data-project-url="https://github.com/Gathin23/cleanyourtv" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Java</td><td data-label="Star">14301</td><td data-label="简介">Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/ly05010419/MacNativeGames" target="_blank" rel="noopener noreferrer">ly05010419/MacNativeGames</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="ly05010419/MacNativeGames" data-project-url="https://github.com/ly05010419/MacNativeGames" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">C</td><td data-label="Star">3189</td><td data-label="简介">未提供</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/simbasjungles/free-my-tv" target="_blank" rel="noopener noreferrer">simbasjungles/free-my-tv</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="simbasjungles/free-my-tv" data-project-url="https://github.com/simbasjungles/free-my-tv" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Java</td><td data-label="Star">2120</td><td data-label="简介">A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/Leonxlnx/earshot" target="_blank" rel="noopener noreferrer">Leonxlnx/earshot</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Leonxlnx/earshot" data-project-url="https://github.com/Leonxlnx/earshot" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="Star">2006</td><td data-label="简介">Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/chenglou/handwired" target="_blank" rel="noopener noreferrer">chenglou/handwired</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="chenglou/handwired" data-project-url="https://github.com/chenglou/handwired" data-project-source="weekly-high-stars" data-project-issue="2026-10-21" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">TypeScript</td><td data-label="Star">1863</td><td data-label="简介">Turn your regular JavaScript code into a neural net.</td></tr></tbody></table></div></div>
           </section></div></section>
 </section>
         </div>
@@ -190,6 +197,92 @@
         <span>公开快照生成于 2026-10-21T16:01:43+08:00</span>
         <a href="../../health.json">构建状态</a>
       </footer>
+      </div>
+      <section id="saved-projects" class="saved-projects" hidden aria-labelledby="records-heading" data-no-i18n>
+        <header class="records-header">
+          <div>
+            <h2 id="records-heading" tabindex="-1" data-records-text="heading">我的项目</h2>
+            <p class="records-intro" data-records-text="intro">把值得研究的项目留下来，笔记只对你的账号可见。</p>
+          </div>
+          <a class="records-button records-back" id="records-back" href="#main-content" data-records-text="back">返回日报</a>
+        </header>
+
+        <div class="records-feedback" id="records-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+        <div class="records-gate" id="records-gate">
+          <h3 id="records-gate-heading" data-records-text="unconfiguredHeading">云收藏尚未启用</h3>
+          <p id="records-gate-message" data-records-text="unconfigured">站点尚未配置私人同步服务。你仍可正常阅读日报，配置完成后再登录收藏。</p>
+          <button class="records-button records-primary" id="records-login" type="button" hidden data-records-text="login">用 GitHub 登录</button>
+          <p class="records-privacy" data-records-text="privacy">收藏与笔记保存在本机和站点配置的 Supabase 服务中，不会写进公开日报或 GitHub 仓库。首次登录需要联网。</p>
+        </div>
+
+        <div id="records-workspace" hidden>
+          <div class="records-account-bar">
+            <span id="records-account" class="records-account"></span>
+            <span id="records-sync-state" class="records-sync-state" role="status" aria-live="polite"></span>
+            <button class="records-button" id="records-sync" type="button" data-records-text="sync">立即同步</button>
+            <button class="records-button" id="records-signout" type="button" data-records-text="signout">退出账号</button>
+          </div>
+
+          <div class="records-tools">
+            <label class="records-search-label" for="records-search">
+              <span data-records-text="searchLabel">搜索项目</span>
+              <input id="records-search" type="search" maxlength="200" autocomplete="off" data-records-placeholder="searchPlaceholder" placeholder="名称、链接或笔记">
+            </label>
+            <label for="records-filter">
+              <span data-records-text="filterLabel">跟进状态</span>
+              <select id="records-filter">
+                <option value="all" data-records-text="all">全部状态</option>
+                <option value="to_research" data-records-text="to_research">待研究</option>
+                <option value="tried" data-records-text="tried">已体验</option>
+                <option value="watching" data-records-text="watching">重点关注</option>
+              </select>
+            </label>
+          </div>
+
+          <details class="records-add" id="records-add">
+            <summary data-records-text="manualAdd">手动添加项目</summary>
+            <form id="records-manual-form" class="records-form">
+              <label for="records-manual-title"><span data-records-text="projectName">项目名称</span><input id="records-manual-title" name="title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-manual-url"><span data-records-text="projectUrl">项目链接</span><input id="records-manual-url" name="url" type="url" required maxlength="2048" autocomplete="off" inputmode="url"></label>
+              <p class="records-help" data-records-text="manualHelp">只保存你输入的链接，不访问目标网站或自动抓取内容。</p>
+              <button class="records-button records-primary" type="submit" data-records-text="saveProject">收藏项目</button>
+            </form>
+          </details>
+
+          <div class="records-backup-tools" role="group" aria-label="项目备份" data-records-aria="backupLabel">
+            <button class="records-button" id="records-export-json" type="button" data-records-text="exportJson">导出 JSON 备份</button>
+            <button class="records-button" id="records-export-markdown" type="button" data-records-text="exportMarkdown">导出 Markdown</button>
+            <button class="records-button" id="records-import" type="button" data-records-text="importJson">导入 JSON 备份</button>
+            <input id="records-import-file" type="file" accept="application/json,.json" hidden aria-label="选择 JSON 备份" data-records-aria="chooseBackup">
+          </div>
+
+          <p id="records-count" class="records-count"></p>
+          <p id="records-empty" class="records-empty" data-records-text="empty">还没有收藏项目。在日报里点击“收藏”，或手动添加一个项目链接。</p>
+          <ul id="records-list" class="records-list" aria-label="已收藏项目" data-records-aria="savedList"></ul>
+
+          <section id="records-editor" class="records-editor" hidden aria-labelledby="records-editor-heading">
+            <h3 id="records-editor-heading" tabindex="-1" data-records-text="editHeading">项目笔记</h3>
+            <form id="records-edit-form" class="records-form">
+              <input id="records-edit-id" type="hidden">
+              <label for="records-edit-title"><span data-records-text="projectName">项目名称</span><input id="records-edit-title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-edit-status"><span data-records-text="filterLabel">跟进状态</span><select id="records-edit-status"><option value="to_research" data-records-text="to_research">待研究</option><option value="tried" data-records-text="tried">已体验</option><option value="watching" data-records-text="watching">重点关注</option></select></label>
+              <label class="records-notes-label" for="records-edit-notes"><span data-records-text="notes">为什么值得关注？</span><textarea id="records-edit-notes" rows="7" maxlength="5000" data-records-placeholder="notesPlaceholder" placeholder="记下用途、想试的功能，或你自己的判断。" data-no-i18n></textarea></label>
+              <p class="records-help" data-records-text="noteHelp">最多 5,000 字。笔记保留你输入的语言，不会自动翻译。</p>
+              <div class="records-edit-actions"><button class="records-button records-primary" type="submit" data-records-text="saveNotes">保存笔记</button><button class="records-button" id="records-editor-close" type="button" data-records-text="closeEditor">收起编辑</button></div>
+            </form>
+          </section>
+        </div>
+      </section>
+      <dialog id="records-dialog" class="records-dialog" aria-labelledby="records-dialog-title" aria-describedby="records-dialog-message" data-no-i18n>
+        <form method="dialog">
+          <h2 id="records-dialog-title"></h2>
+          <p id="records-dialog-message"></p>
+          <div id="records-dialog-detail" class="records-dialog-detail"></div>
+          <div id="records-dialog-actions" class="records-dialog-actions"></div>
+        </form>
+      </dialog>
+      <div id="records-toast" class="records-toast" role="status" aria-live="polite" aria-atomic="true" hidden data-no-i18n></div>
+
     </div>
   </main>
 <template id="xait-language-data">{
@@ -849,6 +942,13 @@
       "zh": "🧪 arXiv · AI 最新论文"
     }
   }
+}
+</template>
+<template id="xait-records-config">{
+  "enabled": false,
+  "publishableKey": "",
+  "redirectUrl": "",
+  "supabaseUrl": ""
 }
 </template>
 </body>

@@ -9,6 +9,17 @@ permissions:
   contents: read
 
 jobs:
+  records:
+    name: Private library / Node built-in tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test local transactions and synchronization contracts
+        run: node --test tests/records-core.test.cjs tests/records-ui.test.cjs tests/records-sw.test.cjs
+
   test:
     name: ${{ matrix.os }} / Python ${{ matrix.python-version }}
     runs-on: ${{ matrix.os }}

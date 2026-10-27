@@ -78,6 +78,7 @@ button:focus-visible, a:focus-visible, summary:focus-visible {
   padding-inline: 0;
   border-right: 0;
   overflow: hidden;
+  visibility: hidden;
 }
 .sidebar-brand {
   display: block;

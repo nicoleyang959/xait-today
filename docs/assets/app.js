@@ -327,6 +327,7 @@
     sidebarLabel();
     safeWrite(LANGUAGE_KEY, language);
     safeWrite(ORIGINAL_KEY, originalContent ? "1" : "0");
+    document.dispatchEvent(new CustomEvent("xait:languagechange", { detail: { language } }));
     if (updateUrl) {
       try {
         const url = new URL(window.location.href);
@@ -357,4 +358,37 @@
     // without attaching a second collapse/expand action.
     Promise.resolve().then(sidebarLabel);
   });
+})();
+
+// Public-shell caching is independent of private account storage and i18n.
+(() => {
+  "use strict";
+  const offlineNotice = () => {
+    const element = document.getElementById("public-offline-notice");
+    if (!element) return;
+    element.hidden = navigator.onLine;
+    const date = document.querySelector(".issue-date");
+    const shown = date ? date.textContent : "";
+    element.textContent = document.documentElement.lang === "en"
+      ? "Offline. Cached briefing date: " + shown + ". Project changes stay local until synchronization."
+      : "当前离线，缓存简报日期：" + shown + "。项目更改仅保存在本机，联网后再同步。";
+  };
+  offlineNotice();
+  window.addEventListener("online", offlineNotice);
+  window.addEventListener("offline", offlineNotice);
+  document.addEventListener("xait:languagechange", offlineNotice);
+  try {
+    const node = document.getElementById("xait-records-config");
+    if (!node || !node.content) return;
+    const config = JSON.parse(node.content.textContent);
+    if (!config.enabled || !window.isSecureContext || !navigator.serviceWorker) return;
+    const home = document.querySelector(".sidebar-brand");
+    if (!home) return;
+    const root = new URL(home.href);
+    const configured = new URL(config.redirectUrl);
+    if (configured.protocol !== "https:" || configured.href !== root.href || configured.origin !== location.origin) return;
+    navigator.serviceWorker.register(new URL("sw.js", root).href, {scope: root.pathname}).catch(() => {});
+  } catch (_) {
+    // An unconfigured optional capability never blocks the daily reader.
+  }
 })();

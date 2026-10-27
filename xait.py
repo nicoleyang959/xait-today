@@ -39,6 +39,81 @@ ASSETS_DIR = ROOT / "site" / "assets"
 I18N_DIR = ROOT / "site" / "i18n"
 DOCS_DIR = ROOT / "docs"
 PUBLIC_BASE_URL = "https://nicoleyang959.github.io/xait-today/"
+RECORDS_CONFIG_PATH = ROOT / "site" / "cloud-records.json"
+RECORDS_TEMPLATE_PATH = ROOT / "site" / "templates" / "records.html"
+RECORDS_SW_PATH = ROOT / "site" / "sw.js"
+SDK_ASSET = "assets/vendor/supabase-2.118.0.js"
+SDK_SHA256 = "ee3be8de192b97cb1d73d1e95d6b82bb1f6b658c0f97c4ef757fc331996ed3d3"
+STATIC_ASSETS = ("app.css", "app.js", "records.css", "records-core.js", "records-ui.js",
+                 "vendor/supabase-2.118.0.js", "vendor/SUPABASE-LICENSE.txt")
+
+
+def records_config() -> Dict[str, Any]:
+    """Only explicitly declared, public configuration is a build input."""
+    config = _load_json(RECORDS_CONFIG_PATH)
+    fields = {"enabled", "supabaseUrl", "publishableKey", "redirectUrl"}
+    if not isinstance(config, dict) or set(config) != fields or type(config["enabled"]) is not bool:
+        raise XaitError("云收藏配置字段或 enabled 无效", EXIT_SECURITY)
+    if any(not isinstance(config[key], str) for key in fields - {"enabled"}):
+        raise XaitError("云收藏公开配置必须是文本", EXIT_SECURITY)
+    if not config["enabled"]:
+        if any(config[key] for key in fields - {"enabled"}):
+            raise XaitError("未启用的云收藏配置必须保持为空", EXIT_SECURITY)
+        return config
+    endpoint = config["supabaseUrl"]
+    if not re.fullmatch(r"https://[a-z0-9]{20}\.supabase\.co", endpoint):
+        raise XaitError("云收藏仅允许一个明确的 HTTPS Supabase 实例", EXIT_SECURITY)
+    if not re.fullmatch(r"sb_publishable_[A-Za-z0-9_-]{16,256}", config["publishableKey"]):
+        raise XaitError("云收藏只接受新的公开 publishable 标识，禁止秘密或旧 JWT", EXIT_SECURITY)
+    redirect = config["redirectUrl"]
+    _validate_public_url(redirect, "records.redirectUrl")
+    parts = urlsplit(redirect)
+    if parts.scheme != "https" or parts.query or parts.fragment or not parts.path.endswith("/"):
+        raise XaitError("云收藏回调必须为无查询或片段的 HTTPS 网站首页", EXIT_SECURITY)
+    return config
+
+
+def audited_sdk_scan_view(text: str) -> str:
+    """Normalize reviewed *syntax* in one immutable official browser artifact.
+
+    Never applies to user inputs or another file. The complete artifact is
+    verified first, so a changed byte, appended secret or re-encoded payload is
+    rejected rather than inheriting these narrowly reviewed syntax exceptions.
+    """
+    if hashlib.sha256(text.encode("utf-8")).hexdigest() != SDK_SHA256:
+        raise XaitError("官方 SDK 字节发生变化，须重新核验供应链与语法例外", EXIT_SECURITY)
+    view = _decode_scan_text(text)
+    assignment = re.compile(r"(?i)(?:api[_-]?key|access[_-]?token|authorization|cookie|password|secret)\s*['\"]?\s*[:=]\s*['\"]?[^\s<'\",}]{1,}")
+    reviewed = {
+        "AccessToken=n", "AccessToken=void", "Authorization:`Bearer",
+        "Authorization:this._approveAuthorization.bind(this)",
+        "Authorization:this._denyAuthorization.bind(this)", "Authorization=`Bearer",
+        "Password:n.weak_password", "Secret:this._regenerateOAuthClientSecret.bind(this)",
+        "accessToken:async()=>``", "accessToken:this._getAccessToken.bind(this)",
+        "accessToken=e.accessToken:delete", "accessToken=e?.accessToken??null;let",
+        "accessToken=null", "accessToken=o.accessToken", "access_token:`access_token`",
+        "access_token:e.access_token", "access_token:i", "access_token:n", "access_token:s",
+        "access_token=this.socket.accessTokenValue)", "apiKey=null", "apiKey=t.params.apikey",
+        "apikey:`${this.supabaseKey", "apikey:this.socket.apiKey?this.socket.apiKey:``",
+        "apikey:this.supabaseKey", "password:i", "password:r",
+        "password==`object`&&Array.isArray(e.weak_password.reasons)&&e.weak_password.reasons.length&&e.weak_password.message&&typeof",
+        "password==`object`&&t.weak_password&&Array.isArray(t.weak_password.reasons)&&t.weak_password.reasons.length&&t.weak_password.reasons.reduce((e",
+        "password=e.weak_password)",
+    }
+    matches = list(assignment.finditer(view))
+    if len(matches) != 46 or {match.group(0) for match in matches} != reviewed:
+        raise XaitError("SDK 语法审计清单发生变化", EXIT_SECURITY)
+    view = assignment.sub("sdkRuntimeValue", view)
+    # Relative Auth API route strings are not filesystem paths. The sole
+    # loopback URL is the SDK's unused default; our client always supplies an
+    # explicitly validated instance. Backticks must delimit JS strings for URL
+    # heuristics, rather than making the remainder of minified code a URL.
+    view = view.replace("/admin/users/", "/admin/public-users/")
+    view = view.replace('e.includes(`' + chr(92) * 2 + '`)', 'e.includes(`backslash`)')
+    view = view.replace("http://localhost:9999", "https://supabase.com")
+    view = view.replace("`", "'")
+    view = view.replace("e==='localhost'", "e==='sdk-loopback-host'")
+    return view.replace("'localhost','127.0.0.1','[::1]'", "'sdk-loopback-defaults'")
 
 EXIT_OK = 0
 EXIT_INPUT = 2
@@ -1212,18 +1287,37 @@ def _render_blocks(section: Dict[str, Any]) -> str:
     return "\n".join(output)
 
 
-def _render_links(section: Dict[str, Any]) -> str:
+def _save_project_button(title: str, url: str, source: str, issue_date: Optional[str]) -> str:
+    if not issue_date or source not in {"github-trending", "weekly-high-stars", "product-hunt", PRODUCT_HUNT_RANKING_ID}:
+        return ""
+    _validate_public_url(url, "saved project")
+    parts = urlsplit(url)
+    host = (parts.hostname or "").lower()
+    if source in {"github-trending", "weekly-high-stars"}:
+        if host != "github.com" or len(parts.path.strip("/").split("/")) != 2:
+            return ""
+    elif host not in {"producthunt.com", "www.producthunt.com"} or not re.match(r"^/(products|posts)/[^/]+/?$", parts.path):
+        return ""
+    values = [html.escape(value, quote=True) for value in (title[:200], url, source, issue_date)]
+    return ('<button class="project-save-button" type="button" data-save-project data-no-i18n '
+            'data-project-title="{0}" data-project-url="{1}" data-project-source="{2}" '
+            'data-project-issue="{3}" aria-pressed="false" aria-label="收藏项目">'
+            '<span data-save-label>收藏</span></button>').format(*values)
+
+
+def _render_links(section: Dict[str, Any], issue_date: Optional[str] = None) -> str:
     if section["id"] == PRODUCT_HUNT_RANKING_ID:
-        return _render_product_hunt_ranking(section)
+        return _render_product_hunt_ranking(section, issue_date)
     items: List[str] = []
     for item in section["items"]:
         title = _link(item["url"], item["title"]) if item.get("url") else "<span>{0}</span>".format(_escape_text(item["title"]))
         meta = '<span class="link-meta">{0}</span>'.format(_escape_text(item["meta"])) if item.get("meta") else ""
-        items.append('<li class="link-item">{0}{1}</li>'.format(title, meta))
+        save = _save_project_button(item["title"], item["url"], section["id"], issue_date) if item.get("url") else ""
+        items.append('<li class="link-item">{0}{1}{2}</li>'.format(title, save, meta))
     return '<ul class="link-list">\n{0}\n</ul>'.format("\n".join(items))
 
 
-def _render_product_hunt_ranking(section: Dict[str, Any]) -> str:
+def _render_product_hunt_ranking(section: Dict[str, Any], issue_date: Optional[str] = None) -> str:
     ranking = section["ranking"]
     captured_label = "人工核验于：" if ranking.get("captureMethod") == "manual-review" else "截至采集时间："
     header = (
@@ -1236,6 +1330,8 @@ def _render_product_hunt_ranking(section: Dict[str, Any]) -> str:
     rows = []
     for item in section["items"]:
         name = _link(item["url"], item["title"]) if item.get("url") else _escape_text(item["title"])
+        if item.get("url"):
+            name += _save_project_button(item["title"], item["url"], section["id"], issue_date)
         points = ('<span class="ph-ranking-points"><span>积分</span> {0:,}</span>'.format(item["points"])
                   if "points" in item else "")
         rows.append(
@@ -1257,12 +1353,13 @@ def _render_table_cell(cell: Any, tag: str, label: Optional[str] = None) -> str:
     return "<{0}{1}>{2}</{0}>".format(tag, data_label, body)
 
 
-def _render_table(section: Dict[str, Any]) -> str:
+def _render_table(section: Dict[str, Any], issue_date: Optional[str] = None) -> str:
     head = "".join(_render_table_cell(column, "th") for column in section["columns"])
     rows = "\n".join(
         "<tr>{0}</tr>".format("".join(
-            _render_table_cell(cell, "td", column)
-            for column, cell in zip(section["columns"], row)
+            (_render_table_cell(cell, "td", column) if index != 0 or not isinstance(cell, dict) or not cell.get("url") else
+             _render_table_cell(cell, "td", column).replace("</td>", _save_project_button(cell["text"], cell["url"], section["id"], issue_date) + "</td>"))
+            for index, (column, cell) in enumerate(zip(section["columns"], row))
         ))
         for row in section["rows"]
     )
@@ -1433,8 +1530,12 @@ def _section_visible(issue: Dict[str, Any], section: Dict[str, Any]) -> bool:
 
 def _render_source_section(
     section: Dict[str, Any], heading: str = "h2", module: bool = False, wide: bool = False,
+    issue_date: Optional[str] = None,
 ) -> str:
-    body = SECTION_RENDERERS[section["kind"]](section)
+    if section["kind"] in {"links", "table"}:
+        body = SECTION_RENDERERS[section["kind"]](section, issue_date)
+    else:
+        body = SECTION_RENDERERS[section["kind"]](section)
     if section["id"] == X_SIGNAL_SOURCE_ID:
         body = '<p class="x-signal-disclaimer">{0}</p>{1}'.format(
             _escape_text(X_SIGNAL_DISCLAIMER), body
@@ -1461,7 +1562,7 @@ def _render_sections(issue: Dict[str, Any]) -> str:
     issue = active_issue(issue)
     visible_sections = [section for section in issue["sections"] if _section_visible(issue, section)]
     if issue["schemaVersion"] == 1:
-        return "\n".join(_render_source_section(section) for section in visible_sections)
+        return "\n".join(_render_source_section(section, issue_date=issue["date"]) for section in visible_sections)
 
     by_id = {section["id"]: section for section in visible_sections}
     modules = []
@@ -1480,7 +1581,8 @@ def _render_sections(issue: Dict[str, Any]) -> str:
                 _escape_text(title),
                 "\n".join(
                     _render_source_section(section, "h3", module=True,
-                                           wide=len(members) == 1 or section["id"] == PRODUCT_HUNT_RANKING_ID)
+                                           wide=len(members) == 1 or section["id"] == PRODUCT_HUNT_RANKING_ID,
+                                           issue_date=issue["date"])
                     for section in members
                 ),
             )
@@ -1495,7 +1597,7 @@ def _render_sections(issue: Dict[str, Any]) -> str:
                 module_id,
                 _escape_text(title),
                 "\n".join(
-                    _render_source_section(section, "h3", module=True, wide=len(remainder) == 1)
+                    _render_source_section(section, "h3", module=True, wide=len(remainder) == 1, issue_date=issue["date"])
                     for section in remainder
                 ),
             )
@@ -1532,6 +1634,7 @@ def _render_page(
     prefix = "" if is_home else "../../"
     canonical = PUBLIC_BASE_URL if is_home else "{0}archive/{1}/".format(PUBLIC_BASE_URL, issue_date)
     page_title = issue["title"] if is_home else "{0} · {1}".format(issue["title"], issue_date)
+    cloud = records_config()
     replacements = {
         "{{PAGE_TITLE}}": _escape_text(page_title),
         "{{TAGLINE}}": _escape_text(issue["tagline"]),
@@ -1548,6 +1651,10 @@ def _render_page(
         "{{GENERATED_AT}}": _escape_text(issue["generatedAt"]),
         "{{HEALTH_HREF}}": prefix + "health.json",
         "{{LANGUAGE_DATA}}": render_language_data(issue, catalogs) if "{{LANGUAGE_DATA}}" in template else "",
+        "{{RECORDS_CONNECT}}": html.escape(cloud["supabaseUrl"] if cloud["enabled"] else "'none'", quote=False),
+        "{{RECORDS_SDK}}": ('  <script src="{0}{1}" defer></script>'.format(prefix, SDK_ASSET) if cloud["enabled"] else ""),
+        "{{RECORDS_VIEW}}": RECORDS_TEMPLATE_PATH.read_text(encoding="utf-8"),
+        "{{RECORDS_CONFIG}}": '<template id="xait-records-config">{0}</template>'.format(html.escape(_canonical_json(cloud).decode("utf-8"), quote=False)),
     }
     rendered = template
     for marker, value in replacements.items():
@@ -1661,12 +1768,20 @@ def build_site(destination: Path, issues: Optional[List[Dict[str, Any]]] = None)
     catalogs = load_language_catalogs(required=bilingual)
 
     _write_bytes(destination, ".nojekyll", b"")
-    for asset_name in ("app.css", "app.js"):
+    for asset_name in STATIC_ASSETS:
         source = ASSETS_DIR / asset_name
         try:
             _write_bytes(destination, "assets/" + asset_name, source.read_bytes())
         except OSError as exc:
             raise XaitError("无法复制静态资源 {0}：{1}".format(asset_name, exc), EXIT_BUILD) from exc
+
+    cloud = records_config()
+    cache_digest = hashlib.sha256(_canonical_json(cloud))
+    for asset_name in STATIC_ASSETS:
+        cache_digest.update((ASSETS_DIR / asset_name).read_bytes())
+    worker = RECORDS_SW_PATH.read_text(encoding="utf-8").replace("__CACHE_VERSION__", cache_digest.hexdigest()[:24])
+    worker = worker.replace("__PUBLIC_ASSETS__", json.dumps(["assets/" + name for name in STATIC_ASSETS]))
+    _write_bytes(destination, "sw.js", worker.encode("utf-8"))
 
     _write_bytes(destination, "index.html", _render_page(template, latest, dates, True, catalogs).encode("utf-8"))
     issue_hashes: Dict[str, str] = {}
@@ -1803,6 +1918,8 @@ def _path_scan_text(text: str) -> str:
 
 
 def _scan_sensitive_text(text: str, relative: str) -> None:
+    if relative in {SDK_ASSET, "docs/" + SDK_ASSET}:
+        text = audited_sdk_scan_view(text)
     previous_personal_prefix = "".join(
         chr(code)
         for code in (110, 105, 99, 111, 108, 101, 45, 98, 114, 105, 101, 102, 105, 110, 103)
@@ -1826,6 +1943,8 @@ def _scan_sensitive_text(text: str, relative: str) -> None:
     credential_patterns = [
         re.compile(r"(?i)(?:api[_-]?key|access[_-]?token|authorization|cookie|password|secret)\s*['\"]?\s*[:=]\s*['\"]?[^\s<'\",}]{1,}"),
         re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
+        re.compile(r"\b(?:sb_secret_[A-Za-z0-9_-]{12,}|github_pat_[A-Za-z0-9_]{20,}|gh[opusr]_[A-Za-z0-9]{20,})\b"),
+        re.compile(r"\beyJ[A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,}\.[A-Za-z0-9_-]{16,}\b"),
     ]
     if any(pattern.search(decoded) for pattern in credential_patterns):
         raise XaitError("{0} 疑似包含凭据".format(relative), EXIT_SECURITY)
@@ -1872,7 +1991,8 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
     catalogs = load_language_catalogs(required=bilingual)
     dates = [issue["date"] for issue in sorted(issues, key=lambda item: item["date"])]
     latest = dates[-1]
-    expected: Set[str] = {".nojekyll", "index.html", "assets/app.css", "assets/app.js", "history.json", "health.json", "wechat-daily.json", "social-research.json"}
+    expected: Set[str] = {".nojekyll", "index.html", "sw.js", "history.json", "health.json", "wechat-daily.json", "social-research.json"}
+    expected.update("assets/" + name for name in STATIC_ASSETS)
     for issue_date in dates:
         expected.update(
             {
@@ -1903,7 +2023,7 @@ def validate_built_site(site_root: Path, issues: Optional[List[Dict[str, Any]]] 
             except (OSError, UnicodeError) as exc:
                 raise XaitError("无法读取生成文件 {0}：{1}".format(relative, exc), EXIT_BUILD) from exc
             _scan_sensitive_text(text, relative)
-            if "{{" in text or "}}" in text:
+            if relative != SDK_ASSET and ("{{" in text or "}}" in text):
                 raise XaitError("{0} 含未处理模板标记".format(relative), EXIT_BUILD)
             if path.suffix == ".json":
                 _load_json(path)

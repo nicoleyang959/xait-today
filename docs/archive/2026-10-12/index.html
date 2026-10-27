@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="xAIT 今日 · 2026-10-12">
   <meta property="og:description" content="AI 和 IT 的无限可能">
@@ -13,7 +13,11 @@
   <title>xAIT 今日 · 2026-10-12</title>
   <link rel="canonical" href="https://nicoleyang959.github.io/xait-today/archive/2026-10-12/">
   <link rel="stylesheet" href="../../assets/app.css">
+  <link rel="stylesheet" href="../../assets/records.css">
   <script src="../../assets/app.js" defer></script>
+
+  <script src="../../assets/records-core.js" defer></script>
+  <script src="../../assets/records-ui.js" defer></script>
 </head>
 <body class="theme-terminal">
   <a class="skip-link" href="#main-content">跳到简报正文</a>
@@ -86,6 +90,7 @@
         <p class="tagline">AI 和 IT 的无限可能</p>
       </div>
       <div class="reading-controls">
+        <a class="saved-open" id="saved-open" href="#saved" data-no-i18n>我的项目</a>
         <details class="settings-drawer">
           <summary class="settings-summary">显示设置</summary>
           <div class="settings-panel">
@@ -113,6 +118,8 @@
     </header>
 
     <div class="container">
+      <p id="public-offline-notice" class="translation-notice" hidden data-no-i18n role="status"></p>
+      <div id="briefing-view">
       <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
       <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
@@ -156,31 +163,31 @@
 <section class="content-module" id="module-products-opensource"><h2 class="module-heading">产品与开源</h2><div class="module-grid">          <section class="module-source section-links" id="product-hunt">
             <h3>🚀 Product Hunt · 近期新品</h3>
             <div class="content"><ul class="link-list">
-<li class="link-item"><a href="https://www.producthunt.com/products/unboom" target="_blank" rel="noopener noreferrer">Unboom</a><span class="link-meta">发布 2026-10-07</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/foley" target="_blank" rel="noopener noreferrer">Foley</a><span class="link-meta">发布 2026-10-05</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/hirekey" target="_blank" rel="noopener noreferrer">HireKey</a><span class="link-meta">发布 2026-10-02</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/devterminal" target="_blank" rel="noopener noreferrer">DevTerminal</a><span class="link-meta">发布 2026-10-08</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/agibot" target="_blank" rel="noopener noreferrer">Agibot</a><span class="link-meta">发布 2026-10-10</span></li>
-<li class="link-item"><a href="https://www.producthunt.com/products/simplespread" target="_blank" rel="noopener noreferrer">SimpleSpread</a><span class="link-meta">发布 2026-10-09</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/unboom" target="_blank" rel="noopener noreferrer">Unboom</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Unboom" data-project-url="https://www.producthunt.com/products/unboom" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-07</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/foley" target="_blank" rel="noopener noreferrer">Foley</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Foley" data-project-url="https://www.producthunt.com/products/foley" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-05</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/hirekey" target="_blank" rel="noopener noreferrer">HireKey</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="HireKey" data-project-url="https://www.producthunt.com/products/hirekey" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-02</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/devterminal" target="_blank" rel="noopener noreferrer">DevTerminal</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="DevTerminal" data-project-url="https://www.producthunt.com/products/devterminal" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-08</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/agibot" target="_blank" rel="noopener noreferrer">Agibot</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="Agibot" data-project-url="https://www.producthunt.com/products/agibot" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-10</span></li>
+<li class="link-item"><a href="https://www.producthunt.com/products/simplespread" target="_blank" rel="noopener noreferrer">SimpleSpread</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="SimpleSpread" data-project-url="https://www.producthunt.com/products/simplespread" data-project-source="product-hunt" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button><span class="link-meta">发布 2026-10-09</span></li>
 </ul></div>
           </section>
           <section class="module-source section-table" id="github-trending">
             <h3>📈 GitHub 今日 Trending</h3>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea</a></td><td data-label="语言">TypeScript</td><td data-label="今日增长">25,599</td><td data-label="简介">Reverse engineer anything with agents, from app behavior down to native binaries.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer">boykopovar/AnyPS5</a></td><td data-label="语言">C++</td><td data-label="今日增长">3,952</td><td data-label="简介">Tool for automatic PS5 executables porting to Linux and Windows</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/storytold/artcraft" target="_blank" rel="noopener noreferrer">storytold/artcraft</a></td><td data-label="语言">Rust</td><td data-label="今日增长">2,957</td><td data-label="简介">ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener noreferrer">cathrynlavery/diagram-design</a></td><td data-label="语言">HTML</td><td data-label="今日增长">1,083</td><td data-label="简介">Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/bilawalsidhu/gods-eye-view" target="_blank" rel="noopener noreferrer">bilawalsidhu/gods-eye-view</a></td><td data-label="语言">JavaScript</td><td data-label="今日增长">886</td><td data-label="简介">A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer">pytorch/pytorch</a></td><td data-label="语言">Python</td><td data-label="今日增长">315</td><td data-label="简介">Tensors and Dynamic neural networks in Python with strong GPU acceleration</td></tr></tbody></table></div></div>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>今日增长</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/morluto/rea" target="_blank" rel="noopener noreferrer">morluto/rea</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="morluto/rea" data-project-url="https://github.com/morluto/rea" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">TypeScript</td><td data-label="今日增长">25,599</td><td data-label="简介">Reverse engineer anything with agents, from app behavior down to native binaries.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/boykopovar/AnyPS5" target="_blank" rel="noopener noreferrer">boykopovar/AnyPS5</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="boykopovar/AnyPS5" data-project-url="https://github.com/boykopovar/AnyPS5" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">C++</td><td data-label="今日增长">3,952</td><td data-label="简介">Tool for automatic PS5 executables porting to Linux and Windows</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/storytold/artcraft" target="_blank" rel="noopener noreferrer">storytold/artcraft</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="storytold/artcraft" data-project-url="https://github.com/storytold/artcraft" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Rust</td><td data-label="今日增长">2,957</td><td data-label="简介">ArtCraft is an intentional crafting engine for artists, designers, and filmmakers</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/cathrynlavery/diagram-design" target="_blank" rel="noopener noreferrer">cathrynlavery/diagram-design</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="cathrynlavery/diagram-design" data-project-url="https://github.com/cathrynlavery/diagram-design" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">HTML</td><td data-label="今日增长">1,083</td><td data-label="简介">Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/bilawalsidhu/gods-eye-view" target="_blank" rel="noopener noreferrer">bilawalsidhu/gods-eye-view</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="bilawalsidhu/gods-eye-view" data-project-url="https://github.com/bilawalsidhu/gods-eye-view" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="今日增长">886</td><td data-label="简介">A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/pytorch/pytorch" target="_blank" rel="noopener noreferrer">pytorch/pytorch</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="pytorch/pytorch" data-project-url="https://github.com/pytorch/pytorch" data-project-source="github-trending" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="今日增长">315</td><td data-label="简介">Tensors and Dynamic neural networks in Python with strong GPU acceleration</td></tr></tbody></table></div></div>
           </section>
           <section class="module-source section-table" id="weekly-high-stars">
             <h3>🌱 本周新建高星项目</h3>
-            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/openai/math" target="_blank" rel="noopener noreferrer">openai/math</a></td><td data-label="语言">Lean</td><td data-label="Star">14080</td><td data-label="简介">未提供</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/storytold/wordcraft" target="_blank" rel="noopener noreferrer">storytold/wordcraft</a></td><td data-label="语言">Rust</td><td data-label="Star">5926</td><td data-label="简介">An open-source, clean-room reimplementation of Microsoft Word in pure Rust</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">alchaincyf/huashu-art-motion</a></td><td data-label="语言">JavaScript</td><td data-label="Star">3385</td><td data-label="简介">艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noopener noreferrer">wheresryan22/anatomy</a></td><td data-label="语言">JavaScript</td><td data-label="Star">3304</td><td data-label="简介">An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/mhtsec/ARTEX" target="_blank" rel="noopener noreferrer">mhtsec/ARTEX</a></td><td data-label="语言">Go</td><td data-label="Star">3149</td><td data-label="简介">AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目</td></tr>
-<tr><td data-label="仓库"><a href="https://github.com/zhongerxin/iPhone-use" target="_blank" rel="noopener noreferrer">zhongerxin/iPhone-use</a></td><td data-label="语言">Python</td><td data-label="Star">3044</td><td data-label="简介">让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</td></tr></tbody></table></div></div>
+            <div class="content"><div class="table-wrap"><table class="data-table"><thead><tr><th>仓库</th><th>语言</th><th>Star</th><th>简介</th></tr></thead><tbody><tr><td data-label="仓库"><a href="https://github.com/openai/math" target="_blank" rel="noopener noreferrer">openai/math</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="openai/math" data-project-url="https://github.com/openai/math" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Lean</td><td data-label="Star">14080</td><td data-label="简介">未提供</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/storytold/wordcraft" target="_blank" rel="noopener noreferrer">storytold/wordcraft</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="storytold/wordcraft" data-project-url="https://github.com/storytold/wordcraft" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Rust</td><td data-label="Star">5926</td><td data-label="简介">An open-source, clean-room reimplementation of Microsoft Word in pure Rust</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/alchaincyf/huashu-art-motion" target="_blank" rel="noopener noreferrer">alchaincyf/huashu-art-motion</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="alchaincyf/huashu-art-motion" data-project-url="https://github.com/alchaincyf/huashu-art-motion" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="Star">3385</td><td data-label="简介">艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/wheresryan22/anatomy" target="_blank" rel="noopener noreferrer">wheresryan22/anatomy</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="wheresryan22/anatomy" data-project-url="https://github.com/wheresryan22/anatomy" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">JavaScript</td><td data-label="Star">3304</td><td data-label="简介">An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D eff</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/mhtsec/ARTEX" target="_blank" rel="noopener noreferrer">mhtsec/ARTEX</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="mhtsec/ARTEX" data-project-url="https://github.com/mhtsec/ARTEX" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Go</td><td data-label="Star">3149</td><td data-label="简介">AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目</td></tr>
+<tr><td data-label="仓库"><a href="https://github.com/zhongerxin/iPhone-use" target="_blank" rel="noopener noreferrer">zhongerxin/iPhone-use</a><button class="project-save-button" type="button" data-save-project data-no-i18n data-project-title="zhongerxin/iPhone-use" data-project-url="https://github.com/zhongerxin/iPhone-use" data-project-source="weekly-high-stars" data-project-issue="2026-10-12" aria-pressed="false" aria-label="收藏项目"><span data-save-label>收藏</span></button></td><td data-label="语言">Python</td><td data-label="Star">3044</td><td data-label="简介">让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</td></tr></tbody></table></div></div>
           </section></div></section>
 <section class="content-module" id="module-research"><h2 class="module-heading">研究前沿</h2><div class="module-grid">          <section class="module-source section-links module-source-wide" id="arxiv">
             <h3>🧪 arXiv · AI 最新论文</h3>
@@ -199,6 +206,92 @@
         <span>公开快照生成于 2026-10-12T08:46:33+08:00</span>
         <a href="../../health.json">构建状态</a>
       </footer>
+      </div>
+      <section id="saved-projects" class="saved-projects" hidden aria-labelledby="records-heading" data-no-i18n>
+        <header class="records-header">
+          <div>
+            <h2 id="records-heading" tabindex="-1" data-records-text="heading">我的项目</h2>
+            <p class="records-intro" data-records-text="intro">把值得研究的项目留下来，笔记只对你的账号可见。</p>
+          </div>
+          <a class="records-button records-back" id="records-back" href="#main-content" data-records-text="back">返回日报</a>
+        </header>
+
+        <div class="records-feedback" id="records-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+        <div class="records-gate" id="records-gate">
+          <h3 id="records-gate-heading" data-records-text="unconfiguredHeading">云收藏尚未启用</h3>
+          <p id="records-gate-message" data-records-text="unconfigured">站点尚未配置私人同步服务。你仍可正常阅读日报，配置完成后再登录收藏。</p>
+          <button class="records-button records-primary" id="records-login" type="button" hidden data-records-text="login">用 GitHub 登录</button>
+          <p class="records-privacy" data-records-text="privacy">收藏与笔记保存在本机和站点配置的 Supabase 服务中，不会写进公开日报或 GitHub 仓库。首次登录需要联网。</p>
+        </div>
+
+        <div id="records-workspace" hidden>
+          <div class="records-account-bar">
+            <span id="records-account" class="records-account"></span>
+            <span id="records-sync-state" class="records-sync-state" role="status" aria-live="polite"></span>
+            <button class="records-button" id="records-sync" type="button" data-records-text="sync">立即同步</button>
+            <button class="records-button" id="records-signout" type="button" data-records-text="signout">退出账号</button>
+          </div>
+
+          <div class="records-tools">
+            <label class="records-search-label" for="records-search">
+              <span data-records-text="searchLabel">搜索项目</span>
+              <input id="records-search" type="search" maxlength="200" autocomplete="off" data-records-placeholder="searchPlaceholder" placeholder="名称、链接或笔记">
+            </label>
+            <label for="records-filter">
+              <span data-records-text="filterLabel">跟进状态</span>
+              <select id="records-filter">
+                <option value="all" data-records-text="all">全部状态</option>
+                <option value="to_research" data-records-text="to_research">待研究</option>
+                <option value="tried" data-records-text="tried">已体验</option>
+                <option value="watching" data-records-text="watching">重点关注</option>
+              </select>
+            </label>
+          </div>
+
+          <details class="records-add" id="records-add">
+            <summary data-records-text="manualAdd">手动添加项目</summary>
+            <form id="records-manual-form" class="records-form">
+              <label for="records-manual-title"><span data-records-text="projectName">项目名称</span><input id="records-manual-title" name="title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-manual-url"><span data-records-text="projectUrl">项目链接</span><input id="records-manual-url" name="url" type="url" required maxlength="2048" autocomplete="off" inputmode="url"></label>
+              <p class="records-help" data-records-text="manualHelp">只保存你输入的链接，不访问目标网站或自动抓取内容。</p>
+              <button class="records-button records-primary" type="submit" data-records-text="saveProject">收藏项目</button>
+            </form>
+          </details>
+
+          <div class="records-backup-tools" role="group" aria-label="项目备份" data-records-aria="backupLabel">
+            <button class="records-button" id="records-export-json" type="button" data-records-text="exportJson">导出 JSON 备份</button>
+            <button class="records-button" id="records-export-markdown" type="button" data-records-text="exportMarkdown">导出 Markdown</button>
+            <button class="records-button" id="records-import" type="button" data-records-text="importJson">导入 JSON 备份</button>
+            <input id="records-import-file" type="file" accept="application/json,.json" hidden aria-label="选择 JSON 备份" data-records-aria="chooseBackup">
+          </div>
+
+          <p id="records-count" class="records-count"></p>
+          <p id="records-empty" class="records-empty" data-records-text="empty">还没有收藏项目。在日报里点击“收藏”，或手动添加一个项目链接。</p>
+          <ul id="records-list" class="records-list" aria-label="已收藏项目" data-records-aria="savedList"></ul>
+
+          <section id="records-editor" class="records-editor" hidden aria-labelledby="records-editor-heading">
+            <h3 id="records-editor-heading" tabindex="-1" data-records-text="editHeading">项目笔记</h3>
+            <form id="records-edit-form" class="records-form">
+              <input id="records-edit-id" type="hidden">
+              <label for="records-edit-title"><span data-records-text="projectName">项目名称</span><input id="records-edit-title" required maxlength="200" autocomplete="off"></label>
+              <label for="records-edit-status"><span data-records-text="filterLabel">跟进状态</span><select id="records-edit-status"><option value="to_research" data-records-text="to_research">待研究</option><option value="tried" data-records-text="tried">已体验</option><option value="watching" data-records-text="watching">重点关注</option></select></label>
+              <label class="records-notes-label" for="records-edit-notes"><span data-records-text="notes">为什么值得关注？</span><textarea id="records-edit-notes" rows="7" maxlength="5000" data-records-placeholder="notesPlaceholder" placeholder="记下用途、想试的功能，或你自己的判断。" data-no-i18n></textarea></label>
+              <p class="records-help" data-records-text="noteHelp">最多 5,000 字。笔记保留你输入的语言，不会自动翻译。</p>
+              <div class="records-edit-actions"><button class="records-button records-primary" type="submit" data-records-text="saveNotes">保存笔记</button><button class="records-button" id="records-editor-close" type="button" data-records-text="closeEditor">收起编辑</button></div>
+            </form>
+          </section>
+        </div>
+      </section>
+      <dialog id="records-dialog" class="records-dialog" aria-labelledby="records-dialog-title" aria-describedby="records-dialog-message" data-no-i18n>
+        <form method="dialog">
+          <h2 id="records-dialog-title"></h2>
+          <p id="records-dialog-message"></p>
+          <div id="records-dialog-detail" class="records-dialog-detail"></div>
+          <div id="records-dialog-actions" class="records-dialog-actions"></div>
+        </form>
+      </dialog>
+      <div id="records-toast" class="records-toast" role="status" aria-live="polite" aria-atomic="true" hidden data-no-i18n></div>
+
     </div>
   </main>
 <template id="xait-language-data">{
@@ -871,6 +964,13 @@
       "zh": "🧪 arXiv · AI 最新论文"
     }
   }
+}
+</template>
+<template id="xait-records-config">{
+  "enabled": false,
+  "publishableKey": "",
+  "redirectUrl": "",
+  "supabaseUrl": ""
 }
 </template>
 </body>

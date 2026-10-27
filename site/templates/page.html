@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src {{RECORDS_CONNECT}}; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{PAGE_TITLE}}">
   <meta property="og:description" content="{{TAGLINE}}">
@@ -13,7 +13,11 @@
   <title>{{PAGE_TITLE}}</title>
   <link rel="canonical" href="{{CANONICAL_URL}}">
   <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/app.css">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/records.css">
   <script src="{{ASSET_PREFIX}}assets/app.js" defer></script>
+{{RECORDS_SDK}}
+  <script src="{{ASSET_PREFIX}}assets/records-core.js" defer></script>
+  <script src="{{ASSET_PREFIX}}assets/records-ui.js" defer></script>
 </head>
 <body class="theme-terminal">
   <a class="skip-link" href="#main-content">跳到简报正文</a>
@@ -41,6 +45,7 @@
         <p class="tagline">{{TAGLINE}}</p>
       </div>
       <div class="reading-controls">
+        <a class="saved-open" id="saved-open" href="#saved" data-no-i18n>我的项目</a>
         <details class="settings-drawer">
           <summary class="settings-summary">显示设置</summary>
           <div class="settings-panel">
@@ -68,6 +73,8 @@
     </header>
 
     <div class="container">
+      <p id="public-offline-notice" class="translation-notice" hidden data-no-i18n role="status"></p>
+      <div id="briefing-view">
       <p class="translation-notice" id="translation-notice">译文由 AI 辅助预生成，仅供阅读参考；原文及来源链接始终保留。</p>
       <span class="visually-hidden" id="language-status" role="status" aria-live="polite"></span>
       <div class="issue-header">
@@ -90,8 +97,11 @@
         <span>公开快照生成于 {{GENERATED_AT}}</span>
         <a href="{{HEALTH_HREF}}">构建状态</a>
       </footer>
+      </div>
+{{RECORDS_VIEW}}
     </div>
   </main>
 {{LANGUAGE_DATA}}
+{{RECORDS_CONFIG}}
 </body>
 </html>

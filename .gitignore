@@ -38,3 +38,6 @@ htmlcov/
 
 # Local build staging directories
 .xait-build-*/
+
+# Local UI acceptance captures contain synthetic/private fixture content.
+.impeccable/review/

@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T08:23:09.155111+00:00",
+  "title": "Design System: xAIT 今日",
+  "extensions": {
+    "sourceFiles": [
+      "site/assets/app.css",
+      "site/assets/records.css",
+      "site/templates/page.html",
+      "site/templates/records.html",
+      "site/assets/records-ui.js"
+    ],
+    "themeOverrides": {
+      "terminal": {
+        "--bg": "#050806",
+        "--surface": "#070b08",
+        "--surface-alt": "#0a100b",
+        "--text": "#33ff45",
+        "--text-soft": "#21d934",
+        "--muted": "#159724",
+        "--faint": "#0d6a18",
+        "--border": "#13541a",
+        "--accent": "#33ff45",
+        "--accent-ink": "#031006",
+        "--glow": "rgba(51,255,69,.42)",
+        "--font-display": "ui-monospace, \"SFMono-Regular\", Menlo, Monaco, Consolas, monospace",
+        "--font-body": "ui-monospace, \"SFMono-Regular\", Menlo, Monaco, Consolas, monospace",
+        "--radius": "0"
+      },
+      "cyberpunk": {
+        "--bg": "#070713",
+        "--surface": "#0d0d1d",
+        "--surface-alt": "#121329",
+        "--text": "#e7fbff",
+        "--text-soft": "#c7dce2",
+        "--muted": "#7f98a2",
+        "--faint": "#52636d",
+        "--border": "#174754",
+        "--accent": "#00e8ff",
+        "--accent-ink": "#001115",
+        "--glow": "rgba(0,232,255,.42)",
+        "--font-display": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--font-body": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--radius": "3px",
+        "--shadow": "0 0 24px rgba(0,232,255,.07)"
+      },
+      "swiss": {
+        "--bg": "#f2f2ef",
+        "--surface": "#fafaf8",
+        "--surface-alt": "#e8e8e4",
+        "--text": "#111317",
+        "--text-soft": "#34383f",
+        "--muted": "#686d76",
+        "--faint": "#9297a0",
+        "--border": "#c8cbd0",
+        "--accent": "#2149d8",
+        "--accent-ink": "#ffffff",
+        "--font-display": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "--font-body": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "--radius": "0"
+      },
+      "editorial": {
+        "--bg": "#ebe4d8",
+        "--surface": "#fbf7ef",
+        "--surface-alt": "#f1e9dc",
+        "--text": "#201b18",
+        "--text-soft": "#514941",
+        "--muted": "#786c61",
+        "--faint": "#a19386",
+        "--border": "#cfc1af",
+        "--accent": "#8d2c25",
+        "--accent-ink": "#fffaf2",
+        "--font-display": "ui-serif, \"Songti SC\", \"STSong\", \"SimSun\", Georgia, serif",
+        "--font-body": "ui-serif, \"Songti SC\", \"STSong\", \"SimSun\", Georgia, serif",
+        "--radius": "12px",
+        "--shadow": "0 10px 32px rgba(49,36,24,.08)"
+      },
+      "consulting": {
+        "--bg": "#e9edf2",
+        "--surface": "#ffffff",
+        "--surface-alt": "#f2f5f8",
+        "--text": "#142238",
+        "--text-soft": "#33445a",
+        "--muted": "#68778a",
+        "--faint": "#9ba6b4",
+        "--border": "#c9d1da",
+        "--accent": "#805719",
+        "--accent-ink": "#ffffff",
+        "--font-display": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--font-body": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--radius": "2px",
+        "--shadow": "0 8px 28px rgba(20,34,56,.09)"
+      },
+      "minimal": {
+        "--bg": "#f7f7f7",
+        "--surface": "#ffffff",
+        "--surface-alt": "#fafafa",
+        "--text": "#171717",
+        "--text-soft": "#414141",
+        "--muted": "#777777",
+        "--faint": "#aaaaaa",
+        "--border": "#e2e2e2",
+        "--accent": "#6a45ff",
+        "--accent-ink": "#ffffff",
+        "--font-display": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--font-body": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", sans-serif",
+        "--radius": "14px",
+        "--shadow": "0 14px 45px rgba(0,0,0,.045)"
+      },
+      "paper": {
+        "--bg": "#d9d0c1",
+        "--surface": "#f7eedf",
+        "--surface-alt": "#eee2cf",
+        "--text": "#3c3027",
+        "--text-soft": "#594a3d",
+        "--muted": "#7f6c5a",
+        "--faint": "#a6917e",
+        "--border": "#d2c0a5",
+        "--accent": "#47654f",
+        "--accent-ink": "#fffdf6",
+        "--font-display": "ui-serif, \"Songti SC\", \"STSong\", \"SimSun\", Georgia, serif",
+        "--font-body": "ui-serif, \"Songti SC\", \"STSong\", \"SimSun\", Georgia, serif",
+        "--radius": "8px",
+        "--shadow": "0 12px 30px rgba(66,48,30,.09)"
+      }
+    },
+    "shadows": [
+      {
+        "name": "settings-panel",
+        "value": "var(--shadow), 0 12px 30px rgba(0,0,0,.12)",
+        "purpose": "Desktop display settings."
+      },
+      {
+        "name": "mobile-archive",
+        "value": "12px 0 34px rgba(0,0,0,.14)",
+        "purpose": "Off-canvas archive."
+      },
+      {
+        "name": "records-toast",
+        "value": "0 5px 20px rgb(0 0 0 / .18)",
+        "purpose": "Temporary storage/sync feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "theme-color",
+        "value": ".18s ease",
+        "purpose": "Body foreground/background."
+      },
+      {
+        "name": "sidebar",
+        "value": ".22s ease",
+        "purpose": "Archive dimensions and mobile transform."
+      },
+      {
+        "name": "records-button",
+        "value": ".16s ease",
+        "purpose": "Library border/background; disabled under reduced motion."
+      },
+      {
+        "name": "records-toast-visibility",
+        "value": "6000ms",
+        "purpose": "Current toast timeout."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "reading-controls",
+        "value": "920px"
+      },
+      {
+        "name": "mobile-reader",
+        "value": "840px"
+      },
+      {
+        "name": "single-column-records",
+        "value": "600px"
+      },
+      {
+        "name": "narrow-reader",
+        "value": "420px"
+      }
+    ],
+    "extractionNotes": [
+      "CSS properties remain the source of truth; frontmatter aliases them to preserve all seven live themes.",
+      "Theme overrides are copied from app.css; no synthesized color ramps or new application tokens.",
+      "Component examples only display the existing styles; they do not perform storage or cloud actions."
+    ]
+  },
+  "components": [
+    {
+      "name": "Reading settings",
+      "kind": "button",
+      "refersTo": "reading-settings",
+      "description": "Theme-aware display settings disclosure.",
+      "html": "<details><summary class=\"ds-reading-settings\">显示设置</summary></details>",
+      "css": ".ds-reading-settings{min-height:36px;padding:7px 11px;color:var(--text-soft);background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);font:.73rem/1.35 var(--font-mono);cursor:pointer;white-space:nowrap}.ds-reading-settings::marker{color:var(--accent)}details[open]>.ds-reading-settings{color:var(--accent);border-color:var(--accent);background:var(--surface-alt)}.ds-reading-settings:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    },
+    {
+      "name": "Compact project save",
+      "kind": "button",
+      "refersTo": "project-save",
+      "description": "Inline save beside the project name; pressed denotes a local record.",
+      "html": "<button class=\"ds-project-save\" type=\"button\" aria-pressed=\"false\">收藏</button>",
+      "css": ".ds-project-save{display:inline-flex;align-items:center;gap:.3rem;margin-inline-start:.6rem;padding:.12rem .42rem;border:1px solid var(--border);border-radius:3px;color:var(--accent);background:transparent;font:600 .72rem/1.4 var(--font-body);vertical-align:middle;cursor:pointer;white-space:nowrap}.ds-project-save[aria-pressed=\"true\"]{color:var(--text);background:var(--surface-alt)}.ds-project-save:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}.ds-project-save:disabled{cursor:not-allowed;opacity:.65}.ds-project-save:focus-visible{outline:2px solid var(--accent);outline-offset:3px}"
+    },
+    {
+      "name": "Library button",
+      "kind": "button",
+      "refersTo": "records-button",
+      "description": "Regular library action.",
+      "html": "<button class=\"ds-records-button\" type=\"button\">立即同步</button>",
+      "css": ".ds-records-button{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 12px;border:1px solid var(--border);border-radius:4px;color:var(--text);background:var(--surface);font:600 .8rem/1.35 var(--font-body);cursor:pointer;transition:border-color .16s ease,background-color .16s ease}.ds-records-button:hover:not(:disabled){border-color:var(--accent);color:var(--accent)}.ds-records-button:disabled{cursor:not-allowed;opacity:.65}.ds-records-button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-records-button{transition:none}}"
+    },
+    {
+      "name": "Primary library button",
+      "kind": "button",
+      "refersTo": "records-primary",
+      "description": "Filled accent action for deliberate saving.",
+      "html": "<button class=\"ds-records-primary\" type=\"button\">保存笔记</button>",
+      "css": ".ds-records-primary{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:7px 12px;border:1px solid var(--accent);border-radius:4px;color:var(--accent-ink);background:var(--accent);font:600 .8rem/1.35 var(--font-body);cursor:pointer;transition:border-color .16s ease,background-color .16s ease}.ds-records-primary:hover:not(:disabled){color:var(--accent-ink);filter:brightness(.92)}.ds-records-primary:disabled{cursor:not-allowed;opacity:.65}.ds-records-primary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-records-primary{transition:none}}"
+    },
+    {
+      "name": "Library field",
+      "kind": "input",
+      "refersTo": "records-field",
+      "description": "Visible label and themed field used for search and editing.",
+      "html": "<label class=\"ds-records-label\" for=\"ds-records-search\">搜索项目<input class=\"ds-records-field\" id=\"ds-records-search\" type=\"search\" placeholder=\"名称、链接或笔记\"></label>",
+      "css": ".ds-records-label{display:flex;flex-direction:column;gap:6px;min-width:0;font:600 .82rem var(--font-body);color:var(--text)}.ds-records-field{width:100%;min-width:0;border:1px solid var(--border);border-radius:4px;padding:9px 10px;background:var(--surface);color:var(--text);caret-color:var(--accent);font:400 .9rem/1.5 var(--font-body)}.ds-records-field::placeholder{color:var(--text-soft);opacity:1}.ds-records-field:focus-visible{outline:2px solid var(--accent);outline-offset:3px}"
+    },
+    {
+      "name": "Archive navigation",
+      "kind": "nav",
+      "refersTo": "archive-active",
+      "description": "Existing dated archive with leading active marker and theme exceptions.",
+      "html": "<nav class=\"ds-archive\"><a class=\"ds-archive-link\" href=\"#archive-example\">2026-10-26</a><a class=\"ds-archive-link ds-active\" href=\"#archive-current\" aria-current=\"page\">2026-10-27</a></nav>",
+      "css": ".ds-archive{display:flex;flex-direction:column;gap:2px;background:var(--surface-alt)}.ds-archive-link{padding:5px 8px;color:var(--muted);border-left:2px solid transparent;font:.82rem/1.45 var(--font-display);text-decoration:none;white-space:nowrap}.ds-archive-link:hover{color:var(--text);background:var(--bg);border-left-color:var(--border)}.ds-archive-link.ds-active{color:var(--accent);background:var(--bg);border-left-color:var(--accent);font-weight:700}.ds-archive-link:focus-visible{outline:2px solid var(--accent);outline-offset:2px}:host-context(.theme-swiss) .ds-archive{background:var(--accent)}:host-context(.theme-swiss) .ds-archive-link{color:#fff}:host-context(.theme-swiss) .ds-archive-link:hover,:host-context(.theme-swiss) .ds-archive-link.ds-active{color:var(--accent);background:#fff;border-left-color:#fff}:host-context(.theme-consulting) .ds-archive{background:#142238}:host-context(.theme-consulting) .ds-archive-link{color:#e7edf4}:host-context(.theme-consulting) .ds-archive-link:hover,:host-context(.theme-consulting) .ds-archive-link.ds-active{color:#142238;background:#fff;border-left-color:var(--accent)}:host-context(.theme-minimal) .ds-archive{background:#fff}:host-context(.theme-paper) .ds-archive{background:#e8ddcc}"
+    },
+    {
+      "name": "Reader container",
+      "kind": "card",
+      "refersTo": "reader-card",
+      "description": "Existing dated public-reading container.",
+      "html": "<article class=\"ds-reader-card\"><header class=\"ds-reader-header\"><span>2026-10-27</span></header><div class=\"ds-reader-body\">今日必读</div></article>",
+      "css": ".ds-reader-card{margin:0 0 26px;overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);color:var(--text)}.ds-reader-header{padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:10px;border-bottom:1px solid var(--border);background:var(--surface-alt)}.ds-reader-body{padding:8px 24px 24px}:host-context(.theme-terminal) .ds-reader-card{box-shadow:inset 0 0 24px rgba(51,255,69,.018)}:host-context(.theme-cyberpunk) .ds-reader-card{border-top:2px solid var(--accent)}:host-context(.theme-consulting) .ds-reader-header{border-left:5px solid var(--accent)}:host-context(.theme-minimal) .ds-reader-card{border-color:transparent}:host-context(.theme-minimal) .ds-reader-header{background:transparent}:host-context(.theme-paper) .ds-reader-card{border-left:7px solid #a7b7a7}"
+    }
+  ],
+  "narrative": {
+    "overview": "This is a source-derived record of the existing interface, not a replacement visual direction. The visual authority is the implemented xAIT 今日 reader: seven selectable themes, bilingual reading, a compact project table, a dated archive sidebar, and responsive reading controls. The same content structure persists across themes; palette, system font, corner treatment, and selected theme accents supply their character.\n\nThe optional private project library extends that interface with a same-page `#saved` view. It inherits the selected theme and keeps the masthead and archive navigation. Its local layout and state rules are recorded here; its task sequence remains in `.impeccable/records-direction.md` and `.impeccable/surfaces/site-templates-page-html.md`. No new brand metaphor or palette has been selected.",
+    "keyCharacteristics": [
+      "Theme-controlled color and system typography, without remote fonts.",
+      "Dense reading hierarchy, explicit dates and sources, compact tabular project data.",
+      "Thin borders and tonal surfaces; depth and corners vary with the selected theme.",
+      "A restrained library list with labelled controls, inline notes, and text-based storage/sync feedback."
+    ],
+    "rules": [
+      {
+        "name": "The Theme Inheritance Rule",
+        "body": "Extend the existing semantic properties for library surfaces, content, and controls. Keep all seven theme definitions and their existing exceptions.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the seven themes, their memory, existing font stacks, and theme-specific reader details.",
+      "**Do** keep the bilingual reader, dated archive sidebar, compact GitHub table, visible focus, and mobile labelled rows.",
+      "**Do** inherit theme colors and body typography for library controls and use explicit text for research/storage/sync state.",
+      "**Do** preserve a reader's position and focus when they return from the library.",
+      "**Do** keep disabled, empty, filtered-empty, offline, pending, conflict, and storage-failure states understandable in both UI languages.",
+      "**Do** keep private user notes outside public content and leave their entered language intact."
+    ],
+    "donts": [
+      "**Don't** replace the incumbent visual identity or consolidate seven themes into one new palette.",
+      "**Don't** add remote fonts, decorative raster imagery, or a new image-based brand system for the library.",
+      "**Don't** expand the GitHub table with a separate save column or replace the compact list with nested cards.",
+      "**Don't** use color alone to imply saved, synced, failed, or conflicted state.",
+      "**Don't** treat local persistence as cloud success, or document an unconfigured/untested cloud service as live.",
+      "**Don't** reinterpret this source-derived record as authorization to normalize the documented local differences."
+    ]
+  }
+}
