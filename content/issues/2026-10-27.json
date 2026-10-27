@@ -1,0 +1,678 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-078c0d35bad1b3fd8e9b87b3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0465a1559e5b9411a780169c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ad016608c6567ea33c421975",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3b0abc2e4d3291ea1628e7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1ee7f958927399e5287f56c5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a24b36622d6350c257b7dcd0",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71a5dfb3a8a8a658cef20d9e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e4f6cd0ece3c7a0467ba1818",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ce8c152891b22204299eeffb",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-317558733bae9ed069530e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-304915c78c608df54f2998f1",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e5172f8bd6706b9eba92b4e8",
+      "publishedAt": "2026-10-26T16:12:29Z",
+      "sourceId": "hacker-news",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-75c34ce9f8e4d863e96823d0",
+      "publishedAt": "2026-10-26T22:41:48Z",
+      "sourceId": "hacker-news",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-de42bd60ede38ac57aaf0122",
+      "publishedAt": "2026-10-16T00:19:17-07:00",
+      "sourceId": "product-hunt",
+      "title": "SurgePix",
+      "url": "https://www.producthunt.com/products/surgepix"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-77f54bfaa993949ce39653ae",
+      "publishedAt": "2026-10-12T09:12:24-07:00",
+      "sourceId": "product-hunt",
+      "title": "Strawberry 1.0",
+      "url": "https://www.producthunt.com/products/strawberry"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-04264fddd627b19f1a54d8a2",
+      "publishedAt": "2026-10-25T14:11:05-07:00",
+      "sourceId": "product-hunt",
+      "title": "omerta",
+      "url": "https://www.producthunt.com/products/omerta"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-38ff6785d148d001ce9524b7",
+      "publishedAt": "2026-10-24T16:19:29-07:00",
+      "sourceId": "product-hunt",
+      "title": "Kiwi",
+      "url": "https://www.producthunt.com/products/kiwi-7"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1508288c1735fd75c1448db3",
+      "publishedAt": "2026-10-19T05:54:36-07:00",
+      "sourceId": "product-hunt",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.producthunt.com/products/minimax-4"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-55cf68e01fffbf5ef1658aac",
+      "publishedAt": "2026-10-25T12:55:39-07:00",
+      "sourceId": "product-hunt",
+      "title": "ManyAgents",
+      "url": "https://www.producthunt.com/products/manyagents"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-87bbd31a0c8aa07abed93b3c",
+      "publishedAt": "2026-10-09T17:08:18-07:00",
+      "sourceId": "product-hunt",
+      "title": "Flipcorder",
+      "url": "https://www.producthunt.com/products/flipcorder"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-27T10:40:06+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2ebe55fd6db19c1628dd9705",
+      "publishedAt": "2026-10-19T00:32:37-07:00",
+      "sourceId": "product-hunt",
+      "title": "CloudKnife",
+      "url": "https://www.producthunt.com/products/cloudknife"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b65bbd72760786f735082f88",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic files for an IPO on the Nasdaq under the symbol ANT; the number of Class A shares to be offered and the price range is yet to be determined",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8473f28e4b62154f3b377565",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic S-1: an $80.7B net loss on revenue of $16.3B in H1 2026, up from a $13B net loss on revenue of $1.2B in H1 2025, and a net revenue retention of 900%",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-03f19afd130787f692d3e1ff",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Anthropic is aiming to go public the week of November 16 and could raise ~$100B at a $1.5T to $2T valuation, after initially preparing for October",
+      "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b?st=sUdaw6&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-333c5dddf7d215534a2b1278",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic S-1: of its $81B net loss in H1 2026, $72B+ was related to rising convertible note value as its valuation increased and nearly $9B to compute",
+      "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0a0027dc08301679f89c65d3",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Few VC firms are mentioned in Anthropic's S-1, except Spark, which invested ~$800M across six rounds and whose GP Yasmin Razavi is the sole VC on its board",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-26-2026/card/few-vcs-mentioned-in-anthropic-ipo-filing-except-spark-capital-AzO2iia3OGgCOvgbzPAt"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fb5cc2396d29dc5ed53adb90",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic S-1: it spent just $482M on capex in H1 2026, leasing most of its compute, and its capex is almost entirely outsourced via $782B in lease obligations",
+      "url": "https://www.culpium.com/p/anthropic-s1-now-live-first-look"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f71255e8d79b34155c7a99d6",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "S-1: as of September 30, Anthropic had 11,900+ customers spending $100,000+ annually, 1,900+ customers spending $1M+, and ~250 customers spending $10M+",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-27T10:40:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-49b99d153e3275bd2160609c",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic's co-founders say they “believe that AI is one of the most consequential technologies in human history”, detail its scientific potential, and more",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+    }
+  ],
+  "date": "2026-10-27",
+  "edition": {
+    "windowEnd": "2026-10-27T08:45:00+08:00",
+    "windowStart": "2026-10-26T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-27T10:40:32+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-27 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "王的猜想，被 AI 一夜通关",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-27 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "iPad mini 8发布，仍无高刷/苹果回应iPhone Duo内屏开裂/老干妈辟谣「用AI把60...",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-27 · 采集时显示：3 小时前 · 打开账号列表",
+              "title": "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 3 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-27 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "Anthropic要IPO了，帮大家总结了一下招股书里11个有趣的细节。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-27 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "OpenAI发GPT-6.1新模型！用十分之一价格，干翻GPT-6 Astra",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-27T10:38:35+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-27T10:38:35+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark"
+          },
+          "CSS",
+          "2,244",
+          "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        ],
+        [
+          {
+            "text": "TauricResearch/TradingAgents",
+            "url": "https://github.com/TauricResearch/TradingAgents"
+          },
+          "Python",
+          "1,395",
+          "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+        ],
+        [
+          {
+            "text": "JetBrains/thinkrail",
+            "url": "https://github.com/JetBrains/thinkrail"
+          },
+          "TypeScript",
+          "1,173",
+          "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+        ],
+        [
+          {
+            "text": "makecindy/cindy",
+            "url": "https://github.com/makecindy/cindy"
+          },
+          "TypeScript",
+          "1,296",
+          "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+        ],
+        [
+          {
+            "text": "affaan-m/ECC",
+            "url": "https://github.com/affaan-m/ECC"
+          },
+          "JavaScript",
+          "896",
+          "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        ],
+        [
+          {
+            "text": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable"
+          },
+          "Rust",
+          "1,506",
+          "The design language that makes your AI harness better at design."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "来源要求验证或限制访问，已停止该来源"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "weekly-high-stars",
+      "kind": "blocks",
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-27 · 123 互动/积分 · 30 评论",
+          "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+          "url": "https://github.com/FrigadeHQ/hob"
+        },
+        {
+          "meta": "发布 2026-10-27 · 83 互动/积分 · 23 评论",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "blocks": [
+        {
+          "spans": [
+            {
+              "text": "公开来源连接超时"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "id": "arxiv",
+      "kind": "blocks",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-16",
+          "title": "SurgePix",
+          "url": "https://www.producthunt.com/products/surgepix"
+        },
+        {
+          "meta": "发布 2026-10-13",
+          "title": "Strawberry 1.0",
+          "url": "https://www.producthunt.com/products/strawberry"
+        },
+        {
+          "meta": "发布 2026-10-26",
+          "title": "omerta",
+          "url": "https://www.producthunt.com/products/omerta"
+        },
+        {
+          "meta": "发布 2026-10-25",
+          "title": "Kiwi",
+          "url": "https://www.producthunt.com/products/kiwi-7"
+        },
+        {
+          "meta": "发布 2026-10-19",
+          "title": "MiniMax M3.1 Flash",
+          "url": "https://www.producthunt.com/products/minimax-4"
+        },
+        {
+          "meta": "发布 2026-10-26",
+          "title": "ManyAgents",
+          "url": "https://www.producthunt.com/products/manyagents"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic files for an IPO on the Nasdaq under the symbol ANT; the number of Class A shares to be offered and the price range is yet to be determined",
+          "url": "https://www.anthropic.com/news/s1-sec"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic S-1: an $80.7B net loss on revenue of $16.3B in H1 2026, up from a $13B net loss on revenue of $1.2B in H1 2025, and a net revenue retention of 900%",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Anthropic is aiming to go public the week of November 16 and could raise ~$100B at a $1.5T to $2T valuation, after initially preparing for October",
+          "url": "https://www.wsj.com/tech/anthropic-unveils-paperwork-for-blockbuster-ipo-291a684b?st=sUdaw6&reflink=desktopwebshare_permalink"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic S-1: of its $81B net loss in H1 2026, $72B+ was related to rising convertible note value as its valuation increased and nearly $9B to compute",
+          "url": "https://www.ft.com/content/f6ecfecd-d797-4d2c-b427-d333297949cb"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Few VC firms are mentioned in Anthropic's S-1, except Spark, which invested ~$800M across six rounds and whose GP Yasmin Razavi is the sole VC on its board",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-26-2026/card/few-vcs-mentioned-in-anthropic-ipo-filing-except-spark-capital-AzO2iia3OGgCOvgbzPAt"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-27T10:40:06+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 0,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": null,
+      "message": "来源要求验证或限制访问，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "hacker-news",
+      "itemCount": 2,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-27T10:40:06+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "arxiv",
+      "itemCount": 0,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": null,
+      "message": "公开来源连接超时",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-27T10:40:06+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-27T10:40:06+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:11+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-27T10:40:11+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:40:06+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-27T10:38:35+08:00",
+      "id": "wechat-appso",
+      "itemCount": 3,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-27T10:38:35+08:00",
+      "message": "今日 3 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:38:35+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-27T10:38:35+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:38:35+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-27T10:38:35+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-27T10:38:35+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-27T10:38:35+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}

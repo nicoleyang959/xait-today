@@ -1,0 +1,70 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-27 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "王的猜想，被 AI 一夜通关",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-27 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "iPad mini 8发布，仍无高刷/苹果回应iPhone Duo内屏开裂/老干妈辟谣「用AI把60...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-27 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 3 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-27 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "Anthropic要IPO了，帮大家总结了一下招股书里11个有趣的细节。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-27 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "OpenAI发GPT-6.1新模型！用十分之一价格，干翻GPT-6 Astra",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "花叔",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    }
+  ],
+  "capturedAt": "2026-10-27T10:38:35+08:00",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T10:40:32+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-27T10:38:35+08:00；相对时间以该采集时刻为准。"
+}
