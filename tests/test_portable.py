@@ -391,7 +391,7 @@ class PortableCommandTests(unittest.TestCase):
                 "-u",
                 "-c",
                 "import faulthandler, runpy, sys; "
-                "faulthandler.dump_traceback_later(10); "
+                "faulthandler.dump_traceback_later(60); "
                 "script = sys.argv.pop(1); "
                 "runpy.run_path(script, run_name='__main__')",
                 str(repository / "xait.py"),
@@ -415,7 +415,10 @@ class PortableCommandTests(unittest.TestCase):
 
         homepage = None
         health = None
-        deadline = time.monotonic() + 20
+        # Serving builds the archive and validates a second deterministic
+        # build before opening the socket. Windows CI can spend substantially
+        # longer than Unix on filesystem operations across many issue files.
+        deadline = time.monotonic() + 90
         last_error: Exception | None = None
         while time.monotonic() < deadline:
             if process.poll() is not None:
@@ -450,7 +453,7 @@ class PortableCommandTests(unittest.TestCase):
                 process.kill()
                 output, _ = process.communicate(timeout=5)
             self.fail(
-                f"serve did not respond within 20 seconds: {last_error}\n"
+                f"serve did not respond within 90 seconds: {last_error}\n"
                 f"Child startup output / bounded stack trace:\n{output[-12000:]}"
             )
         self.assertIn("xAIT 今日", homepage)
