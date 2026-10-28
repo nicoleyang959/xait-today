@@ -1,0 +1,865 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b1a02d251e036b08f89fdfb5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-078c0d35bad1b3fd8e9b87b3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e4f6cd0ece3c7a0467ba1818",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-77cbe1d03f2d725c73b7b494",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3b0abc2e4d3291ea1628e7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-304915c78c608df54f2998f1",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1ee7f958927399e5287f56c5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d353c7ecbef6a5fe4a87cafa",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ad016608c6567ea33c421975",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a5c76f356ae354486bc3b72a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6de510b74f76682d10dc30fa",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-82680ee3b10874b364fe910f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0e6f5a52703008f5634e523b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bf084e4ba34275509a1c74fc",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "unclebob/ub-mode",
+      "url": "https://github.com/unclebob/ub-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e71a50dd4a49bed87d8b95d4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "t3dotgg/tstack",
+      "url": "https://github.com/t3dotgg/tstack"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ba1c4a80d4239cf9b91380e4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "oosexgang/hackios-xnu-kernel",
+      "url": "https://github.com/oosexgang/hackios-xnu-kernel"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a766259d37ea8397e4cc8fec",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "DLSS-5-Swaper-New/.github",
+      "url": "https://github.com/DLSS-5-Swaper-New/.github"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e47c2736d7572f8a01e0adb3",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-50d0ffbe4fc726731eacc795",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "enesozturk/dimensional-drawing",
+      "url": "https://github.com/enesozturk/dimensional-drawing"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8d5733d637881583c5967dc6",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "andyhuo520/digital-human-koubo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ea6bf343eecfca2030d8a4a0",
+      "publishedAt": "2026-10-27T19:55:06Z",
+      "sourceId": "hacker-news",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-bd4084e443243e18c8483c83",
+      "publishedAt": "2026-10-27T20:50:42Z",
+      "sourceId": "hacker-news",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a36babd14222c44f5285ba29",
+      "publishedAt": "2026-10-27T22:23:37Z",
+      "sourceId": "hacker-news",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-fd8d816e7e9ff4414b08efc4",
+      "publishedAt": "2026-10-26T13:06:22-07:00",
+      "sourceId": "product-hunt",
+      "title": "Nuvio 5.0",
+      "url": "https://www.producthunt.com/products/nuvio"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7e4e5ae495428697aa28da3b",
+      "publishedAt": "2026-10-22T07:16:30-07:00",
+      "sourceId": "product-hunt",
+      "title": "NuPlay",
+      "url": "https://www.producthunt.com/products/nuplay"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-04790296a7dcf4eb2d12c4d4",
+      "publishedAt": "2026-10-26T14:29:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "Revix AI",
+      "url": "https://www.producthunt.com/products/revix-ai-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-26a413d3a5148ef9f2914dff",
+      "publishedAt": "2026-10-14T07:54:42-07:00",
+      "sourceId": "product-hunt",
+      "title": "Orbit",
+      "url": "https://www.producthunt.com/products/orbit-app-blocker"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ecf3364278069f335eae9e27",
+      "publishedAt": "2026-10-26T15:47:46-07:00",
+      "sourceId": "product-hunt",
+      "title": "PulseDev",
+      "url": "https://www.producthunt.com/products/pulsedev"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-385c9507c5ceb1ed6205f19a",
+      "publishedAt": "2026-10-26T05:12:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "Off Grid AI",
+      "url": "https://www.producthunt.com/products/off-grid-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2ad33ddc088c59e62b1e71a7",
+      "publishedAt": "2026-10-26T16:33:48-07:00",
+      "sourceId": "product-hunt",
+      "title": "GPT-6.1 Terra",
+      "url": "https://www.producthunt.com/products/openai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-28T12:15:08+08:00",
+      "dateEvidence": "exact",
+      "id": "article-02d19cee9ea8ce2dbd20bc73",
+      "publishedAt": "2026-10-26T21:48:43-07:00",
+      "sourceId": "product-hunt",
+      "title": "ContextGem 1.0",
+      "url": "https://www.producthunt.com/products/contextgem"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-65cc3933db7e8ab086e88d29",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Google DeepMind launches Genie 4, a world model powered by Gemini 3.8 Flash designed to generate interactive AI simulations, in preview first to trusted testers",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-821975b35a5c7e2621e0d7d1",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "AMD says it will invest $1B in Meta's equity offering, its first Helios rackscale systems are installed at Meta, and its EPYC CPUs power Meta's Muse AI agent",
+      "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-830b617f88ad3c5d87dce796",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Meta's $25B share sale was oversubscribed 5x as it seeks $98B for AI spending; the 15 largest investors in the sale accounted for ~70% of shares",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-27/meta-s-25-billion-stock-sale-ended-five-times-oversubscribed"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-08f29c2a1fbb76270124bb48",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Nvidia and Meta expand their Muse partnership, including Meta deploying more Vera Rubin and Vera CPUs; Nvidia will invest $3B in Meta's planned equity fundraise",
+      "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-3-billion-in-metas-equity-offering-as-they-expand-ai-partnership-e8d3850a?st=4eEQYV&reflink=desktopwebshare_permalink"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-28T12:15:11+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1a7d85c268ac491a8dc33848",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Anthropic details early drug development work with six partners and says it has acquired Mithril, a one-person company working on muscular dystrophy",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    }
+  ],
+  "date": "2026-10-28",
+  "edition": {
+    "windowEnd": "2026-10-28T08:45:00+08:00",
+    "windowStart": "2026-10-27T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-28T12:15:13+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-28 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "推特创始人做了个「不识字」的 AI，却很会说话",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-28 · 采集时显示：4 小时前 · 打开账号列表",
+              "title": "苹果发布两款M6新Mac/红果短剧否认「年收入400亿」/有线电视不得播放开机广告",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-28 · 采集时显示：5 小时前 · 打开账号列表",
+              "title": "刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 3 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-28 · 采集时显示：3 小时前 · 打开账号列表",
+              "title": "Google的世界模型Genie 4正式发布，这一次，世界终于要活过来了。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-28 · 采集时显示：53 分钟前 · 打开账号列表",
+              "title": "空气动力学、碰撞都能模拟：谷歌Genie 4来了，把物理写进世界模型！",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-28T12:13:12+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-28T12:13:12+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "elayadesign/ai-design-skills",
+            "url": "https://github.com/elayadesign/ai-design-skills"
+          },
+          "未提供",
+          "1,395",
+          "未提供"
+        ],
+        [
+          {
+            "text": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark"
+          },
+          "CSS",
+          "2,830",
+          "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        ],
+        [
+          {
+            "text": "nightly-labs/openbot",
+            "url": "https://github.com/nightly-labs/openbot"
+          },
+          "TypeScript",
+          "777",
+          "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent c"
+        ],
+        [
+          {
+            "text": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers"
+          },
+          "Shell",
+          "617",
+          "An agentic skills framework & software development methodology that works."
+        ],
+        [
+          {
+            "text": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable"
+          },
+          "Rust",
+          "1,449",
+          "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        ],
+        [
+          {
+            "text": "makecindy/cindy",
+            "url": "https://github.com/makecindy/cindy"
+          },
+          "TypeScript",
+          "1,465",
+          "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "JustAResearcher/gpu-unlock-ada",
+            "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+          },
+          "C",
+          "4313",
+          "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
+        ],
+        [
+          {
+            "text": "rddmwmddr/android-ad-cleaner",
+            "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+          },
+          "Python",
+          "3582",
+          "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
+        ],
+        [
+          {
+            "text": "designfuchen/word-atlas",
+            "url": "https://github.com/designfuchen/word-atlas"
+          },
+          "TypeScript",
+          "2701",
+          "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+        ],
+        [
+          {
+            "text": "unclebob/ub-mode",
+            "url": "https://github.com/unclebob/ub-mode"
+          },
+          "未提供",
+          "2568",
+          "未提供"
+        ],
+        [
+          {
+            "text": "t3dotgg/tstack",
+            "url": "https://github.com/t3dotgg/tstack"
+          },
+          "Python",
+          "2037",
+          "The agent skills I use every day. Works with Claude Code and Codex."
+        ],
+        [
+          {
+            "text": "oosexgang/hackios-xnu-kernel",
+            "url": "https://github.com/oosexgang/hackios-xnu-kernel"
+          },
+          "C",
+          "1832",
+          "未提供"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-28 · 226 互动/积分 · 116 评论",
+          "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+          "url": "https://www.brangus.io/survival-llm"
+        },
+        {
+          "meta": "发布 2026-10-28 · 166 互动/积分 · 153 评论",
+          "title": "Early progress on accelerating drug development with Claude",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        },
+        {
+          "meta": "发布 2026-10-28 · 31 互动/积分 · 23 评论",
+          "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-27",
+          "title": "Nuvio 5.0",
+          "url": "https://www.producthunt.com/products/nuvio"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "NuPlay",
+          "url": "https://www.producthunt.com/products/nuplay"
+        },
+        {
+          "meta": "发布 2026-10-27",
+          "title": "Revix AI",
+          "url": "https://www.producthunt.com/products/revix-ai-2"
+        },
+        {
+          "meta": "发布 2026-10-14",
+          "title": "Orbit",
+          "url": "https://www.producthunt.com/products/orbit-app-blocker"
+        },
+        {
+          "meta": "发布 2026-10-27",
+          "title": "PulseDev",
+          "url": "https://www.producthunt.com/products/pulsedev"
+        },
+        {
+          "meta": "发布 2026-10-26",
+          "title": "Off Grid AI",
+          "url": "https://www.producthunt.com/products/off-grid-ai"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google DeepMind launches Genie 4, a world model powered by Gemini 3.8 Flash designed to generate interactive AI simulations, in preview first to trusted testers",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "AMD says it will invest $1B in Meta's equity offering, its first Helios rackscale systems are installed at Meta, and its EPYC CPUs power Meta's Muse AI agent",
+          "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Meta's $25B share sale was oversubscribed 5x as it seeks $98B for AI spending; the 15 largest investors in the sale accounted for ~70% of shares",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-27/meta-s-25-billion-stock-sale-ended-five-times-oversubscribed"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Nvidia and Meta expand their Muse partnership, including Meta deploying more Vera Rubin and Vera CPUs; Nvidia will invest $3B in Meta's planned equity fundraise",
+          "url": "https://www.wsj.com/tech/ai/nvidia-to-invest-3-billion-in-metas-equity-offering-as-they-expand-ai-partnership-e8d3850a?st=4eEQYV&reflink=desktopwebshare_permalink"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Anthropic details early drug development work with six partners and says it has acquired Mithril, a one-person company working on muscular dystrophy",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "AI Browser that saves your team >100h/week",
+          "rank": 1,
+          "title": "Strawberry 1.0",
+          "url": "https://www.producthunt.com/products/strawberry"
+        },
+        {
+          "description": "AI visuals. Edit every layer. Agent-callable.",
+          "rank": 2,
+          "title": "SurgePix",
+          "url": "https://www.producthunt.com/products/surgepix"
+        },
+        {
+          "description": "MiniMax’s Flash model, 3x faster and 70% cheaper for agents",
+          "rank": 3,
+          "title": "MiniMax M3.1 Flash",
+          "url": "https://www.producthunt.com/products/minimax-4"
+        },
+        {
+          "description": "Beautiful, no-code, on-brand AI chat widgets for n8n",
+          "rank": 4,
+          "title": "N8N Chat UI",
+          "url": "https://www.producthunt.com/products/n8n-chat-ui-2"
+        },
+        {
+          "description": "Sampler to create early 2000 Neural Synthesis",
+          "rank": 5,
+          "title": "2G",
+          "url": "https://www.producthunt.com/products/2g"
+        },
+        {
+          "description": "Find PDF accessibility issues for free, with fix guidance",
+          "rank": 6,
+          "title": "PDF Accessibility Checker by WebYes",
+          "url": "https://www.producthunt.com/products/pdf-accessibility-checker"
+        },
+        {
+          "description": "A 1991 camcorder for your iPhone, one tape a day",
+          "rank": 7,
+          "title": "Flipcorder",
+          "url": "https://www.producthunt.com/products/flipcorder"
+        },
+        {
+          "description": "Cut your cloud bill, not your performance",
+          "rank": 8,
+          "title": "CloudKnife",
+          "url": "https://www.producthunt.com/products/cloudknife"
+        },
+        {
+          "description": "Free Figma alternative made on Rust",
+          "rank": 9,
+          "title": "desigma",
+          "url": "https://www.producthunt.com/products/desigma"
+        },
+        {
+          "description": "See which AI agent is heating your Mac and cool it down.",
+          "rank": 10,
+          "title": "WhoIsCooking",
+          "url": "https://www.producthunt.com/products/whoiscooking"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-28T08:51:27+08:00",
+        "date": "2026-10-26",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/26"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "github-trending",
+      "itemCount": 11,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-28T12:15:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-28T12:15:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "hacker-news",
+      "itemCount": 3,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-28T12:15:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "arxiv",
+      "itemCount": 0,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": null,
+      "message": "来源要求验证或限制访问，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-28T12:15:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:08+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-28T12:15:08+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:15:11+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-28T12:15:11+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T08:51:27+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-28T08:51:27+08:00",
+      "message": "已核验官方公开日榜的完整 Top 10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:13:12+08:00",
+      "id": "wechat-appso",
+      "itemCount": 3,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-28T12:13:12+08:00",
+      "message": "今日 3 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:13:12+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-28T12:13:12+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:13:12+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-28T12:13:12+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-28T12:13:12+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-28T12:13:12+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
