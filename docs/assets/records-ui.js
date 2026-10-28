@@ -527,7 +527,7 @@
   async function signIn() {
     if (!client || !config || !config.enabled) return;
     if (!root.navigator.onLine) { feedback("firstOnline", "error"); return; }
-    if (!ownRead(root.sessionStorage, intentKey)) ownWrite(root.sessionStorage, intentKey, JSON.stringify({ returnPath: root.location.pathname + root.location.search + (root.location.hash === "#saved" ? "" : root.location.hash) }));
+    if (!ownRead(root.sessionStorage, intentKey)) ownWrite(root.sessionStorage, intentKey, JSON.stringify({ returnPath: root.location.pathname + root.location.search + root.location.hash }));
     sessionBlocked = false;
     $("records-login").disabled = true;
     try {

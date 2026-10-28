@@ -1,6 +1,6 @@
 /* Public shell only. Private records live in the account-isolated IndexedDB. */
 "use strict";
-const CACHE = "xait-public-4927c69097bdaf16eb2b10e9";
+const CACHE = "xait-public-fc922f571653aa088b8fe127";
 const ASSETS = ["assets/app.css", "assets/app.js", "assets/records.css", "assets/records-core.js", "assets/records-ui.js", "assets/vendor/supabase-2.118.0.js", "assets/vendor/SUPABASE-LICENSE.txt"];
 const AUTH_FIELDS = new Set(["code", "access_token", "refresh_token", "error", "error_description", "error_code"]);
 const base = () => new URL(self.registration.scope);

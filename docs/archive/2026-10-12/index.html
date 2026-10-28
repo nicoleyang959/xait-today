@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="xAIT 今日——从公开来源中整理今日必读，保留时间窗口、来源状态与原文链接">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src 'none'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; connect-src https://ldeuhfsjtjvurkodnaah.supabase.co; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="xAIT 今日 · 2026-10-12">
   <meta property="og:description" content="AI 和 IT 的无限可能">
@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../../assets/app.css">
   <link rel="stylesheet" href="../../assets/records.css">
   <script src="../../assets/app.js" defer></script>
-
+  <script src="../../assets/vendor/supabase-2.118.0.js" defer></script>
   <script src="../../assets/records-core.js" defer></script>
   <script src="../../assets/records-ui.js" defer></script>
 </head>
@@ -967,10 +967,10 @@
 }
 </template>
 <template id="xait-records-config">{
-  "enabled": false,
-  "publishableKey": "",
-  "redirectUrl": "",
-  "supabaseUrl": ""
+  "enabled": true,
+  "publishableKey": "sb_publishable__1q4jirHouPgRnIOsVSQ4w_K1oYaL2L",
+  "redirectUrl": "https://nicoleyang959.github.io/xait-today/",
+  "supabaseUrl": "https://ldeuhfsjtjvurkodnaah.supabase.co"
 }
 </template>
 </body>

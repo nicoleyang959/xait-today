@@ -28,12 +28,50 @@ class RecordsBuildTests(unittest.TestCase):
                 "redirectUrl": "https://example.org/xait/"}
 
     def test_default_off_has_no_cloud_endpoint_or_sdk_execution(self):
-        self.assertFalse(xait.records_config()["enabled"])
+        self.assertFalse(xait._validate_records_config(xait._load_json(xait.RECORDS_CONFIG_PATH))["enabled"])
         page = (ROOT / "docs/index.html").read_text(encoding="utf-8")
         self.assertIn('id="saved-open"', page)
         self.assertIn('id="saved-projects"', page)
-        self.assertIn("connect-src 'none'", page)
-        self.assertNotIn('src="assets/vendor/supabase', page)
+        if not xait.OFFICIAL_RECORDS_ENABLED:
+            self.assertIn("connect-src 'none'", page)
+            self.assertNotIn('src="assets/vendor/supabase', page)
+
+    def test_official_binding_is_gated_and_site_exact(self):
+        disabled = {"enabled": False, "supabaseUrl": "", "publishableKey": "", "redirectUrl": ""}
+        official = self.enabled()
+        with self.config(disabled), patch.object(xait, "OFFICIAL_RECORDS_BINDING", official), \
+             patch.object(xait, "PUBLIC_BASE_URL", official["redirectUrl"]):
+            with patch.object(xait, "OFFICIAL_RECORDS_ENABLED", False):
+                self.assertEqual(disabled, xait.records_config())
+            with patch.object(xait, "OFFICIAL_RECORDS_ENABLED", True):
+                self.assertEqual(official, xait.records_config())
+                issue = xait.load_issues()[-1]
+                template = xait.TEMPLATE_PATH.read_text(encoding="utf-8")
+                page = xait._render_page(template, issue, [issue["date"]], True, xait.load_language_catalogs())
+                self.assertIn("connect-src https://abcdefghijklmnopqrst.supabase.co;", page)
+                self.assertIn('src="assets/vendor/supabase-2.118.0.js"', page)
+                archive = xait._render_page(template, issue, [issue["date"]], False, xait.load_language_catalogs())
+                self.assertIn('src="../../assets/vendor/supabase-2.118.0.js"', archive)
+        with self.config(disabled), patch.object(xait, "OFFICIAL_RECORDS_BINDING", official), \
+             patch.object(xait, "PUBLIC_BASE_URL", "https://other.example/"), \
+             patch.object(xait, "OFFICIAL_RECORDS_ENABLED", True):
+            with self.assertRaises(xait.XaitError): xait.records_config()
+        malformed = dict(official, publishableKey="sb_" + "secret_" + "a" * 40)
+        with self.config(disabled), patch.object(xait, "OFFICIAL_RECORDS_BINDING", malformed), \
+             patch.object(xait, "OFFICIAL_RECORDS_ENABLED", True):
+            with self.assertRaises(xait.XaitError): xait.records_config()
+
+    def test_explicit_deployer_config_takes_precedence_over_official_binding(self):
+        custom = self.enabled()
+        with self.config(custom), patch.object(xait, "OFFICIAL_RECORDS_ENABLED", True):
+            self.assertEqual(custom, xait.records_config())
+
+    def test_official_binding_has_valid_public_fields_and_exact_site(self):
+        disabled = {"enabled": False, "supabaseUrl": "", "publishableKey": "", "redirectUrl": ""}
+        with self.config(disabled), patch.object(xait, "OFFICIAL_RECORDS_ENABLED", True):
+            official = xait.records_config()
+            self.assertEqual(xait.PUBLIC_BASE_URL, official["redirectUrl"])
+            self.assertTrue(official["publishableKey"].startswith("sb_publishable_"))
 
     def test_strict_public_configuration_and_exact_csp(self):
         issue = xait.load_issues()[-1]

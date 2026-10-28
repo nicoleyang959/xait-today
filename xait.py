@@ -40,6 +40,17 @@ I18N_DIR = ROOT / "site" / "i18n"
 DOCS_DIR = ROOT / "docs"
 PUBLIC_BASE_URL = "https://nicoleyang959.github.io/xait-today/"
 RECORDS_CONFIG_PATH = ROOT / "site" / "cloud-records.json"
+# The official deployment binding is public and active only on its exact origin.
+# Only public browser configuration belongs here; never put service credentials
+# or an account session in the repository. The browser independently checks the
+# exact origin and site path before constructing a Supabase client.
+OFFICIAL_RECORDS_ENABLED = True
+OFFICIAL_RECORDS_BINDING = {
+    "enabled": True,
+    "supabaseUrl": "https://ldeuhfsjtjvurkodnaah.supabase.co",
+    "publishableKey": "sb_publishable__1q4jirHouPgRnIOsVSQ4w_K1oYaL2L",
+    "redirectUrl": "https://nicoleyang959.github.io/xait-today/",
+}
 RECORDS_TEMPLATE_PATH = ROOT / "site" / "templates" / "records.html"
 RECORDS_SW_PATH = ROOT / "site" / "sw.js"
 SDK_ASSET = "assets/vendor/supabase-2.118.0.js"
@@ -49,8 +60,24 @@ STATIC_ASSETS = ("app.css", "app.js", "records.css", "records-core.js", "records
 
 
 def records_config() -> Dict[str, Any]:
-    """Only explicitly declared, public configuration is a build input."""
+    """Resolve public configuration, preferring an explicit deployer override.
+
+    A checked-in official binding may be enabled only after acceptance; its
+    redirect is fixed to the official canonical site. Other origins cannot
+    instantiate the client: the browser runtime also checks origin and path.
+    """
     config = _load_json(RECORDS_CONFIG_PATH)
+    config = _validate_records_config(config)
+    if not config["enabled"] and OFFICIAL_RECORDS_ENABLED:
+        official = _validate_records_config(copy.deepcopy(OFFICIAL_RECORDS_BINDING))
+        if not official["enabled"] or official["redirectUrl"] != PUBLIC_BASE_URL:
+            raise XaitError("正式站云收藏绑定必须指向确切的官方首页", EXIT_SECURITY)
+        return official
+    return config
+
+
+def _validate_records_config(config: Any) -> Dict[str, Any]:
+    """Accept only the minimal public client configuration, never credentials."""
     fields = {"enabled", "supabaseUrl", "publishableKey", "redirectUrl"}
     if not isinstance(config, dict) or set(config) != fields or type(config["enabled"]) is not bool:
         raise XaitError("云收藏配置字段或 enabled 无效", EXIT_SECURITY)

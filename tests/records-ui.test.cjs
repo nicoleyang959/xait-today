@@ -82,7 +82,7 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
   test.before(async()=>{browser=await chromium.launch({channel:"chrome",headless:true});});
   test.after(async()=>{if(browser)await browser.close();});
 
-  async function contextFor(cloud) {
+  async function contextFor(cloud, signedOut = false, foreignOfficial = false) {
     const context=await browser.newContext({viewport:{width:1280,height:900},serviceWorkers:"block"});
     let blockedRequests=0;
     await context.route("**/*",async(route)=>{
@@ -94,9 +94,9 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
       if(["assets/records-ui.js","assets/records-core.js","assets/records.css"].includes(relative))file=path.resolve(rootDir,"..","site",relative);
       if(!fs.existsSync(file)){await route.fulfill({status:404,body:"Not found"});return;}
       let body=fs.readFileSync(file);
-      if(file.endsWith(".html")&&cloud){
+      if(file.endsWith(".html")&&!foreignOfficial){
         let html=body.toString("utf8");
-        const serialized=JSON.stringify(fixtureConfig).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+        const serialized=JSON.stringify(cloud?fixtureConfig:disabled).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
         html=html.replace(/(<template\b[^>]*id="xait-records-config"[^>]*>)[\s\S]*?(<\/template>)/,"$1"+serialized+"$2");
         body=Buffer.from(html);
       }
@@ -104,8 +104,8 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
       const type=extension===".html"?"text/html":extension===".js"?"application/javascript":extension===".css"?"text/css":"application/json";
       await route.fulfill({status:200,contentType:type,body});
     });
-    if(cloud)await context.addInitScript(({userA,userB})=>{
-      let current={id:userA,user_metadata:{user_name:"Synthetic reader A"}};
+    if(cloud)await context.addInitScript(({userA,userB,signedOut})=>{
+      let current=!signedOut || new URL(location.href).searchParams.has("code") || sessionStorage.getItem("synthetic-auth") === "signed-in" ? {id:userA,user_metadata:{user_name:"Synthetic reader A"}} : null;
       const callbacks=new Set();
       const database=new Map();
       const receipts=new Map();
@@ -116,7 +116,7 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
         getSession:async()=>({data:{session:current?{user:current}:null},error:null}),
         getUser:async()=>({data:{user:current},error:null}),
         onAuthStateChange(callback){callbacks.add(callback);return{data:{subscription:{unsubscribe(){callbacks.delete(callback);}}}};},
-        signInWithOAuth:async()=>({data:{},error:null}),exchangeCodeForSession:async()=>({data:{session:{user:current}},error:null}),
+        signInWithOAuth:async()=>{if(signedOut)location.assign("/?code=synthetic-once");return{data:{},error:null};},exchangeCodeForSession:async()=>{sessionStorage.setItem("synthetic-auth","signed-in");return{data:{session:{user:current}},error:null};},
         stopAutoRefresh(){},signOut:async()=>{current=null;callbacks.forEach(fn=>fn("SIGNED_OUT",null));return{error:null};}
       },async rpc(name,args){
         if(!current||args.p_account_id!==current.id)return{error:{code:"account_mismatch"},data:null};
@@ -148,7 +148,11 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
       }};
       Object.defineProperty(window,"supabase",{configurable:true,get:()=>({createClient:()=>client}),set(){}});
       window.__recordsFixture={emit(id){current=id?{id,user_metadata:{user_name:id===userA?"Synthetic reader A":"Synthetic reader B"}}:null;callbacks.forEach(fn=>fn(current?"SIGNED_IN":"SIGNED_OUT",current?{user:current}:null));},count(id){return[...bucket(id).values()].filter(r=>!r.deleted_at).length;},remoteEdit(id,changes){const mine=bucket(current.id);const old=mine.get(id);mine.set(id,{...old,...changes,version:old.version+1,updated_at:now()});},userA,userB};
-    },{userA,userB});
+    },{userA,userB,signedOut});
+    if(foreignOfficial)await context.addInitScript(()=>{
+      window.__unexpectedCloudClient=false;
+      Object.defineProperty(window,"supabase",{configurable:true,get:()=>({createClient(){window.__unexpectedCloudClient=true;throw new Error("unexpected cloud initialization");}}),set(){}});
+    });
     return {context,blocked:()=>blockedRequests};
   }
   async function ready(page){await page.waitForSelector("#records-workspace:not([hidden])");}
@@ -169,6 +173,51 @@ if (process.env.XAIT_RECORDS_BROWSER_TEST === "1") {
     assert.equal(await page.locator("#briefing-view").isVisible(),true);
     assert.equal(fixture.blocked(),0);assert.deepEqual(errors,[]);
     await fixture.context.close();
+  });
+  test("browser: official binding on a foreign clone never initializes or contacts the official cloud",async()=>{
+    const fixture=await contextFor(false,false,true);const page=await fixture.context.newPage();const errors=[];
+    page.on("pageerror",e=>errors.push(e.message));
+    await page.goto(base+"#saved");
+    await page.waitForFunction(()=>document.querySelector("#records-gate-message").textContent.includes("未获准连接"));
+    assert.equal(await page.locator("#records-login").isVisible(),false);
+    assert.equal(await page.evaluate(()=>window.__unexpectedCloudClient),false);
+    assert.equal(fixture.blocked(),0);assert.deepEqual(errors,[]);
+    await page.locator("#records-back").click();
+    assert.equal(await page.locator("#briefing-view").isVisible(),true);
+    await fixture.context.close();
+  });
+  test("browser: sign-in from the project library restores the library view",async()=>{
+    const fixture=await contextFor(true,true);const page=await fixture.context.newPage();
+    await page.goto(base+"#saved");
+    await page.locator("#records-login").click();
+    await page.waitForFunction(()=>location.hash==="#saved"&&!document.querySelector("#records-workspace").hidden);
+    assert.equal(await page.locator("#saved-projects").isVisible(),true);
+    assert.equal(await page.locator("#briefing-view").isVisible(),false);
+    assert.equal(new URL(page.url()).searchParams.has("code"),false);
+    assert.equal(fixture.blocked(),0);await fixture.context.close();
+  });
+  test("browser: sign-in from an archived library returns to that archive",async()=>{
+    const fixture=await contextFor(true,true);const page=await fixture.context.newPage();
+    await page.goto(base+"archive/2026-10-27/#saved");
+    await page.locator("#records-login").click();
+    await page.waitForFunction(()=>location.pathname==="/archive/2026-10-27/"&&location.hash==="#saved"&&!document.querySelector("#records-workspace").hidden);
+    assert.equal(await page.locator("#saved-projects").isVisible(),true);
+    assert.equal(new URL(page.url()).searchParams.has("code"),false);
+    assert.equal(fixture.blocked(),0);await fixture.context.close();
+  });
+  test("browser: saving from a briefing returns to the article and saves the intended project",async()=>{
+    const fixture=await contextFor(true,true);const page=await fixture.context.newPage();
+    await page.goto(base+"#main-content");
+    const button=page.locator("[data-save-project]").first();
+    const title=await button.getAttribute("data-project-title");
+    await button.waitFor({state:"visible"});await page.waitForFunction(()=>!document.querySelector("[data-save-project]").disabled);
+    await button.click();
+    await page.waitForFunction(()=>location.hash==="#main-content"&&!document.querySelector("#briefing-view").hidden);
+    await page.waitForFunction(()=>window.__recordsFixture.count(window.__recordsFixture.userA)===1);
+    await page.locator("#saved-open").click();
+    await page.waitForFunction(title=>[...document.querySelectorAll("#records-list h3")].some(n=>n.textContent===title),title);
+    assert.equal(new URL(page.url()).searchParams.has("code"),false);
+    assert.equal(fixture.blocked(),0);await fixture.context.close();
   });
   test("browser: private editing, offline save, account isolation and unsaved draft recovery",async()=>{
     const fixture=await contextFor(true);const page=await fixture.context.newPage();const errors=[];
