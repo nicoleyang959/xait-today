@@ -1,0 +1,63 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-29 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "刚刚，MacBook 进入触屏时代，顶配卖到 11 万 | 现场上手",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 2 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "智东西",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "蚂蚁版Muse背后模型开源！Agent测评赶超DeepSeek-V4-Pro",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "2.3万元起！首款触屏MacBook来了，苹果Logo重新发光点亮",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日 2 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "花叔",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    }
+  ],
+  "capturedAt": "2026-10-29T08:43:31+08:00",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T10:02:35+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-29T08:43:31+08:00；相对时间以该采集时刻为准。"
+}

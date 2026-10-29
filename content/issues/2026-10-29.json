@@ -1,0 +1,895 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ad016608c6567ea33c421975",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b1a02d251e036b08f89fdfb5",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-77cbe1d03f2d725c73b7b494",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d353c7ecbef6a5fe4a87cafa",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-20c619c53a4bca30b365fe6b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-078c0d35bad1b3fd8e9b87b3",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3b0abc2e4d3291ea1628e7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e4f6cd0ece3c7a0467ba1818",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a5c76f356ae354486bc3b72a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "togg53192-cmd/jailbreaks",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-899848bcb02e14a9bbd1ac32",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-87af3e62392cc672897b1b72",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "expo/skills",
+      "url": "https://github.com/expo/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6de510b74f76682d10dc30fa",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "JustAResearcher/gpu-unlock-ada",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-82680ee3b10874b364fe910f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bf084e4ba34275509a1c74fc",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "unclebob/ub-mode",
+      "url": "https://github.com/unclebob/ub-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0e6f5a52703008f5634e523b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4a5472c89abafb6a7360ab84",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "interplains/Zero-Breach-Toolkit",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e71a50dd4a49bed87d8b95d4",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "t3dotgg/tstack",
+      "url": "https://github.com/t3dotgg/tstack"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-805c4b6758ef6f1d3861b072",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "anhao/ai-pose-gallery-zh",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-50d0ffbe4fc726731eacc795",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "enesozturk/dimensional-drawing",
+      "url": "https://github.com/enesozturk/dimensional-drawing"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e47c2736d7572f8a01e0adb3",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8d5733d637881583c5967dc6",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "andyhuo520/digital-human-koubo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b5ad6763e58ee921d3b8b091",
+      "publishedAt": "2026-10-28T17:01:23Z",
+      "sourceId": "hacker-news",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-297d9da048b099d100478611",
+      "publishedAt": "2026-10-28T15:46:30Z",
+      "sourceId": "hacker-news",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a37e852fb974454398039977",
+      "publishedAt": "2026-10-29T00:30:37Z",
+      "sourceId": "hacker-news",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-01b289214bbee0eaa0d31d6e",
+      "publishedAt": "2026-10-27T17:59:59Z",
+      "sourceId": "arxiv",
+      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+      "url": "https://arxiv.org/abs/2610.37668v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3cfd6983b6f60d3fa67eb0a6",
+      "publishedAt": "2026-10-27T17:59:52Z",
+      "sourceId": "arxiv",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "https://arxiv.org/abs/2610.37666v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-75c03bf54e58112e37c7bdf6",
+      "publishedAt": "2026-10-27T17:58:52Z",
+      "sourceId": "arxiv",
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "url": "https://arxiv.org/abs/2610.37657v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-098253089cd29befe5d5fbdf",
+      "publishedAt": "2026-10-27T17:58:48Z",
+      "sourceId": "arxiv",
+      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+      "url": "https://arxiv.org/abs/2610.37656v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2848562e268af00667dc1407",
+      "publishedAt": "2026-10-27T17:58:40Z",
+      "sourceId": "arxiv",
+      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+      "url": "https://arxiv.org/abs/2610.37655v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7263a7bbced642185548e283",
+      "publishedAt": "2026-10-27T17:58:11Z",
+      "sourceId": "arxiv",
+      "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+      "url": "https://arxiv.org/abs/2610.37651v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7fb6ecdc7ff781d4d36dd77a",
+      "publishedAt": "2026-10-23T07:44:56-07:00",
+      "sourceId": "product-hunt",
+      "title": "Fraud Blocker",
+      "url": "https://www.producthunt.com/products/fraud-blocker"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2a6c08dded70066015b17192",
+      "publishedAt": "2026-10-15T11:04:55-07:00",
+      "sourceId": "product-hunt",
+      "title": "BotGauge",
+      "url": "https://www.producthunt.com/products/botgauge-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a195c7afca1d47c36b23da82",
+      "publishedAt": "2026-10-27T10:20:52-07:00",
+      "sourceId": "product-hunt",
+      "title": "LFM3 by Liquid AI",
+      "url": "https://www.producthunt.com/products/lfm2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1bc9e78ac37eb9d87e4e0442",
+      "publishedAt": "2026-10-27T08:27:12-07:00",
+      "sourceId": "product-hunt",
+      "title": "Open For sales",
+      "url": "https://www.producthunt.com/products/open-for-sales"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-924d1022975f52ff7a01f5ab",
+      "publishedAt": "2026-10-04T00:59:54-07:00",
+      "sourceId": "product-hunt",
+      "title": "RageLayer",
+      "url": "https://www.producthunt.com/products/ragelayer"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-388ae21c395f8936412066f1",
+      "publishedAt": "2026-10-04T00:57:55-07:00",
+      "sourceId": "product-hunt",
+      "title": "App Store Screenshots",
+      "url": "https://www.producthunt.com/products/app-store-screenshots"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-777dd63a7589f57ca3839035",
+      "publishedAt": "2026-10-26T12:23:12-07:00",
+      "sourceId": "product-hunt",
+      "title": "throxy",
+      "url": "https://www.producthunt.com/products/throxy-yc-p25"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-29T10:02:32+08:00",
+      "dateEvidence": "exact",
+      "id": "article-de069123298e879aaedaf841",
+      "publishedAt": "2026-10-27T19:28:19-07:00",
+      "sourceId": "product-hunt",
+      "title": "licenseal",
+      "url": "https://www.producthunt.com/products/licenseal"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-29T10:02:35+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e97cb583d8e9add1a251dbbe",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Google unveils Gemini 4 Carbon, its “strongest model with state-of-the-art cybersecurity” capabilities, ranked #1 on Artificial Analysis' new Intelligence Index",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+  ],
+  "date": "2026-10-29",
+  "edition": {
+    "windowEnd": "2026-10-29T08:45:00+08:00",
+    "windowStart": "2026-10-28T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-29T10:02:35+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-29 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+              "title": "刚刚，MacBook 进入触屏时代，顶配卖到 11 万 | 现场上手",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+              "title": "蚂蚁版Muse背后模型开源！Agent测评赶超DeepSeek-V4-Pro",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            },
+            {
+              "badge": "今日",
+              "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+              "title": "2.3万元起！首款触屏MacBook来了，苹果Logo重新发光点亮",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 2 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-29T08:43:31+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-29T08:43:31+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "JetBrains/thinkrail",
+            "url": "https://github.com/JetBrains/thinkrail"
+          },
+          "TypeScript",
+          "1,068",
+          "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+        ],
+        [
+          {
+            "text": "elayadesign/ai-design-skills",
+            "url": "https://github.com/elayadesign/ai-design-skills"
+          },
+          "未提供",
+          "2,139",
+          "未提供"
+        ],
+        [
+          {
+            "text": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers"
+          },
+          "Shell",
+          "1,095",
+          "An agentic skills framework & software development methodology that works."
+        ],
+        [
+          {
+            "text": "HKUDS/DeepTutor",
+            "url": "https://github.com/HKUDS/DeepTutor"
+          },
+          "Python",
+          "2,371",
+          "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ ."
+        ],
+        [
+          {
+            "text": "macro-inc/macro",
+            "url": "https://github.com/macro-inc/macro"
+          },
+          "Rust",
+          "117",
+          "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory."
+        ],
+        [
+          {
+            "text": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark"
+          },
+          "CSS",
+          "2,110",
+          "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "JustAResearcher/gpu-unlock-ada",
+            "url": "https://github.com/JustAResearcher/gpu-unlock-ada"
+          },
+          "C",
+          "4424",
+          "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
+        ],
+        [
+          {
+            "text": "rddmwmddr/android-ad-cleaner",
+            "url": "https://github.com/rddmwmddr/android-ad-cleaner"
+          },
+          "Python",
+          "4346",
+          "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
+        ],
+        [
+          {
+            "text": "unclebob/ub-mode",
+            "url": "https://github.com/unclebob/ub-mode"
+          },
+          "未提供",
+          "3812",
+          "未提供"
+        ],
+        [
+          {
+            "text": "designfuchen/word-atlas",
+            "url": "https://github.com/designfuchen/word-atlas"
+          },
+          "TypeScript",
+          "3061",
+          "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+        ],
+        [
+          {
+            "text": "interplains/Zero-Breach-Toolkit",
+            "url": "https://github.com/interplains/Zero-Breach-Toolkit"
+          },
+          "Python",
+          "2805",
+          "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups."
+        ],
+        [
+          {
+            "text": "t3dotgg/tstack",
+            "url": "https://github.com/t3dotgg/tstack"
+          },
+          "Python",
+          "2273",
+          "The agent skills I use every day. Works with Claude Code and Codex."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-29 · 812 互动/积分 · 668 评论",
+          "title": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "meta": "发布 2026-10-28 · 203 互动/积分 · 127 评论",
+          "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+          "url": "https://surgehq.ai/blog/dayjob-tax"
+        },
+        {
+          "meta": "发布 2026-10-29 · 33 互动/积分 · 31 评论",
+          "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+          "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-28",
+          "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+          "url": "https://arxiv.org/abs/2610.37668v1"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+          "url": "https://arxiv.org/abs/2610.37666v1"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+          "url": "https://arxiv.org/abs/2610.37657v1"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+          "url": "https://arxiv.org/abs/2610.37656v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-23",
+          "title": "Fraud Blocker",
+          "url": "https://www.producthunt.com/products/fraud-blocker"
+        },
+        {
+          "meta": "发布 2026-10-16",
+          "title": "BotGauge",
+          "url": "https://www.producthunt.com/products/botgauge-2"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "LFM3 by Liquid AI",
+          "url": "https://www.producthunt.com/products/lfm2"
+        },
+        {
+          "meta": "发布 2026-10-27",
+          "title": "Open For sales",
+          "url": "https://www.producthunt.com/products/open-for-sales"
+        },
+        {
+          "meta": "发布 2026-10-04",
+          "title": "RageLayer",
+          "url": "https://www.producthunt.com/products/ragelayer"
+        },
+        {
+          "meta": "发布 2026-10-04",
+          "title": "App Store Screenshots",
+          "url": "https://www.producthunt.com/products/app-store-screenshots"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google unveils Gemini 4 Carbon, its “strongest model with state-of-the-art cybersecurity” capabilities, ranked #1 on Artificial Analysis' new Intelligence Index",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "See how users will react, right where you build.",
+          "rank": 1,
+          "title": "TheySaid 4.0",
+          "url": "https://www.producthunt.com/products/theysaid"
+        },
+        {
+          "description": "Open-source platform for continuous learning",
+          "rank": 2,
+          "title": "Overmind",
+          "url": "https://www.producthunt.com/products/overmind-2"
+        },
+        {
+          "description": "Documents of the future, made by AI, read by your team",
+          "rank": 3,
+          "title": "Spacesheep",
+          "url": "https://www.producthunt.com/products/spacesheep"
+        },
+        {
+          "description": "Stop doomscrolling. Earn every app unlock.",
+          "rank": 4,
+          "title": "Orbit",
+          "url": "https://www.producthunt.com/products/orbit-app-blocker"
+        },
+        {
+          "description": "Capture what matters and move your intentions forward",
+          "rank": 5,
+          "title": "SavorApp_AI",
+          "url": "https://www.producthunt.com/products/savor-3"
+        },
+        {
+          "description": "Notra is a GEO tool that helps you rank in AI Search.",
+          "rank": 6,
+          "title": "Notra",
+          "url": "https://www.producthunt.com/products/notra-3"
+        },
+        {
+          "description": "Hand your financial admin to your AI agent",
+          "rank": 7,
+          "title": "Nuvio 5.0",
+          "url": "https://www.producthunt.com/products/nuvio"
+        },
+        {
+          "description": "Click any UI bug on a local development server and your AI agent fixes it",
+          "rank": 8,
+          "title": "PulseDev",
+          "url": "https://www.producthunt.com/products/pulsedev"
+        },
+        {
+          "description": "OLED, A20 Pro and IP67 in Apple's smallest iPad",
+          "rank": 9,
+          "title": "iPad mini 8",
+          "url": "https://www.producthunt.com/products/apple"
+        },
+        {
+          "description": "A fight controller with no stick and its own screen",
+          "rank": 10,
+          "title": "Arcade Controller Pro",
+          "url": "https://www.producthunt.com/products/bluetooth-snes-controller"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-10-29T08:44:10+08:00",
+        "date": "2026-10-27",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/10/27"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "hacker-news",
+      "itemCount": 3,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:32+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-29T10:02:32+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T10:02:35+08:00",
+      "id": "techmeme",
+      "itemCount": 1,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-29T10:02:35+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T08:44:10+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-10-29T08:44:10+08:00",
+      "message": "已核验官方公开日榜的完整 Top 10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T08:43:31+08:00",
+      "id": "wechat-appso",
+      "itemCount": 2,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-29T08:43:31+08:00",
+      "message": "今日 2 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T08:43:31+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-29T08:43:31+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-29T08:43:31+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 2,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-29T08:43:31+08:00",
+      "message": "今日 2 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-29T08:43:31+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-29T08:43:31+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}

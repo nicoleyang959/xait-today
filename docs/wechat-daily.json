@@ -5,53 +5,46 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-28 · 采集时显示：2 小时前 · 打开账号列表",
-          "title": "推特创始人做了个「不识字」的 AI，却很会说话",
+          "meta": "2026-10-29 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         },
         {
           "badge": "今日",
-          "meta": "2026-10-28 · 采集时显示：4 小时前 · 打开账号列表",
-          "title": "苹果发布两款M6新Mac/红果短剧否认「年收入400亿」/有线电视不得播放开机广告",
-          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
-        },
-        {
-          "badge": "今日",
-          "meta": "2026-10-28 · 采集时显示：5 小时前 · 打开账号列表",
-          "title": "刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "刚刚，MacBook 进入触屏时代，顶配卖到 11 万 | 现场上手",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日 3 篇",
+      "status": "今日 2 篇",
       "statusTone": "fresh"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [
-        {
-          "badge": "今日",
-          "meta": "2026-10-28 · 采集时显示：3 小时前 · 打开账号列表",
-          "title": "Google的世界模型Genie 4正式发布，这一次，世界终于要活过来了。",
-          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
-        }
-      ],
+      "items": [],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日 1 篇",
-      "statusTone": "fresh"
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "智东西",
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-28 · 采集时显示：53 分钟前 · 打开账号列表",
-          "title": "空气动力学、碰撞都能模拟：谷歌Genie 4来了，把物理写进世界模型！",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "蚂蚁版Muse背后模型开源！Agent测评赶超DeepSeek-V4-Pro",
+          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
+          "title": "2.3万元起！首款触屏MacBook来了，苹果Logo重新发光点亮",
           "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
-      "status": "今日 1 篇",
+      "status": "今日 2 篇",
       "statusTone": "fresh"
     },
     {
@@ -62,9 +55,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-28T12:13:12+08:00",
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-28T12:15:13+08:00",
+  "capturedAt": "2026-10-29T08:43:31+08:00",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T10:02:35+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-28T12:13:12+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-29T08:43:31+08:00；相对时间以该采集时刻为准。"
 }
