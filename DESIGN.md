@@ -48,17 +48,17 @@ components:
   records-button:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.text}"
-    rounded: "4px"
+    rounded: "{rounded.radius}"
     padding: "7px 12px"
   records-primary:
     backgroundColor: "{colors.accent}"
     textColor: "{colors.accent-ink}"
-    rounded: "4px"
+    rounded: "{rounded.radius}"
     padding: "7px 12px"
   records-field:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.text}"
-    rounded: "4px"
+    rounded: "{rounded.radius}"
     padding: "9px 10px"
 ---
 
@@ -115,13 +115,13 @@ The existing `accent` supplies links, selected theme/language controls, active a
 
 | Theme | `muted` | `faint` |
 | --- | --- | --- |
-| Terminal | `#159724` | `#0d6a18` |
-| Cyber | `#7f98a2` | `#52636d` |
-| Swiss | `#686d76` | `#9297a0` |
-| Editorial | `#786c61` | `#a19386` |
-| Consulting | `#68778a` | `#9ba6b4` |
-| Minimal | `#777777` | `#aaaaaa` |
-| Paper | `#7f6c5a` | `#a6917e` |
+| Terminal | `#159724` | `#159724` |
+| Cyber | `#7f98a2` | `#7f98a2` |
+| Swiss | `#5e626b` | `#5e626b` |
+| Editorial | `#6e6156` | `#6e6156` |
+| Consulting | `#5d6c7e` | `#5d6c7e` |
+| Minimal | `#6b6b6b` | `#6b6b6b` |
+| Paper | `#6c5949` | `#6c5949` |
 | Root fallback | `#747474` | `#9b9b9b` |
 
 Terminal and Cyber declare a dark color scheme; the other selectable themes declare light. The template starts in Terminal, and the existing preference logic restores a valid remembered theme.
@@ -150,7 +150,7 @@ The body uses a generous reading line-height while metadata and controls are del
 | Reader module heading | `1.45rem` / `1.3` | `700`, display stack |
 | Reader section heading | `1.3rem` / `1.35` | `700`, display stack |
 | Table heading | `.78rem` / `1.4` | `700`, display stack, `.04em` tracking |
-| Library heading | `1.65rem` / `1.25` | `700`, body stack, `-.02em` tracking; `1.4rem` at widths up to `600px` |
+| Library heading | `clamp(1.65rem, 2.4vw, 2rem)` / `1.2` | `700`, body stack, `-.02em` tracking; `1.4rem` at widths up to `600px` |
 | Saved-project title | `1rem` / `1.4` | `700`, body stack |
 | Library form labels | `.82rem` / inherited | `600` |
 | Library fields | `.9rem` / `1.5` | `400` |
@@ -163,9 +163,9 @@ The Chinese and English UI share this hierarchy. Library labels, placeholders, a
 
 ## Layout
 
-The desktop page is a flex layout: a sticky archive sidebar (`220px` wide, viewport height) and a flexible main area with `min-width: 0`. The masthead and reader container are centered at `min(980px, 100%)`. Desktop horizontal padding is `36px`; the reader's bottom padding is `42px`. The masthead separates identity and reading controls with a `22px` gap. Reading content uses two-column module grids with `16px` gaps, with source-specific full-width sections.
+The desktop page is a flex layout: a sticky archive sidebar (`220px` wide, viewport height) and a flexible main area with `min-width: 0`. The masthead and reader container are centered at `min(980px, 100%)`. The project library uses a compact masthead while its working view is open. Desktop horizontal padding is `36px`; the reader's bottom padding is `42px`. The masthead separates identity and reading controls with a `22px` gap. Reading content uses two-column module grids with `16px` gaps, with source-specific full-width sections.
 
-The library replaces only the briefing area inside the existing reader container. Its own maximum width is `1120px`, but that does not expand the enclosing `980px` reader. A header and return link precede account/status feedback, search/status controls, manual addition, backup actions, the aligned project list, and the inline notes editor. Search and status use `minmax(0, 1fr) minmax(150px, 210px)` with a `16px` gap. Forms use two equal flexible columns with `14px 18px` gaps. List rows use a flexible content column and automatic action column, `12px 24px` gaps, and `18px` vertical padding.
+The library replaces only the briefing area inside the existing reader container. Its own maximum width is `1120px`, but that does not expand the enclosing `980px` reader. A header and return link precede account/status feedback, search/status controls, manual addition, backup actions, the aligned project list, and the inline notes editor. Search and status use `minmax(0, 1fr) minmax(160px, 220px)` with a `16px` gap. Forms use two equal flexible columns with `14px 18px` gaps. List rows use a flexible content column and automatic action column, `12px 24px` gaps, and `20px` vertical padding.
 
 There is no single mathematical spacing scale in the implementation. Reused measured spacings include `8px` action gaps, `12px` panel/list gaps, `16px` grid gaps, `18px` section/control separation, and `24px` major library separation. Preserve the local density rather than creating a new global scale.
 
@@ -173,7 +173,7 @@ There is no single mathematical spacing scale in the implementation. Reused meas
 
 | Breakpoint | Implemented change |
 | --- | --- |
-| Up to `920px` | Masthead stacks; display settings occupy the available width and their panel becomes static; some social metadata moves below content. |
+| Up to `920px` | Masthead stacks; display settings and the projects link wrap together, with an expanded settings panel occupying the available width; some social metadata moves below content. |
 | Up to `840px` | Sidebar becomes an off-canvas panel of `min(82vw, 290px)`; masthead has room for the fixed toggle; container padding becomes `18px`; content grids become one column; theme choices use four columns; project tables become labelled rows. |
 | Up to `600px` | Library tools, forms, rows, and conflict comparison become one column; account label takes a full line; actions align to the start; toast uses `16px` side and bottom offsets. |
 | Up to `420px` | Container padding becomes `10px`; body becomes `15px`; settings/theme controls and project table rows simplify further; theme choices use two columns. |
@@ -209,17 +209,17 @@ Motion stays functional: theme color changes use `.18s ease`; sidebar geometry u
 
 The reader's shared radius is theme-controlled: Terminal `0`, Cyber `3px`, Swiss `0`, Editorial `12px`, Consulting `2px`, Minimal `14px`, and Paper `8px`. Reading cards, navigation pills, the sidebar toggle, and display settings use that property, generally with `1px` borders. The masthead uses a double rule by default, with existing theme-specific treatments.
 
-The library deliberately has local fixed radii in the current CSS: compact save controls `3px`, fields and regular buttons `4px`, toast `6px`, and dialog `10px`. Feedback and conflict-version boxes use square bordered surfaces. These local values are documented facts, not changes to the reader radius token.
+Fields and regular buttons inherit the theme radius; compact save controls use `3px`, toast `6px`, and dialog `10px`. Feedback and conflict-version boxes use square bordered surfaces. These local values are documented facts, not changes to the reader radius token.
 
 ### Existing differences to retain as evidence
 
-- Library fixed radii do not follow the selected reader radius. This is especially visible in the square Terminal/Swiss themes and rounded Editorial/Minimal themes.
+- Library fields and buttons inherit the selected theme radius; the toast and dialog retain their local radii.
 - The library's `1120px` maximum is wider than its enclosing reader's `980px` maximum, so the outer reader remains the effective width constraint.
 - Toast shadow and modal backdrop are fixed across themes; they are not driven by the shared shadow or glow properties.
 - Reader settings use the mono stack; library controls use the body stack. Their focus outline offsets also differ (`2px` for general reader controls, `3px` for library controls).
 - Status and error emphasis share the theme accent; the text and action explain the state. There is no independent semantic status color system.
 
-These differences were not normalized while documenting the existing system.
+These differences are intentional aspects of the implemented system.
 
 ## Components
 
@@ -229,11 +229,11 @@ Reader theme/language controls use the theme surfaces and radius. Active choices
 
 Compact project saves are inline-flex, with a `.3rem` icon/label gap, `.6rem` leading margin (`.35rem` below `600px`), and an `.85rem` icon. They have a thin border and transparent background. A saved state uses primary text on the alternate surface and `aria-pressed="true"`. Hover shifts border/text to accent; disabled controls use `.65` opacity and a not-allowed cursor. These controls retain explicit text, not an icon-only action.
 
-Regular library buttons have a minimum height of `36px`, thin border, and the local control radius. Primary actions fill with accent and accent-ink; primary hover applies `brightness(.92)`. Destructive actions use a softer-text border and explicit wording. Focus uses a `2px` accent outline with `3px` offset. Disabled state must remain distinct from success.
+Regular library buttons have a minimum height of `40px` (`44px` on small screens), a thin border, and the selected theme radius. Primary actions fill with accent and accent-ink; primary hover applies `brightness(.92)`. Destructive actions use a softer-text border and explicit wording. Focus uses a `2px` accent outline with `3px` offset. Disabled state must remain distinct from success.
 
 ### Cards / Containers
 
-The reader's dated article is a theme-surfaced, bordered container; its body padding is `8px 24px 24px` on desktop and `5px 17px 20px` below `840px`. Theme-specific edges, shadows, and heading details remain intact. The library uses a plain list with border-separated rows, an inline editor separated by a top rule, and alternate-surface feedback. It does not introduce decorative image cards or nested collection cards.
+The reader's dated article is a theme-surfaced, bordered container; its body padding is `8px 24px 24px` on desktop and `5px 17px 20px` below `840px`. Theme-specific edges, shadows, and heading details remain intact. The library uses a plain list with border-separated rows, an inline editor on a theme-surface panel, and alternate-surface feedback. It does not introduce decorative image cards or nested collection cards.
 
 ### Inputs / Fields
 
