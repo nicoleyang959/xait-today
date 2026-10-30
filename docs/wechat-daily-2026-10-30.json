@@ -1,0 +1,57 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-30 · 采集时显示：21 分钟前 · 打开账号列表",
+          "title": "今天起ChatGPT Pro额度翻倍/《影之刃零》登顶Steam热销榜首/豆包工作向企业开放第三方模...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-10-30 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "刚刚，ChatGPT 额度官宣翻倍，但免费重置可能要没了",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 2 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-10-30 · 采集时显示：25 分钟前 · 打开账号列表",
+          "title": "DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "智东西",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "花叔",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    }
+  ],
+  "capturedAt": "2026-10-30T08:51:06+08:00",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T10:59:45+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-30T08:51:06+08:00；相对时间以该采集时刻为准。"
+}

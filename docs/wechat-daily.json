@@ -5,14 +5,14 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-29 · 采集时显示：2 小时前 · 打开账号列表",
-          "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
+          "meta": "2026-10-30 · 采集时显示：21 分钟前 · 打开账号列表",
+          "title": "今天起ChatGPT Pro额度翻倍/《影之刃零》登顶Steam热销榜首/豆包工作向企业开放第三方模...",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         },
         {
           "badge": "今日",
-          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
-          "title": "刚刚，MacBook 进入触屏时代，顶配卖到 11 万 | 现场上手",
+          "meta": "2026-10-30 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "刚刚，ChatGPT 额度官宣翻倍，但免费重置可能要没了",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         }
       ],
@@ -22,30 +22,24 @@
     },
     {
       "account": "数字生命卡兹克",
-      "items": [],
-      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日未检出新文章",
-      "statusTone": "quiet"
-    },
-    {
-      "account": "智东西",
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
-          "title": "蚂蚁版Muse背后模型开源！Agent测评赶超DeepSeek-V4-Pro",
-          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
-        },
-        {
-          "badge": "今日",
-          "meta": "2026-10-29 · 采集时显示：3 小时前 · 打开账号列表",
-          "title": "2.3万元起！首款触屏MacBook来了，苹果Logo重新发光点亮",
-          "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+          "meta": "2026-10-30 · 采集时显示：25 分钟前 · 打开账号列表",
+          "title": "DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
         }
       ],
-      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
-      "status": "今日 2 篇",
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日 1 篇",
       "statusTone": "fresh"
+    },
+    {
+      "account": "智东西",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
     },
     {
       "account": "花叔",
@@ -55,9 +49,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-10-29T08:43:31+08:00",
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T10:02:35+08:00",
+  "capturedAt": "2026-10-30T08:51:06+08:00",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T10:59:45+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-29T08:43:31+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-30T08:51:06+08:00；相对时间以该采集时刻为准。"
 }
