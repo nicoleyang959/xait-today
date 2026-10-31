@@ -1,0 +1,816 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e56c1915ce990c789e0bf4e6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-146f4f4131b0d1f31545ed7f",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-71d636020b7b25612e3e1d8d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-07380b3385b6d197dfa86562",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a2c8f1b37643554b53e8b655",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-87af3e62392cc672897b1b72",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "expo/skills",
+      "url": "https://github.com/expo/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-20c619c53a4bca30b365fe6b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a995c524e162e5954b7a5664",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-34a9ae583b3a6c0c9d5f49ac",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d353c7ecbef6a5fe4a87cafa",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9b8b9d748d03f63f9cb5eb52",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ad016608c6567ea33c421975",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bf084e4ba34275509a1c74fc",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "unclebob/ub-mode",
+      "url": "https://github.com/unclebob/ub-mode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-805c4b6758ef6f1d3861b072",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "anhao/ai-pose-gallery-zh",
+      "url": "https://github.com/anhao/ai-pose-gallery-zh"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4a5472c89abafb6a7360ab84",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "interplains/Zero-Breach-Toolkit",
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0e6f5a52703008f5634e523b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e33719084240332161f7e035",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4d9f4be3898d9c2f8657d58f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "valentderah/totk-pc-recomp",
+      "url": "https://github.com/valentderah/totk-pc-recomp"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8d5733d637881583c5967dc6",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "andyhuo520/digital-human-koubo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fccdac5a529a32565659de50",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-176c3feaa3f526d9b4b139bf",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "DenisSergeevitch/ex-ussr-kinship-research",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a3ec622ec104de3d27019e8e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-52381dc05ed8e822222da91d",
+      "publishedAt": "2026-10-30T07:09:12Z",
+      "sourceId": "hacker-news",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-39647b746ac018d37348cc6f",
+      "publishedAt": "2026-10-30T15:52:18Z",
+      "sourceId": "hacker-news",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b1ab72efa9f81697ac1a6698",
+      "publishedAt": "2026-10-28T12:24:25Z",
+      "sourceId": "hacker-news",
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-00179be3979e41c866bf0c5c",
+      "publishedAt": "2026-10-29T21:58:34Z",
+      "sourceId": "hacker-news",
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d136e1bdd077fd387913ea12",
+      "publishedAt": "2026-10-30T14:08:20Z",
+      "sourceId": "hacker-news",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b80d8f5b02990c66d791a7ba",
+      "publishedAt": "2026-10-29T17:59:53Z",
+      "sourceId": "arxiv",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "url": "https://arxiv.org/abs/2610.40655v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4792b6ad597c6e443d29f1b1",
+      "publishedAt": "2026-10-29T17:59:29Z",
+      "sourceId": "arxiv",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "url": "https://arxiv.org/abs/2610.40649v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-face2298e89fac29cc8f8fe4",
+      "publishedAt": "2026-10-29T17:59:21Z",
+      "sourceId": "arxiv",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "https://arxiv.org/abs/2610.40647v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-280c460e2dcb32eba6a8ca51",
+      "publishedAt": "2026-10-29T17:58:59Z",
+      "sourceId": "arxiv",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "url": "https://arxiv.org/abs/2610.40643v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ecd2d94ebf4775871b6284d9",
+      "publishedAt": "2026-10-29T17:58:53Z",
+      "sourceId": "arxiv",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "url": "https://arxiv.org/abs/2610.40641v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ff9bda85c2863ba612ae890d",
+      "publishedAt": "2026-10-29T17:58:16Z",
+      "sourceId": "arxiv",
+      "title": "Probing Spatial State Representations in Visual Foundation Models",
+      "url": "https://arxiv.org/abs/2610.40636v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a03f28ca45e8f909d3b44793",
+      "publishedAt": "2026-10-25T10:43:45-07:00",
+      "sourceId": "product-hunt",
+      "title": "StereoLift Live",
+      "url": "https://www.producthunt.com/products/stereolift-live"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c8a5567b0db766b27827c107",
+      "publishedAt": "2026-10-29T15:05:03-07:00",
+      "sourceId": "product-hunt",
+      "title": "Norah Studio",
+      "url": "https://www.producthunt.com/products/norah-studio"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-9410e22feff17a8bcd23665e",
+      "publishedAt": "2026-10-29T08:27:44-07:00",
+      "sourceId": "product-hunt",
+      "title": "sitesolide",
+      "url": "https://www.producthunt.com/products/sitesolide"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-9fc7e2bf53a41b2ea1c15ec4",
+      "publishedAt": "2026-10-26T00:29:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "Knocket AI",
+      "url": "https://www.producthunt.com/products/knocket-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4931ef7a7e600c9ac0a4635a",
+      "publishedAt": "2026-10-27T22:20:54-07:00",
+      "sourceId": "product-hunt",
+      "title": "Vaani Developer Platform",
+      "url": "https://www.producthunt.com/products/vaani-developer-platfrom"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-4ee9439c8f84d2a1236677b0",
+      "publishedAt": "2026-10-28T13:26:10-07:00",
+      "sourceId": "product-hunt",
+      "title": "Kestrix",
+      "url": "https://www.producthunt.com/products/kestrix"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-94d099ef9e79c395fa9019fb",
+      "publishedAt": "2026-10-29T10:54:14-07:00",
+      "sourceId": "product-hunt",
+      "title": "Faylee",
+      "url": "https://www.producthunt.com/products/faylee"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-10-31T08:45:16+08:00",
+      "dateEvidence": "exact",
+      "id": "article-28e5af095cf9ed270e521c83",
+      "publishedAt": "2026-10-28T23:15:46-07:00",
+      "sourceId": "product-hunt",
+      "title": "iSurge",
+      "url": "https://www.producthunt.com/products/isurge"
+    }
+  ],
+  "date": "2026-10-31",
+  "edition": {
+    "windowEnd": "2026-10-31T08:45:00+08:00",
+    "windowStart": "2026-10-30T08:45:00+08:00"
+  },
+  "generatedAt": "2026-10-31T08:45:19+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-31 · 采集时显示：2 小时前 · 打开账号列表",
+              "title": "突发！iPhone 国行 AI 真的来了，千问成为 Siri 新搭档",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-10-31 · 采集时显示：49 分钟前 · 打开账号列表",
+              "title": "国行苹果智能倒计时4天开测！阿里官宣，千问全面接入",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-10-31T08:44:51+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-10-31T08:44:51+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem"
+          },
+          "TypeScript",
+          "1,140",
+          "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi"
+        ],
+        [
+          {
+            "text": "milind-soni/OpenMausBot",
+            "url": "https://github.com/milind-soni/OpenMausBot"
+          },
+          "TypeScript",
+          "895",
+          "Open-source Grok Bot alternative with a virtual machine that bots can use"
+        ],
+        [
+          {
+            "text": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable"
+          },
+          "Rust",
+          "2,300",
+          "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        ],
+        [
+          {
+            "text": "CopilotKit/OpenBot",
+            "url": "https://github.com/CopilotKit/OpenBot"
+          },
+          "TypeScript",
+          "706",
+          "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent."
+        ],
+        [
+          {
+            "text": "Renhuai123/ziwei-doushu",
+            "url": "https://github.com/Renhuai123/ziwei-doushu"
+          },
+          "TypeScript",
+          "1,126",
+          "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+        ],
+        [
+          {
+            "text": "expo/skills",
+            "url": "https://github.com/expo/skills"
+          },
+          "Shell",
+          "38",
+          "A collection of AI agent skills for working with Expo projects and Expo Application Services"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "unclebob/ub-mode",
+            "url": "https://github.com/unclebob/ub-mode"
+          },
+          "未提供",
+          "5379",
+          "未提供"
+        ],
+        [
+          {
+            "text": "anhao/ai-pose-gallery-zh",
+            "url": "https://github.com/anhao/ai-pose-gallery-zh"
+          },
+          "HTML",
+          "3954",
+          "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
+        ],
+        [
+          {
+            "text": "interplains/Zero-Breach-Toolkit",
+            "url": "https://github.com/interplains/Zero-Breach-Toolkit"
+          },
+          "Python",
+          "3868",
+          "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups."
+        ],
+        [
+          {
+            "text": "designfuchen/word-atlas",
+            "url": "https://github.com/designfuchen/word-atlas"
+          },
+          "TypeScript",
+          "3360",
+          "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+        ],
+        [
+          {
+            "text": "ccch1mneyyy/dsh-Go",
+            "url": "https://github.com/ccch1mneyyy/dsh-Go"
+          },
+          "Dart",
+          "2480",
+          "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
+        ],
+        [
+          {
+            "text": "valentderah/totk-pc-recomp",
+            "url": "https://github.com/valentderah/totk-pc-recomp"
+          },
+          "C",
+          "1562",
+          "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-10-30 · 750 互动/积分 · 472 评论",
+          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        },
+        {
+          "meta": "发布 2026-10-30 · 491 互动/积分 · 372 评论",
+          "title": "AI isn't replacing SREs, it's deskilling them",
+          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+        },
+        {
+          "meta": "发布 2026-10-28 · 157 互动/积分 · 13 评论",
+          "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+        },
+        {
+          "meta": "发布 2026-10-30 · 103 互动/积分 · 136 评论",
+          "title": "Building an AI-native engineering org",
+          "url": "https://twitter.com/sgondala2/status/2115832070274723875"
+        },
+        {
+          "meta": "发布 2026-10-30 · 89 互动/积分 · 96 评论",
+          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-10-30",
+          "title": "Elucidating the Design Space of LM Data Attribution",
+          "url": "https://arxiv.org/abs/2610.40655v1"
+        },
+        {
+          "meta": "发布 2026-10-30",
+          "title": "Rethinking Neural Thickets Without Weight Perturbations",
+          "url": "https://arxiv.org/abs/2610.40649v1"
+        },
+        {
+          "meta": "发布 2026-10-30",
+          "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+          "url": "https://arxiv.org/abs/2610.40647v1"
+        },
+        {
+          "meta": "发布 2026-10-30",
+          "title": "Luggage re-identification: A study of strategies towards a real-world application",
+          "url": "https://arxiv.org/abs/2610.40643v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-26",
+          "title": "StereoLift Live",
+          "url": "https://www.producthunt.com/products/stereolift-live"
+        },
+        {
+          "meta": "发布 2026-10-30",
+          "title": "Norah Studio",
+          "url": "https://www.producthunt.com/products/norah-studio"
+        },
+        {
+          "meta": "发布 2026-10-29",
+          "title": "sitesolide",
+          "url": "https://www.producthunt.com/products/sitesolide"
+        },
+        {
+          "meta": "发布 2026-10-26",
+          "title": "Knocket AI",
+          "url": "https://www.producthunt.com/products/knocket-ai"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "Vaani Developer Platform",
+          "url": "https://www.producthunt.com/products/vaani-developer-platfrom"
+        },
+        {
+          "meta": "发布 2026-10-29",
+          "title": "Kestrix",
+          "url": "https://www.producthunt.com/products/kestrix"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "hacker-news",
+      "itemCount": 5,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:16+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-10-31T08:45:16+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:19+08:00",
+      "id": "techmeme",
+      "itemCount": 0,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-10-31T08:45:19+08:00",
+      "message": "未检出符合条件的内容",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-31T08:45:10+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-10-31T08:44:51+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-10-31T08:44:51+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:44:51+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-10-31T08:44:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-10-31T08:44:51+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-10-31T08:44:51+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-10-31T08:44:51+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-10-31T08:44:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
