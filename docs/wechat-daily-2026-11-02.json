@@ -1,0 +1,82 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：37 分钟前 · 打开账号列表",
+          "title": "卡帕西用Claude两小时重做了YouTube，每个人都能拥有一个自己的互联网",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：37 分钟前 · 打开账号列表",
+          "title": "Anthropic 为什么买下一家「一人公司」",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "AI 时代，你眼中的好产品是什么| APPSO 明日产品榜单 2026 开启征集",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：6 小时前 · 打开账号列表",
+          "title": "一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：8 小时前 · 打开账号列表",
+          "title": "新iPad Air曝光， 换上OLED屏/2030年前将有两名中国人登月/Claude限制Opus ...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 5 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：8 小时前 · 打开账号列表",
+          "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "智东西",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-02 · 采集时显示：4 小时前 · 打开账号列表",
+          "title": "我找了很久的「项目总管」，原来是TRAE新上线的开发者个人助理（限免一周）",
+          "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    }
+  ],
+  "capturedAt": "2026-11-02T16:37:16+08:00",
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T16:40:01+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-02T16:37:16+08:00；相对时间以该采集时刻为准。"
+}
