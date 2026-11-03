@@ -1,0 +1,58 @@
+{
+  "accounts": [
+    {
+      "account": "APPSO",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-03 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "苹果Mac销量创历史新高/奥特曼预告下一代GPT，或近期发布/李佳琦直播间半小时卖出2万亿Token",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "数字生命卡兹克",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-03 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "DeepSeek Harness养鱼教程来了，一文送你的肥鱼当上主播。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    },
+    {
+      "account": "智东西",
+      "items": [],
+      "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+      "status": "今日未检出新文章",
+      "statusTone": "quiet"
+    },
+    {
+      "account": "花叔",
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-03 · 采集时显示：42 分钟前 · 打开账号列表",
+          "title": "打通代码和AI视频生成！OiiOii这套低成本视频复刻策略绝了",
+          "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+        }
+      ],
+      "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
+    }
+  ],
+  "capturedAt": "2026-11-03T09:43:45+08:00",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T09:53:08+08:00",
+  "schemaVersion": 1,
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-03T09:43:45+08:00；相对时间以该采集时刻为准。"
+}
