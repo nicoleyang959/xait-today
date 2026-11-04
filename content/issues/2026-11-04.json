@@ -1,0 +1,882 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e56c1915ce990c789e0bf4e6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6fc6930c5a1d6d15d0d9385d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5eb16b62ce1739087c374c1b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f4fdf5be781a35dd2c770daa",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a995c524e162e5954b7a5664",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-36abb07bf45ac899034e1141",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-28a4fa425c977d1e9f393c75",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "spotify/portal-ai-plugins",
+      "url": "https://github.com/spotify/portal-ai-plugins"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3cd7cda9bf04db0cd444259c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-fc92e520627e5d19e31ab2e4",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bd8fd19b5d68571470162e15",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d0a7c981b9ba2d0d34e6cac4",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5be4f564bf7d4ff472782375",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3ac3f4db661b7ff17d17c3de",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9b1104fd33946fb630fe1f33",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9f4687b98f5e5802c233dde8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a3ec622ec104de3d27019e8e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4d9f4be3898d9c2f8657d58f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "valentderah/totk-pc-recomp",
+      "url": "https://github.com/valentderah/totk-pc-recomp"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7dcd552bc0332a1a82c6201f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-12228f5a24ca6c78fa1c178d",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "BryceYuuu/RUN",
+      "url": "https://github.com/BryceYuuu/RUN"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f9f8f09311a999db54776628",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Djihads80/Eglantine",
+      "url": "https://github.com/Djihads80/Eglantine"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8ac0873432ce4bb81c7430be",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f528ed5b460c96a48a74e792",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-82b914d25340a9e92c9c1382",
+      "publishedAt": "2026-11-03T17:22:37Z",
+      "sourceId": "hacker-news",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3593a2c7bb4790b518053314",
+      "publishedAt": "2026-11-02T14:02:42Z",
+      "sourceId": "hacker-news",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-3401b80fa178531e234a5510",
+      "publishedAt": "2026-11-03T21:40:53Z",
+      "sourceId": "hacker-news",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6afe123f1362d911de90a717",
+      "publishedAt": "2026-11-03T21:26:44Z",
+      "sourceId": "hacker-news",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-60286247d421b6eba3c5449f",
+      "publishedAt": "2026-11-03T18:11:11Z",
+      "sourceId": "hacker-news",
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-72e7c3c91b6f795073b0e498",
+      "publishedAt": "2026-11-02T18:59:32Z",
+      "sourceId": "arxiv",
+      "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+      "url": "https://arxiv.org/abs/2611.03647v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0efb57646d7393ddc4501373",
+      "publishedAt": "2026-11-02T18:59:32Z",
+      "sourceId": "arxiv",
+      "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+      "url": "https://arxiv.org/abs/2611.03648v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0790fbb64dd065ffdb5bc25f",
+      "publishedAt": "2026-11-02T18:58:21Z",
+      "sourceId": "arxiv",
+      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+      "url": "https://arxiv.org/abs/2611.03641v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7418263207cbb4f830540f12",
+      "publishedAt": "2026-11-02T18:57:36Z",
+      "sourceId": "arxiv",
+      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "url": "https://arxiv.org/abs/2611.03634v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ba63f848f20f872d9b94e709",
+      "publishedAt": "2026-11-02T18:52:11Z",
+      "sourceId": "arxiv",
+      "title": "D&A: Decoupling Description and Assessment Enables VLMs as Zero-Shot Robotic Reward Models",
+      "url": "https://arxiv.org/abs/2611.03622v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1a2947d42ae9755ba36117b9",
+      "publishedAt": "2026-11-02T18:51:04Z",
+      "sourceId": "arxiv",
+      "title": "Strategist: Evolving Reasoning with Agents",
+      "url": "https://arxiv.org/abs/2611.03618v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a199ffdf6d8ff4bc12f2db86",
+      "publishedAt": "2026-10-28T13:55:52-07:00",
+      "sourceId": "product-hunt",
+      "title": "Beamfy",
+      "url": "https://www.producthunt.com/products/beamfy"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b2a9872aaac26e792a1f0d72",
+      "publishedAt": "2026-11-01T21:11:35-08:00",
+      "sourceId": "product-hunt",
+      "title": "Remote Gaze",
+      "url": "https://www.producthunt.com/products/remote-gaze"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f575732ef6c2143de5788c14",
+      "publishedAt": "2026-10-20T12:48:02-07:00",
+      "sourceId": "product-hunt",
+      "title": "MagicaLCore",
+      "url": "https://www.producthunt.com/products/magical-core-image-classifier"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-261cf5337cb9590ed0dbbd89",
+      "publishedAt": "2026-11-02T02:28:29-08:00",
+      "sourceId": "product-hunt",
+      "title": "Infino AI",
+      "url": "https://www.producthunt.com/products/infino-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d92c658c1983bc66fd1fe086",
+      "publishedAt": "2026-10-29T07:22:17-07:00",
+      "sourceId": "product-hunt",
+      "title": "Hookdeck Inspect",
+      "url": "https://www.producthunt.com/products/hookdeck"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1d9320e243103ea6b545c9e0",
+      "publishedAt": "2026-11-02T17:06:08-08:00",
+      "sourceId": "product-hunt",
+      "title": "One Roof",
+      "url": "https://www.producthunt.com/products/one-roof"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-78c3e72a01773beadac30f76",
+      "publishedAt": "2026-11-02T09:06:41-08:00",
+      "sourceId": "product-hunt",
+      "title": "Akema",
+      "url": "https://www.producthunt.com/products/akema"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-04T08:46:26+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a95600513841e2fdf4195d28",
+      "publishedAt": "2026-11-02T11:12:57-08:00",
+      "sourceId": "product-hunt",
+      "title": "People Search by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e11dba0472c35f2ea7ef9500",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Google says its education updates give schools “more choice, not less”; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually",
+      "url": "https://x.com/newsfromgoogle/status/2117714815477059722"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b178c06616b2e40fa122b903",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Apple opens Siri AI to all developers, letting any app on iOS 27.3 beta and other 27.3 OS betas bring its content and actions into Siri AI by using App Intents",
+      "url": "https://developer.apple.com/news/?id=gdk2umrf"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-04T08:46:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-87dac91948f39a09759ca7ed",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia",
+      "url": "https://www.theinformation.com/articles/nvidia-uses-soft-power-influence-customers-shape-policy"
+    }
+  ],
+  "date": "2026-11-04",
+  "edition": {
+    "windowEnd": "2026-11-04T08:45:00+08:00",
+    "windowStart": "2026-11-03T08:45:00+08:00"
+  },
+  "generatedAt": "2026-11-04T08:46:29+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-11-04 · 采集时显示：1小时前 · 打开账号列表",
+              "title": "连夜实测 iPhone 国行 AI，亮点和槽点都在这了",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-11-04 · 采集时显示：22 分钟前 · 打开账号列表",
+              "title": "开源我这折腾了1年的「Agent自动化系统」，愿所有人都能感受Agent的魅力。",
+              "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+            }
+          ],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-11-04 · 采集时显示：13 分钟前 · 打开账号列表",
+              "title": "苹果国行AI抢先一手实测：华米OV玩剩下的功能，苹果能做出什么不同？",
+              "url": "https://www.jintiankansha.com/column/BmcmLZE1td"
+            }
+          ],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-11-04 · 采集时显示：8 小时前 · 打开账号列表",
+              "title": "一天涨粉40万！DeepSeek把B站开发者全炸出来了",
+              "url": "https://www.jintiankansha.com/column/4hWcR0mvAj"
+            }
+          ],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        }
+      ],
+      "capturedAt": "2026-11-04T08:41:30+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-04T08:41:30+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem"
+          },
+          "TypeScript",
+          "1,139",
+          "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi"
+        ],
+        [
+          {
+            "text": "vercel-labs/agent-desktop",
+            "url": "https://github.com/vercel-labs/agent-desktop"
+          },
+          "Rust",
+          "3,791",
+          "Computer use CLI for AI agents"
+        ],
+        [
+          {
+            "text": "max-sixty/worktrunk",
+            "url": "https://github.com/max-sixty/worktrunk"
+          },
+          "Rust",
+          "438",
+          "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+        ],
+        [
+          {
+            "text": "JustVugg/colibri",
+            "url": "https://github.com/JustVugg/colibri"
+          },
+          "C",
+          "802",
+          "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware y"
+        ],
+        [
+          {
+            "text": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills"
+          },
+          "Shell",
+          "1,164",
+          "Skills for Real Engineers. Straight from my .agents directory."
+        ],
+        [
+          {
+            "text": "p-e-w/heretic",
+            "url": "https://github.com/p-e-w/heretic"
+          },
+          "Python",
+          "701",
+          "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "deepseek-ai/dsh-superagent-prototype",
+            "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+          },
+          "TypeScript",
+          "16731",
+          "Towards a More Autonomous Agent System"
+        ],
+        [
+          {
+            "text": "storytold/craft-anything",
+            "url": "https://github.com/storytold/craft-anything"
+          },
+          "Rust",
+          "8393",
+          "Craft Anything: understand how any software works, and craft your own."
+        ],
+        [
+          {
+            "text": "heydamir/unslop",
+            "url": "https://github.com/heydamir/unslop"
+          },
+          "JavaScript",
+          "7537",
+          "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
+        ],
+        [
+          {
+            "text": "wangzan101/Mika",
+            "url": "https://github.com/wangzan101/Mika"
+          },
+          "Kotlin",
+          "6052",
+          "An on-device AI agent for Android that operates apps and the web to get things done for you."
+        ],
+        [
+          {
+            "text": "valentderah/totk-pc-recomp",
+            "url": "https://github.com/valentderah/totk-pc-recomp"
+          },
+          "C",
+          "4509",
+          "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included."
+        ],
+        [
+          {
+            "text": "patch-gg/pixelfx",
+            "url": "https://github.com/patch-gg/pixelfx"
+          },
+          "JavaScript",
+          "4120",
+          "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-11-04 · 993 互动/积分 · 329 评论",
+          "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+        },
+        {
+          "meta": "发布 2026-11-02 · 366 互动/积分 · 151 评论",
+          "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/"
+        },
+        {
+          "meta": "发布 2026-11-04 · 188 互动/积分 · 31 评论",
+          "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+          "url": "https://arxiv.org/abs/2605.29713"
+        },
+        {
+          "meta": "发布 2026-11-04 · 186 互动/积分 · 66 评论",
+          "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+        },
+        {
+          "meta": "发布 2026-11-04 · 72 互动/积分 · 70 评论",
+          "title": "How I use AI (Oct 2026)",
+          "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-11-03",
+          "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+          "url": "https://arxiv.org/abs/2611.03647v1"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation",
+          "url": "https://arxiv.org/abs/2611.03648v1"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+          "url": "https://arxiv.org/abs/2611.03641v1"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+          "url": "https://arxiv.org/abs/2611.03634v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-10-29",
+          "title": "Beamfy",
+          "url": "https://www.producthunt.com/products/beamfy"
+        },
+        {
+          "meta": "发布 2026-11-02",
+          "title": "Remote Gaze",
+          "url": "https://www.producthunt.com/products/remote-gaze"
+        },
+        {
+          "meta": "发布 2026-10-21",
+          "title": "MagicaLCore",
+          "url": "https://www.producthunt.com/products/magical-core-image-classifier"
+        },
+        {
+          "meta": "发布 2026-11-02",
+          "title": "Infino AI",
+          "url": "https://www.producthunt.com/products/infino-ai"
+        },
+        {
+          "meta": "发布 2026-10-29",
+          "title": "Hookdeck Inspect",
+          "url": "https://www.producthunt.com/products/hookdeck"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "One Roof",
+          "url": "https://www.producthunt.com/products/one-roof"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Google says its education updates give schools “more choice, not less”; Gemini, Gemini Notebook, and Search are off by default and can be enabled individually",
+          "url": "https://x.com/newsfromgoogle/status/2117714815477059722"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Apple opens Siri AI to all developers, letting any app on iOS 27.3 beta and other 27.3 OS betas bring its content and actions into Siri AI by using App Intents",
+          "url": "https://developer.apple.com/news/?id=gdk2umrf"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "How Nvidia uses soft power to influence customers and shape US chip policy; sources: OpenAI took no public stance on China chip exports to avoid angering Nvidia",
+          "url": "https://www.theinformation.com/articles/nvidia-uses-soft-power-influence-customers-shape-policy"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "hacker-news",
+      "itemCount": 5,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:26+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-11-04T08:46:26+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:46:29+08:00",
+      "id": "techmeme",
+      "itemCount": 3,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-11-04T08:46:29+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:43:14+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-11-04T08:41:30+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-11-04T08:41:30+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:41:30+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 1,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-11-04T08:41:30+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:41:30+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 1,
+      "label": "智东西",
+      "lastSuccessAt": "2026-11-04T08:41:30+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-04T08:41:30+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 1,
+      "label": "花叔",
+      "lastSuccessAt": "2026-11-04T08:41:30+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
