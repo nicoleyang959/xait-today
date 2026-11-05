@@ -1,0 +1,901 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2e6a7dde9f436480582bc11d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5eb16b62ce1739087c374c1b",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-a995c524e162e5954b7a5664",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3cd7cda9bf04db0cd444259c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e56c1915ce990c789e0bf4e6",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6fc6930c5a1d6d15d0d9385d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6be7c2ab9f8f9a83e77c3f50",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9adaba439c3a3e4c729dce5c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b2d67297d825783a29a7b1bc",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-bfa296340a0165db223b3e0c",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2c20254b6cfc96fdf64bfb36",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "FareedKhan-dev/kimi-k3-in-c",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5737c9b9f08601c027153b87",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3ac3f4db661b7ff17d17c3de",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-9b1104fd33946fb630fe1f33",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "storytold/craft-anything",
+      "url": "https://github.com/storytold/craft-anything"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-7dcd552bc0332a1a82c6201f",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e66d46be0b85e85579ba9f35",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f528ed5b460c96a48a74e792",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-c682668a5d3a3f11e483f900",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "elvarofficial/teardown",
+      "url": "https://github.com/elvarofficial/teardown"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f54a84378561aa8607cba1e2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-94ff0057cb23ec15a2b4c157",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "govijr/terminal-mac",
+      "url": "https://github.com/govijr/terminal-mac"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0ce6134d17d3e90cbe2b5fe8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "mromidev/claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-8cd2a959f64c6d5665e2c883",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Arjun-Ingole/hop",
+      "url": "https://github.com/Arjun-Ingole/hop"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-47c68d2150bba3fc1d1510e0",
+      "publishedAt": "2026-11-04T11:52:17Z",
+      "sourceId": "hacker-news",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-9fda8d36d1ceedf20d0fb53f",
+      "publishedAt": "2026-11-04T14:37:22Z",
+      "sourceId": "hacker-news",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1cee3d18237980fad600c71a",
+      "publishedAt": "2026-11-04T19:55:14Z",
+      "sourceId": "hacker-news",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-80dfe3b66720c5574c668ada",
+      "publishedAt": "2026-11-04T17:31:53Z",
+      "sourceId": "hacker-news",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0c0ab27d5e8cfe097763be46",
+      "publishedAt": "2026-11-02T15:48:45Z",
+      "sourceId": "hacker-news",
+      "title": "Basically no one is using AI agents for their DoorDash orders",
+      "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-df3c75feb4fe1805b8a3f6a5",
+      "publishedAt": "2026-11-05T00:01:30Z",
+      "sourceId": "hacker-news",
+      "title": "You'll need nerves of steel to work with AI agents",
+      "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cadc5f46dd1e509f66291d59",
+      "publishedAt": "2026-11-03T18:59:56Z",
+      "sourceId": "arxiv",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "url": "https://arxiv.org/abs/2611.05377v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a46acd91c5552a70fde1137e",
+      "publishedAt": "2026-11-03T18:59:52Z",
+      "sourceId": "arxiv",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://arxiv.org/abs/2611.05376v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-9a05759ea13e083b1f1d3c2d",
+      "publishedAt": "2026-11-03T18:59:15Z",
+      "sourceId": "arxiv",
+      "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+      "url": "https://arxiv.org/abs/2611.05373v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-33ec325356831bf600d44256",
+      "publishedAt": "2026-11-03T18:54:08Z",
+      "sourceId": "arxiv",
+      "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+      "url": "https://arxiv.org/abs/2611.05358v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-5199da17cc603cda34b3a8fc",
+      "publishedAt": "2026-11-03T18:52:44Z",
+      "sourceId": "arxiv",
+      "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+      "url": "https://arxiv.org/abs/2611.05355v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-d60067e47e2f7070b4d089b1",
+      "publishedAt": "2026-11-03T18:45:23Z",
+      "sourceId": "arxiv",
+      "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+      "url": "https://arxiv.org/abs/2611.05345v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-05f2c36c3096653dd7fd5c7a",
+      "publishedAt": "2026-11-03T13:56:35-08:00",
+      "sourceId": "product-hunt",
+      "title": "Freeport Markets",
+      "url": "https://www.producthunt.com/products/freeport-markets"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-94683ec28db920f6827cef17",
+      "publishedAt": "2026-11-03T01:29:19-08:00",
+      "sourceId": "product-hunt",
+      "title": "Resum",
+      "url": "https://www.producthunt.com/products/resum"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-a06046a59d8cebf82303bc4c",
+      "publishedAt": "2026-10-21T14:03:56-07:00",
+      "sourceId": "product-hunt",
+      "title": "Dessn",
+      "url": "https://www.producthunt.com/products/dessn-2"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-74540509cda34ddb8bca5e06",
+      "publishedAt": "2026-10-27T22:33:28-07:00",
+      "sourceId": "product-hunt",
+      "title": "fileForensics",
+      "url": "https://www.producthunt.com/products/fileai-ai-ocr"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-f5e47a2f7435f7b83fb9bcf1",
+      "publishedAt": "2026-11-02T04:02:03-08:00",
+      "sourceId": "product-hunt",
+      "title": "Eyecon",
+      "url": "https://www.producthunt.com/products/eyecon-auto-pause-video"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-ffc86f6e5c9075d1978e2ac2",
+      "publishedAt": "2026-11-03T22:09:49-08:00",
+      "sourceId": "product-hunt",
+      "title": "Rungle",
+      "url": "https://www.producthunt.com/products/rungle"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e244b90190b904be4d140a99",
+      "publishedAt": "2026-11-01T14:23:58-08:00",
+      "sourceId": "product-hunt",
+      "title": "KREV AI",
+      "url": "https://www.producthunt.com/products/krev"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-05T09:20:22+08:00",
+      "dateEvidence": "exact",
+      "id": "article-74954ef3f3c5d5515c0894f2",
+      "publishedAt": "2026-10-26T02:08:42-07:00",
+      "sourceId": "product-hunt",
+      "title": "Mellow Kids",
+      "url": "https://www.producthunt.com/products/mellow-kids"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d5c0784ee2fd0f6b085edd6e",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Voters in 38+ US jurisdictions pass data center bans or restrictions; TV network poll: 56% said AI and data centers were a major or crucial factor in their vote",
+      "url": "https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-724f005f486580c4b84cc518",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Democratic gubernatorial wins from Texas and Georgia to Ohio and Pennsylvania are set to expose 50% of AI data center proposals to more scrutiny and pushback",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-04/ai-data-center-boom-is-set-for-upheaval-after-us-election-rout"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-16c833892b3c6d9e58f64152",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Democrats who ran on data center opposition and AI regulation won Congress seats in OH, PA, WI, CO; some see a mandate to use their new gavels against Big Tech",
+      "url": "https://www.politico.com/news/2026/11/04/dems-made-big-tech-a-foil-and-they-couldnt-stop-winning-01148450"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e1756328cc1d458e53a0e252",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Crypto and AI super PACs spent $250M in 2026 midterms, but lost 9/12 competitive races called so far, spending $74.7M on losing candidates and $28.3M on winners",
+      "url": "https://www.citationneeded.news/2026-election-results/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-05T09:20:29+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-859ce416377d272641bfef8e",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7%",
+      "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+    }
+  ],
+  "date": "2026-11-05",
+  "edition": {
+    "windowEnd": "2026-11-05T08:45:00+08:00",
+    "windowStart": "2026-11-04T08:45:00+08:00"
+  },
+  "generatedAt": "2026-11-05T09:20:29+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [
+            {
+              "badge": "今日",
+              "meta": "2026-11-05 · 采集时显示：54 分钟前 · 打开账号列表",
+              "title": "ChatGPT新增GIF生成/王兴兴：明年大概率是机器人行业临界点/张雪回应校招10万起薪被嫌低",
+              "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+            }
+          ],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日 1 篇",
+          "statusTone": "fresh"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-11-05T08:59:33+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-05T08:59:33+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "NVIDIA/auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology"
+          },
+          "Python",
+          "2,050",
+          "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more exp"
+        ],
+        [
+          {
+            "text": "max-sixty/worktrunk",
+            "url": "https://github.com/max-sixty/worktrunk"
+          },
+          "Rust",
+          "531",
+          "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
+        ],
+        [
+          {
+            "text": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills"
+          },
+          "Shell",
+          "1,379",
+          "Skills for Real Engineers. Straight from my .agents directory."
+        ],
+        [
+          {
+            "text": "floci-io/floci",
+            "url": "https://github.com/floci-io/floci"
+          },
+          "Java",
+          "1,090",
+          "Light, fluffy, and always free - The AWS Local Emulator alternative"
+        ],
+        [
+          {
+            "text": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem"
+          },
+          "TypeScript",
+          "1,172",
+          "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessi"
+        ],
+        [
+          {
+            "text": "vercel-labs/agent-desktop",
+            "url": "https://github.com/vercel-labs/agent-desktop"
+          },
+          "Rust",
+          "2,470",
+          "Computer use CLI for AI agents"
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "deepseek-ai/dsh-superagent-prototype",
+            "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+          },
+          "TypeScript",
+          "18593",
+          "Towards a More Autonomous Agent System"
+        ],
+        [
+          {
+            "text": "storytold/craft-anything",
+            "url": "https://github.com/storytold/craft-anything"
+          },
+          "Rust",
+          "11859",
+          "Craft Anything: understand how any software works, and craft your own."
+        ],
+        [
+          {
+            "text": "patch-gg/pixelfx",
+            "url": "https://github.com/patch-gg/pixelfx"
+          },
+          "JavaScript",
+          "4722",
+          "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+        ],
+        [
+          {
+            "text": "KKKKhazix/agent-autoloop",
+            "url": "https://github.com/KKKKhazix/agent-autoloop"
+          },
+          "TypeScript",
+          "2532",
+          "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+        ],
+        [
+          {
+            "text": "Verlintas/NOIR",
+            "url": "https://github.com/Verlintas/NOIR"
+          },
+          "Kotlin",
+          "2036",
+          "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
+        ],
+        [
+          {
+            "text": "elvarofficial/teardown",
+            "url": "https://github.com/elvarofficial/teardown"
+          },
+          "JavaScript",
+          "1914",
+          "A Claude Code skill that turns any machine into a 3D simulator you can take apart"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-11-04 · 1054 互动/积分 · 627 评论",
+          "title": "AI is forcing us to pay off 40 years of technical debt",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        },
+        {
+          "meta": "发布 2026-11-04 · 113 互动/积分 · 129 评论",
+          "title": "Ask HN: What's your current AI agentic setup?",
+          "url": "https://news.ycombinator.com/item?id=50366117"
+        },
+        {
+          "meta": "发布 2026-11-05 · 95 互动/积分 · 41 评论",
+          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+        },
+        {
+          "meta": "发布 2026-11-05 · 70 互动/积分 · 26 评论",
+          "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+          "url": "https://news.ycombinator.com/item?id=50368804"
+        },
+        {
+          "meta": "发布 2026-11-02 · 64 互动/积分 · 101 评论",
+          "title": "Basically no one is using AI agents for their DoorDash orders",
+          "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-11-04",
+          "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+          "url": "https://arxiv.org/abs/2611.05377v1"
+        },
+        {
+          "meta": "发布 2026-11-04",
+          "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+          "url": "https://arxiv.org/abs/2611.05376v1"
+        },
+        {
+          "meta": "发布 2026-11-04",
+          "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
+          "url": "https://arxiv.org/abs/2611.05373v1"
+        },
+        {
+          "meta": "发布 2026-11-04",
+          "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
+          "url": "https://arxiv.org/abs/2611.05358v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-11-04",
+          "title": "Freeport Markets",
+          "url": "https://www.producthunt.com/products/freeport-markets"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "Resum",
+          "url": "https://www.producthunt.com/products/resum"
+        },
+        {
+          "meta": "发布 2026-10-22",
+          "title": "Dessn",
+          "url": "https://www.producthunt.com/products/dessn-2"
+        },
+        {
+          "meta": "发布 2026-10-28",
+          "title": "fileForensics",
+          "url": "https://www.producthunt.com/products/fileai-ai-ocr"
+        },
+        {
+          "meta": "发布 2026-11-02",
+          "title": "Eyecon",
+          "url": "https://www.producthunt.com/products/eyecon-auto-pause-video"
+        },
+        {
+          "meta": "发布 2026-11-04",
+          "title": "Rungle",
+          "url": "https://www.producthunt.com/products/rungle"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Voters in 38+ US jurisdictions pass data center bans or restrictions; TV network poll: 56% said AI and data centers were a major or crucial factor in their vote",
+          "url": "https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Democratic gubernatorial wins from Texas and Georgia to Ohio and Pennsylvania are set to expose 50% of AI data center proposals to more scrutiny and pushback",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/ai-data-center-boom-is-set-for-upheaval-after-us-election-rout"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Democrats who ran on data center opposition and AI regulation won Congress seats in OH, PA, WI, CO; some see a mandate to use their new gavels against Big Tech",
+          "url": "https://www.politico.com/news/2026/11/04/dems-made-big-tech-a-foil-and-they-couldnt-stop-winning-01148450"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Crypto and AI super PACs spent $250M in 2026 midterms, but lost 9/12 competitive races called so far, spending $74.7M on losing candidates and $28.3M on winners",
+          "url": "https://www.citationneeded.news/2026-election-results/"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Data center shares fall as investors expect slower AI buildout after Democrats win Congress; Hut 8 drops 23%, IREN 11%, Core Scientific 10%, Applied Digital 7%",
+          "url": "https://www.reuters.com/business/us-stock-index-futures-steady-democrats-seize-congress-2026-11-04/"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "hacker-news",
+      "itemCount": 6,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:22+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-11-05T09:20:22+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:20:29+08:00",
+      "id": "techmeme",
+      "itemCount": 5,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-11-05T09:20:29+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T09:16:06+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 0,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": null,
+      "message": "正常浏览器暂时无法访问官方榜单，已停止该来源",
+      "status": "unavailable"
+    },
+    {
+      "checkedAt": "2026-11-05T08:59:33+08:00",
+      "id": "wechat-appso",
+      "itemCount": 1,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-11-05T08:59:33+08:00",
+      "message": "今日 1 篇",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-05T08:59:33+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-11-05T08:59:33+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-11-05T08:59:33+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-11-05T08:59:33+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-11-05T08:59:33+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-11-05T08:59:33+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
