@@ -5,21 +5,40 @@
       "items": [
         {
           "badge": "今日",
-          "meta": "2026-11-05 · 采集时显示：54 分钟前 · 打开账号列表",
-          "title": "ChatGPT新增GIF生成/王兴兴：明年大概率是机器人行业临界点/张雪回应校招10万起薪被嫌低",
+          "meta": "2026-11-06 · 采集时显示：51 分钟前 · 打开账号列表",
+          "title": "突发！李飞飞最新 AI 成果发布，把世界模型装进复古掌机，单张图实时跑出 15 帧",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-06 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "2027年放假安排公布，更少调休/DeepSeek Harness日活破154万/触屏MacBook...",
+          "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
+        },
+        {
+          "badge": "今日",
+          "meta": "2026-11-06 · 采集时显示：2 小时前 · 打开账号列表",
+          "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
           "url": "https://www.jintiankansha.me/column/vkfaNCM6Dc"
         }
       ],
       "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
-      "status": "今日 1 篇",
+      "status": "今日 3 篇",
       "statusTone": "fresh"
     },
     {
       "account": "数字生命卡兹克",
-      "items": [],
+      "items": [
+        {
+          "badge": "今日",
+          "meta": "2026-11-06 · 采集时显示：1小时前 · 打开账号列表",
+          "title": "这可能是美国AI最魔幻的一天。",
+          "url": "https://www.jintiankansha.com/column/euZCfLlKpL"
+        }
+      ],
       "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
-      "status": "今日未检出新文章",
-      "statusTone": "quiet"
+      "status": "今日 1 篇",
+      "statusTone": "fresh"
     },
     {
       "account": "智东西",
@@ -36,9 +55,9 @@
       "statusTone": "quiet"
     }
   ],
-  "capturedAt": "2026-11-05T08:59:33+08:00",
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T09:20:29+08:00",
+  "capturedAt": "2026-11-06T09:23:15+08:00",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T09:54:59+08:00",
   "schemaVersion": 1,
-  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-05T08:59:33+08:00；相对时间以该采集时刻为准。"
+  "sourcePolicy": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-06T09:23:15+08:00；相对时间以该采集时刻为准。"
 }
