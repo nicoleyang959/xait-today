@@ -1,0 +1,944 @@
+{
+  "articles": [
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-121e2e9a83821e5f28d42c8a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-2e6a7dde9f436480582bc11d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-6f3e17fc966e0cdbc0978ba4",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "rails/rails",
+      "url": "https://github.com/rails/rails"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-1e11b2aac6228a92abc39d4e",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-35c0cb54f4a2ba2e870dc0b8",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-464070e7bdc2301d598d3e2a",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "react/react",
+      "url": "https://github.com/react/react"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-b31ae444549b1eccee2d9726",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "angular/angular",
+      "url": "https://github.com/angular/angular"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ab8217f0c27f2320cf61bd65",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-61fd0a858cbf6c13ca0248e0",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d3a389f2d6f39f001f51385d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "google/skills",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-af8f273f7d53a8873475e70d",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4b1213c3ea3b8f704e812958",
+      "publishedAt": null,
+      "sourceId": "github-trending",
+      "title": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-e66d46be0b85e85579ba9f35",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-3a936102228d63dc5157712b",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-94ff0057cb23ec15a2b4c157",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "govijr/terminal-mac",
+      "url": "https://github.com/govijr/terminal-mac"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-0ce6134d17d3e90cbe2b5fe8",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "mromidev/claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-f54a84378561aa8607cba1e2",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "caru-ini/stack-diagram",
+      "url": "https://github.com/caru-ini/stack-diagram"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-56f7554327b4b93e756d5264",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "Minireel/HGhub",
+      "url": "https://github.com/Minireel/HGhub"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-5c296bbbbb44eb581e544327",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "wquguru/cicada",
+      "url": "https://github.com/wquguru/cicada"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-ac6eebf4cebfc95dc5b5239e",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "s1dashu/quiet-md",
+      "url": "https://github.com/s1dashu/quiet-md"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4e7c1404f17be0a92db88d04",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "livliv-dev/player",
+      "url": "https://github.com/livliv-dev/player"
+    },
+    {
+      "category": "opensource",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-baf1ce258f2bfd3ebe6b49ee",
+      "publishedAt": null,
+      "sourceId": "weekly-high-stars",
+      "title": "mmdoctor/google-pro-helper",
+      "url": "https://github.com/mmdoctor/google-pro-helper"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0f4524ff69195b523e73953a",
+      "publishedAt": "2026-11-06T13:35:27Z",
+      "sourceId": "hacker-news",
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-6ef00d28ec6ac8eeee0e6fda",
+      "publishedAt": "2026-11-06T16:54:36Z",
+      "sourceId": "hacker-news",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2bdbf02f4073c20d3c672197",
+      "publishedAt": "2026-11-06T20:27:23Z",
+      "sourceId": "hacker-news",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-8a818550b47d2d21ea93b74b",
+      "publishedAt": "2026-11-06T18:03:33Z",
+      "sourceId": "hacker-news",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-cfd056369cbc76e5ffa11599",
+      "publishedAt": "2026-11-06T17:03:33Z",
+      "sourceId": "hacker-news",
+      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+      "url": "https://up.codes/careers"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-632dc6b735257006266bb3fd",
+      "publishedAt": "2026-11-05T18:59:29Z",
+      "sourceId": "arxiv",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://arxiv.org/abs/2611.08483v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-e91e8299270a7e9d4ecb7eae",
+      "publishedAt": "2026-11-05T18:58:17Z",
+      "sourceId": "arxiv",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "url": "https://arxiv.org/abs/2611.08478v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-443e9817ac613463b8dd6e84",
+      "publishedAt": "2026-11-05T18:55:54Z",
+      "sourceId": "arxiv",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "url": "https://arxiv.org/abs/2611.08472v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-2787d8750755267f7e1f95eb",
+      "publishedAt": "2026-11-05T18:55:31Z",
+      "sourceId": "arxiv",
+      "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+      "url": "https://arxiv.org/abs/2611.08469v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0b86a45855b3735273efdee6",
+      "publishedAt": "2026-11-05T18:54:40Z",
+      "sourceId": "arxiv",
+      "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+      "url": "https://arxiv.org/abs/2611.08465v1"
+    },
+    {
+      "category": "research",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-b0cd2d596ad1abe3a50f7002",
+      "publishedAt": "2026-11-05T18:47:05Z",
+      "sourceId": "arxiv",
+      "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "url": "https://arxiv.org/abs/2611.08453v1"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-c3a9d8ef8c57e8695bc9ebaf",
+      "publishedAt": "2026-11-05T02:27:12-08:00",
+      "sourceId": "product-hunt",
+      "title": "pwned.coffee",
+      "url": "https://www.producthunt.com/products/pwned-coffee"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-dd52c4aa1f03ae14b761a371",
+      "publishedAt": "2026-11-05T05:26:15-08:00",
+      "sourceId": "product-hunt",
+      "title": "PostMyPace",
+      "url": "https://www.producthunt.com/products/postmypace"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-8be192849a47aa1fd6006416",
+      "publishedAt": "2026-11-03T04:47:30-08:00",
+      "sourceId": "product-hunt",
+      "title": "Alysis Code",
+      "url": "https://www.producthunt.com/products/alysis-code"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-0ab46370810fa228a24b95ea",
+      "publishedAt": "2026-11-05T06:57:51-08:00",
+      "sourceId": "product-hunt",
+      "title": "Translucent AI",
+      "url": "https://www.producthunt.com/products/translucent-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-7a1a3e4bb66452d4eee6f0e3",
+      "publishedAt": "2026-11-05T00:53:29-08:00",
+      "sourceId": "product-hunt",
+      "title": "TraceX",
+      "url": "https://www.producthunt.com/products/tracex"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-21f0f12d6d15b8db7a3d774f",
+      "publishedAt": "2026-11-05T16:07:03-08:00",
+      "sourceId": "product-hunt",
+      "title": "Kodivo",
+      "url": "https://www.producthunt.com/products/kodivo"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1b7bfd7e3347227b2ec90548",
+      "publishedAt": "2026-10-24T04:25:07-07:00",
+      "sourceId": "product-hunt",
+      "title": "Tobira Site Agent",
+      "url": "https://www.producthunt.com/products/tobira-ai"
+    },
+    {
+      "category": "products",
+      "collectedAt": "2026-11-07T08:47:46+08:00",
+      "dateEvidence": "exact",
+      "id": "article-1c2100a7dcc2bbee1b6e2b0e",
+      "publishedAt": "2026-11-05T06:05:15-08:00",
+      "sourceId": "product-hunt",
+      "title": "Rankfender v3.0",
+      "url": "https://www.producthunt.com/products/rankfender"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-d9e1a843cf437133ade44682",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T",
+      "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-10d5affcebb6e047e30ef585",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-403012a622acfe514ef31821",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom",
+      "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending"
+    },
+    {
+      "category": "other",
+      "collectedAt": "2026-11-07T08:47:48+08:00",
+      "dateEvidence": "unknown",
+      "id": "article-4da4b0faf28f30044c583ebb",
+      "publishedAt": null,
+      "sourceId": "techmeme",
+      "title": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008",
+      "url": "https://psi.inc/research/aaronson-ambainis/"
+    }
+  ],
+  "date": "2026-11-07",
+  "edition": {
+    "windowEnd": "2026-11-07T08:45:00+08:00",
+    "windowStart": "2026-11-06T08:45:00+08:00"
+  },
+  "generatedAt": "2026-11-07T08:47:49+08:00",
+  "schemaVersion": 2,
+  "sections": [
+    {
+      "accounts": [
+        {
+          "items": [],
+          "name": "APPSO",
+          "sourceUrl": "https://www.jintiankansha.me/column/vkfaNCM6Dc?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "数字生命卡兹克",
+          "sourceUrl": "https://www.jintiankansha.com/column/euZCfLlKpL?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "智东西",
+          "sourceUrl": "https://www.jintiankansha.com/column/BmcmLZE1td?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        },
+        {
+          "items": [],
+          "name": "花叔",
+          "sourceUrl": "https://www.jintiankansha.com/column/4hWcR0mvAj?type=recent",
+          "status": "今日未检出新文章",
+          "statusTone": "quiet"
+        }
+      ],
+      "capturedAt": "2026-11-07T08:46:51+08:00",
+      "id": "wechat-daily-posts",
+      "kind": "wechat",
+      "overview": "仅跟踪 APPSO、数字生命卡兹克、智东西、花叔；仅公开列表元数据，不使用后台阅读量。采集于 2026-11-07T08:46:51+08:00；相对时间以该采集时刻为准。",
+      "title": "🟢 重点公众号 · 每日推文"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "今日增长",
+        "简介"
+      ],
+      "id": "github-trending",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "zed-industries/zed",
+            "url": "https://github.com/zed-industries/zed"
+          },
+          "Rust",
+          "306",
+          "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+        ],
+        [
+          {
+            "text": "NVIDIA/auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology"
+          },
+          "Python",
+          "2,015",
+          "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more exp"
+        ],
+        [
+          {
+            "text": "rails/rails",
+            "url": "https://github.com/rails/rails"
+          },
+          "Ruby",
+          "142",
+          "Ruby on Rails"
+        ],
+        [
+          {
+            "text": "mpv-player/mpv",
+            "url": "https://github.com/mpv-player/mpv"
+          },
+          "C",
+          "37",
+          "🎥 Command line media player"
+        ],
+        [
+          {
+            "text": "rust-lang/rust",
+            "url": "https://github.com/rust-lang/rust"
+          },
+          "Rust",
+          "192",
+          "Empowering everyone to build reliable and efficient software."
+        ],
+        [
+          {
+            "text": "react/react",
+            "url": "https://github.com/react/react"
+          },
+          "JavaScript",
+          "248",
+          "The library for web and native user interfaces."
+        ]
+      ],
+      "title": "📈 GitHub 今日 Trending"
+    },
+    {
+      "columns": [
+        "仓库",
+        "语言",
+        "Star",
+        "简介"
+      ],
+      "id": "weekly-high-stars",
+      "kind": "table",
+      "rows": [
+        [
+          {
+            "text": "KKKKhazix/agent-autoloop",
+            "url": "https://github.com/KKKKhazix/agent-autoloop"
+          },
+          "TypeScript",
+          "3682",
+          "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
+        ],
+        [
+          {
+            "text": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+            "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto"
+          },
+          "Python",
+          "2882",
+          "Google_AI_Pro_2Year_ZeroCost_Auto"
+        ],
+        [
+          {
+            "text": "govijr/terminal-mac",
+            "url": "https://github.com/govijr/terminal-mac"
+          },
+          "Swift",
+          "2152",
+          "Entire MacOS running in your terminal."
+        ],
+        [
+          {
+            "text": "mromidev/claude-animated-shorts",
+            "url": "https://github.com/mromidev/claude-animated-shorts"
+          },
+          "TypeScript",
+          "2028",
+          "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
+        ],
+        [
+          {
+            "text": "caru-ini/stack-diagram",
+            "url": "https://github.com/caru-ini/stack-diagram"
+          },
+          "TypeScript",
+          "1959",
+          "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
+        ],
+        [
+          {
+            "text": "Minireel/HGhub",
+            "url": "https://github.com/Minireel/HGhub"
+          },
+          "TypeScript",
+          "1644",
+          "YellowFruit third-party client"
+        ]
+      ],
+      "title": "🌱 本周新建高星项目"
+    },
+    {
+      "id": "hacker-news",
+      "items": [
+        {
+          "meta": "发布 2026-11-06 · 292 互动/积分 · 216 评论",
+          "title": "Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        },
+        {
+          "meta": "发布 2026-11-07 · 210 互动/积分 · 465 评论",
+          "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+        },
+        {
+          "meta": "发布 2026-11-07 · 181 互动/积分 · 137 评论",
+          "title": "AI is dramatically accelerating AI research",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+        },
+        {
+          "meta": "发布 2026-11-07 · 80 互动/积分 · 6 评论",
+          "title": "Memorilla: Latent Semantic Memory for LLMs",
+          "url": "https://arxiv.org/abs/2610.21375"
+        },
+        {
+          "meta": "发布 2026-11-07 · 0 互动/积分 · 0 评论",
+          "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
+          "url": "https://up.codes/careers"
+        }
+      ],
+      "kind": "links",
+      "title": "💬 Hacker News · 开发者热榜"
+    },
+    {
+      "id": "arxiv",
+      "items": [
+        {
+          "meta": "发布 2026-11-06",
+          "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+          "url": "https://arxiv.org/abs/2611.08483v1"
+        },
+        {
+          "meta": "发布 2026-11-06",
+          "title": "Scientist World: Grow a Research World for AI-Scientists",
+          "url": "https://arxiv.org/abs/2611.08478v1"
+        },
+        {
+          "meta": "发布 2026-11-06",
+          "title": "XStack: A Benchmark for ML Repo Migration",
+          "url": "https://arxiv.org/abs/2611.08472v1"
+        },
+        {
+          "meta": "发布 2026-11-06",
+          "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+          "url": "https://arxiv.org/abs/2611.08469v1"
+        }
+      ],
+      "kind": "links",
+      "title": "🧪 arXiv · AI 最新论文"
+    },
+    {
+      "id": "product-hunt",
+      "items": [
+        {
+          "meta": "发布 2026-11-05",
+          "title": "pwned.coffee",
+          "url": "https://www.producthunt.com/products/pwned-coffee"
+        },
+        {
+          "meta": "发布 2026-11-05",
+          "title": "PostMyPace",
+          "url": "https://www.producthunt.com/products/postmypace"
+        },
+        {
+          "meta": "发布 2026-11-03",
+          "title": "Alysis Code",
+          "url": "https://www.producthunt.com/products/alysis-code"
+        },
+        {
+          "meta": "发布 2026-11-05",
+          "title": "Translucent AI",
+          "url": "https://www.producthunt.com/products/translucent-ai"
+        },
+        {
+          "meta": "发布 2026-11-05",
+          "title": "TraceX",
+          "url": "https://www.producthunt.com/products/tracex"
+        },
+        {
+          "meta": "发布 2026-11-06",
+          "title": "Kodivo",
+          "url": "https://www.producthunt.com/products/kodivo"
+        }
+      ],
+      "kind": "links",
+      "title": "🚀 Product Hunt · 近期新品"
+    },
+    {
+      "id": "techmeme",
+      "items": [
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80B-$100B at a valuation of $1.25T to $1.75T",
+          "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: Microsoft has been turning off rented computing capacity from Oracle after declining to renew a 2023 deal, because the hardware used older Nvidia chips",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "Sources: TSMC is considering expanding into manufacturing 3D DRAM at the request of Nvidia, its biggest customer, amid memory chip shortages due to the AI boom",
+          "url": "https://www.theinformation.com/articles/tsmc-weighs-making-advanced-memory-chips-capture-ai-spending"
+        },
+        {
+          "meta": "来源列表未提供可核验发布日期",
+          "title": "AI physics startup PSI says a system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, a quantum computing question open since 2008",
+          "url": "https://psi.inc/research/aaronson-ambainis/"
+        }
+      ],
+      "kind": "links",
+      "title": "📰 Techmeme · 科技新闻聚合"
+    },
+    {
+      "id": "product-hunt-ranking",
+      "items": [
+        {
+          "description": "Give your agent a real iPhone and Mac",
+          "rank": 1,
+          "title": "Glasshand",
+          "url": "https://www.producthunt.com/products/glasshand"
+        },
+        {
+          "description": "Interoperable, efficient memory layer for agentic AI",
+          "rank": 2,
+          "title": "Living Brain",
+          "url": "https://www.producthunt.com/products/chatandbuild"
+        },
+        {
+          "description": "Turn your AI subscriptions into a team of coworkers",
+          "rank": 3,
+          "title": "Rerun",
+          "url": "https://www.producthunt.com/products/rerun-2"
+        },
+        {
+          "description": "See who said yes to your team’s AI agents",
+          "rank": 4,
+          "title": "Pushary for Teams",
+          "url": "https://www.producthunt.com/products/pushary"
+        },
+        {
+          "description": "Cloud computers for any AI agent, customized your way",
+          "rank": 5,
+          "title": "Maritime",
+          "url": "https://www.producthunt.com/products/maritime"
+        },
+        {
+          "description": "Pricing and Billing Infrastructure for AI Agents",
+          "rank": 6,
+          "title": "Clocknext",
+          "url": "https://www.producthunt.com/products/clocknext"
+        },
+        {
+          "description": "Video conferencing for the agentic era",
+          "rank": 7,
+          "title": "Bridge",
+          "url": "https://www.producthunt.com/products/meetonbridge"
+        },
+        {
+          "description": "Private browser with a separate login for every company",
+          "rank": 8,
+          "title": "Tao Browser",
+          "url": "https://www.producthunt.com/products/tao-browser"
+        },
+        {
+          "description": "The brand layer for agents",
+          "rank": 9,
+          "title": "Rainbrand",
+          "url": "https://www.producthunt.com/products/rainbrand"
+        },
+        {
+          "description": "Your AI workspace for mail, calendar, notes, tasks and more",
+          "rank": 10,
+          "title": "Stitch.ai",
+          "url": "https://www.producthunt.com/products/stitch-ai"
+        }
+      ],
+      "kind": "links",
+      "ranking": {
+        "captureMethod": "public-page",
+        "capturedAt": "2026-11-07T08:47:27+08:00",
+        "date": "2026-11-05",
+        "scope": "featured",
+        "timezone": "America/Los_Angeles",
+        "url": "https://www.producthunt.com/leaderboard/daily/2026/11/05"
+      },
+      "title": "🏆 Product Hunt · 热门产品 Top 10"
+    }
+  ],
+  "sources": [
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "github-trending",
+      "itemCount": 12,
+      "label": "📈 GitHub 今日 Trending",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "weekly-high-stars",
+      "itemCount": 10,
+      "label": "🌱 本周新建高星项目",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "hacker-news",
+      "itemCount": 5,
+      "label": "💬 Hacker News · 开发者热榜",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "arxiv",
+      "itemCount": 6,
+      "label": "🧪 arXiv · AI 最新论文",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "product-hunt",
+      "itemCount": 8,
+      "label": "🚀 Product Hunt · 近期新品",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:46+08:00",
+      "id": "aihot",
+      "itemCount": 10,
+      "label": "🤖 aihot · AI 热点速递",
+      "lastSuccessAt": "2026-11-07T08:47:46+08:00",
+      "message": "公开来源采集成功",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:48+08:00",
+      "id": "techmeme",
+      "itemCount": 4,
+      "label": "📰 Techmeme · 科技新闻聚合",
+      "lastSuccessAt": "2026-11-07T08:47:48+08:00",
+      "message": "公开列表元数据；未提供日期的文章不推断发布时间。",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:47:27+08:00",
+      "id": "product-hunt-ranking",
+      "itemCount": 10,
+      "label": "🏆 Product Hunt · 热门产品 Top 10",
+      "lastSuccessAt": "2026-11-07T08:47:27+08:00",
+      "message": "已核验官方公开日榜的完整 Top 10",
+      "status": "ok"
+    },
+    {
+      "checkedAt": "2026-11-07T08:46:51+08:00",
+      "id": "wechat-appso",
+      "itemCount": 0,
+      "label": "APPSO",
+      "lastSuccessAt": "2026-11-07T08:46:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-11-07T08:46:51+08:00",
+      "id": "wechat-kazike",
+      "itemCount": 0,
+      "label": "数字生命卡兹克",
+      "lastSuccessAt": "2026-11-07T08:46:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-11-07T08:46:51+08:00",
+      "id": "wechat-zhidx",
+      "itemCount": 0,
+      "label": "智东西",
+      "lastSuccessAt": "2026-11-07T08:46:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    },
+    {
+      "checkedAt": "2026-11-07T08:46:51+08:00",
+      "id": "wechat-huashu",
+      "itemCount": 0,
+      "label": "花叔",
+      "lastSuccessAt": "2026-11-07T08:46:51+08:00",
+      "message": "今日未检出新文章",
+      "status": "empty"
+    }
+  ],
+  "tagline": "AI 和 IT 的无限可能",
+  "title": "xAIT 今日"
+}
